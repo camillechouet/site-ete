@@ -11,17 +11,23 @@
     "analytics_id": ""
   },
   "theme": {
-    "dark": "#0b2a1c",
-    "acc": "#95d5b2",
-    "header_bg": "#0b2a1c",
-    "brand": "#b7e4c7",
-    "nav": "#95d5b2",
+    "dark": "#95d5b2",
+    "acc": "#2d6a4f",
+    "header_bg": "#ffffff",
+    "brand": "#1b4332",
+    "nav": "#2d6a4f",
     "chip_bg": "#d8f3dc",
     "chip_fg": "#1b4332",
-    "bg": "#f1f8f3",
+    "bg": "#f4faf6",
     "fg": "#10261a",
-    "icon_bg": "#0b2a1c",
-    "icon_fg": "#95d5b2"
+    "icon_bg": "#2d6a4f",
+    "icon_fg": "#d8f3dc",
+    "hero_fg": "#0b2a1c",
+    "fsel_bg": "rgba(255,255,255,.75)",
+    "fsel_bd": "#2d6a4f",
+    "rule": "#2d6a4f",
+    "line": "#b7dcc4",
+    "hero_from": "#e9f7ee"
   },
   "vocab": {
     "item": "station",
@@ -31,21 +37,95 @@
     "search_placeholder": "Rechercher une station…"
   },
   "fields": [
-    {"key": "alt_max", "label": "Altitude max", "unit": "m", "type": "number", "filter": true, "card": true, "better": "high"},
-    {"key": "rando_km", "label": "Sentiers de randonnée", "unit": "km", "type": "number", "filter": true, "card": true, "better": "high"},
-    {"key": "lacs_15km", "label": "Lacs à moins de 15 km", "unit": "", "type": "number", "filter": true, "card": true, "better": "high"},
-    {"key": "vtt_km", "label": "VTT (itinéraires et bike park)", "unit": "km", "type": "number", "filter": true, "card": false, "better": "high"},
-    {"key": "activites", "label": "Activités (tyrolienne, luge d'été, parc aventure)", "unit": "", "type": "number", "filter": true, "card": false, "better": "high"},
-    {"key": "nautique", "label": "Activités nautiques sur lac", "unit": "", "type": "number", "filter": false, "card": false, "better": "high"},
-    {"key": "temp_ete", "label": "Température moyenne juillet-août", "unit": "°C", "type": "number", "filter": false, "card": false},
-    {"key": "hebergements", "label": "Hébergements autour", "unit": "", "type": "number", "filter": false, "card": false, "better": "high"}
+    {
+      "key": "alt_max",
+      "label": "Altitude max",
+      "unit": "m",
+      "type": "number",
+      "filter": true,
+      "card": true,
+      "better": "high"
+    },
+    {
+      "key": "rando_km",
+      "label": "Sentiers de randonnée",
+      "unit": "km",
+      "type": "number",
+      "filter": true,
+      "card": true,
+      "better": "high"
+    },
+    {
+      "key": "lacs_15km",
+      "label": "Lacs à moins de 15 km",
+      "unit": "",
+      "type": "number",
+      "filter": true,
+      "card": true,
+      "better": "high"
+    },
+    {
+      "key": "vtt_km",
+      "label": "VTT (itinéraires et bike park)",
+      "unit": "km",
+      "type": "number",
+      "filter": true,
+      "card": false,
+      "better": "high"
+    },
+    {
+      "key": "activites",
+      "label": "Activités (tyrolienne, luge d'été, parc aventure)",
+      "unit": "",
+      "type": "number",
+      "filter": true,
+      "card": false,
+      "better": "high"
+    },
+    {
+      "key": "nautique",
+      "label": "Activités nautiques sur lac",
+      "unit": "",
+      "type": "number",
+      "filter": false,
+      "card": false,
+      "better": "high"
+    },
+    {
+      "key": "temp_ete",
+      "label": "Température moyenne juillet-août",
+      "unit": "°C",
+      "type": "number",
+      "filter": false,
+      "card": false
+    },
+    {
+      "key": "hebergements",
+      "label": "Hébergements autour",
+      "unit": "",
+      "type": "number",
+      "filter": false,
+      "card": false,
+      "better": "high"
+    }
   ],
   "group_key": "pays",
   "region_key": "region",
-  "rating": {"key": "score", "label": "Note", "max": 5},
-  "similar_on": ["pays", "alt_max"],
+  "rating": {
+    "key": "score",
+    "label": "Note",
+    "max": 5
+  },
+  "similar_on": [
+    "pays",
+    "alt_max"
+  ],
   "affiliate": [
-    {"label": "Voir les hébergements", "url": "https://www.booking.com/searchresults.html?ss={name_q}", "rel": "sponsored nofollow noopener"}
+    {
+      "label": "Voir les hébergements",
+      "url": "https://www.booking.com/searchresults.html?ss={name_q}",
+      "rel": "sponsored nofollow noopener"
+    }
   ],
   "home": {
     "title": "Quelle station pour vos vacances d'été ?",
@@ -56,6 +136,7 @@
     "publisher": "Nom de l'éditeur",
     "siret": "000 000 000 00000",
     "host": "GitHub Pages (GitHub Inc., San Francisco, États-Unis)",
-    "affiliate_notice": "Certains liens sont des liens d'affiliation : nous pouvons percevoir une commission, sans surcoût pour vous."
+    "affiliate_notice": "Certains liens sont des liens d'affiliation : nous pouvons percevoir une commission, sans surcoût pour vous.",
+    "data_notice": "Données de randonnée, lacs et activités : © contributeurs OpenStreetMap (licence ODbL)."
   }
 }

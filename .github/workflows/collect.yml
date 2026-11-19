@@ -1,0 +1,44 @@
+name: Collecte des données (OpenStreetMap)
+
+on:
+  workflow_dispatch:
+    inputs:
+      max:
+        description: "Nombre max de stations (0 = toutes)"
+        default: "0"
+  push:
+    paths:
+      - scripts/collect_osm.py
+      - .github/workflows/collect.yml
+  schedule:
+    - cron: "17 3 1 * *"   # le 1er de chaque mois, mise à jour complète
+
+permissions:
+  contents: write
+
+concurrency:
+  group: collect
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Test rapide (30 stations) — s'arrête si trop d'échecs
+        if: github.event_name == 'push'
+        run: python3 scripts/collect_osm.py --max 30 --min-ok 0.7
+      - name: Collecte complète (reprend où elle s'est arrêtée)
+        run: python3 scripts/collect_osm.py --max "${{ github.event.inputs.max || 0 }}" --minutes 300
+        continue-on-error: true
+      - name: Enregistrer les données
+        if: always()
+        run: |
+          git config user.name "collecte-auto"
+          git config user.email "noreply@users.noreply.github.com"
+          git add data/
+          git diff --cached --quiet || (git commit -m "Données OpenStreetMap : mise à jour automatique" && git pull --rebase -q && git push)

@@ -101,28 +101,29 @@ BY_SLUG = {it["slug"]: it for it in ITEMS}
 
 _TH_DEFAULT = {"dark": "#0b1f4d", "acc": SITE.get("color", "#1d4ed8"), "header_bg": "#ffffff", "brand": "#14213d",
                "nav": "#5b6478", "chip_bg": "#eef2ff", "chip_fg": "#1e3a8a", "bg": "#f6f7fb", "fg": "#14213d",
-               "icon_bg": SITE.get("color", "#1d4ed8"), "icon_fg": "#ffffff"}
+               "icon_bg": SITE.get("color", "#1d4ed8"), "icon_fg": "#ffffff", "hero_fg": "#ffffff", "hero_from": SITE.get("color", "#1d4ed8"),
+               "fsel_bg": "rgba(255,255,255,.16)", "fsel_bd": "rgba(255,255,255,.4)", "rule": "#e4e7ef", "line": "#e4e7ef"}
 TH = {**_TH_DEFAULT, **CFG.get("theme", {})}
 
 CSS = """
-:root{--c:%(color)s;--dark:%(dark)s;--acc:%(acc)s;--hbg:%(hbg)s;--brand:%(brand)s;--navc:%(navc)s;--chipbg:%(chipbg)s;--chipfg:%(chipfg)s;--bg:%(bg)s;--fg:%(fg)s;--mut:#5b6478;--card:#fff;--line:#e4e7ef;--r:14px}
+:root{--c:%(color)s;--dark:%(dark)s;--acc:%(acc)s;--hbg:%(hbg)s;--brand:%(brand)s;--navc:%(navc)s;--chipbg:%(chipbg)s;--chipfg:%(chipfg)s;--herofg:%(herofg)s;--herofrom:%(herofrom)s;--fselbg:%(fselbg)s;--fselbd:%(fselbd)s;--rule:%(rule)s;--bg:%(bg)s;--fg:%(fg)s;--mut:#5b6478;--card:#fff;--line:%(line)s;--r:14px}
 *{box-sizing:border-box}html{-webkit-text-size-adjust:100%%}
 body{margin:0;font:16px/1.55 system-ui,-apple-system,Segoe UI,Roboto,sans-serif;color:var(--fg);background:var(--bg)}
 a{color:var(--c)}img{max-width:100%%}
 .wrap{max-width:1040px;margin:0 auto;padding:0 16px}
-header.top{background:var(--hbg);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:5}
+header.top{background:var(--hbg);border-bottom:2px solid var(--rule);position:sticky;top:0;z-index:5}
 header.top .wrap{display:flex;align-items:center;justify-content:space-between;height:56px}
 .brand{font-weight:800;font-size:1.15rem;color:var(--brand);text-decoration:none}
 nav a{margin-left:16px;text-decoration:none;color:var(--navc);font-weight:600;font-size:.95rem}
 nav a:hover{color:var(--acc)}
-.hero{background:linear-gradient(135deg,var(--c),var(--dark));color:#fff;padding:36px 0 40px}
+.hero{background:linear-gradient(135deg,var(--herofrom),var(--dark));color:var(--herofg);padding:36px 0 40px}
 .hero h1{margin:0 0 8px;font-size:clamp(1.6rem,5vw,2.3rem);line-height:1.2}
 .hero p{margin:0 0 20px;opacity:.92}
 .search{display:flex;gap:8px;flex-wrap:wrap}
 .search input,.search select{padding:12px 14px;border-radius:10px;border:0;font:inherit;min-width:0}
 .search input{flex:1 1 220px}.search select{flex:0 1 auto}
 .filters{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0 0}
-.filters select{background:rgba(255,255,255,.16);color:#fff;border:1px solid rgba(255,255,255,.4);padding:10px 12px;border-radius:10px;font:inherit}
+.filters select{background:var(--fselbg);color:var(--herofg);border:1px solid var(--fselbd);padding:10px 12px;border-radius:10px;font:inherit}
 .filters option{color:#111}
 main{padding:24px 0 48px}
 h2{font-size:1.35rem;margin:28px 0 12px}
@@ -147,7 +148,7 @@ table.vs td:nth-child(2),table.vs td:nth-child(3),table.vs th:nth-child(2),table
 .crumbs a{color:var(--mut)}
 ul.pts{padding-left:20px;margin:8px 0}
 .notice{color:var(--mut);font-size:.82rem;margin-top:10px}
-footer{border-top:1px solid var(--line);background:var(--card);padding:22px 0;color:var(--mut);font-size:.9rem}
+footer{border-top:2px solid var(--rule);background:var(--card);padding:22px 0;color:var(--mut);font-size:.9rem}
 footer a{color:var(--mut);margin-right:14px}
 .az a{display:inline-block;margin:0 10px 6px 0}
 .cols{columns:2 240px;column-gap:24px;padding:0;list-style:none}
@@ -155,7 +156,8 @@ footer a{color:var(--mut);margin-right:14px}
 @media(max-width:560px){nav a{margin-left:8px;font-size:.82rem}.brand{font-size:1rem}}
 """ % {"color": SITE.get("color", "#1d4ed8"), "dark": TH["dark"], "acc": TH["acc"], "hbg": TH["header_bg"],
         "brand": TH["brand"], "navc": TH["nav"], "chipbg": TH["chip_bg"], "chipfg": TH["chip_fg"],
-        "bg": TH["bg"], "fg": TH["fg"]}
+        "bg": TH["bg"], "fg": TH["fg"], "herofg": TH["hero_fg"], "herofrom": TH["hero_from"], "fselbg": TH["fsel_bg"],
+        "fselbd": TH["fsel_bd"], "rule": TH["rule"], "line": TH["line"]}
 
 
 def page(title: str, body: str, path: str, desc: str = "", jsonld: str = "", extra_head: str = "", noindex: bool = False) -> str:
@@ -198,6 +200,7 @@ def page(title: str, body: str, path: str, desc: str = "", jsonld: str = "", ext
 <footer><div class="wrap">
 <a href="/mentions-legales/">Mentions légales</a><a href="/tous/">Toutes les {esc(VOC['items'])}</a><a href="/duels/">Duels</a>
 <p class="notice">{esc(CFG.get('legal', {}).get('affiliate_notice', ''))}</p>
+<p class="notice">{esc(CFG.get('legal', {}).get('data_notice', ''))}</p>
 </div></footer>
 <script>if("serviceWorker"in navigator)navigator.serviceWorker.register("/sw.js")</script>
 </body></html>
