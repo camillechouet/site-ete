@@ -1,0 +1,4591 @@
+{
+ "Val d'Isère": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Tignes": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Les Arcs": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "La Plagne": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Chamonix": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Avoriaz": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Courchevel": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Méribel": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Val Thorens": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Les Menuires": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Saint-Martin-de-Belleville": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "La Tania": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Orelle": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Megève": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Saint-Gervais": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Les Houches": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Combloux": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Les Contamines-Montjoie": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Morzine": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Les Gets": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Châtel": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "La Chapelle d'Abondance": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Abondance": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Bellevaux-Hirmentaz": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Bernex": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Saint-Jean-d'Aulps": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Praz-de-Lys Sommand": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Flaine": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Les Carroz": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Samoëns": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Morillon": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Sixt-Fer-à-Cheval": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "La Clusaz": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Le Grand-Bornand": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "La Giettaz": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Praz-sur-Arly": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Flumet": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Crest-Voland": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Notre-Dame-de-Bellecombe": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Les Saisies": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Arêches-Beaufort": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Sainte-Foy-Tarentaise": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "La Rosière": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Champagny-en-Vanoise": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Peisey-Vallandry": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Montchavin-Les Coches": {
+  "erreur": "position introuvable"
+ },
+ "Pralognan-la-Vanoise": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Brides-les-Bains": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Valmorel": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "La Toussuire": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Le Corbier": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Saint-Sorlin-d'Arves": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Saint-Jean-d'Arves": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Saint-Colomban-des-Villards": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Les Bottières": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Valloire": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Valmeinier": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Val Cenis": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Aussois": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Bonneval-sur-Arc": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Bessans": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Valfréjus": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "La Norma": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Albiez-Montrond": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Saint-François-Longchamp": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Les Karellis": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Les Aillons-Margeriaz": {
+  "erreur": "position introuvable"
+ },
+ "Chamrousse": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Les 7 Laux": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Alpe d'Huez": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Les Deux Alpes": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Auris-en-Oisans": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Alpe du Grand Serre": {
+  "erreur": "position introuvable"
+ },
+ "Villard-de-Lans": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Corrençon-en-Vercors": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Autrans-Méaudre": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Lans-en-Vercors": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Gresse-en-Vercors": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Col de Rousset": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Font d'Urle": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Lus-la-Jarjatte": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Semnoz - Annecy": {
+  "erreur": "position introuvable"
+ },
+ "Col de Porte": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Saint-Pierre-de-Chartreuse": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Col de Marcieu": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Col d'Ornon": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Serre Chevalier": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Montgenèvre": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Vars": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Risoul": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "La Grave - La Meije": {
+  "erreur": "position introuvable"
+ },
+ "Puy-Saint-Vincent": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Orcières Merlette 1850": {
+  "erreur": "position introuvable"
+ },
+ "Superdévoluy": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Les Orres": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Ancelle": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Saint-Léger-les-Mélèzes": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Réallon": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Crévoux": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Chaillol": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Sauze-Super-Sauze": {
+  "erreur": "position introuvable"
+ },
+ "Pra-Loup": {
+  "erreur": "position introuvable"
+ },
+ "Val d'Allos": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Chabanon": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Montclar-les-2-Vallées": {
+  "erreur": "position introuvable"
+ },
+ "Larche": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Sainte-Anne-la-Condamine": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Isola 2000": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Auron": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Valberg": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Beuil-les-Launes": {
+  "erreur": "position introuvable"
+ },
+ "La Colmiane": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Gréolières-les-Neiges": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "L'Audibergue": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Abriès-en-Queyras": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Saint-Véran": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Ceillac-en-Queyras": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Molines-en-Queyras": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Arvieux-en-Queyras": {
+  "erreur": "position introuvable"
+ },
+ "La Mongie": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Barèges": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Saint-Lary-Soulan": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Piau-Engaly": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Luz-Ardiden": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Cauterets": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Gourette": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "La Pierre-Saint-Martin": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Gavarnie-Gèdre": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Peyragudes": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Luchon-Superbagnères": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Val-Louron": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Ax-3-Domaines": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Les Monts d'Olmes": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Ascou-Pailhères": {
+  "erreur": "position introuvable"
+ },
+ "Font-Romeu-Pyrénées 2000": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Les Angles": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Bolquère-Pyrénées 2000": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Formiguères": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Cambre d'Aze": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Porte-Puymorens": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Mijanès-Donezan": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Guzet": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Le Mourtis": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Camurac": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Goulier": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Beille": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Artouste": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Gérardmer": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "La Bresse-Hohneck": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Le Markstein": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Le Schnepfenried": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Le Lac Blanc": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "La Schlucht": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Le Champ du Feu": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Le Ballon d'Alsace": {
+  "erreur": "position introuvable"
+ },
+ "La Planche des Belles Filles": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "La Bresse Lispach": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Ventron": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Xonrupt-Le Poli": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Le Grand Valtin": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Bussang-Larcenaire": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Métabief Mont d'Or": {
+  "erreur": "position introuvable"
+ },
+ "Les Rousses": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Les Fourgs": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "La Source du Doubs-Mouthe": {
+  "erreur": "position introuvable"
+ },
+ "Espace Alpin Bellefontaine": {
+  "erreur": "position introuvable"
+ },
+ "La Combe Saint-Pierre": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Les Plans d'Hotonnes": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Menthières": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Le Lioran": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Super Besse": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Le Mont Dore": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Chastreix-Sancy": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Chalmazel": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "La Loge des Gardes": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Laguiole": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "La Croix de Bauzon": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Le Bleymard-Mont Lozère": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Les Estables-Mézenc": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Brameloup": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Alti Aigoual": {
+  "erreur": "position introuvable"
+ },
+ "Prabouré": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Ghisoni - Capanelle": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Val d'Ese": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Haut Asco": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Les Arêtes": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Le Revard": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "La Féclaz": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Vallouise": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "La Joue du Loup": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Le Frenz": {
+  "erreur": "position introuvable"
+ },
+ "Mijoux-La Valserine": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Lélex-Crozet": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Mont Serein": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Turini-Camp d'Argent": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Roubion-Les Buisses": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Hauteluce": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Aiguilles": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Montriond": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Thollon-les-Mémises": {
+  "erreur": "pas d'extrait OSM pour ce pays"
+ },
+ "Torgon": {
+  "rando_km": 121.1,
+  "vtt_km": 0.2,
+  "lacs_15km": 10,
+  "activites": 0,
+  "nautique": 24,
+  "hebergements": 18
+ },
+ "Champéry - Les Crosets - Champoussin - Morgins": {
+  "rando_km": 75.2,
+  "vtt_km": 26.6,
+  "lacs_15km": 9,
+  "activites": 1,
+  "nautique": 12,
+  "hebergements": 28
+ },
+ "La Thuile": {
+  "rando_km": 119.7,
+  "vtt_km": 37.8,
+  "lacs_15km": 18,
+  "activites": 0,
+  "nautique": 0,
+  "hebergements": 12
+ },
+ "Sestrière": {
+  "rando_km": 201.6,
+  "vtt_km": 218.6,
+  "lacs_15km": 20,
+  "activites": 0,
+  "nautique": 1,
+  "hebergements": 80
+ },
+ "Sauze d'Oulx": {
+  "rando_km": 262.3,
+  "vtt_km": 318.5,
+  "lacs_15km": 22,
+  "activites": 0,
+  "nautique": 1,
+  "hebergements": 67
+ },
+ "Sansicario": {
+  "rando_km": 191.2,
+  "vtt_km": 247.8,
+  "lacs_15km": 19,
+  "activites": 0,
+  "nautique": 1,
+  "hebergements": 86
+ },
+ "Baqueira Beret": {
+  "rando_km": 28.9,
+  "vtt_km": 0.4,
+  "lacs_15km": 60,
+  "activites": 0,
+  "nautique": 9,
+  "hebergements": 31
+ },
+ "Formigal": {
+  "rando_km": 61.3,
+  "vtt_km": 5.4,
+  "lacs_15km": 33,
+  "activites": 0,
+  "nautique": 3,
+  "hebergements": 45
+ },
+ "Panticosa": {
+  "rando_km": 78.6,
+  "vtt_km": 26.8,
+  "lacs_15km": 30,
+  "activites": 0,
+  "nautique": 5,
+  "hebergements": 45
+ },
+ "Astún": {
+  "rando_km": 62.6,
+  "vtt_km": 20.5,
+  "lacs_15km": 13,
+  "activites": 0,
+  "nautique": 4,
+  "hebergements": 15
+ },
+ "Candanchú": {
+  "rando_km": 127.1,
+  "vtt_km": 57.5,
+  "lacs_15km": 13,
+  "activites": 0,
+  "nautique": 4,
+  "hebergements": 16
+ },
+ "Cerler": {
+  "rando_km": 122.1,
+  "vtt_km": 22.1,
+  "lacs_15km": 35,
+  "activites": 0,
+  "nautique": 5,
+  "hebergements": 36
+ },
+ "La Molina": {
+  "rando_km": 13.8,
+  "vtt_km": 7.4,
+  "lacs_15km": 1,
+  "activites": 0,
+  "nautique": 22,
+  "hebergements": 9
+ },
+ "Masella": {
+  "rando_km": 52.2,
+  "vtt_km": 13.9,
+  "lacs_15km": 4,
+  "activites": 0,
+  "nautique": 24,
+  "hebergements": 19
+ },
+ "Boí Taüll": {
+  "rando_km": 35.6,
+  "vtt_km": 15.1,
+  "lacs_15km": 62,
+  "activites": 0,
+  "nautique": 4,
+  "hebergements": 23
+ },
+ "Port Ainé": {
+  "rando_km": 18.8,
+  "vtt_km": 0.0,
+  "lacs_15km": 1,
+  "activites": 0,
+  "nautique": 8,
+  "hebergements": 17
+ },
+ "Espot": {
+  "rando_km": 40.6,
+  "vtt_km": 6.7,
+  "lacs_15km": 82,
+  "activites": 0,
+  "nautique": 8,
+  "hebergements": 37
+ },
+ "Port del Comte": {
+  "rando_km": 36.0,
+  "vtt_km": 3.0,
+  "lacs_15km": 0,
+  "activites": 0,
+  "nautique": 5,
+  "hebergements": 19
+ },
+ "Vallter 2000": {
+  "rando_km": 94.5,
+  "vtt_km": 1.4,
+  "lacs_15km": 1,
+  "activites": 0,
+  "nautique": 3,
+  "hebergements": 3
+ },
+ "Vall de Núria": {
+  "rando_km": 104.5,
+  "vtt_km": 0.1,
+  "lacs_15km": 1,
+  "activites": 0,
+  "nautique": 5,
+  "hebergements": 11
+ },
+ "Tavascan": {
+  "rando_km": 61.7,
+  "vtt_km": 0.0,
+  "lacs_15km": 14,
+  "activites": 0,
+  "nautique": 7,
+  "hebergements": 11
+ },
+ "Pas de la Casa": {
+  "rando_km": 64.0,
+  "vtt_km": 3.6,
+  "lacs_15km": 60,
+  "activites": 0,
+  "nautique": 1,
+  "hebergements": 52
+ },
+ "Grau Roig": {
+  "rando_km": 93.2,
+  "vtt_km": 9.3,
+  "lacs_15km": 64,
+  "activites": 0,
+  "nautique": 2,
+  "hebergements": 56
+ },
+ "Soldeu": {
+  "rando_km": 92.9,
+  "vtt_km": 23.7,
+  "lacs_15km": 66,
+  "activites": 0,
+  "nautique": 4,
+  "hebergements": 67
+ },
+ "El Tarter": {
+  "rando_km": 95.9,
+  "vtt_km": 24.5,
+  "lacs_15km": 71,
+  "activites": 0,
+  "nautique": 6,
+  "hebergements": 66
+ },
+ "Canillo": {
+  "rando_km": 95.4,
+  "vtt_km": 24.5,
+  "lacs_15km": 67,
+  "activites": 0,
+  "nautique": 5,
+  "hebergements": 63
+ },
+ "Encamp": {
+  "rando_km": 90.7,
+  "vtt_km": 24.8,
+  "lacs_15km": 83,
+  "activites": 0,
+  "nautique": 6,
+  "hebergements": 122
+ },
+ "Pal": {
+  "rando_km": 63.2,
+  "vtt_km": 86.4,
+  "lacs_15km": 49,
+  "activites": 0,
+  "nautique": 9,
+  "hebergements": 107
+ },
+ "Arinsal": {
+  "rando_km": 91.0,
+  "vtt_km": 71.9,
+  "lacs_15km": 46,
+  "activites": 0,
+  "nautique": 9,
+  "hebergements": 73
+ },
+ "Ordino Arcalís": {
+  "rando_km": 121.6,
+  "vtt_km": 7.8,
+  "lacs_15km": 40,
+  "activites": 0,
+  "nautique": 8,
+  "hebergements": 28
+ },
+ "Verbier": {
+  "rando_km": 228.0,
+  "vtt_km": 58.1,
+  "lacs_15km": 7,
+  "activites": 0,
+  "nautique": 40,
+  "hebergements": 215
+ },
+ "Nendaz": {
+  "rando_km": 72.7,
+  "vtt_km": 51.1,
+  "lacs_15km": 7,
+  "activites": 1,
+  "nautique": 43,
+  "hebergements": 104
+ },
+ "Veysonnaz": {
+  "rando_km": 48.1,
+  "vtt_km": 32.6,
+  "lacs_15km": 7,
+  "activites": 1,
+  "nautique": 43,
+  "hebergements": 54
+ },
+ "Thyon": {
+  "rando_km": 42.2,
+  "vtt_km": 29.7,
+  "lacs_15km": 8,
+  "activites": 1,
+  "nautique": 43,
+  "hebergements": 57
+ },
+ "La Tzoumaz": {
+  "rando_km": 155.3,
+  "vtt_km": 72.8,
+  "lacs_15km": 5,
+  "activites": 0,
+  "nautique": 45,
+  "hebergements": 229
+ },
+ "Crans-Montana": {
+  "rando_km": 86.4,
+  "vtt_km": 58.8,
+  "lacs_15km": 13,
+  "activites": 0,
+  "nautique": 14,
+  "hebergements": 73
+ },
+ "Zermatt": {
+  "rando_km": 173.0,
+  "vtt_km": 81.6,
+  "lacs_15km": 11,
+  "activites": 0,
+  "nautique": 0,
+  "hebergements": 307
+ },
+ "Saas-Fee": {
+  "rando_km": 195.8,
+  "vtt_km": 35.8,
+  "lacs_15km": 8,
+  "activites": 1,
+  "nautique": 1,
+  "hebergements": 88
+ },
+ "Saas-Grund": {
+  "rando_km": 193.5,
+  "vtt_km": 35.9,
+  "lacs_15km": 7,
+  "activites": 1,
+  "nautique": 1,
+  "hebergements": 88
+ },
+ "Saas-Almagell": {
+  "rando_km": 210.2,
+  "vtt_km": 38.4,
+  "lacs_15km": 5,
+  "activites": 1,
+  "nautique": 2,
+  "hebergements": 88
+ },
+ "Aletsch Arena": {
+  "rando_km": 181.9,
+  "vtt_km": 106.9,
+  "lacs_15km": 10,
+  "activites": 0,
+  "nautique": 6,
+  "hebergements": 120
+ },
+ "Grimentz-Zinal": {
+  "rando_km": 121.2,
+  "vtt_km": 51.5,
+  "lacs_15km": 9,
+  "activites": 0,
+  "nautique": 2,
+  "hebergements": 45
+ },
+ "Saint-Luc / Chandolin": {
+  "rando_km": 85.3,
+  "vtt_km": 43.1,
+  "lacs_15km": 13,
+  "activites": 1,
+  "nautique": 5,
+  "hebergements": 37
+ },
+ "Vercorin": {
+  "rando_km": 41.5,
+  "vtt_km": 25.8,
+  "lacs_15km": 11,
+  "activites": 1,
+  "nautique": 12,
+  "hebergements": 65
+ },
+ "Anzère": {
+  "rando_km": 84.5,
+  "vtt_km": 55.6,
+  "lacs_15km": 11,
+  "activites": 0,
+  "nautique": 39,
+  "hebergements": 62
+ },
+ "Nax Mont-Noble": {
+  "rando_km": 44.8,
+  "vtt_km": 27.8,
+  "lacs_15km": 9,
+  "activites": 1,
+  "nautique": 43,
+  "hebergements": 58
+ },
+ "Evolène": {
+  "rando_km": 85.6,
+  "vtt_km": 27.8,
+  "lacs_15km": 8,
+  "activites": 0,
+  "nautique": 3,
+  "hebergements": 37
+ },
+ "Arolla": {
+  "rando_km": 102.5,
+  "vtt_km": 8.8,
+  "lacs_15km": 8,
+  "activites": 0,
+  "nautique": 0,
+  "hebergements": 27
+ },
+ "La Forclaz (VS)": {
+  "rando_km": 99.5,
+  "vtt_km": 6.7,
+  "lacs_15km": 8,
+  "activites": 0,
+  "nautique": 0,
+  "hebergements": 40
+ },
+ "Ovronnaz": {
+  "rando_km": 103.4,
+  "vtt_km": 0.0,
+  "lacs_15km": 6,
+  "activites": 0,
+  "nautique": 49,
+  "hebergements": 42
+ },
+ "Les Marécottes": {
+  "rando_km": 220.4,
+  "vtt_km": 16.0,
+  "lacs_15km": 12,
+  "activites": 0,
+  "nautique": 9,
+  "hebergements": 42
+ },
+ "Champex-Lac": {
+  "rando_km": 196.4,
+  "vtt_km": 22.3,
+  "lacs_15km": 10,
+  "activites": 0,
+  "nautique": 8,
+  "hebergements": 29
+ },
+ "La Fouly": {
+  "rando_km": 126.7,
+  "vtt_km": 13.8,
+  "lacs_15km": 12,
+  "activites": 1,
+  "nautique": 1,
+  "hebergements": 10
+ },
+ "Vichères-Liddes": {
+  "rando_km": 190.0,
+  "vtt_km": 27.7,
+  "lacs_15km": 14,
+  "activites": 0,
+  "nautique": 7,
+  "hebergements": 25
+ },
+ "Leukerbad": {
+  "rando_km": 124.3,
+  "vtt_km": 78.0,
+  "lacs_15km": 9,
+  "activites": 0,
+  "nautique": 13,
+  "hebergements": 74
+ },
+ "Belalp": {
+  "rando_km": 165.7,
+  "vtt_km": 59.4,
+  "lacs_15km": 7,
+  "activites": 0,
+  "nautique": 11,
+  "hebergements": 103
+ },
+ "Lauchernalp": {
+  "rando_km": 89.6,
+  "vtt_km": 45.2,
+  "lacs_15km": 7,
+  "activites": 0,
+  "nautique": 10,
+  "hebergements": 27
+ },
+ "Grächen": {
+  "rando_km": 142.7,
+  "vtt_km": 34.7,
+  "lacs_15km": 8,
+  "activites": 1,
+  "nautique": 7,
+  "hebergements": 32
+ },
+ "Bellwald": {
+  "rando_km": 191.5,
+  "vtt_km": 84.1,
+  "lacs_15km": 18,
+  "activites": 0,
+  "nautique": 3,
+  "hebergements": 68
+ },
+ "Rosswald": {
+  "rando_km": 165.8,
+  "vtt_km": 58.9,
+  "lacs_15km": 12,
+  "activites": 0,
+  "nautique": 11,
+  "hebergements": 40
+ },
+ "Rothwald": {
+  "rando_km": 158.2,
+  "vtt_km": 53.3,
+  "lacs_15km": 12,
+  "activites": 0,
+  "nautique": 11,
+  "hebergements": 31
+ },
+ "Visperterminen": {
+  "rando_km": 191.7,
+  "vtt_km": 118.1,
+  "lacs_15km": 11,
+  "activites": 0,
+  "nautique": 10,
+  "hebergements": 31
+ },
+ "Bürchen-Moosalp": {
+  "erreur": "position introuvable"
+ },
+ "Unterbäch": {
+  "rando_km": 108.4,
+  "vtt_km": 36.6,
+  "lacs_15km": 7,
+  "activites": 0,
+  "nautique": 6,
+  "hebergements": 31
+ },
+ "Eischoll": {
+  "rando_km": 78.6,
+  "vtt_km": 49.3,
+  "lacs_15km": 7,
+  "activites": 0,
+  "nautique": 7,
+  "hebergements": 73
+ },
+ "Jeizinen": {
+  "rando_km": 74.1,
+  "vtt_km": 97.6,
+  "lacs_15km": 9,
+  "activites": 0,
+  "nautique": 8,
+  "hebergements": 75
+ },
+ "Villars-sur-Ollon": {
+  "rando_km": 72.6,
+  "vtt_km": 12.6,
+  "lacs_15km": 13,
+  "activites": 1,
+  "nautique": 22,
+  "hebergements": 47
+ },
+ "Gryon": {
+  "rando_km": 87.5,
+  "vtt_km": 14.5,
+  "lacs_15km": 13,
+  "activites": 1,
+  "nautique": 22,
+  "hebergements": 36
+ },
+ "Les Diablerets": {
+  "rando_km": 168.4,
+  "vtt_km": 39.8,
+  "lacs_15km": 13,
+  "activites": 0,
+  "nautique": 10,
+  "hebergements": 33
+ },
+ "Glacier 3000": {
+  "rando_km": 129.1,
+  "vtt_km": 14.7,
+  "lacs_15km": 11,
+  "activites": 0,
+  "nautique": 9,
+  "hebergements": 31
+ },
+ "Leysin": {
+  "rando_km": 77.9,
+  "vtt_km": 11.3,
+  "lacs_15km": 11,
+  "activites": 1,
+  "nautique": 27,
+  "hebergements": 36
+ },
+ "Les Mosses": {
+  "rando_km": 115.1,
+  "vtt_km": 19.6,
+  "lacs_15km": 5,
+  "activites": 0,
+  "nautique": 19,
+  "hebergements": 45
+ },
+ "Les Pléiades": {
+  "rando_km": 52.6,
+  "vtt_km": 9.9,
+  "lacs_15km": 4,
+  "activites": 0,
+  "nautique": 15,
+  "hebergements": 56
+ },
+ "Les Rasses": {
+  "rando_km": 36.8,
+  "vtt_km": 21.3,
+  "lacs_15km": 0,
+  "activites": 0,
+  "nautique": 32,
+  "hebergements": 23
+ },
+ "L'Abbaye": {
+  "rando_km": 58.4,
+  "vtt_km": 10.3,
+  "lacs_15km": 3,
+  "activites": 0,
+  "nautique": 9,
+  "hebergements": 15
+ },
+ "L'Orient": {
+  "rando_km": 30.2,
+  "vtt_km": 12.3,
+  "lacs_15km": 2,
+  "activites": 0,
+  "nautique": 4,
+  "hebergements": 14
+ },
+ "Charmey": {
+  "rando_km": 75.3,
+  "vtt_km": 18.9,
+  "lacs_15km": 3,
+  "activites": 3,
+  "nautique": 9,
+  "hebergements": 31
+ },
+ "Moléson": {
+  "rando_km": 51.4,
+  "vtt_km": 7.6,
+  "lacs_15km": 1,
+  "activites": 1,
+  "nautique": 8,
+  "hebergements": 25
+ },
+ "La Berra": {
+  "rando_km": 27.1,
+  "vtt_km": 46.9,
+  "lacs_15km": 2,
+  "activites": 3,
+  "nautique": 11,
+  "hebergements": 21
+ },
+ "Schwarzsee": {
+  "rando_km": 72.9,
+  "vtt_km": 35.9,
+  "lacs_15km": 4,
+  "activites": 0,
+  "nautique": 3,
+  "hebergements": 19
+ },
+ "Jaun": {
+  "rando_km": 91.2,
+  "vtt_km": 36.3,
+  "lacs_15km": 4,
+  "activites": 2,
+  "nautique": 7,
+  "hebergements": 22
+ },
+ "Les Paccots": {
+  "rando_km": 51.8,
+  "vtt_km": 4.4,
+  "lacs_15km": 2,
+  "activites": 0,
+  "nautique": 19,
+  "hebergements": 15
+ },
+ "Rathvel": {
+  "rando_km": 46.3,
+  "vtt_km": 7.4,
+  "lacs_15km": 1,
+  "activites": 1,
+  "nautique": 15,
+  "hebergements": 14
+ },
+ "Grindelwald": {
+  "rando_km": 102.2,
+  "vtt_km": 25.2,
+  "lacs_15km": 10,
+  "activites": 1,
+  "nautique": 18,
+  "hebergements": 57
+ },
+ "Wengen": {
+  "rando_km": 138.3,
+  "vtt_km": 23.0,
+  "lacs_15km": 9,
+  "activites": 0,
+  "nautique": 20,
+  "hebergements": 96
+ },
+ "Mürren": {
+  "rando_km": 129.1,
+  "vtt_km": 21.8,
+  "lacs_15km": 5,
+  "activites": 0,
+  "nautique": 12,
+  "hebergements": 75
+ },
+ "Grindelwald First": {
+  "erreur": "position introuvable"
+ },
+ "Adelboden": {
+  "rando_km": 104.1,
+  "vtt_km": 3.8,
+  "lacs_15km": 9,
+  "activites": 1,
+  "nautique": 13,
+  "hebergements": 37
+ },
+ "Lenk": {
+  "rando_km": 66.8,
+  "vtt_km": 23.4,
+  "lacs_15km": 10,
+  "activites": 0,
+  "nautique": 9,
+  "hebergements": 38
+ },
+ "Betelberg (Lenk)": {
+  "rando_km": 73.0,
+  "vtt_km": 29.1,
+  "lacs_15km": 8,
+  "activites": 0,
+  "nautique": 9,
+  "hebergements": 38
+ },
+ "Meiringen-Hasliberg": {
+  "rando_km": 135.1,
+  "vtt_km": 40.8,
+  "lacs_15km": 14,
+  "activites": 0,
+  "nautique": 9,
+  "hebergements": 59
+ },
+ "Saanenmöser – Schönried – Zweisimmen": {
+  "rando_km": 36.2,
+  "vtt_km": 14.2,
+  "lacs_15km": 3,
+  "activites": 0,
+  "nautique": 7,
+  "hebergements": 43
+ },
+ "Gstaad – Saanen – Rougemont": {
+  "rando_km": 30.7,
+  "vtt_km": 15.4,
+  "lacs_15km": 7,
+  "activites": 0,
+  "nautique": 11,
+  "hebergements": 45
+ },
+ "Wispile (Gstaad)": {
+  "rando_km": 55.0,
+  "vtt_km": 24.1,
+  "lacs_15km": 8,
+  "activites": 0,
+  "nautique": 8,
+  "hebergements": 40
+ },
+ "Wasserngrat (Gstaad)": {
+  "erreur": "position introuvable"
+ },
+ "Elsigen-Metsch": {
+  "rando_km": 125.8,
+  "vtt_km": 7.7,
+  "lacs_15km": 8,
+  "activites": 3,
+  "nautique": 8,
+  "hebergements": 60
+ },
+ "Engstligenalp": {
+  "rando_km": 148.9,
+  "vtt_km": 18.9,
+  "lacs_15km": 8,
+  "activites": 1,
+  "nautique": 10,
+  "hebergements": 42
+ },
+ "TschentenAlp": {
+  "rando_km": 92.1,
+  "vtt_km": 5.4,
+  "lacs_15km": 8,
+  "activites": 1,
+  "nautique": 14,
+  "hebergements": 37
+ },
+ "Kandersteg": {
+  "rando_km": 142.7,
+  "vtt_km": 18.9,
+  "lacs_15km": 9,
+  "activites": 2,
+  "nautique": 12,
+  "hebergements": 31
+ },
+ "Axalp": {
+  "rando_km": 86.7,
+  "vtt_km": 7.9,
+  "lacs_15km": 8,
+  "activites": 0,
+  "nautique": 27,
+  "hebergements": 36
+ },
+ "Sigriswil-Schwanden": {
+  "rando_km": 119.0,
+  "vtt_km": 29.1,
+  "lacs_15km": 3,
+  "activites": 0,
+  "nautique": 37,
+  "hebergements": 48
+ },
+ "Rüschegg-Eywald": {
+  "rando_km": 27.8,
+  "vtt_km": 21.1,
+  "lacs_15km": 7,
+  "activites": 0,
+  "nautique": 7,
+  "hebergements": 21
+ },
+ "Wiriehorn": {
+  "rando_km": 68.7,
+  "vtt_km": 8.0,
+  "lacs_15km": 4,
+  "activites": 0,
+  "nautique": 10,
+  "hebergements": 8
+ },
+ "Selital": {
+  "rando_km": 19.0,
+  "vtt_km": 18.7,
+  "lacs_15km": 6,
+  "activites": 0,
+  "nautique": 5,
+  "hebergements": 17
+ },
+ "Bumbach": {
+  "rando_km": 66.9,
+  "vtt_km": 6.6,
+  "lacs_15km": 2,
+  "activites": 0,
+  "nautique": 20,
+  "hebergements": 12
+ },
+ "Aeschiried": {
+  "rando_km": 95.1,
+  "vtt_km": 4.9,
+  "lacs_15km": 7,
+  "activites": 0,
+  "nautique": 33,
+  "hebergements": 47
+ },
+ "Habkern": {
+  "rando_km": 146.1,
+  "vtt_km": 31.5,
+  "lacs_15km": 7,
+  "activites": 0,
+  "nautique": 29,
+  "hebergements": 128
+ },
+ "Grimmialp": {
+  "rando_km": 80.1,
+  "vtt_km": 4.6,
+  "lacs_15km": 6,
+  "activites": 0,
+  "nautique": 8,
+  "hebergements": 3
+ },
+ "Rossberg": {
+  "rando_km": 19.6,
+  "vtt_km": 55.9,
+  "lacs_15km": 6,
+  "activites": 0,
+  "nautique": 167,
+  "hebergements": 33
+ },
+ "Jaunpass": {
+  "rando_km": 50.0,
+  "vtt_km": 10.7,
+  "lacs_15km": 3,
+  "activites": 0,
+  "nautique": 8,
+  "hebergements": 23
+ },
+ "Springenboden": {
+  "rando_km": 90.1,
+  "vtt_km": 23.5,
+  "lacs_15km": 6,
+  "activites": 0,
+  "nautique": 20,
+  "hebergements": 21
+ },
+ "Gantrisch-Gurnigel": {
+  "rando_km": 80.2,
+  "vtt_km": 20.5,
+  "lacs_15km": 7,
+  "activites": 0,
+  "nautique": 13,
+  "hebergements": 18
+ },
+ "Eriz": {
+  "rando_km": 74.7,
+  "vtt_km": 11.3,
+  "lacs_15km": 3,
+  "activites": 0,
+  "nautique": 31,
+  "hebergements": 9
+ },
+ "Les Bugnenets-Savagnières": {
+  "rando_km": 47.9,
+  "vtt_km": 1.2,
+  "lacs_15km": 4,
+  "activites": 0,
+  "nautique": 17,
+  "hebergements": 27
+ },
+ "Tramelan": {
+  "rando_km": 14.4,
+  "vtt_km": 2.6,
+  "lacs_15km": 3,
+  "activites": 0,
+  "nautique": 20,
+  "hebergements": 22
+ },
+ "Les Breuleux": {
+  "rando_km": 28.4,
+  "vtt_km": 6.4,
+  "lacs_15km": 3,
+  "activites": 0,
+  "nautique": 6,
+  "hebergements": 42
+ },
+ "Samnaun": {
+  "rando_km": 55.5,
+  "vtt_km": 103.8,
+  "lacs_15km": 13,
+  "activites": 0,
+  "nautique": 2,
+  "hebergements": 44
+ },
+ "Arosa": {
+  "rando_km": 64.0,
+  "vtt_km": 79.5,
+  "lacs_15km": 6,
+  "activites": 0,
+  "nautique": 5,
+  "hebergements": 51
+ },
+ "Lenzerheide": {
+  "rando_km": 138.3,
+  "vtt_km": 149.6,
+  "lacs_15km": 8,
+  "activites": 1,
+  "nautique": 5,
+  "hebergements": 55
+ },
+ "Laax": {
+  "rando_km": 151.2,
+  "vtt_km": 97.0,
+  "lacs_15km": 9,
+  "activites": 2,
+  "nautique": 3,
+  "hebergements": 53
+ },
+ "Flims": {
+  "rando_km": 180.0,
+  "vtt_km": 117.1,
+  "lacs_15km": 9,
+  "activites": 2,
+  "nautique": 3,
+  "hebergements": 45
+ },
+ "Falera": {
+  "rando_km": 138.4,
+  "vtt_km": 89.1,
+  "lacs_15km": 9,
+  "activites": 2,
+  "nautique": 3,
+  "hebergements": 51
+ },
+ "St. Moritz": {
+  "rando_km": 150.2,
+  "vtt_km": 93.0,
+  "lacs_15km": 42,
+  "activites": 1,
+  "nautique": 6,
+  "hebergements": 112
+ },
+ "Corvatsch": {
+  "rando_km": 137.5,
+  "vtt_km": 37.9,
+  "lacs_15km": 54,
+  "activites": 0,
+  "nautique": 6,
+  "hebergements": 89
+ },
+ "Diavolezza": {
+  "rando_km": 143.3,
+  "vtt_km": 43.6,
+  "lacs_15km": 60,
+  "activites": 0,
+  "nautique": 5,
+  "hebergements": 10
+ },
+ "Davos": {
+  "rando_km": 109.8,
+  "vtt_km": 131.6,
+  "lacs_15km": 5,
+  "activites": 1,
+  "nautique": 7,
+  "hebergements": 73
+ },
+ "Klosters": {
+  "rando_km": 93.0,
+  "vtt_km": 66.1,
+  "lacs_15km": 11,
+  "activites": 0,
+  "nautique": 13,
+  "hebergements": 38
+ },
+ "Jakobshorn (Davos)": {
+  "rando_km": 94.3,
+  "vtt_km": 109.1,
+  "lacs_15km": 4,
+  "activites": 1,
+  "nautique": 6,
+  "hebergements": 74
+ },
+ "Rinerhorn (Davos)": {
+  "rando_km": 95.5,
+  "vtt_km": 96.5,
+  "lacs_15km": 4,
+  "activites": 1,
+  "nautique": 5,
+  "hebergements": 58
+ },
+ "Madrisa (Klosters)": {
+  "rando_km": 117.4,
+  "vtt_km": 42.1,
+  "lacs_15km": 14,
+  "activites": 0,
+  "nautique": 14,
+  "hebergements": 56
+ },
+ "Schatzalp (Davos)": {
+  "rando_km": 102.2,
+  "vtt_km": 128.3,
+  "lacs_15km": 5,
+  "activites": 1,
+  "nautique": 10,
+  "hebergements": 73
+ },
+ "Obersaxen Mundaun": {
+  "rando_km": 27.6,
+  "vtt_km": 54.9,
+  "lacs_15km": 3,
+  "activites": 0,
+  "nautique": 3,
+  "hebergements": 35
+ },
+ "Savognin": {
+  "rando_km": 55.7,
+  "vtt_km": 38.7,
+  "lacs_15km": 9,
+  "activites": 0,
+  "nautique": 7,
+  "hebergements": 19
+ },
+ "Scuol": {
+  "rando_km": 91.5,
+  "vtt_km": 81.0,
+  "lacs_15km": 5,
+  "activites": 1,
+  "nautique": 4,
+  "hebergements": 65
+ },
+ "Andermatt": {
+  "rando_km": 105.9,
+  "vtt_km": 34.6,
+  "lacs_15km": 28,
+  "activites": 0,
+  "nautique": 1,
+  "hebergements": 45
+ },
+ "Sedrun": {
+  "rando_km": 103.9,
+  "vtt_km": 39.2,
+  "lacs_15km": 18,
+  "activites": 1,
+  "nautique": 5,
+  "hebergements": 28
+ },
+ "Disentis": {
+  "rando_km": 61.2,
+  "vtt_km": 45.3,
+  "lacs_15km": 9,
+  "activites": 1,
+  "nautique": 5,
+  "hebergements": 24
+ },
+ "Brigels": {
+  "rando_km": 44.6,
+  "vtt_km": 43.5,
+  "lacs_15km": 3,
+  "activites": 0,
+  "nautique": 3,
+  "hebergements": 38
+ },
+ "San Bernardino": {
+  "rando_km": 76.9,
+  "vtt_km": 3.6,
+  "lacs_15km": 27,
+  "activites": 0,
+  "nautique": 0,
+  "hebergements": 7
+ },
+ "Tschiertschen": {
+  "rando_km": 42.3,
+  "vtt_km": 102.2,
+  "lacs_15km": 6,
+  "activites": 1,
+  "nautique": 6,
+  "hebergements": 82
+ },
+ "Grüsch Danusa": {
+  "rando_km": 38.5,
+  "vtt_km": 51.3,
+  "lacs_15km": 2,
+  "activites": 0,
+  "nautique": 13,
+  "hebergements": 20
+ },
+ "Splügen": {
+  "rando_km": 53.9,
+  "vtt_km": 4.5,
+  "lacs_15km": 28,
+  "activites": 0,
+  "nautique": 4,
+  "hebergements": 16
+ },
+ "Bivio": {
+  "rando_km": 75.0,
+  "vtt_km": 2.9,
+  "lacs_15km": 38,
+  "activites": 0,
+  "nautique": 5,
+  "hebergements": 21
+ },
+ "Vals": {
+  "rando_km": 88.6,
+  "vtt_km": 19.1,
+  "lacs_15km": 13,
+  "activites": 0,
+  "nautique": 0,
+  "hebergements": 24
+ },
+ "Tschappina Heinzenberg": {
+  "rando_km": 74.8,
+  "vtt_km": 63.9,
+  "lacs_15km": 6,
+  "activites": 0,
+  "nautique": 8,
+  "hebergements": 32
+ },
+ "Brambrüesch": {
+  "rando_km": 47.6,
+  "vtt_km": 127.8,
+  "lacs_15km": 8,
+  "activites": 1,
+  "nautique": 7,
+  "hebergements": 40
+ },
+ "Bergün": {
+  "rando_km": 118.9,
+  "vtt_km": 35.0,
+  "lacs_15km": 12,
+  "activites": 0,
+  "nautique": 3,
+  "hebergements": 20
+ },
+ "Sarn Heinzenberg": {
+  "rando_km": 64.0,
+  "vtt_km": 50.5,
+  "lacs_15km": 7,
+  "activites": 0,
+  "nautique": 10,
+  "hebergements": 27
+ },
+ "Hochwang": {
+  "rando_km": 30.7,
+  "vtt_km": 17.9,
+  "lacs_15km": 3,
+  "activites": 0,
+  "nautique": 13,
+  "hebergements": 13
+ },
+ "Minschuns": {
+  "rando_km": 74.2,
+  "vtt_km": 50.6,
+  "lacs_15km": 7,
+  "activites": 0,
+  "nautique": 0,
+  "hebergements": 8
+ },
+ "Zuoz": {
+  "rando_km": 44.7,
+  "vtt_km": 39.7,
+  "lacs_15km": 11,
+  "activites": 1,
+  "nautique": 2,
+  "hebergements": 36
+ },
+ "Fideriser Heuberge": {
+  "rando_km": 13.7,
+  "vtt_km": 21.1,
+  "lacs_15km": 5,
+  "activites": 0,
+  "nautique": 14,
+  "hebergements": 20
+ },
+ "Feldis": {
+  "rando_km": 28.2,
+  "vtt_km": 39.1,
+  "lacs_15km": 6,
+  "activites": 1,
+  "nautique": 9,
+  "hebergements": 23
+ },
+ "Avers": {
+  "rando_km": 31.5,
+  "vtt_km": 0.0,
+  "lacs_15km": 32,
+  "activites": 0,
+  "nautique": 0,
+  "hebergements": 14
+ },
+ "Pany": {
+  "rando_km": 15.5,
+  "vtt_km": 27.2,
+  "lacs_15km": 8,
+  "activites": 0,
+  "nautique": 16,
+  "hebergements": 23
+ },
+ "Engelberg": {
+  "rando_km": 121.0,
+  "vtt_km": 17.7,
+  "lacs_15km": 12,
+  "activites": 1,
+  "nautique": 7,
+  "hebergements": 32
+ },
+ "Brunni (Engelberg)": {
+  "rando_km": 117.3,
+  "vtt_km": 13.8,
+  "lacs_15km": 11,
+  "activites": 1,
+  "nautique": 9,
+  "hebergements": 33
+ },
+ "Hoch-Ybrig": {
+  "rando_km": 113.0,
+  "vtt_km": 14.7,
+  "lacs_15km": 5,
+  "activites": 0,
+  "nautique": 2,
+  "hebergements": 17
+ },
+ "Mythenregion": {
+  "erreur": "position introuvable"
+ },
+ "Sörenberg": {
+  "rando_km": 93.6,
+  "vtt_km": 12.0,
+  "lacs_15km": 3,
+  "activites": 1,
+  "nautique": 14,
+  "hebergements": 29
+ },
+ "Klewenalp": {
+  "rando_km": 110.2,
+  "vtt_km": 31.2,
+  "lacs_15km": 5,
+  "activites": 0,
+  "nautique": 42,
+  "hebergements": 46
+ },
+ "Melchsee-Frutt": {
+  "rando_km": 163.3,
+  "vtt_km": 41.9,
+  "lacs_15km": 12,
+  "activites": 0,
+  "nautique": 10,
+  "hebergements": 35
+ },
+ "Stoos": {
+  "rando_km": 89.4,
+  "vtt_km": 11.1,
+  "lacs_15km": 5,
+  "activites": 0,
+  "nautique": 14,
+  "hebergements": 44
+ },
+ "Gemsstock (Andermatt)": {
+  "rando_km": 102.5,
+  "vtt_km": 33.3,
+  "lacs_15km": 31,
+  "activites": 0,
+  "nautique": 2,
+  "hebergements": 46
+ },
+ "Mörlialp": {
+  "rando_km": 66.9,
+  "vtt_km": 17.5,
+  "lacs_15km": 5,
+  "activites": 1,
+  "nautique": 15,
+  "hebergements": 19
+ },
+ "Marbachegg": {
+  "rando_km": 44.9,
+  "vtt_km": 6.5,
+  "lacs_15km": 2,
+  "activites": 0,
+  "nautique": 17,
+  "hebergements": 11
+ },
+ "Neusell": {
+  "rando_km": 92.0,
+  "vtt_km": 79.2,
+  "lacs_15km": 4,
+  "activites": 0,
+  "nautique": 28,
+  "hebergements": 42
+ },
+ "Rigi": {
+  "rando_km": 112.9,
+  "vtt_km": 18.4,
+  "lacs_15km": 6,
+  "activites": 0,
+  "nautique": 71,
+  "hebergements": 79
+ },
+ "Eggberge": {
+  "rando_km": 165.8,
+  "vtt_km": 32.3,
+  "lacs_15km": 8,
+  "activites": 0,
+  "nautique": 13,
+  "hebergements": 24
+ },
+ "Biel-Kinzig": {
+  "rando_km": 133.5,
+  "vtt_km": 30.0,
+  "lacs_15km": 11,
+  "activites": 0,
+  "nautique": 11,
+  "hebergements": 20
+ },
+ "Flumserberg": {
+  "rando_km": 95.7,
+  "vtt_km": 58.3,
+  "lacs_15km": 14,
+  "activites": 0,
+  "nautique": 13,
+  "hebergements": 37
+ },
+ "Toggenburg Chäserrugg": {
+  "rando_km": 132.0,
+  "vtt_km": 30.5,
+  "lacs_15km": 10,
+  "activites": 0,
+  "nautique": 14,
+  "hebergements": 81
+ },
+ "Wildhaus": {
+  "rando_km": 157.3,
+  "vtt_km": 29.9,
+  "lacs_15km": 7,
+  "activites": 0,
+  "nautique": 13,
+  "hebergements": 57
+ },
+ "Pizol": {
+  "rando_km": 83.8,
+  "vtt_km": 41.9,
+  "lacs_15km": 5,
+  "activites": 0,
+  "nautique": 7,
+  "hebergements": 12
+ },
+ "Elm": {
+  "rando_km": 127.6,
+  "vtt_km": 19.6,
+  "lacs_15km": 22,
+  "activites": 0,
+  "nautique": 5,
+  "hebergements": 26
+ },
+ "Amden": {
+  "rando_km": 166.4,
+  "vtt_km": 37.4,
+  "lacs_15km": 14,
+  "activites": 0,
+  "nautique": 22,
+  "hebergements": 28
+ },
+ "Wolzenalp": {
+  "rando_km": 99.6,
+  "vtt_km": 23.2,
+  "lacs_15km": 6,
+  "activites": 0,
+  "nautique": 20,
+  "hebergements": 15
+ },
+ "Ebenalp": {
+  "rando_km": 217.7,
+  "vtt_km": 24.2,
+  "lacs_15km": 13,
+  "activites": 3,
+  "nautique": 35,
+  "hebergements": 52
+ },
+ "Atzmännig": {
+  "rando_km": 149.0,
+  "vtt_km": 97.3,
+  "lacs_15km": 1,
+  "activites": 1,
+  "nautique": 37,
+  "hebergements": 24
+ },
+ "Sollegg": {
+  "rando_km": 116.7,
+  "vtt_km": 43.9,
+  "lacs_15km": 8,
+  "activites": 3,
+  "nautique": 44,
+  "hebergements": 66
+ },
+ "Schilt (Mollis)": {
+  "rando_km": 190.5,
+  "vtt_km": 31.7,
+  "lacs_15km": 16,
+  "activites": 0,
+  "nautique": 17,
+  "hebergements": 45
+ },
+ "Airolo": {
+  "rando_km": 87.6,
+  "vtt_km": 35.9,
+  "lacs_15km": 45,
+  "activites": 0,
+  "nautique": 1,
+  "hebergements": 14
+ },
+ "Nara": {
+  "rando_km": 84.9,
+  "vtt_km": 76.9,
+  "lacs_15km": 23,
+  "activites": 0,
+  "nautique": 1,
+  "hebergements": 30
+ },
+ "Bosco Gurin": {
+  "rando_km": 114.2,
+  "vtt_km": 3.5,
+  "lacs_15km": 25,
+  "activites": 0,
+  "nautique": 3,
+  "hebergements": 9
+ },
+ "Carì": {
+  "rando_km": 110.7,
+  "vtt_km": 37.1,
+  "lacs_15km": 28,
+  "activites": 0,
+  "nautique": 1,
+  "hebergements": 20
+ },
+ "Reit im Winkl – Winklmoosalm": {
+  "rando_km": 142.9,
+  "vtt_km": 145.9,
+  "lacs_15km": 9,
+  "activites": 0,
+  "nautique": 28,
+  "hebergements": 87
+ },
+ "Balderschwang": {
+  "rando_km": 88.0,
+  "vtt_km": 33.4,
+  "lacs_15km": 6,
+  "activites": 0,
+  "nautique": 21,
+  "hebergements": 52
+ },
+ "Garmisch-Partenkirchen": {
+  "rando_km": 418.2,
+  "vtt_km": 55.7,
+  "lacs_15km": 11,
+  "activites": 1,
+  "nautique": 21,
+  "hebergements": 348
+ },
+ "Zugspitze": {
+  "rando_km": 223.3,
+  "vtt_km": 52.7,
+  "lacs_15km": 13,
+  "activites": 0,
+  "nautique": 26,
+  "hebergements": 206
+ },
+ "Oberstdorf – Fellhorn/Kanzelwand": {
+  "rando_km": 185.9,
+  "vtt_km": 43.6,
+  "lacs_15km": 17,
+  "activites": 3,
+  "nautique": 14,
+  "hebergements": 460
+ },
+ "Oberstdorf – Nebelhorn": {
+  "rando_km": 156.8,
+  "vtt_km": 6.1,
+  "lacs_15km": 18,
+  "activites": 3,
+  "nautique": 20,
+  "hebergements": 344
+ },
+ "Oberstdorf – Söllereck": {
+  "rando_km": 121.7,
+  "vtt_km": 37.1,
+  "lacs_15km": 18,
+  "activites": 3,
+  "nautique": 20,
+  "hebergements": 550
+ },
+ "Oberjoch": {
+  "rando_km": 164.0,
+  "vtt_km": 63.1,
+  "lacs_15km": 18,
+  "activites": 2,
+  "nautique": 42,
+  "hebergements": 140
+ },
+ "Sudelfeld": {
+  "rando_km": 262.9,
+  "vtt_km": 139.3,
+  "lacs_15km": 7,
+  "activites": 0,
+  "nautique": 53,
+  "hebergements": 119
+ },
+ "Brauneck": {
+  "rando_km": 427.4,
+  "vtt_km": 56.5,
+  "lacs_15km": 8,
+  "activites": 0,
+  "nautique": 31,
+  "hebergements": 34
+ },
+ "Hündle (Oberstaufen)": {
+  "rando_km": 59.1,
+  "vtt_km": 86.4,
+  "lacs_15km": 6,
+  "activites": 1,
+  "nautique": 23,
+  "hebergements": 120
+ },
+ "Steibis (Oberstaufen)": {
+  "rando_km": 59.0,
+  "vtt_km": 84.2,
+  "lacs_15km": 5,
+  "activites": 0,
+  "nautique": 21,
+  "hebergements": 120
+ },
+ "Bolsterlang": {
+  "rando_km": 91.5,
+  "vtt_km": 19.1,
+  "lacs_15km": 14,
+  "activites": 2,
+  "nautique": 34,
+  "hebergements": 337
+ },
+ "Ofterschwang": {
+  "rando_km": 84.6,
+  "vtt_km": 15.0,
+  "lacs_15km": 13,
+  "activites": 2,
+  "nautique": 38,
+  "hebergements": 144
+ },
+ "Kranzberg (Mittenwald)": {
+  "rando_km": 206.1,
+  "vtt_km": 45.9,
+  "lacs_15km": 13,
+  "activites": 2,
+  "nautique": 33,
+  "hebergements": 167
+ },
+ "Spitzingsee": {
+  "rando_km": 254.6,
+  "vtt_km": 69.3,
+  "lacs_15km": 6,
+  "activites": 0,
+  "nautique": 16,
+  "hebergements": 62
+ },
+ "Wendelstein": {
+  "rando_km": 8.9,
+  "vtt_km": 10.8,
+  "lacs_15km": 8,
+  "activites": 1,
+  "nautique": 33,
+  "hebergements": 19
+ },
+ "Grasgehren": {
+  "rando_km": 89.5,
+  "vtt_km": 15.9,
+  "lacs_15km": 13,
+  "activites": 2,
+  "nautique": 30,
+  "hebergements": 203
+ },
+ "Feldberg": {
+  "rando_km": 132.3,
+  "vtt_km": 32.2,
+  "lacs_15km": 3,
+  "activites": 2,
+  "nautique": 22,
+  "hebergements": 234
+ },
+ "Todtnauberg": {
+  "rando_km": 131.6,
+  "vtt_km": 54.2,
+  "lacs_15km": 2,
+  "activites": 2,
+  "nautique": 16,
+  "hebergements": 195
+ },
+ "Winterberg": {
+  "rando_km": 19.6,
+  "vtt_km": 55.2,
+  "lacs_15km": 2,
+  "activites": 4,
+  "nautique": 17,
+  "hebergements": 458
+ },
+ "Willingen": {
+  "rando_km": 11.2,
+  "vtt_km": 13.2,
+  "lacs_15km": 4,
+  "activites": 0,
+  "nautique": 31,
+  "hebergements": 19
+ },
+ "Fichtelberg (Oberwiesenthal)": {
+  "rando_km": 28.0,
+  "vtt_km": 60.0,
+  "lacs_15km": 0,
+  "activites": 1,
+  "nautique": 7,
+  "hebergements": 126
+ },
+ "Kreuzberg (Rhön)": {
+  "rando_km": 37.9,
+  "vtt_km": 8.0,
+  "lacs_15km": 4,
+  "activites": 1,
+  "nautique": 11,
+  "hebergements": 35
+ },
+ "Wurmberg (Braunlage)": {
+  "rando_km": 74.9,
+  "vtt_km": 111.5,
+  "lacs_15km": 2,
+  "activites": 1,
+  "nautique": 22,
+  "hebergements": 290
+ },
+ "Arber": {
+  "rando_km": 180.9,
+  "vtt_km": 146.6,
+  "lacs_15km": 4,
+  "activites": 1,
+  "nautique": 11,
+  "hebergements": 136
+ },
+ "Breuil-Cervinia": {
+  "rando_km": 140.9,
+  "vtt_km": 5.1,
+  "lacs_15km": 8,
+  "activites": 0,
+  "nautique": 2,
+  "hebergements": 55
+ },
+ "Valtournenche": {
+  "rando_km": 190.4,
+  "vtt_km": 12.2,
+  "lacs_15km": 8,
+  "activites": 0,
+  "nautique": 2,
+  "hebergements": 56
+ },
+ "Champoluc": {
+  "rando_km": 209.7,
+  "vtt_km": 92.1,
+  "lacs_15km": 12,
+  "activites": 0,
+  "nautique": 2,
+  "hebergements": 67
+ },
+ "Gressoney-La-Trinité": {
+  "rando_km": 191.3,
+  "vtt_km": 19.7,
+  "lacs_15km": 16,
+  "activites": 0,
+  "nautique": 0,
+  "hebergements": 28
+ },
+ "Alagna Valsesia": {
+  "rando_km": 274.9,
+  "vtt_km": 6.3,
+  "lacs_15km": 14,
+  "activites": 0,
+  "nautique": 2,
+  "hebergements": 30
+ },
+ "Pila": {
+  "rando_km": 272.3,
+  "vtt_km": 9.2,
+  "lacs_15km": 6,
+  "activites": 0,
+  "nautique": 4,
+  "hebergements": 14
+ },
+ "Courmayeur": {
+  "rando_km": 103.6,
+  "vtt_km": 22.6,
+  "lacs_15km": 6,
+  "activites": 0,
+  "nautique": 0,
+  "hebergements": 60
+ },
+ "Crévacol": {
+  "rando_km": 158.9,
+  "vtt_km": 0.3,
+  "lacs_15km": 9,
+  "activites": 0,
+  "nautique": 1,
+  "hebergements": 13
+ },
+ "Torgnon": {
+  "rando_km": 206.9,
+  "vtt_km": 20.8,
+  "lacs_15km": 3,
+  "activites": 1,
+  "nautique": 2,
+  "hebergements": 42
+ },
+ "Champorcher": {
+  "rando_km": 199.3,
+  "vtt_km": 33.3,
+  "lacs_15km": 7,
+  "activites": 0,
+  "nautique": 3,
+  "hebergements": 6
+ },
+ "Gressoney-Saint-Jean": {
+  "rando_km": 205.8,
+  "vtt_km": 7.9,
+  "lacs_15km": 16,
+  "activites": 0,
+  "nautique": 0,
+  "hebergements": 30
+ },
+ "Antagnod": {
+  "rando_km": 208.8,
+  "vtt_km": 81.4,
+  "lacs_15km": 8,
+  "activites": 1,
+  "nautique": 2,
+  "hebergements": 91
+ },
+ "Prato Nevoso": {
+  "rando_km": 262.0,
+  "vtt_km": 9.0,
+  "lacs_15km": 3,
+  "activites": 2,
+  "nautique": 2,
+  "hebergements": 16
+ },
+ "Artesina": {
+  "rando_km": 250.9,
+  "vtt_km": 13.6,
+  "lacs_15km": 4,
+  "activites": 2,
+  "nautique": 1,
+  "hebergements": 19
+ },
+ "Frabosa Soprana": {
+  "rando_km": 287.8,
+  "vtt_km": 25.0,
+  "lacs_15km": 3,
+  "activites": 2,
+  "nautique": 2,
+  "hebergements": 18
+ },
+ "Bardonecchia": {
+  "rando_km": 220.2,
+  "vtt_km": 137.2,
+  "lacs_15km": 9,
+  "activites": 1,
+  "nautique": 0,
+  "hebergements": 20
+ },
+ "Limone Piemonte": {
+  "rando_km": 150.9,
+  "vtt_km": 70.2,
+  "lacs_15km": 7,
+  "activites": 0,
+  "nautique": 0,
+  "hebergements": 37
+ },
+ "Monte Alpet": {
+  "rando_km": 196.5,
+  "vtt_km": 49.4,
+  "lacs_15km": 1,
+  "activites": 2,
+  "nautique": 2,
+  "hebergements": 14
+ },
+ "San Domenico": {
+  "rando_km": 164.1,
+  "vtt_km": 22.4,
+  "lacs_15km": 9,
+  "activites": 0,
+  "nautique": 1,
+  "hebergements": 19
+ },
+ "Macugnaga": {
+  "rando_km": 182.9,
+  "vtt_km": 1.8,
+  "lacs_15km": 7,
+  "activites": 0,
+  "nautique": 1,
+  "hebergements": 22
+ },
+ "Bielmonte": {
+  "rando_km": 226.3,
+  "vtt_km": 103.2,
+  "lacs_15km": 11,
+  "activites": 0,
+  "nautique": 7,
+  "hebergements": 26
+ },
+ "Mottarone": {
+  "rando_km": 148.1,
+  "vtt_km": 119.9,
+  "lacs_15km": 5,
+  "activites": 0,
+  "nautique": 208,
+  "hebergements": 117
+ },
+ "Sampeyre": {
+  "rando_km": 156.4,
+  "vtt_km": 90.6,
+  "lacs_15km": 22,
+  "activites": 0,
+  "nautique": 1,
+  "hebergements": 15
+ },
+ "Alpe di Mera": {
+  "rando_km": 261.2,
+  "vtt_km": 20.0,
+  "lacs_15km": 4,
+  "activites": 0,
+  "nautique": 4,
+  "hebergements": 10
+ },
+ "Lurisia": {
+  "rando_km": 81.4,
+  "vtt_km": 22.9,
+  "lacs_15km": 3,
+  "activites": 2,
+  "nautique": 2,
+  "hebergements": 32
+ },
+ "Pian Munè": {
+  "rando_km": 155.6,
+  "vtt_km": 173.5,
+  "lacs_15km": 23,
+  "activites": 0,
+  "nautique": 1,
+  "hebergements": 15
+ },
+ "Garessio 2000": {
+  "rando_km": 152.8,
+  "vtt_km": 129.1,
+  "lacs_15km": 1,
+  "activites": 0,
+  "nautique": 0,
+  "hebergements": 11
+ },
+ "Malbun": {
+  "rando_km": 174.1,
+  "vtt_km": 30.4,
+  "lacs_15km": 6,
+  "activites": 1,
+  "nautique": 23,
+  "hebergements": 47
+ },
+ "Livigno": {
+  "rando_km": 120.1,
+  "vtt_km": 159.0,
+  "lacs_15km": 17,
+  "activites": 0,
+  "nautique": 0,
+  "hebergements": 185
+ },
+ "Ponte di Legno": {
+  "rando_km": 107.1,
+  "vtt_km": 61.7,
+  "lacs_15km": 21,
+  "activites": 0,
+  "nautique": 1,
+  "hebergements": 76
+ },
+ "Passo del Tonale": {
+  "rando_km": 101.7,
+  "vtt_km": 56.9,
+  "lacs_15km": 30,
+  "activites": 0,
+  "nautique": 2,
+  "hebergements": 68
+ },
+ "Bormio": {
+  "rando_km": 89.1,
+  "vtt_km": 88.9,
+  "lacs_15km": 18,
+  "activites": 0,
+  "nautique": 0,
+  "hebergements": 83
+ },
+ "Santa Caterina Valfurva": {
+  "rando_km": 96.1,
+  "vtt_km": 94.1,
+  "lacs_15km": 23,
+  "activites": 0,
+  "nautique": 1,
+  "hebergements": 26
+ },
+ "San Colombano": {
+  "rando_km": 288.4,
+  "vtt_km": 167.5,
+  "lacs_15km": 26,
+  "activites": 0,
+  "nautique": 3,
+  "hebergements": 9
+ },
+ "Aprica": {
+  "rando_km": 149.7,
+  "vtt_km": 97.3,
+  "lacs_15km": 26,
+  "activites": 1,
+  "nautique": 2,
+  "hebergements": 42
+ },
+ "Madesimo": {
+  "rando_km": 151.6,
+  "vtt_km": 38.8,
+  "lacs_15km": 32,
+  "activites": 1,
+  "nautique": 2,
+  "hebergements": 23
+ },
+ "Piani di Bobbio": {
+  "rando_km": 327.6,
+  "vtt_km": 147.7,
+  "lacs_15km": 7,
+  "activites": 0,
+  "nautique": 5,
+  "hebergements": 30
+ },
+ "Montecampione": {
+  "rando_km": 77.9,
+  "vtt_km": 50.9,
+  "lacs_15km": 4,
+  "activites": 0,
+  "nautique": 6,
+  "hebergements": 31
+ },
+ "Foppolo": {
+  "rando_km": 262.8,
+  "vtt_km": 160.7,
+  "lacs_15km": 13,
+  "activites": 1,
+  "nautique": 3,
+  "hebergements": 23
+ },
+ "Valmalenco": {
+  "rando_km": 263.1,
+  "vtt_km": 25.3,
+  "lacs_15km": 28,
+  "activites": 1,
+  "nautique": 2,
+  "hebergements": 16
+ },
+ "Colere": {
+  "rando_km": 194.3,
+  "vtt_km": 121.3,
+  "lacs_15km": 12,
+  "activites": 0,
+  "nautique": 4,
+  "hebergements": 40
+ },
+ "Passo Maniva": {
+  "erreur": "position introuvable"
+ },
+ "Lizzola": {
+  "rando_km": 207.1,
+  "vtt_km": 102.0,
+  "lacs_15km": 24,
+  "activites": 0,
+  "nautique": 0,
+  "hebergements": 8
+ },
+ "Spiazzi di Gromo": {
+  "rando_km": 185.8,
+  "vtt_km": 103.0,
+  "lacs_15km": 16,
+  "activites": 0,
+  "nautique": 2,
+  "hebergements": 11
+ },
+ "Monte Pora": {
+  "rando_km": 101.3,
+  "vtt_km": 72.9,
+  "lacs_15km": 4,
+  "activites": 0,
+  "nautique": 8,
+  "hebergements": 54
+ },
+ "Borno": {
+  "rando_km": 99.0,
+  "vtt_km": 71.7,
+  "lacs_15km": 6,
+  "activites": 0,
+  "nautique": 2,
+  "hebergements": 57
+ },
+ "Madonna di Campiglio": {
+  "rando_km": 147.1,
+  "vtt_km": 60.6,
+  "lacs_15km": 27,
+  "activites": 1,
+  "nautique": 6,
+  "hebergements": 87
+ },
+ "Pinzolo": {
+  "rando_km": 126.7,
+  "vtt_km": 53.2,
+  "lacs_15km": 25,
+  "activites": 1,
+  "nautique": 2,
+  "hebergements": 113
+ },
+ "Folgarida": {
+  "rando_km": 74.9,
+  "vtt_km": 74.8,
+  "lacs_15km": 22,
+  "activites": 1,
+  "nautique": 1,
+  "hebergements": 111
+ },
+ "Marilleva": {
+  "erreur": "position introuvable"
+ },
+ "Canazei": {
+  "rando_km": 209.4,
+  "vtt_km": 128.3,
+  "lacs_15km": 11,
+  "activites": 1,
+  "nautique": 5,
+  "hebergements": 284
+ },
+ "Campitello di Fassa": {
+  "rando_km": 215.0,
+  "vtt_km": 103.7,
+  "lacs_15km": 9,
+  "activites": 1,
+  "nautique": 30,
+  "hebergements": 313
+ },
+ "Pozza di Fassa": {
+  "rando_km": 192.6,
+  "vtt_km": 48.9,
+  "lacs_15km": 12,
+  "activites": 1,
+  "nautique": 5,
+  "hebergements": 248
+ },
+ "Vigo di Fassa": {
+  "rando_km": 170.9,
+  "vtt_km": 47.8,
+  "lacs_15km": 12,
+  "activites": 0,
+  "nautique": 6,
+  "hebergements": 195
+ },
+ "Folgaria": {
+  "rando_km": 150.4,
+  "vtt_km": 157.6,
+  "lacs_15km": 10,
+  "activites": 1,
+  "nautique": 20,
+  "hebergements": 89
+ },
+ "Lavarone": {
+  "rando_km": 75.2,
+  "vtt_km": 98.5,
+  "lacs_15km": 7,
+  "activites": 1,
+  "nautique": 13,
+  "hebergements": 124
+ },
+ "San Martino di Castrozza": {
+  "rando_km": 138.7,
+  "vtt_km": 27.2,
+  "lacs_15km": 15,
+  "activites": 0,
+  "nautique": 1,
+  "hebergements": 31
+ },
+ "Passo Rolle": {
+  "rando_km": 142.6,
+  "vtt_km": 46.8,
+  "lacs_15km": 17,
+  "activites": 0,
+  "nautique": 2,
+  "hebergements": 34
+ },
+ "Passo San Pellegrino": {
+  "erreur": "position introuvable"
+ },
+ "Alpe Lusia": {
+  "rando_km": 100.0,
+  "vtt_km": 44.8,
+  "lacs_15km": 16,
+  "activites": 0,
+  "nautique": 1,
+  "hebergements": 80
+ },
+ "Alpe Cermis": {
+  "rando_km": 103.6,
+  "vtt_km": 22.9,
+  "lacs_15km": 35,
+  "activites": 0,
+  "nautique": 3,
+  "hebergements": 74
+ },
+ "Paganella": {
+  "rando_km": 118.0,
+  "vtt_km": 109.5,
+  "lacs_15km": 15,
+  "activites": 1,
+  "nautique": 11,
+  "hebergements": 175
+ },
+ "Brentonico": {
+  "rando_km": 141.2,
+  "vtt_km": 125.4,
+  "lacs_15km": 3,
+  "activites": 2,
+  "nautique": 63,
+  "hebergements": 45
+ },
+ "Pejo 3000": {
+  "rando_km": 117.8,
+  "vtt_km": 59.4,
+  "lacs_15km": 19,
+  "activites": 0,
+  "nautique": 2,
+  "hebergements": 39
+ },
+ "Monte Bondone": {
+  "rando_km": 228.2,
+  "vtt_km": 184.5,
+  "lacs_15km": 10,
+  "activites": 0,
+  "nautique": 21,
+  "hebergements": 50
+ },
+ "Panarotta": {
+  "rando_km": 112.9,
+  "vtt_km": 115.5,
+  "lacs_15km": 16,
+  "activites": 0,
+  "nautique": 16,
+  "hebergements": 110
+ },
+ "Passo Brocon": {
+  "rando_km": 67.7,
+  "vtt_km": 81.3,
+  "lacs_15km": 23,
+  "activites": 0,
+  "nautique": 3,
+  "hebergements": 19
+ },
+ "Ortisei": {
+  "rando_km": 234.2,
+  "vtt_km": 110.5,
+  "lacs_15km": 5,
+  "activites": 2,
+  "nautique": 51,
+  "hebergements": 775
+ },
+ "Santa Cristina": {
+  "rando_km": 0.0,
+  "vtt_km": 2.4,
+  "lacs_15km": 1,
+  "activites": 0,
+  "nautique": 11,
+  "hebergements": 14
+ },
+ "Selva di Val Gardena": {
+  "rando_km": 334.8,
+  "vtt_km": 126.8,
+  "lacs_15km": 5,
+  "activites": 1,
+  "nautique": 11,
+  "hebergements": 619
+ },
+ "Corvara": {
+  "rando_km": 216.8,
+  "vtt_km": 84.5,
+  "lacs_15km": 12,
+  "activites": 0,
+  "nautique": 0,
+  "hebergements": 272
+ },
+ "La Villa": {
+  "rando_km": 175.4,
+  "vtt_km": 65.3,
+  "lacs_15km": 14,
+  "activites": 0,
+  "nautique": 0,
+  "hebergements": 205
+ },
+ "San Cassiano": {
+  "rando_km": 0.9,
+  "vtt_km": 0.0,
+  "lacs_15km": 1,
+  "activites": 0,
+  "nautique": 3,
+  "hebergements": 18
+ },
+ "Brunico – Kronplatz": {
+  "rando_km": 63.6,
+  "vtt_km": 55.4,
+  "lacs_15km": 8,
+  "activites": 0,
+  "nautique": 8,
+  "hebergements": 221
+ },
+ "San Vigilio di Marebbe": {
+  "rando_km": 89.8,
+  "vtt_km": 71.7,
+  "lacs_15km": 12,
+  "activites": 0,
+  "nautique": 7,
+  "hebergements": 136
+ },
+ "Valdaora – Kronplatz": {
+  "rando_km": 63.6,
+  "vtt_km": 55.4,
+  "lacs_15km": 8,
+  "activites": 0,
+  "nautique": 8,
+  "hebergements": 221
+ },
+ "Sesto – 3 Zinnen": {
+  "rando_km": 197.7,
+  "vtt_km": 110.4,
+  "lacs_15km": 11,
+  "activites": 0,
+  "nautique": 4,
+  "hebergements": 59
+ },
+ "Alpe di Siusi": {
+  "rando_km": 192.9,
+  "vtt_km": 74.0,
+  "lacs_15km": 4,
+  "activites": 1,
+  "nautique": 67,
+  "hebergements": 475
+ },
+ "Schöneben – Haideralm": {
+  "erreur": "position introuvable"
+ },
+ "Gitschberg Jochtal": {
+  "rando_km": 58.1,
+  "vtt_km": 40.6,
+  "lacs_15km": 2,
+  "activites": 0,
+  "nautique": 27,
+  "hebergements": 106
+ },
+ "Obereggen": {
+  "rando_km": 86.4,
+  "vtt_km": 45.1,
+  "lacs_15km": 5,
+  "activites": 2,
+  "nautique": 29,
+  "hebergements": 81
+ },
+ "Pampeago": {
+  "rando_km": 134.2,
+  "vtt_km": 56.8,
+  "lacs_15km": 15,
+  "activites": 2,
+  "nautique": 7,
+  "hebergements": 77
+ },
+ "Predazzo": {
+  "rando_km": 109.5,
+  "vtt_km": 41.9,
+  "lacs_15km": 26,
+  "activites": 1,
+  "nautique": 4,
+  "hebergements": 52
+ },
+ "Carezza": {
+  "rando_km": 151.9,
+  "vtt_km": 64.8,
+  "lacs_15km": 9,
+  "activites": 2,
+  "nautique": 32,
+  "hebergements": 193
+ },
+ "Plose": {
+  "rando_km": 84.8,
+  "vtt_km": 67.7,
+  "lacs_15km": 7,
+  "activites": 1,
+  "nautique": 45,
+  "hebergements": 247
+ },
+ "Val Senales": {
+  "rando_km": 138.6,
+  "vtt_km": 17.9,
+  "lacs_15km": 3,
+  "activites": 1,
+  "nautique": 6,
+  "hebergements": 36
+ },
+ "Speikboden": {
+  "rando_km": 102.2,
+  "vtt_km": 51.7,
+  "lacs_15km": 2,
+  "activites": 0,
+  "nautique": 5,
+  "hebergements": 138
+ },
+ "Klausberg": {
+  "rando_km": 56.6,
+  "vtt_km": 16.5,
+  "lacs_15km": 6,
+  "activites": 1,
+  "nautique": 2,
+  "hebergements": 141
+ },
+ "Solda": {
+  "rando_km": 229.3,
+  "vtt_km": 21.1,
+  "lacs_15km": 12,
+  "activites": 0,
+  "nautique": 3,
+  "hebergements": 55
+ },
+ "Meran 2000": {
+  "rando_km": 188.7,
+  "vtt_km": 70.8,
+  "lacs_15km": 7,
+  "activites": 1,
+  "nautique": 81,
+  "hebergements": 604
+ },
+ "Racines-Giovo": {
+  "erreur": "position introuvable"
+ },
+ "Schwemmalm": {
+  "rando_km": 162.9,
+  "vtt_km": 37.5,
+  "lacs_15km": 14,
+  "activites": 0,
+  "nautique": 6,
+  "hebergements": 42
+ },
+ "Reinswald": {
+  "rando_km": 115.2,
+  "vtt_km": 27.1,
+  "lacs_15km": 10,
+  "activites": 0,
+  "nautique": 18,
+  "hebergements": 18
+ },
+ "Rosskopf": {
+  "rando_km": 150.7,
+  "vtt_km": 53.8,
+  "lacs_15km": 9,
+  "activites": 1,
+  "nautique": 4,
+  "hebergements": 162
+ },
+ "Pfelders": {
+  "rando_km": 146.7,
+  "vtt_km": 19.6,
+  "lacs_15km": 9,
+  "activites": 1,
+  "nautique": 59,
+  "hebergements": 45
+ },
+ "Ladurns": {
+  "rando_km": 260.2,
+  "vtt_km": 67.7,
+  "lacs_15km": 10,
+  "activites": 1,
+  "nautique": 4,
+  "hebergements": 122
+ },
+ "Watles": {
+  "rando_km": 176.9,
+  "vtt_km": 72.6,
+  "lacs_15km": 3,
+  "activites": 0,
+  "nautique": 2,
+  "hebergements": 101
+ },
+ "Corno del Renon": {
+  "erreur": "position introuvable"
+ },
+ "San Candido – Baranci": {
+  "erreur": "position introuvable"
+ },
+ "Cortina d'Ampezzo": {
+  "rando_km": 157.3,
+  "vtt_km": 50.6,
+  "lacs_15km": 20,
+  "activites": 0,
+  "nautique": 0,
+  "hebergements": 67
+ },
+ "Arabba": {
+  "rando_km": 168.2,
+  "vtt_km": 85.7,
+  "lacs_15km": 12,
+  "activites": 0,
+  "nautique": 0,
+  "hebergements": 246
+ },
+ "Civetta": {
+  "rando_km": 168.0,
+  "vtt_km": 48.9,
+  "lacs_15km": 8,
+  "activites": 0,
+  "nautique": 0,
+  "hebergements": 35
+ },
+ "Gallio – Le Melette": {
+  "erreur": "position introuvable"
+ },
+ "Monte Verena": {
+  "rando_km": 63.4,
+  "vtt_km": 111.4,
+  "lacs_15km": 2,
+  "activites": 0,
+  "nautique": 11,
+  "hebergements": 15
+ },
+ "Sella Nevea": {
+  "rando_km": 293.7,
+  "vtt_km": 3.6,
+  "lacs_15km": 2,
+  "activites": 3,
+  "nautique": 1,
+  "hebergements": 6
+ },
+ "Zoncolan": {
+  "rando_km": 60.6,
+  "vtt_km": 19.9,
+  "lacs_15km": 3,
+  "activites": 1,
+  "nautique": 1,
+  "hebergements": 59
+ },
+ "Tarvisio": {
+  "rando_km": 74.8,
+  "vtt_km": 26.1,
+  "lacs_15km": 5,
+  "activites": 0,
+  "nautique": 3,
+  "hebergements": 50
+ },
+ "Sappada": {
+  "rando_km": 135.1,
+  "vtt_km": 35.9,
+  "lacs_15km": 1,
+  "activites": 0,
+  "nautique": 1,
+  "hebergements": 38
+ },
+ "Piancavallo": {
+  "rando_km": 193.8,
+  "vtt_km": 23.5,
+  "lacs_15km": 1,
+  "activites": 0,
+  "nautique": 4,
+  "hebergements": 23
+ },
+ "Forni di Sopra": {
+  "rando_km": 136.6,
+  "vtt_km": 0.0,
+  "lacs_15km": 0,
+  "activites": 1,
+  "nautique": 1,
+  "hebergements": 12
+ },
+ "Roccaraso": {
+  "rando_km": 13.7,
+  "vtt_km": 0.0,
+  "lacs_15km": 1,
+  "activites": 0,
+  "nautique": 1,
+  "hebergements": 29
+ },
+ "Cimone": {
+  "rando_km": 193.4,
+  "vtt_km": 173.7,
+  "lacs_15km": 10,
+  "activites": 0,
+  "nautique": 23,
+  "hebergements": 46
+ },
+ "Abetone": {
+  "rando_km": 195.5,
+  "vtt_km": 102.8,
+  "lacs_15km": 9,
+  "activites": 0,
+  "nautique": 5,
+  "hebergements": 25
+ },
+ "Campo Felice": {
+  "rando_km": 66.4,
+  "vtt_km": 16.8,
+  "lacs_15km": 3,
+  "activites": 0,
+  "nautique": 1,
+  "hebergements": 16
+ },
+ "Ovindoli": {
+  "rando_km": 38.4,
+  "vtt_km": 18.6,
+  "lacs_15km": 2,
+  "activites": 0,
+  "nautique": 2,
+  "hebergements": 20
+ },
+ "Palumbosila": {
+  "erreur": "position introuvable"
+ },
+ "Campitello Matese": {
+  "rando_km": 62.9,
+  "vtt_km": 2.1,
+  "lacs_15km": 1,
+  "activites": 0,
+  "nautique": 1,
+  "hebergements": 24
+ },
+ "Laceno": {
+  "rando_km": 28.0,
+  "vtt_km": 4.8,
+  "lacs_15km": 1,
+  "activites": 0,
+  "nautique": 2,
+  "hebergements": 6
+ },
+ "Doganaccia": {
+  "rando_km": 179.4,
+  "vtt_km": 188.4,
+  "lacs_15km": 8,
+  "activites": 0,
+  "nautique": 4,
+  "hebergements": 25
+ },
+ "Corno alle Scale": {
+  "rando_km": 215.4,
+  "vtt_km": 225.5,
+  "lacs_15km": 7,
+  "activites": 0,
+  "nautique": 6,
+  "hebergements": 36
+ },
+ "Campo Stella": {
+  "rando_km": 61.3,
+  "vtt_km": 0.0,
+  "lacs_15km": 2,
+  "activites": 0,
+  "nautique": 1,
+  "hebergements": 12
+ },
+ "Schia": {
+  "rando_km": 21.4,
+  "vtt_km": 118.0,
+  "lacs_15km": 4,
+  "activites": 0,
+  "nautique": 4,
+  "hebergements": 6
+ },
+ "Monte Catria": {
+  "rando_km": 114.6,
+  "vtt_km": 9.7,
+  "lacs_15km": 1,
+  "activites": 0,
+  "nautique": 5,
+  "hebergements": 20
+ },
+ "Sassotetto": {
+  "rando_km": 69.1,
+  "vtt_km": 42.3,
+  "lacs_15km": 5,
+  "activites": 1,
+  "nautique": 16,
+  "hebergements": 11
+ },
+ "Monte Carpegna": {
+  "rando_km": 68.6,
+  "vtt_km": 81.3,
+  "lacs_15km": 2,
+  "activites": 0,
+  "nautique": 3,
+  "hebergements": 12
+ },
+ "St. Anton am Arlberg": {
+  "rando_km": 115.7,
+  "vtt_km": 50.8,
+  "lacs_15km": 20,
+  "activites": 1,
+  "nautique": 5,
+  "hebergements": 349
+ },
+ "St. Christoph": {
+  "rando_km": 116.3,
+  "vtt_km": 45.8,
+  "lacs_15km": 23,
+  "activites": 1,
+  "nautique": 5,
+  "hebergements": 294
+ },
+ "Stuben": {
+  "rando_km": 89.0,
+  "vtt_km": 28.7,
+  "lacs_15km": 26,
+  "activites": 1,
+  "nautique": 7,
+  "hebergements": 268
+ },
+ "Lech": {
+  "rando_km": 104.7,
+  "vtt_km": 39.7,
+  "lacs_15km": 22,
+  "activites": 0,
+  "nautique": 10,
+  "hebergements": 375
+ },
+ "Zürs": {
+  "rando_km": 99.9,
+  "vtt_km": 33.4,
+  "lacs_15km": 20,
+  "activites": 0,
+  "nautique": 9,
+  "hebergements": 307
+ },
+ "Warth-Schröcken": {
+  "erreur": "position introuvable"
+ },
+ "Söll": {
+  "rando_km": 66.7,
+  "vtt_km": 20.7,
+  "lacs_15km": 6,
+  "activites": 0,
+  "nautique": 44,
+  "hebergements": 454
+ },
+ "Ellmau": {
+  "rando_km": 132.7,
+  "vtt_km": 24.3,
+  "lacs_15km": 6,
+  "activites": 0,
+  "nautique": 48,
+  "hebergements": 494
+ },
+ "Scheffau": {
+  "rando_km": 59.8,
+  "vtt_km": 13.6,
+  "lacs_15km": 1,
+  "activites": 0,
+  "nautique": 21,
+  "hebergements": 191
+ },
+ "Going": {
+  "rando_km": 122.1,
+  "vtt_km": 25.9,
+  "lacs_15km": 5,
+  "activites": 0,
+  "nautique": 35,
+  "hebergements": 499
+ },
+ "Brixen im Thale": {
+  "rando_km": 54.6,
+  "vtt_km": 21.6,
+  "lacs_15km": 5,
+  "activites": 0,
+  "nautique": 23,
+  "hebergements": 520
+ },
+ "Westendorf": {
+  "rando_km": 34.4,
+  "vtt_km": 18.1,
+  "lacs_15km": 6,
+  "activites": 0,
+  "nautique": 22,
+  "hebergements": 354
+ },
+ "Hopfgarten": {
+  "rando_km": 70.0,
+  "vtt_km": 14.6,
+  "lacs_15km": 7,
+  "activites": 0,
+  "nautique": 1,
+  "hebergements": 12
+ },
+ "Ischgl": {
+  "rando_km": 91.2,
+  "vtt_km": 63.8,
+  "lacs_15km": 25,
+  "activites": 0,
+  "nautique": 2,
+  "hebergements": 255
+ },
+ "Kitzbühel": {
+  "rando_km": 42.8,
+  "vtt_km": 41.3,
+  "lacs_15km": 3,
+  "activites": 0,
+  "nautique": 23,
+  "hebergements": 266
+ },
+ "Kirchberg in Tirol": {
+  "rando_km": 41.2,
+  "vtt_km": 43.6,
+  "lacs_15km": 5,
+  "activites": 0,
+  "nautique": 25,
+  "hebergements": 561
+ },
+ "Serfaus": {
+  "rando_km": 92.9,
+  "vtt_km": 92.9,
+  "lacs_15km": 23,
+  "activites": 3,
+  "nautique": 12,
+  "hebergements": 466
+ },
+ "Fiss": {
+  "rando_km": 88.3,
+  "vtt_km": 91.9,
+  "lacs_15km": 23,
+  "activites": 3,
+  "nautique": 13,
+  "hebergements": 486
+ },
+ "Ladis": {
+  "rando_km": 69.6,
+  "vtt_km": 82.1,
+  "lacs_15km": 23,
+  "activites": 3,
+  "nautique": 13,
+  "hebergements": 495
+ },
+ "Zell am Ziller": {
+  "rando_km": 49.8,
+  "vtt_km": 15.6,
+  "lacs_15km": 0,
+  "activites": 2,
+  "nautique": 16,
+  "hebergements": 333
+ },
+ "Gerlos": {
+  "rando_km": 77.3,
+  "vtt_km": 22.9,
+  "lacs_15km": 4,
+  "activites": 1,
+  "nautique": 16,
+  "hebergements": 261
+ },
+ "Königsleiten": {
+  "rando_km": 70.9,
+  "vtt_km": 31.6,
+  "lacs_15km": 4,
+  "activites": 0,
+  "nautique": 11,
+  "hebergements": 295
+ },
+ "Hochkrimml": {
+  "erreur": "position introuvable"
+ },
+ "Sölden": {
+  "rando_km": 134.1,
+  "vtt_km": 96.7,
+  "lacs_15km": 26,
+  "activites": 0,
+  "nautique": 1,
+  "hebergements": 353
+ },
+ "Mayrhofen": {
+  "rando_km": 93.4,
+  "vtt_km": 28.3,
+  "lacs_15km": 1,
+  "activites": 0,
+  "nautique": 14,
+  "hebergements": 333
+ },
+ "Finkenberg": {
+  "rando_km": 98.2,
+  "vtt_km": 30.1,
+  "lacs_15km": 4,
+  "activites": 0,
+  "nautique": 12,
+  "hebergements": 330
+ },
+ "Obergurgl – Hochgurgl": {
+  "rando_km": 82.9,
+  "vtt_km": 9.6,
+  "lacs_15km": 13,
+  "activites": 0,
+  "nautique": 1,
+  "hebergements": 83
+ },
+ "Alpbach": {
+  "rando_km": 109.9,
+  "vtt_km": 85.3,
+  "lacs_15km": 5,
+  "activites": 1,
+  "nautique": 13,
+  "hebergements": 248
+ },
+ "Wildschönau": {
+  "rando_km": 87.5,
+  "vtt_km": 53.7,
+  "lacs_15km": 5,
+  "activites": 0,
+  "nautique": 16,
+  "hebergements": 209
+ },
+ "Kaltenbach": {
+  "rando_km": 45.7,
+  "vtt_km": 12.6,
+  "lacs_15km": 2,
+  "activites": 2,
+  "nautique": 20,
+  "hebergements": 250
+ },
+ "Hochfügen": {
+  "rando_km": 108.9,
+  "vtt_km": 16.4,
+  "lacs_15km": 0,
+  "activites": 1,
+  "nautique": 23,
+  "hebergements": 76
+ },
+ "Waidring": {
+  "rando_km": 77.6,
+  "vtt_km": 47.5,
+  "lacs_15km": 4,
+  "activites": 0,
+  "nautique": 32,
+  "hebergements": 71
+ },
+ "Nauders": {
+  "rando_km": 158.0,
+  "vtt_km": 149.1,
+  "lacs_15km": 5,
+  "activites": 0,
+  "nautique": 2,
+  "hebergements": 174
+ },
+ "Glacier du Stubai": {
+  "erreur": "position introuvable"
+ },
+ "Glacier de Hintertux": {
+  "erreur": "position introuvable"
+ },
+ "Glacier du Kaunertal": {
+  "erreur": "position introuvable"
+ },
+ "Hochzeiger": {
+  "rando_km": 95.2,
+  "vtt_km": 21.2,
+  "lacs_15km": 31,
+  "activites": 1,
+  "nautique": 18,
+  "hebergements": 67
+ },
+ "Kühtai": {
+  "rando_km": 111.3,
+  "vtt_km": 4.0,
+  "lacs_15km": 11,
+  "activites": 0,
+  "nautique": 15,
+  "hebergements": 47
+ },
+ "Galtür": {
+  "rando_km": 76.5,
+  "vtt_km": 2.3,
+  "lacs_15km": 25,
+  "activites": 0,
+  "nautique": 2,
+  "hebergements": 101
+ },
+ "See": {
+  "rando_km": 62.7,
+  "vtt_km": 7.3,
+  "lacs_15km": 29,
+  "activites": 0,
+  "nautique": 13,
+  "hebergements": 197
+ },
+ "Glacier du Pitztal": {
+  "erreur": "position introuvable"
+ },
+ "Axamer Lizum": {
+  "rando_km": 228.7,
+  "vtt_km": 68.3,
+  "lacs_15km": 6,
+  "activites": 2,
+  "nautique": 36,
+  "hebergements": 195
+ },
+ "Kals-Matrei": {
+  "rando_km": 78.0,
+  "vtt_km": 7.1,
+  "lacs_15km": 4,
+  "activites": 0,
+  "nautique": 1,
+  "hebergements": 53
+ },
+ "St. Johann in Tirol": {
+  "rando_km": 61.8,
+  "vtt_km": 21.7,
+  "lacs_15km": 1,
+  "activites": 0,
+  "nautique": 23,
+  "hebergements": 207
+ },
+ "Hochoetz": {
+  "rando_km": 108.0,
+  "vtt_km": 17.2,
+  "lacs_15km": 21,
+  "activites": 1,
+  "nautique": 17,
+  "hebergements": 100
+ },
+ "Kappl": {
+  "rando_km": 71.4,
+  "vtt_km": 5.7,
+  "lacs_15km": 27,
+  "activites": 0,
+  "nautique": 6,
+  "hebergements": 190
+ },
+ "Berwang": {
+  "rando_km": 97.5,
+  "vtt_km": 19.5,
+  "lacs_15km": 17,
+  "activites": 0,
+  "nautique": 12,
+  "hebergements": 51
+ },
+ "Steinach am Brenner": {
+  "rando_km": 192.1,
+  "vtt_km": 94.6,
+  "lacs_15km": 10,
+  "activites": 0,
+  "nautique": 6,
+  "hebergements": 38
+ },
+ "Ehrwald": {
+  "rando_km": 161.5,
+  "vtt_km": 94.0,
+  "lacs_15km": 12,
+  "activites": 1,
+  "nautique": 9,
+  "hebergements": 150
+ },
+ "Achenkirch": {
+  "rando_km": 341.5,
+  "vtt_km": 1.3,
+  "lacs_15km": 2,
+  "activites": 1,
+  "nautique": 15,
+  "hebergements": 74
+ },
+ "Lermoos": {
+  "rando_km": 144.1,
+  "vtt_km": 93.9,
+  "lacs_15km": 13,
+  "activites": 1,
+  "nautique": 9,
+  "hebergements": 159
+ },
+ "Rifflsee": {
+  "rando_km": 108.5,
+  "vtt_km": 0.0,
+  "lacs_15km": 20,
+  "activites": 0,
+  "nautique": 2,
+  "hebergements": 34
+ },
+ "Schlick 2000": {
+  "rando_km": 232.3,
+  "vtt_km": 67.1,
+  "lacs_15km": 6,
+  "activites": 2,
+  "nautique": 30,
+  "hebergements": 332
+ },
+ "Niederau": {
+  "rando_km": 41.5,
+  "vtt_km": 26.4,
+  "lacs_15km": 8,
+  "activites": 0,
+  "nautique": 19,
+  "hebergements": 236
+ },
+ "St. Jakob im Defereggental": {
+  "erreur": "position introuvable"
+ },
+ "Glungezer": {
+  "rando_km": 220.6,
+  "vtt_km": 92.4,
+  "lacs_15km": 6,
+  "activites": 0,
+  "nautique": 35,
+  "hebergements": 52
+ },
+ "Sillian": {
+  "rando_km": 87.3,
+  "vtt_km": 55.1,
+  "lacs_15km": 12,
+  "activites": 0,
+  "nautique": 3,
+  "hebergements": 149
+ },
+ "Hochkössen": {
+  "rando_km": 97.6,
+  "vtt_km": 77.8,
+  "lacs_15km": 7,
+  "activites": 1,
+  "nautique": 31,
+  "hebergements": 370
+ },
+ "Buchensteinwand": {
+  "rando_km": 41.4,
+  "vtt_km": 14.9,
+  "lacs_15km": 1,
+  "activites": 0,
+  "nautique": 19,
+  "hebergements": 128
+ },
+ "Zettersfeld": {
+  "rando_km": 44.6,
+  "vtt_km": 15.5,
+  "lacs_15km": 6,
+  "activites": 2,
+  "nautique": 13,
+  "hebergements": 51
+ },
+ "Fügen – Spieljoch": {
+  "rando_km": 109.4,
+  "vtt_km": 13.1,
+  "lacs_15km": 2,
+  "activites": 1,
+  "nautique": 25,
+  "hebergements": 178
+ },
+ "Seefeld – Rosshütte": {
+  "rando_km": 129.2,
+  "vtt_km": 14.7,
+  "lacs_15km": 7,
+  "activites": 0,
+  "nautique": 37,
+  "hebergements": 632
+ },
+ "Patscherkofel": {
+  "rando_km": 296.4,
+  "vtt_km": 88.8,
+  "lacs_15km": 7,
+  "activites": 0,
+  "nautique": 42,
+  "hebergements": 157
+ },
+ "Kitzbüheler Horn": {
+  "rando_km": 43.8,
+  "vtt_km": 29.4,
+  "lacs_15km": 2,
+  "activites": 0,
+  "nautique": 23,
+  "hebergements": 252
+ },
+ "Muttereralm": {
+  "rando_km": 257.5,
+  "vtt_km": 79.1,
+  "lacs_15km": 5,
+  "activites": 2,
+  "nautique": 41,
+  "hebergements": 274
+ },
+ "Reutte – Hahnenkamm": {
+  "rando_km": 143.5,
+  "vtt_km": 31.4,
+  "lacs_15km": 19,
+  "activites": 0,
+  "nautique": 33,
+  "hebergements": 167
+ },
+ "Vent": {
+  "rando_km": 85.7,
+  "vtt_km": 8.8,
+  "lacs_15km": 3,
+  "activites": 0,
+  "nautique": 1,
+  "hebergements": 30
+ },
+ "Venet": {
+  "rando_km": 61.3,
+  "vtt_km": 39.6,
+  "lacs_15km": 31,
+  "activites": 1,
+  "nautique": 17,
+  "hebergements": 134
+ },
+ "Kellerjoch": {
+  "rando_km": 131.5,
+  "vtt_km": 16.5,
+  "lacs_15km": 2,
+  "activites": 0,
+  "nautique": 18,
+  "hebergements": 82
+ },
+ "Nordkette": {
+  "rando_km": 308.2,
+  "vtt_km": 36.3,
+  "lacs_15km": 3,
+  "activites": 0,
+  "nautique": 39,
+  "hebergements": 111
+ },
+ "Obertilliach": {
+  "rando_km": 52.2,
+  "vtt_km": 1.3,
+  "lacs_15km": 2,
+  "activites": 0,
+  "nautique": 4,
+  "hebergements": 22
+ },
+ "Pertisau – Karwendel": {
+  "rando_km": 255.3,
+  "vtt_km": 56.1,
+  "lacs_15km": 4,
+  "activites": 1,
+  "nautique": 15,
+  "hebergements": 166
+ },
+ "Biberwier": {
+  "rando_km": 141.8,
+  "vtt_km": 100.2,
+  "lacs_15km": 14,
+  "activites": 1,
+  "nautique": 10,
+  "hebergements": 155
+ },
+ "Maurach – Rofan": {
+  "rando_km": 261.7,
+  "vtt_km": 55.6,
+  "lacs_15km": 6,
+  "activites": 1,
+  "nautique": 18,
+  "hebergements": 187
+ },
+ "Hoch-Imst": {
+  "erreur": "position introuvable"
+ },
+ "Saalbach": {
+  "rando_km": 81.2,
+  "vtt_km": 109.8,
+  "lacs_15km": 2,
+  "activites": 0,
+  "nautique": 14,
+  "hebergements": 168
+ },
+ "Hinterglemm": {
+  "rando_km": 84.6,
+  "vtt_km": 106.6,
+  "lacs_15km": 1,
+  "activites": 1,
+  "nautique": 13,
+  "hebergements": 156
+ },
+ "Leogang": {
+  "rando_km": 102.9,
+  "vtt_km": 85.8,
+  "lacs_15km": 4,
+  "activites": 0,
+  "nautique": 16,
+  "hebergements": 73
+ },
+ "Fieberbrunn": {
+  "rando_km": 37.4,
+  "vtt_km": 14.2,
+  "lacs_15km": 1,
+  "activites": 0,
+  "nautique": 15,
+  "hebergements": 131
+ },
+ "Flachau": {
+  "rando_km": 67.7,
+  "vtt_km": 29.9,
+  "lacs_15km": 9,
+  "activites": 2,
+  "nautique": 7,
+  "hebergements": 177
+ },
+ "Wagrain": {
+  "rando_km": 55.1,
+  "vtt_km": 90.9,
+  "lacs_15km": 4,
+  "activites": 2,
+  "nautique": 18,
+  "hebergements": 179
+ },
+ "St. Johann-Alpendorf": {
+  "rando_km": 87.7,
+  "vtt_km": 217.8,
+  "lacs_15km": 6,
+  "activites": 0,
+  "nautique": 26,
+  "hebergements": 143
+ },
+ "Maria Alm": {
+  "rando_km": 67.7,
+  "vtt_km": 36.3,
+  "lacs_15km": 6,
+  "activites": 1,
+  "nautique": 22,
+  "hebergements": 147
+ },
+ "Dienten": {
+  "rando_km": 150.0,
+  "vtt_km": 175.9,
+  "lacs_15km": 7,
+  "activites": 1,
+  "nautique": 19,
+  "hebergements": 107
+ },
+ "Mühlbach am Hochkönig": {
+  "rando_km": 126.1,
+  "vtt_km": 255.5,
+  "lacs_15km": 5,
+  "activites": 0,
+  "nautique": 32,
+  "hebergements": 114
+ },
+ "Bad Gastein": {
+  "rando_km": 106.0,
+  "vtt_km": 0.0,
+  "lacs_15km": 38,
+  "activites": 0,
+  "nautique": 10,
+  "hebergements": 169
+ },
+ "Bad Hofgastein": {
+  "rando_km": 189.2,
+  "vtt_km": 96.4,
+  "lacs_15km": 23,
+  "activites": 0,
+  "nautique": 13,
+  "hebergements": 256
+ },
+ "Dorfgastein": {
+  "rando_km": 172.8,
+  "vtt_km": 213.4,
+  "lacs_15km": 4,
+  "activites": 0,
+  "nautique": 23,
+  "hebergements": 209
+ },
+ "Großarl": {
+  "rando_km": 138.9,
+  "vtt_km": 96.7,
+  "lacs_15km": 9,
+  "activites": 0,
+  "nautique": 23,
+  "hebergements": 110
+ },
+ "Kaprun": {
+  "rando_km": 62.8,
+  "vtt_km": 40.3,
+  "lacs_15km": 6,
+  "activites": 0,
+  "nautique": 15,
+  "hebergements": 185
+ },
+ "Zell am See": {
+  "rando_km": 71.1,
+  "vtt_km": 40.4,
+  "lacs_15km": 4,
+  "activites": 0,
+  "nautique": 23,
+  "hebergements": 210
+ },
+ "Obertauern": {
+  "rando_km": 96.2,
+  "vtt_km": 23.2,
+  "lacs_15km": 30,
+  "activites": 0,
+  "nautique": 1,
+  "hebergements": 104
+ },
+ "Wildkogel (Neukirchen – Bramberg)": {
+  "rando_km": 75.9,
+  "vtt_km": 31.9,
+  "lacs_15km": 1,
+  "activites": 0,
+  "nautique": 16,
+  "hebergements": 139
+ },
+ "Zauchensee": {
+  "rando_km": 75.3,
+  "vtt_km": 30.7,
+  "lacs_15km": 20,
+  "activites": 1,
+  "nautique": 6,
+  "hebergements": 47
+ },
+ "Lofer": {
+  "rando_km": 78.7,
+  "vtt_km": 39.9,
+  "lacs_15km": 6,
+  "activites": 0,
+  "nautique": 20,
+  "hebergements": 69
+ },
+ "Mauterndorf – Grosseck-Speiereck": {
+  "rando_km": 27.8,
+  "vtt_km": 0.9,
+  "lacs_15km": 14,
+  "activites": 0,
+  "nautique": 8,
+  "hebergements": 138
+ },
+ "Dachstein West": {
+  "erreur": "position introuvable"
+ },
+ "Rauris": {
+  "rando_km": 133.7,
+  "vtt_km": 73.2,
+  "lacs_15km": 7,
+  "activites": 1,
+  "nautique": 18,
+  "hebergements": 85
+ },
+ "Werfenweng": {
+  "rando_km": 113.0,
+  "vtt_km": 77.2,
+  "lacs_15km": 2,
+  "activites": 1,
+  "nautique": 27,
+  "hebergements": 56
+ },
+ "Kleinarl – Shuttleberg": {
+  "rando_km": 66.7,
+  "vtt_km": 74.0,
+  "lacs_15km": 12,
+  "activites": 2,
+  "nautique": 11,
+  "hebergements": 129
+ },
+ "Fanningberg": {
+  "rando_km": 22.0,
+  "vtt_km": 1.3,
+  "lacs_15km": 18,
+  "activites": 0,
+  "nautique": 8,
+  "hebergements": 152
+ },
+ "Uttendorf – Weissee": {
+  "erreur": "position introuvable"
+ },
+ "Filzmoos": {
+  "rando_km": 125.2,
+  "vtt_km": 51.3,
+  "lacs_15km": 11,
+  "activites": 0,
+  "nautique": 19,
+  "hebergements": 70
+ },
+ "Sportgastein": {
+  "rando_km": 152.0,
+  "vtt_km": 0.1,
+  "lacs_15km": 31,
+  "activites": 0,
+  "nautique": 11,
+  "hebergements": 58
+ },
+ "Radstadt – Altenmarkt": {
+  "rando_km": 66.4,
+  "vtt_km": 33.0,
+  "lacs_15km": 9,
+  "activites": 1,
+  "nautique": 13,
+  "hebergements": 168
+ },
+ "Forstau – Fageralm": {
+  "rando_km": 41.8,
+  "vtt_km": 49.9,
+  "lacs_15km": 16,
+  "activites": 0,
+  "nautique": 10,
+  "hebergements": 101
+ },
+ "Unken – Heutal": {
+  "erreur": "position introuvable"
+ },
+ "Schruns": {
+  "rando_km": 121.0,
+  "vtt_km": 72.2,
+  "lacs_15km": 17,
+  "activites": 1,
+  "nautique": 16,
+  "hebergements": 127
+ },
+ "St. Gallenkirch": {
+  "rando_km": 105.9,
+  "vtt_km": 57.2,
+  "lacs_15km": 25,
+  "activites": 0,
+  "nautique": 13,
+  "hebergements": 130
+ },
+ "Gaschurn": {
+  "rando_km": 139.8,
+  "vtt_km": 42.2,
+  "lacs_15km": 26,
+  "activites": 0,
+  "nautique": 7,
+  "hebergements": 68
+ },
+ "Damüls": {
+  "rando_km": 121.4,
+  "vtt_km": 57.4,
+  "lacs_15km": 10,
+  "activites": 0,
+  "nautique": 9,
+  "hebergements": 101
+ },
+ "Mellau": {
+  "rando_km": 104.5,
+  "vtt_km": 117.8,
+  "lacs_15km": 9,
+  "activites": 0,
+  "nautique": 14,
+  "hebergements": 94
+ },
+ "Brand – Brandnertal": {
+  "rando_km": 104.1,
+  "vtt_km": 44.1,
+  "lacs_15km": 5,
+  "activites": 1,
+  "nautique": 21,
+  "hebergements": 114
+ },
+ "Golm": {
+  "rando_km": 147.4,
+  "vtt_km": 49.0,
+  "lacs_15km": 16,
+  "activites": 1,
+  "nautique": 16,
+  "hebergements": 86
+ },
+ "Gargellen": {
+  "rando_km": 143.5,
+  "vtt_km": 47.7,
+  "lacs_15km": 20,
+  "activites": 0,
+  "nautique": 17,
+  "hebergements": 82
+ },
+ "Schoppernau – Diedamskopf": {
+  "rando_km": 104.5,
+  "vtt_km": 53.9,
+  "lacs_15km": 10,
+  "activites": 0,
+  "nautique": 8,
+  "hebergements": 57
+ },
+ "Mittelberg – Walmendingerhorn": {
+  "rando_km": 216.4,
+  "vtt_km": 47.0,
+  "lacs_15km": 18,
+  "activites": 0,
+  "nautique": 7,
+  "hebergements": 326
+ },
+ "Ifen (Kleinwalsertal)": {
+  "erreur": "position introuvable"
+ },
+ "Sonnenkopf (Klösterle)": {
+  "rando_km": 97.2,
+  "vtt_km": 44.5,
+  "lacs_15km": 23,
+  "activites": 0,
+  "nautique": 11,
+  "hebergements": 56
+ },
+ "Laterns – Gapfohl": {
+  "rando_km": 133.7,
+  "vtt_km": 99.4,
+  "lacs_15km": 15,
+  "activites": 1,
+  "nautique": 47,
+  "hebergements": 21
+ },
+ "Bödele": {
+  "rando_km": 51.4,
+  "vtt_km": 86.5,
+  "lacs_15km": 12,
+  "activites": 0,
+  "nautique": 61,
+  "hebergements": 70
+ },
+ "Schetteregg": {
+  "rando_km": 56.9,
+  "vtt_km": 43.2,
+  "lacs_15km": 3,
+  "activites": 0,
+  "nautique": 6,
+  "hebergements": 61
+ },
+ "Hochhäderich": {
+  "rando_km": 71.1,
+  "vtt_km": 53.5,
+  "lacs_15km": 3,
+  "activites": 0,
+  "nautique": 7,
+  "hebergements": 110
+ },
+ "Schladming": {
+  "rando_km": 66.5,
+  "vtt_km": 14.3,
+  "lacs_15km": 24,
+  "activites": 1,
+  "nautique": 7,
+  "hebergements": 497
+ },
+ "Haus im Ennstal": {
+  "rando_km": 75.2,
+  "vtt_km": 17.2,
+  "lacs_15km": 16,
+  "activites": 1,
+  "nautique": 6,
+  "hebergements": 325
+ },
+ "Pichl – Reiteralm": {
+  "erreur": "position introuvable"
+ },
+ "Tauplitz": {
+  "rando_km": 78.1,
+  "vtt_km": 23.0,
+  "lacs_15km": 9,
+  "activites": 0,
+  "nautique": 19,
+  "hebergements": 56
+ },
+ "Turracher Höhe": {
+  "rando_km": 64.5,
+  "vtt_km": 12.3,
+  "lacs_15km": 3,
+  "activites": 0,
+  "nautique": 3,
+  "hebergements": 38
+ },
+ "Kreischberg": {
+  "rando_km": 33.8,
+  "vtt_km": 1.0,
+  "lacs_15km": 2,
+  "activites": 0,
+  "nautique": 2,
+  "hebergements": 26
+ },
+ "Altaussee – Loser": {
+  "rando_km": 112.4,
+  "vtt_km": 23.9,
+  "lacs_15km": 18,
+  "activites": 1,
+  "nautique": 19,
+  "hebergements": 131
+ },
+ "Riesneralm": {
+  "rando_km": 92.0,
+  "vtt_km": 0.0,
+  "lacs_15km": 4,
+  "activites": 0,
+  "nautique": 3,
+  "hebergements": 18
+ },
+ "Lachtal": {
+  "rando_km": 22.7,
+  "vtt_km": 0.0,
+  "lacs_15km": 2,
+  "activites": 0,
+  "nautique": 1,
+  "hebergements": 14
+ },
+ "Spital am Semmering – Stuhleck": {
+  "rando_km": 45.2,
+  "vtt_km": 0.9,
+  "lacs_15km": 0,
+  "activites": 2,
+  "nautique": 7,
+  "hebergements": 23
+ },
+ "Präbichl": {
+  "rando_km": 148.0,
+  "vtt_km": 0.0,
+  "lacs_15km": 5,
+  "activites": 0,
+  "nautique": 8,
+  "hebergements": 11
+ },
+ "Planneralm": {
+  "rando_km": 101.8,
+  "vtt_km": 0.0,
+  "lacs_15km": 2,
+  "activites": 0,
+  "nautique": 4,
+  "hebergements": 15
+ },
+ "St. Lambrecht – Grebenzen": {
+  "rando_km": 21.7,
+  "vtt_km": 6.3,
+  "lacs_15km": 2,
+  "activites": 0,
+  "nautique": 5,
+  "hebergements": 22
+ },
+ "Pruggern – Galsterberg": {
+  "rando_km": 83.0,
+  "vtt_km": 5.0,
+  "lacs_15km": 7,
+  "activites": 0,
+  "nautique": 6,
+  "hebergements": 108
+ },
+ "Obdach – Rieseralm": {
+  "rando_km": 79.6,
+  "vtt_km": 0.6,
+  "lacs_15km": 3,
+  "activites": 0,
+  "nautique": 6,
+  "hebergements": 8
+ },
+ "Ramsau am Dachstein – Rittisberg": {
+  "rando_km": 100.4,
+  "vtt_km": 44.0,
+  "lacs_15km": 13,
+  "activites": 0,
+  "nautique": 8,
+  "hebergements": 489
+ },
+ "Niederalpl": {
+  "rando_km": 84.8,
+  "vtt_km": 0.2,
+  "lacs_15km": 0,
+  "activites": 0,
+  "nautique": 1,
+  "hebergements": 9
+ },
+ "Hirschegg – Salzstiegl": {
+  "rando_km": 51.6,
+  "vtt_km": 0.0,
+  "lacs_15km": 1,
+  "activites": 0,
+  "nautique": 3,
+  "hebergements": 7
+ },
+ "Mariazell – Bürgeralpe": {
+  "rando_km": 24.4,
+  "vtt_km": 10.7,
+  "lacs_15km": 1,
+  "activites": 1,
+  "nautique": 3,
+  "hebergements": 48
+ },
+ "Hohentauern": {
+  "rando_km": 71.4,
+  "vtt_km": 0.5,
+  "lacs_15km": 8,
+  "activites": 0,
+  "nautique": 1,
+  "hebergements": 21
+ },
+ "Veitsch – Brunnalm": {
+  "rando_km": 80.1,
+  "vtt_km": 0.0,
+  "lacs_15km": 1,
+  "activites": 0,
+  "nautique": 5,
+  "hebergements": 11
+ },
+ "Nassfeld": {
+  "rando_km": 152.0,
+  "vtt_km": 0.1,
+  "lacs_15km": 31,
+  "activites": 0,
+  "nautique": 11,
+  "hebergements": 58
+ },
+ "Bad Kleinkirchheim": {
+  "rando_km": 74.0,
+  "vtt_km": 26.7,
+  "lacs_15km": 3,
+  "activites": 0,
+  "nautique": 18,
+  "hebergements": 102
+ },
+ "Katschberg": {
+  "rando_km": 41.6,
+  "vtt_km": 15.0,
+  "lacs_15km": 9,
+  "activites": 0,
+  "nautique": 9,
+  "hebergements": 64
+ },
+ "Heiligenblut": {
+  "rando_km": 49.5,
+  "vtt_km": 5.1,
+  "lacs_15km": 13,
+  "activites": 1,
+  "nautique": 2,
+  "hebergements": 39
+ },
+ "Gerlitzen": {
+  "rando_km": 45.0,
+  "vtt_km": 35.4,
+  "lacs_15km": 12,
+  "activites": 1,
+  "nautique": 37,
+  "hebergements": 103
+ },
+ "Mölltaler Gletscher": {
+  "rando_km": 130.9,
+  "vtt_km": 0.0,
+  "lacs_15km": 25,
+  "activites": 0,
+  "nautique": 7,
+  "hebergements": 6
+ },
+ "Klippitztörl": {
+  "rando_km": 14.4,
+  "vtt_km": 13.8,
+  "lacs_15km": 2,
+  "activites": 2,
+  "nautique": 1,
+  "hebergements": 19
+ },
+ "Spittal – Goldeck": {
+  "rando_km": 35.8,
+  "vtt_km": 28.4,
+  "lacs_15km": 2,
+  "activites": 0,
+  "nautique": 38,
+  "hebergements": 21
+ },
+ "Hochrindl": {
+  "rando_km": 16.8,
+  "vtt_km": 0.0,
+  "lacs_15km": 2,
+  "activites": 0,
+  "nautique": 3,
+  "hebergements": 37
+ },
+ "Koralpe": {
+  "rando_km": 53.8,
+  "vtt_km": 3.9,
+  "lacs_15km": 0,
+  "activites": 0,
+  "nautique": 4,
+  "hebergements": 15
+ },
+ "Weinebene": {
+  "rando_km": 47.1,
+  "vtt_km": 1.5,
+  "lacs_15km": 0,
+  "activites": 0,
+  "nautique": 0,
+  "hebergements": 16
+ },
+ "Petzen": {
+  "rando_km": 80.2,
+  "vtt_km": 35.7,
+  "lacs_15km": 3,
+  "activites": 0,
+  "nautique": 10,
+  "hebergements": 9
+ },
+ "St. Urban – Simonhöhe": {
+  "rando_km": 2.5,
+  "vtt_km": 2.3,
+  "lacs_15km": 2,
+  "activites": 0,
+  "nautique": 4,
+  "hebergements": 2
+ },
+ "Arnoldstein – Dreiländereck": {
+  "erreur": "position introuvable"
+ },
+ "Mallnitz – Ankogel": {
+  "rando_km": 92.7,
+  "vtt_km": 0.0,
+  "lacs_15km": 41,
+  "activites": 0,
+  "nautique": 9,
+  "hebergements": 43
+ },
+ "Flattnitz – Hirnkopf": {
+  "erreur": "position introuvable"
+ },
+ "Falkert – Heidialm": {
+  "erreur": "position introuvable"
+ },
+ "Hinterstoder – Höss": {
+  "rando_km": 115.1,
+  "vtt_km": 4.5,
+  "lacs_15km": 3,
+  "activites": 0,
+  "nautique": 9,
+  "hebergements": 42
+ },
+ "Grünau – Kasberg": {
+  "rando_km": 45.9,
+  "vtt_km": 4.3,
+  "lacs_15km": 5,
+  "activites": 0,
+  "nautique": 4,
+  "hebergements": 7
+ },
+ "Spital am Pyhrn – Wurzeralm": {
+  "rando_km": 113.9,
+  "vtt_km": 5.2,
+  "lacs_15km": 3,
+  "activites": 1,
+  "nautique": 11,
+  "hebergements": 21
+ },
+ "Hochficht": {
+  "rando_km": 16.7,
+  "vtt_km": 95.3,
+  "lacs_15km": 4,
+  "activites": 1,
+  "nautique": 6,
+  "hebergements": 63
+ },
+ "Obertraun – Krippenstein": {
+  "erreur": "position introuvable"
+ },
+ "Ebensee – Feuerkogel": {
+  "rando_km": 103.7,
+  "vtt_km": 21.7,
+  "lacs_15km": 11,
+  "activites": 0,
+  "nautique": 29,
+  "hebergements": 24
+ },
+ "Göstling – Hochkar": {
+  "rando_km": 63.3,
+  "vtt_km": 0.0,
+  "lacs_15km": 1,
+  "activites": 1,
+  "nautique": 5,
+  "hebergements": 12
+ },
+ "Unterberg": {
+  "rando_km": 152.1,
+  "vtt_km": 215.1,
+  "lacs_15km": 5,
+  "activites": 0,
+  "nautique": 21,
+  "hebergements": 158
+ },
+ "Lackenhof – Ötscher": {
+  "rando_km": 28.6,
+  "vtt_km": 0.0,
+  "lacs_15km": 5,
+  "activites": 0,
+  "nautique": 5,
+  "hebergements": 18
+ },
+ "Mitterbach – Gemeindealpe": {
+  "rando_km": 35.6,
+  "vtt_km": 9.0,
+  "lacs_15km": 3,
+  "activites": 1,
+  "nautique": 3,
+  "hebergements": 48
+ },
+ "Semmering – Zauberberg": {
+  "erreur": "position introuvable"
+ },
+ "Mönichkirchen – Mariensee": {
+  "rando_km": 24.6,
+  "vtt_km": 12.4,
+  "lacs_15km": 0,
+  "activites": 1,
+  "nautique": 8,
+  "hebergements": 22
+ },
+ "Annaberg": {
+  "rando_km": 17.3,
+  "vtt_km": 9.2,
+  "lacs_15km": 1,
+  "activites": 1,
+  "nautique": 5,
+  "hebergements": 13
+ },
+ "Maribor – Pohorje": {
+  "rando_km": 93.7,
+  "vtt_km": 1.4,
+  "lacs_15km": 4,
+  "activites": 2,
+  "nautique": 8,
+  "hebergements": 67
+ },
+ "Krvavec": {
+  "rando_km": 115.1,
+  "vtt_km": 0.1,
+  "lacs_15km": 6,
+  "activites": 0,
+  "nautique": 8,
+  "hebergements": 19
+ },
+ "Vogel": {
+  "rando_km": 170.7,
+  "vtt_km": 19.9,
+  "lacs_15km": 11,
+  "activites": 1,
+  "nautique": 3,
+  "hebergements": 40
+ },
+ "Kranjska Gora": {
+  "rando_km": 160.6,
+  "vtt_km": 3.9,
+  "lacs_15km": 13,
+  "activites": 1,
+  "nautique": 2,
+  "hebergements": 66
+ },
+ "Cerkno": {
+  "rando_km": 23.8,
+  "vtt_km": 3.1,
+  "lacs_15km": 0,
+  "activites": 0,
+  "nautique": 1,
+  "hebergements": 14
+ },
+ "Rogla": {
+  "rando_km": 41.2,
+  "vtt_km": 0.5,
+  "lacs_15km": 2,
+  "activites": 0,
+  "nautique": 2,
+  "hebergements": 11
+ },
+ "Golte": {
+  "rando_km": 17.8,
+  "vtt_km": 0.1,
+  "lacs_15km": 3,
+  "activites": 4,
+  "nautique": 1,
+  "hebergements": 15
+ },
+ "Stari vrh": {
+  "rando_km": 1.6,
+  "vtt_km": 1.8,
+  "lacs_15km": 0,
+  "activites": 0,
+  "nautique": 2,
+  "hebergements": 18
+ }
+}
