@@ -104,6 +104,27 @@ _TH_DEFAULT = {"dark": "#0b1f4d", "acc": SITE.get("color", "#1d4ed8"), "header_b
                "icon_bg": SITE.get("color", "#1d4ed8"), "icon_fg": "#ffffff", "hero_fg": "#ffffff", "hero_from": SITE.get("color", "#1d4ed8"),
                "fsel_bg": "rgba(255,255,255,.16)", "fsel_bd": "rgba(255,255,255,.4)", "rule": "#e4e7ef", "line": "#e4e7ef"}
 TH = {**_TH_DEFAULT, **CFG.get("theme", {})}
+ASSETS = ROOT / "assets"
+
+
+def _brand_html() -> str:
+    parts = SITE.get("name_parts")
+    name = (f'<span>{esc(parts[0])}<span class="b2">{esc(parts[1])}</span></span>' if parts and len(parts) == 2
+            else f'<span>{esc(SITE["name"])}</span>')
+    if (ASSETS / "logo-pin.png").is_file():
+        return f'<img src="/logo-pin.png" alt="" width="26" height="32">{name}'
+    return name
+
+
+def _icon_link() -> str:
+    if (ASSETS / "favicon.png").is_file():
+        return '<link rel="icon" type="image/png" href="/favicon.png">'
+    return ("<link rel=\"icon\" href=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E"
+            f"%3Crect width='16' height='16' rx='4' fill='%23{TH['icon_bg'].lstrip('#')}'/%3E%3C/svg%3E\">")
+
+
+BRAND_HTML = _brand_html()
+ICON_LINK = _icon_link()
 
 CSS = """
 :root{--c:%(color)s;--dark:%(dark)s;--acc:%(acc)s;--hbg:%(hbg)s;--brand:%(brand)s;--navc:%(navc)s;--chipbg:%(chipbg)s;--chipfg:%(chipfg)s;--herofg:%(herofg)s;--herofrom:%(herofrom)s;--fselbg:%(fselbg)s;--fselbd:%(fselbd)s;--rule:%(rule)s;--bg:%(bg)s;--fg:%(fg)s;--mut:#5b6478;--card:#fff;--line:%(line)s;--r:14px}
@@ -113,9 +134,10 @@ a{color:var(--c)}img{max-width:100%%}
 .wrap{max-width:1040px;margin:0 auto;padding:0 16px}
 header.top{background:var(--hbg);border-bottom:2px solid var(--rule);position:sticky;top:0;z-index:5}
 header.top .wrap{display:flex;align-items:center;justify-content:space-between;height:56px}
-.brand{font-weight:800;font-size:1.15rem;color:var(--brand);text-decoration:none}
-nav a{margin-left:16px;text-decoration:none;color:var(--navc);font-weight:600;font-size:.95rem}
+.brand{display:flex;align-items:center;gap:8px;font-weight:800;font-size:1.15rem;color:var(--brand);text-decoration:none}
+nav a{white-space:nowrap;margin-left:16px;text-decoration:none;color:var(--navc);font-weight:600;font-size:.95rem}
 nav a:hover{color:var(--acc)}
+.brand .b2{color:var(--acc)}.brand img{display:block}
 .hero{background:linear-gradient(135deg,var(--herofrom),var(--dark));color:var(--herofg);padding:36px 0 40px}
 .hero h1{margin:0 0 8px;font-size:clamp(1.6rem,5vw,2.3rem);line-height:1.2}
 .hero p{margin:0 0 20px;opacity:.92}
@@ -183,7 +205,7 @@ def page(title: str, body: str, path: str, desc: str = "", jsonld: str = "", ext
 <meta property="og:url" content="{esc(canon)}">
 <meta property="og:site_name" content="{esc(SITE['name'])}">
 {robots}
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' rx='4' fill='%23{TH['icon_bg'].lstrip('#')}'/%3E%3C/svg%3E">
+{ICON_LINK}
 <link rel="manifest" href="/manifest.webmanifest">
 <link rel="apple-touch-icon" href="/icon-192.png">
 <link rel="stylesheet" href="/style.css">
@@ -193,8 +215,8 @@ def page(title: str, body: str, path: str, desc: str = "", jsonld: str = "", ext
 </head>
 <body>
 <header class="top"><div class="wrap">
-<a class="brand" href="/">{esc(SITE['name'])}</a>
-<nav><a href="/tous/">Toutes les {esc(VOC['items'])}</a><a href="/duels/">Duels</a><a href="/articles/">Articles</a></nav>
+<a class="brand" href="/">{BRAND_HTML}</a>
+<nav><a href="/tous/">{esc(VOC['items'].capitalize())}</a><a href="/duels/">Duels</a><a href="/articles/">Articles</a></nav>
 </div></header>
 {body}
 <footer><div class="wrap">
@@ -501,6 +523,8 @@ def build_assets() -> None:
             "n": {f["key"]: it.get(f["key"]) for f in FIELDS if isinstance(it.get(f["key"]), (int, float))},
         })
     write(DIST / "items.json", json.dumps(compact, ensure_ascii=False, separators=(",", ":")))
+    if ASSETS.is_dir():
+        shutil.copytree(ASSETS, DIST, dirs_exist_ok=True)
     build_pwa()
     write(DIST / "robots.txt", f"User-agent: *\nAllow: /\n\nSitemap: {BASE}/sitemap.xml\n")
 
@@ -516,6 +540,8 @@ def build_pwa() -> None:
     write(DIST / "sw.js", "self.addEventListener('install',()=>self.skipWaiting());\n"
           "self.addEventListener('activate',e=>e.waitUntil(self.clients.claim()));\n"
           "self.addEventListener('fetch',e=>{});\n")
+    if (DIST / "icon-192.png").is_file():
+        return
     try:
         from PIL import Image, ImageDraw, ImageFont
     except ImportError:
