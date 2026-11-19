@@ -1,9 +1,8 @@
 name: Construire et publier le site
 
 # Se lance à chaque modification (config.json, data/…) et peut être lancé à la main (onglet Actions > Run workflow).
+# Publication en pause : on ne la lance qu'à la main tant que le site n'est pas prêt (voir README).
 on:
-  push:
-    branches: [main]
   workflow_dispatch:
 
 permissions:
