@@ -1,14 +1,27 @@
 {
-  "_aide": "Seul fichier à modifier avec data/items.json pour créer un nouveau site. Voir README.md.",
+  "_aide": "Site d'été (nom provisoire). Seul fichier à modifier avec data/items.json. Voir README.md.",
   "site": {
-    "name": "Demo Ski",
-    "tagline": "Comparez les stations de ski en quelques secondes",
-    "description": "Fiches, comparatifs et duels pour choisir sa station de ski.",
+    "name": "MountainFinder",
+    "tagline": "Trouvez la station de montagne idéale pour l'été",
+    "description": "Randonnée, VTT, lacs, activités en famille : comparez les stations de montagne pour vos vacances d'été.",
     "domain": "https://example.org",
     "lang": "fr",
-    "color": "#1d4ed8",
+    "color": "#2d6a4f",
     "contact_email": "contact@example.org",
     "analytics_id": ""
+  },
+  "theme": {
+    "dark": "#0b2a1c",
+    "acc": "#95d5b2",
+    "header_bg": "#0b2a1c",
+    "brand": "#b7e4c7",
+    "nav": "#95d5b2",
+    "chip_bg": "#d8f3dc",
+    "chip_fg": "#1b4332",
+    "bg": "#f1f8f3",
+    "fg": "#10261a",
+    "icon_bg": "#0b2a1c",
+    "icon_fg": "#95d5b2"
   },
   "vocab": {
     "item": "station",
@@ -19,20 +32,24 @@
   },
   "fields": [
     {"key": "alt_max", "label": "Altitude max", "unit": "m", "type": "number", "filter": true, "card": true, "better": "high"},
-    {"key": "km", "label": "Pistes", "unit": "km", "type": "number", "filter": true, "card": true, "better": "high"},
-    {"key": "forfait", "label": "Forfait journée", "unit": "€", "type": "number", "filter": false, "card": true, "better": "low"},
-    {"key": "remontees", "label": "Remontées", "unit": "", "type": "number", "filter": false, "card": false, "better": "high"}
+    {"key": "rando_km", "label": "Sentiers de randonnée", "unit": "km", "type": "number", "filter": true, "card": true, "better": "high"},
+    {"key": "lacs_15km", "label": "Lacs à moins de 15 km", "unit": "", "type": "number", "filter": true, "card": true, "better": "high"},
+    {"key": "vtt_km", "label": "VTT (itinéraires et bike park)", "unit": "km", "type": "number", "filter": true, "card": false, "better": "high"},
+    {"key": "activites", "label": "Activités (tyrolienne, luge d'été, parc aventure)", "unit": "", "type": "number", "filter": true, "card": false, "better": "high"},
+    {"key": "nautique", "label": "Activités nautiques sur lac", "unit": "", "type": "number", "filter": false, "card": false, "better": "high"},
+    {"key": "temp_ete", "label": "Température moyenne juillet-août", "unit": "°C", "type": "number", "filter": false, "card": false},
+    {"key": "hebergements", "label": "Hébergements autour", "unit": "", "type": "number", "filter": false, "card": false, "better": "high"}
   ],
   "group_key": "pays",
   "region_key": "region",
   "rating": {"key": "score", "label": "Note", "max": 5},
-  "similar_on": ["pays", "km"],
+  "similar_on": ["pays", "alt_max"],
   "affiliate": [
     {"label": "Voir les hébergements", "url": "https://www.booking.com/searchresults.html?ss={name_q}", "rel": "sponsored nofollow noopener"}
   ],
   "home": {
-    "title": "Trouvez la station qui vous convient",
-    "subtitle": "Recherchez, filtrez et comparez en deux clics.",
+    "title": "Quelle station pour vos vacances d'été ?",
+    "subtitle": "Rando, VTT, lacs, activités : comparez en deux clics.",
     "top_n": 12
   },
   "legal": {

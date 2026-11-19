@@ -99,18 +99,23 @@ BY_SLUG = {it["slug"]: it for it in ITEMS}
 
 # ── Gabarit commun ───────────────────────────────────────────────────────────
 
+_TH_DEFAULT = {"dark": "#0b1f4d", "acc": SITE.get("color", "#1d4ed8"), "header_bg": "#ffffff", "brand": "#14213d",
+               "nav": "#5b6478", "chip_bg": "#eef2ff", "chip_fg": "#1e3a8a", "bg": "#f6f7fb", "fg": "#14213d",
+               "icon_bg": SITE.get("color", "#1d4ed8"), "icon_fg": "#ffffff"}
+TH = {**_TH_DEFAULT, **CFG.get("theme", {})}
+
 CSS = """
-:root{--c:%(color)s;--bg:#f6f7fb;--fg:#14213d;--mut:#5b6478;--card:#fff;--line:#e4e7ef;--r:14px}
+:root{--c:%(color)s;--dark:%(dark)s;--acc:%(acc)s;--hbg:%(hbg)s;--brand:%(brand)s;--navc:%(navc)s;--chipbg:%(chipbg)s;--chipfg:%(chipfg)s;--bg:%(bg)s;--fg:%(fg)s;--mut:#5b6478;--card:#fff;--line:#e4e7ef;--r:14px}
 *{box-sizing:border-box}html{-webkit-text-size-adjust:100%%}
 body{margin:0;font:16px/1.55 system-ui,-apple-system,Segoe UI,Roboto,sans-serif;color:var(--fg);background:var(--bg)}
 a{color:var(--c)}img{max-width:100%%}
 .wrap{max-width:1040px;margin:0 auto;padding:0 16px}
-header.top{background:#fff;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:5}
+header.top{background:var(--hbg);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:5}
 header.top .wrap{display:flex;align-items:center;justify-content:space-between;height:56px}
-.brand{font-weight:800;font-size:1.15rem;color:var(--fg);text-decoration:none}
-nav a{margin-left:16px;text-decoration:none;color:var(--mut);font-weight:600;font-size:.95rem}
-nav a:hover{color:var(--c)}
-.hero{background:linear-gradient(135deg,var(--c),#0b1f4d);color:#fff;padding:36px 0 40px}
+.brand{font-weight:800;font-size:1.15rem;color:var(--brand);text-decoration:none}
+nav a{margin-left:16px;text-decoration:none;color:var(--navc);font-weight:600;font-size:.95rem}
+nav a:hover{color:var(--acc)}
+.hero{background:linear-gradient(135deg,var(--c),var(--dark));color:#fff;padding:36px 0 40px}
 .hero h1{margin:0 0 8px;font-size:clamp(1.6rem,5vw,2.3rem);line-height:1.2}
 .hero p{margin:0 0 20px;opacity:.92}
 .search{display:flex;gap:8px;flex-wrap:wrap}
@@ -128,7 +133,7 @@ h2{font-size:1.35rem;margin:28px 0 12px}
 .card h3{margin:0 0 4px;font-size:1.05rem}
 .card .sub{color:var(--mut);font-size:.88rem;margin-bottom:10px}
 .chips{display:flex;gap:6px;flex-wrap:wrap}
-.chip{background:#eef2ff;color:#1e3a8a;border-radius:999px;padding:2px 10px;font-size:.82rem;font-weight:600}
+.chip{background:var(--chipbg);color:var(--chipfg);border-radius:999px;padding:2px 10px;font-size:.82rem;font-weight:600}
 .badge{float:right;background:var(--c);color:#fff;border-radius:8px;padding:2px 8px;font-size:.85rem;font-weight:700}
 .panel{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:18px;margin:14px 0}
 table.facts{width:100%%;border-collapse:collapse}
@@ -142,13 +147,15 @@ table.vs td:nth-child(2),table.vs td:nth-child(3),table.vs th:nth-child(2),table
 .crumbs a{color:var(--mut)}
 ul.pts{padding-left:20px;margin:8px 0}
 .notice{color:var(--mut);font-size:.82rem;margin-top:10px}
-footer{border-top:1px solid var(--line);background:#fff;padding:22px 0;color:var(--mut);font-size:.9rem}
+footer{border-top:1px solid var(--line);background:var(--card);padding:22px 0;color:var(--mut);font-size:.9rem}
 footer a{color:var(--mut);margin-right:14px}
 .az a{display:inline-block;margin:0 10px 6px 0}
 .cols{columns:2 240px;column-gap:24px;padding:0;list-style:none}
 .cols li{break-inside:avoid;margin:0 0 6px}
-@media(max-width:560px){nav a{margin-left:10px}}
-""" % {"color": SITE.get("color", "#1d4ed8")}
+@media(max-width:560px){nav a{margin-left:8px;font-size:.82rem}.brand{font-size:1rem}}
+""" % {"color": SITE.get("color", "#1d4ed8"), "dark": TH["dark"], "acc": TH["acc"], "hbg": TH["header_bg"],
+        "brand": TH["brand"], "navc": TH["nav"], "chipbg": TH["chip_bg"], "chipfg": TH["chip_fg"],
+        "bg": TH["bg"], "fg": TH["fg"]}
 
 
 def page(title: str, body: str, path: str, desc: str = "", jsonld: str = "", extra_head: str = "", noindex: bool = False) -> str:
@@ -167,14 +174,14 @@ def page(title: str, body: str, path: str, desc: str = "", jsonld: str = "", ext
 <title>{esc(title)}</title>
 <meta name="description" content="{esc(desc or SITE.get('description', ''))}">
 <link rel="canonical" href="{esc(canon)}">
-<meta name="theme-color" content="{esc(SITE.get('color', '#1d4ed8'))}">
+<meta name="theme-color" content="{esc(TH['header_bg'] if TH['header_bg'] != '#ffffff' else SITE.get('color', '#1d4ed8'))}">
 <meta property="og:title" content="{esc(title)}">
 <meta property="og:description" content="{esc(desc or SITE.get('description', ''))}">
 <meta property="og:type" content="website">
 <meta property="og:url" content="{esc(canon)}">
 <meta property="og:site_name" content="{esc(SITE['name'])}">
 {robots}
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' rx='4' fill='%231d4ed8'/%3E%3C/svg%3E">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' rx='4' fill='%23{TH['icon_bg'].lstrip('#')}'/%3E%3C/svg%3E">
 <link rel="manifest" href="/manifest.webmanifest">
 <link rel="apple-touch-icon" href="/icon-192.png">
 <link rel="stylesheet" href="/style.css">
@@ -285,7 +292,7 @@ def build_item(it: dict) -> None:
 <p>{esc(it.get('summary', ''))}</p>
 <div class="panel"><table class="facts">{rows}</table></div>
 {pts_html}
-<div class="panel"><h2 style="margin-top:0">Présentation</h2><p>{esc(desc)}</p></div>
+{('<div class="panel"><h2 style="margin-top:0">Présentation</h2><p>' + esc(desc) + '</p></div>') if desc else ''}
 <p>{affiliate_buttons(it)}</p>
 <h2>{esc(VOC['items'].capitalize())} similaires</h2>
 <div class="grid">{sims}</div>
@@ -303,15 +310,17 @@ def build_home() -> None:
     top = sorted(ITEMS, key=lambda it: (sort_key_rating(it), it["name"]))[: CFG.get("home", {}).get("top_n", 12)]
     groups = sorted({it.get(GROUP_KEY) for it in ITEMS if GROUP_KEY and it.get(GROUP_KEY)})
     group_opts = "".join(f'<option value="{esc(g)}">{esc(g)}</option>' for g in groups)
-    num_filters = [f for f in FIELDS if f.get("filter")][:2]
+    has_data = lambda f: any(it.get(f["key"]) is not None for it in ITEMS)
+    num_filters = [f for f in FIELDS if f.get("filter") and has_data(f)][:2]
     num_html = ""
     for f in num_filters:
         num_html += (f'<select data-num="{esc(f["key"])}" aria-label="{esc(f["label"])}">'
                      f'<option value="">{esc(f["label"])}</option>'
                      f'<option value="small">Faible</option><option value="mid">Moyen</option><option value="big">Élevé</option></select>')
-    sort_opts = '<option value="rating">Mieux notées</option><option value="name">A → Z</option>'
+    has_rating = bool(RATING) and any(it.get(RATING["key"]) is not None for it in ITEMS)
+    sort_opts = ('<option value="rating">Mieux notées</option>' if has_rating else '') + '<option value="name">A → Z</option>'
     for f in FIELDS:
-        if f.get("filter"):
+        if f.get("filter") and has_data(f):
             sort_opts += f'<option value="{esc(f["key"])}">{esc(f["label"])} ↓</option>'
     home = CFG.get("home", {})
     body = f"""<section class="hero"><div class="wrap">
@@ -495,9 +504,9 @@ def build_assets() -> None:
 
 def build_pwa() -> None:
     """Rend le site installable sur l'écran d'accueil (PWA) : manifeste, icônes, service worker minimal."""
-    color = SITE.get("color", "#1d4ed8")
+    color = TH["icon_bg"]
     manifest = {"name": SITE["name"], "short_name": SITE["name"][:12], "start_url": "/", "display": "standalone",
-                "background_color": "#ffffff", "theme_color": color, "lang": SITE.get("lang", "fr"),
+                "background_color": "#ffffff", "theme_color": TH["header_bg"] if TH["header_bg"] != "#ffffff" else color, "lang": SITE.get("lang", "fr"),
                 "icons": [{"src": "/icon-192.png", "sizes": "192x192", "type": "image/png"},
                           {"src": "/icon-512.png", "sizes": "512x512", "type": "image/png"}]}
     write(DIST / "manifest.webmanifest", json.dumps(manifest, ensure_ascii=False))
@@ -515,7 +524,7 @@ def build_pwa() -> None:
             font = ImageFont.truetype("DejaVuSans-Bold.ttf", int(size * 0.55))
         except OSError:
             font = ImageFont.load_default()
-        d.text((size / 2, size / 2), SITE["name"][:1].upper(), fill="white", font=font, anchor="mm")
+        d.text((size / 2, size / 2), SITE["name"][:1].upper(), fill=TH["icon_fg"], font=font, anchor="mm")
         img.save(DIST / f"icon-{size}.png")
 
 

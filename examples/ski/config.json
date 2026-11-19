@@ -1,0 +1,44 @@
+{
+  "_aide": "Seul fichier à modifier avec data/items.json pour créer un nouveau site. Voir README.md.",
+  "site": {
+    "name": "Demo Ski",
+    "tagline": "Comparez les stations de ski en quelques secondes",
+    "description": "Fiches, comparatifs et duels pour choisir sa station de ski.",
+    "domain": "https://example.org",
+    "lang": "fr",
+    "color": "#1d4ed8",
+    "contact_email": "contact@example.org",
+    "analytics_id": ""
+  },
+  "vocab": {
+    "item": "station",
+    "items": "stations",
+    "item_cap": "Station",
+    "group_label": "Pays",
+    "search_placeholder": "Rechercher une station…"
+  },
+  "fields": [
+    {"key": "alt_max", "label": "Altitude max", "unit": "m", "type": "number", "filter": true, "card": true, "better": "high"},
+    {"key": "km", "label": "Pistes", "unit": "km", "type": "number", "filter": true, "card": true, "better": "high"},
+    {"key": "forfait", "label": "Forfait journée", "unit": "€", "type": "number", "filter": false, "card": true, "better": "low"},
+    {"key": "remontees", "label": "Remontées", "unit": "", "type": "number", "filter": false, "card": false, "better": "high"}
+  ],
+  "group_key": "pays",
+  "region_key": "region",
+  "rating": {"key": "score", "label": "Note", "max": 5},
+  "similar_on": ["pays", "km"],
+  "affiliate": [
+    {"label": "Voir les hébergements", "url": "https://www.booking.com/searchresults.html?ss={name_q}", "rel": "sponsored nofollow noopener"}
+  ],
+  "home": {
+    "title": "Trouvez la station qui vous convient",
+    "subtitle": "Recherchez, filtrez et comparez en deux clics.",
+    "top_n": 12
+  },
+  "legal": {
+    "publisher": "Nom de l'éditeur",
+    "siret": "000 000 000 00000",
+    "host": "GitHub Pages (GitHub Inc., San Francisco, États-Unis)",
+    "affiliate_notice": "Certains liens sont des liens d'affiliation : nous pouvons percevoir une commission, sans surcoût pour vous."
+  }
+}
