@@ -36,6 +36,12 @@ WORK = Path(os.environ.get("OSM_WORK", "/tmp/osm"))
 UA = "site-ete-collector/2.0 (https://github.com/camillechouet/site-ete)"
 NOMINATIM = "https://nominatim.openstreetmap.org/search"
 GEOFABRIK = "https://download.geofabrik.de/europe/{}-latest.osm.pbf"
+# La France entière (4-5 Go) échoue sur les serveurs GitHub : on prend les régions de montagne une par une.
+FRANCE_REGIONS = ["france/rhone-alpes", "france/provence-alpes-cote-d-azur", "france/auvergne",
+                  "france/midi-pyrenees", "france/languedoc-roussillon", "france/aquitaine",
+                  "france/franche-comte", "france/alsace", "france/lorraine", "france/corse",
+                  "france/limousin", "france/bourgogne"]
+UNITS = {"france": FRANCE_REGIONS}
 
 # pays du fichier items.json  ->  nom de l'extrait Geofabrik
 COUNTRIES = {
@@ -187,7 +193,8 @@ def run(cmd: list[str]) -> bool:
 
 def extract_country(store: Store, slug: str) -> bool:
     WORK.mkdir(parents=True, exist_ok=True)
-    pbf, small, gj = WORK / f"{slug}.osm.pbf", WORK / f"{slug}-filtre.osm.pbf", WORK / f"{slug}.geojsonseq"
+    tag = slug.replace("/", "_")
+    pbf, small, gj = WORK / f"{tag}.osm.pbf", WORK / f"{tag}-filtre.osm.pbf", WORK / f"{tag}.geojsonseq"
     t0 = time.time()
     if not run(["curl", "-fsSL", "--retry", "3", "-o", str(pbf), GEOFABRIK.format(slug)]):
         print(f"  téléchargement impossible pour {slug}", file=sys.stderr)
@@ -282,8 +289,12 @@ def main() -> int:
     done = []
     for slug in slugs:
         print(f"Extrait OSM : {slug}", flush=True)
-        if extract_country(store, slug):
+        parts = UNITS.get(slug, [slug])
+        res = [extract_country(store, u) for u in parts]
+        if any(res):
             done.append(slug)
+        if not all(res):
+            print(f"  ATTENTION {slug} : extraits manquants {[u for u, r in zip(parts, res) if not r]}", file=sys.stderr, flush=True)
     if not done:
         print("Aucun extrait OSM exploitable.", file=sys.stderr)
         return 1
