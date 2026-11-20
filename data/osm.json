@@ -1,303 +1,773 @@
 {
  "Val d'Isère": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 92.2,
+  "vtt_km": 49.5,
+  "lacs_15km": 27,
+  "activites": 3,
+  "nautique": 2,
+  "hebergements": 88
  },
  "Tignes": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 91.9,
+  "vtt_km": 55.6,
+  "lacs_15km": 35,
+  "activites": 3,
+  "nautique": 3,
+  "hebergements": 88
  },
  "Les Arcs": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 5.3,
+  "vtt_km": 1.4,
+  "lacs_15km": 2,
+  "activites": 0,
+  "nautique": 14,
+  "hebergements": 17
  },
  "La Plagne": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 55.9,
+  "vtt_km": 15.6,
+  "lacs_15km": 20,
+  "activites": 3,
+  "nautique": 21,
+  "hebergements": 137
  },
  "Chamonix": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 296.6,
+  "vtt_km": 36.4,
+  "lacs_15km": 27,
+  "activites": 1,
+  "nautique": 5,
+  "hebergements": 106
  },
  "Avoriaz": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 188.5,
+  "vtt_km": 87.7,
+  "lacs_15km": 16,
+  "activites": 3,
+  "nautique": 18,
+  "hebergements": 258
  },
  "Courchevel": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 74.4,
+  "vtt_km": 4.9,
+  "lacs_15km": 35,
+  "activites": 2,
+  "nautique": 10,
+  "hebergements": 182
  },
  "Méribel": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 27.5,
+  "vtt_km": 13.8,
+  "lacs_15km": 30,
+  "activites": 2,
+  "nautique": 14,
+  "hebergements": 175
  },
  "Val Thorens": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 43.2,
+  "vtt_km": 3.5,
+  "lacs_15km": 72,
+  "activites": 0,
+  "nautique": 12,
+  "hebergements": 152
  },
  "Les Menuires": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 37.7,
+  "vtt_km": 6.3,
+  "lacs_15km": 66,
+  "activites": 1,
+  "nautique": 7,
+  "hebergements": 220
  },
  "Saint-Martin-de-Belleville": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 12.4,
+  "vtt_km": 10.4,
+  "lacs_15km": 39,
+  "activites": 1,
+  "nautique": 11,
+  "hebergements": 141
  },
  "La Tania": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 30.0,
+  "vtt_km": 14.4,
+  "lacs_15km": 26,
+  "activites": 2,
+  "nautique": 13,
+  "hebergements": 171
  },
  "Orelle": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 67.8,
+  "vtt_km": 4.4,
+  "lacs_15km": 150,
+  "activites": 0,
+  "nautique": 14,
+  "hebergements": 57
  },
  "Megève": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 21.9,
+  "vtt_km": 18.5,
+  "lacs_15km": 14,
+  "activites": 2,
+  "nautique": 12,
+  "hebergements": 68
  },
  "Saint-Gervais": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 81.6,
+  "vtt_km": 6.2,
+  "lacs_15km": 0,
+  "activites": 1,
+  "nautique": 20,
+  "hebergements": 26
  },
  "Les Houches": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 274.6,
+  "vtt_km": 32.7,
+  "lacs_15km": 32,
+  "activites": 0,
+  "nautique": 11,
+  "hebergements": 126
  },
  "Combloux": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 38.0,
+  "vtt_km": 20.7,
+  "lacs_15km": 20,
+  "activites": 1,
+  "nautique": 14,
+  "hebergements": 94
  },
  "Les Contamines-Montjoie": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 157.3,
+  "vtt_km": 15.3,
+  "lacs_15km": 17,
+  "activites": 1,
+  "nautique": 10,
+  "hebergements": 51
  },
  "Morzine": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 86.8,
+  "vtt_km": 82.5,
+  "lacs_15km": 16,
+  "activites": 2,
+  "nautique": 19,
+  "hebergements": 343
  },
  "Les Gets": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 59.5,
+  "vtt_km": 63.3,
+  "lacs_15km": 15,
+  "activites": 3,
+  "nautique": 18,
+  "hebergements": 307
  },
  "Châtel": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 127.5,
+  "vtt_km": 9.4,
+  "lacs_15km": 13,
+  "activites": 0,
+  "nautique": 27,
+  "hebergements": 75
  },
  "La Chapelle d'Abondance": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 200.5,
+  "vtt_km": 18.6,
+  "lacs_15km": 12,
+  "activites": 1,
+  "nautique": 28,
+  "hebergements": 80
  },
  "Abondance": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 87.9,
+  "vtt_km": 22.4,
+  "lacs_15km": 13,
+  "activites": 1,
+  "nautique": 19,
+  "hebergements": 54
  },
  "Bellevaux-Hirmentaz": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 63.1,
+  "vtt_km": 10.6,
+  "lacs_15km": 7,
+  "activites": 2,
+  "nautique": 17,
+  "hebergements": 21
  },
  "Bernex": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 60.0,
+  "vtt_km": 6.2,
+  "lacs_15km": 9,
+  "activites": 0,
+  "nautique": 18,
+  "hebergements": 57
  },
  "Saint-Jean-d'Aulps": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 52.0,
+  "vtt_km": 30.5,
+  "lacs_15km": 13,
+  "activites": 2,
+  "nautique": 15,
+  "hebergements": 206
  },
  "Praz-de-Lys Sommand": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 67.5,
+  "vtt_km": 11.7,
+  "lacs_15km": 8,
+  "activites": 0,
+  "nautique": 21,
+  "hebergements": 110
  },
  "Flaine": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 93.7,
+  "vtt_km": 7.0,
+  "lacs_15km": 23,
+  "activites": 1,
+  "nautique": 17,
+  "hebergements": 60
  },
  "Les Carroz": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 53.1,
+  "vtt_km": 5.5,
+  "lacs_15km": 19,
+  "activites": 2,
+  "nautique": 19,
+  "hebergements": 70
  },
  "Samoëns": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 97.1,
+  "vtt_km": 16.9,
+  "lacs_15km": 21,
+  "activites": 2,
+  "nautique": 17,
+  "hebergements": 65
  },
  "Morillon": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 54.1,
+  "vtt_km": 8.8,
+  "lacs_15km": 21,
+  "activites": 3,
+  "nautique": 18,
+  "hebergements": 111
  },
  "Sixt-Fer-à-Cheval": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 116.6,
+  "vtt_km": 5.4,
+  "lacs_15km": 30,
+  "activites": 1,
+  "nautique": 11,
+  "hebergements": 41
  },
  "La Clusaz": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 59.5,
+  "vtt_km": 45.1,
+  "lacs_15km": 4,
+  "activites": 0,
+  "nautique": 7,
+  "hebergements": 63
  },
  "Le Grand-Bornand": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 57.8,
+  "vtt_km": 29.4,
+  "lacs_15km": 5,
+  "activites": 0,
+  "nautique": 6,
+  "hebergements": 61
  },
  "La Giettaz": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 63.2,
+  "vtt_km": 16.2,
+  "lacs_15km": 7,
+  "activites": 0,
+  "nautique": 14,
+  "hebergements": 58
  },
  "Praz-sur-Arly": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 14.4,
+  "vtt_km": 12.6,
+  "lacs_15km": 11,
+  "activites": 2,
+  "nautique": 14,
+  "hebergements": 46
  },
  "Flumet": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 35.2,
+  "vtt_km": 13.5,
+  "lacs_15km": 7,
+  "activites": 1,
+  "nautique": 9,
+  "hebergements": 35
  },
  "Crest-Voland": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 33.4,
+  "vtt_km": 20.9,
+  "lacs_15km": 8,
+  "activites": 1,
+  "nautique": 7,
+  "hebergements": 28
  },
  "Notre-Dame-de-Bellecombe": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 26.6,
+  "vtt_km": 14.9,
+  "lacs_15km": 7,
+  "activites": 1,
+  "nautique": 9,
+  "hebergements": 33
  },
  "Les Saisies": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 30.9,
+  "vtt_km": 40.9,
+  "lacs_15km": 13,
+  "activites": 2,
+  "nautique": 5,
+  "hebergements": 34
  },
  "Arêches-Beaufort": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 127.9,
+  "vtt_km": 34.4,
+  "lacs_15km": 21,
+  "activites": 1,
+  "nautique": 2,
+  "hebergements": 22
  },
  "Sainte-Foy-Tarentaise": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 85.8,
+  "vtt_km": 16.6,
+  "lacs_15km": 28,
+  "activites": 0,
+  "nautique": 15,
+  "hebergements": 181
  },
  "La Rosière": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 1.5,
+  "vtt_km": 1.5,
+  "lacs_15km": 0,
+  "activites": 0,
+  "nautique": 8,
+  "hebergements": 23
  },
  "Champagny-en-Vanoise": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 74.1,
+  "vtt_km": 9.3,
+  "lacs_15km": 38,
+  "activites": 0,
+  "nautique": 12,
+  "hebergements": 14
  },
  "Peisey-Vallandry": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 54.8,
+  "vtt_km": 11.4,
+  "lacs_15km": 29,
+  "activites": 3,
+  "nautique": 16,
+  "hebergements": 279
  },
  "Montchavin-Les Coches": {
   "erreur": "position introuvable"
  },
  "Pralognan-la-Vanoise": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 141.2,
+  "vtt_km": 0.5,
+  "lacs_15km": 43,
+  "activites": 1,
+  "nautique": 9,
+  "hebergements": 42
  },
  "Brides-les-Bains": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 36.6,
+  "vtt_km": 31.7,
+  "lacs_15km": 19,
+  "activites": 1,
+  "nautique": 13,
+  "hebergements": 97
  },
  "Valmorel": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 60.0,
+  "vtt_km": 15.1,
+  "lacs_15km": 20,
+  "activites": 1,
+  "nautique": 10,
+  "hebergements": 66
  },
  "La Toussuire": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 60.5,
+  "vtt_km": 11.4,
+  "lacs_15km": 31,
+  "activites": 1,
+  "nautique": 5,
+  "hebergements": 79
  },
  "Le Corbier": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 0.0,
+  "vtt_km": 0.0,
+  "lacs_15km": 0,
+  "activites": 0,
+  "nautique": 0,
+  "hebergements": 0
  },
  "Saint-Sorlin-d'Arves": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 49.7,
+  "vtt_km": 6.2,
+  "lacs_15km": 43,
+  "activites": 1,
+  "nautique": 6,
+  "hebergements": 54
  },
  "Saint-Jean-d'Arves": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 37.3,
+  "vtt_km": 7.7,
+  "lacs_15km": 25,
+  "activites": 1,
+  "nautique": 9,
+  "hebergements": 56
  },
  "Saint-Colomban-des-Villards": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 71.9,
+  "vtt_km": 21.3,
+  "lacs_15km": 38,
+  "activites": 0,
+  "nautique": 4,
+  "hebergements": 64
  },
  "Les Bottières": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 36.0,
+  "vtt_km": 41.6,
+  "lacs_15km": 5,
+  "activites": 1,
+  "nautique": 12,
+  "hebergements": 22
  },
  "Valloire": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 145.1,
+  "vtt_km": 35.4,
+  "lacs_15km": 132,
+  "activites": 1,
+  "nautique": 11,
+  "hebergements": 332
  },
  "Valmeinier": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 135.6,
+  "vtt_km": 34.3,
+  "lacs_15km": 151,
+  "activites": 1,
+  "nautique": 13,
+  "hebergements": 352
  },
  "Val Cenis": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 116.6,
+  "vtt_km": 31.7,
+  "lacs_15km": 39,
+  "activites": 1,
+  "nautique": 4,
+  "hebergements": 56
  },
  "Aussois": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 165.3,
+  "vtt_km": 40.4,
+  "lacs_15km": 59,
+  "activites": 1,
+  "nautique": 7,
+  "hebergements": 92
  },
  "Bonneval-sur-Arc": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 91.9,
+  "vtt_km": 2.2,
+  "lacs_15km": 31,
+  "activites": 0,
+  "nautique": 3,
+  "hebergements": 153
  },
  "Bessans": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 47.8,
+  "vtt_km": 0.0,
+  "lacs_15km": 36,
+  "activites": 0,
+  "nautique": 3,
+  "hebergements": 171
  },
  "Valfréjus": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 98.0,
+  "vtt_km": 44.6,
+  "lacs_15km": 146,
+  "activites": 0,
+  "nautique": 8,
+  "hebergements": 26
  },
  "La Norma": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 88.6,
+  "vtt_km": 19.0,
+  "lacs_15km": 135,
+  "activites": 1,
+  "nautique": 6,
+  "hebergements": 90
  },
  "Albiez-Montrond": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 50.7,
+  "vtt_km": 6.8,
+  "lacs_15km": 11,
+  "activites": 2,
+  "nautique": 12,
+  "hebergements": 216
  },
  "Saint-François-Longchamp": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 68.3,
+  "vtt_km": 33.2,
+  "lacs_15km": 18,
+  "activites": 2,
+  "nautique": 6,
+  "hebergements": 63
  },
  "Les Karellis": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 59.2,
+  "vtt_km": 16.0,
+  "lacs_15km": 56,
+  "activites": 1,
+  "nautique": 13,
+  "hebergements": 254
  },
  "Les Aillons-Margeriaz": {
   "erreur": "position introuvable"
  },
  "Chamrousse": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 136.2,
+  "vtt_km": 50.1,
+  "lacs_15km": 38,
+  "activites": 1,
+  "nautique": 38,
+  "hebergements": 68
  },
  "Les 7 Laux": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 151.9,
+  "vtt_km": 74.0,
+  "lacs_15km": 66,
+  "activites": 0,
+  "nautique": 7,
+  "hebergements": 15
  },
  "Alpe d'Huez": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 52.7,
+  "vtt_km": 129.7,
+  "lacs_15km": 70,
+  "activites": 2,
+  "nautique": 11,
+  "hebergements": 88
  },
  "Les Deux Alpes": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 135.4,
+  "vtt_km": 48.4,
+  "lacs_15km": 31,
+  "activites": 0,
+  "nautique": 10,
+  "hebergements": 71
  },
  "Auris-en-Oisans": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 101.4,
+  "vtt_km": 91.4,
+  "lacs_15km": 46,
+  "activites": 1,
+  "nautique": 11,
+  "hebergements": 103
  },
  "Alpe du Grand Serre": {
   "erreur": "position introuvable"
  },
  "Villard-de-Lans": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 172.8,
+  "vtt_km": 51.3,
+  "lacs_15km": 1,
+  "activites": 1,
+  "nautique": 11,
+  "hebergements": 60
  },
  "Corrençon-en-Vercors": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 201.1,
+  "vtt_km": 32.2,
+  "lacs_15km": 1,
+  "activites": 1,
+  "nautique": 11,
+  "hebergements": 61
  },
  "Autrans-Méaudre": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 147.1,
+  "vtt_km": 68.4,
+  "lacs_15km": 2,
+  "activites": 2,
+  "nautique": 35,
+  "hebergements": 42
  },
  "Lans-en-Vercors": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 179.6,
+  "vtt_km": 95.4,
+  "lacs_15km": 2,
+  "activites": 2,
+  "nautique": 37,
+  "hebergements": 62
  },
  "Gresse-en-Vercors": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 172.5,
+  "vtt_km": 5.3,
+  "lacs_15km": 0,
+  "activites": 3,
+  "nautique": 13,
+  "hebergements": 42
  },
  "Col de Rousset": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 68.1,
+  "vtt_km": 44.0,
+  "lacs_15km": 0,
+  "activites": 1,
+  "nautique": 8,
+  "hebergements": 10
  },
  "Font d'Urle": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 88.6,
+  "vtt_km": 27.3,
+  "lacs_15km": 0,
+  "activites": 0,
+  "nautique": 7,
+  "hebergements": 13
  },
  "Lus-la-Jarjatte": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 90.8,
+  "vtt_km": 7.7,
+  "lacs_15km": 1,
+  "activites": 0,
+  "nautique": 4,
+  "hebergements": 10
  },
  "Semnoz - Annecy": {
   "erreur": "position introuvable"
  },
  "Col de Porte": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 303.7,
+  "vtt_km": 94.6,
+  "lacs_15km": 5,
+  "activites": 1,
+  "nautique": 35,
+  "hebergements": 34
  },
  "Saint-Pierre-de-Chartreuse": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 243.1,
+  "vtt_km": 23.4,
+  "lacs_15km": 3,
+  "activites": 0,
+  "nautique": 13,
+  "hebergements": 39
  },
  "Col de Marcieu": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 207.3,
+  "vtt_km": 28.4,
+  "lacs_15km": 8,
+  "activites": 0,
+  "nautique": 18,
+  "hebergements": 42
  },
  "Col d'Ornon": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 50.4,
+  "vtt_km": 2.1,
+  "lacs_15km": 43,
+  "activites": 1,
+  "nautique": 6,
+  "hebergements": 22
  },
  "Serre Chevalier": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 97.3,
+  "vtt_km": 65.6,
+  "lacs_15km": 27,
+  "activites": 3,
+  "nautique": 24,
+  "hebergements": 83
  },
  "Montgenèvre": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 213.4,
+  "vtt_km": 247.1,
+  "lacs_15km": 27,
+  "activites": 3,
+  "nautique": 10,
+  "hebergements": 60
  },
  "Vars": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 0.0,
+  "vtt_km": 0.0,
+  "lacs_15km": 0,
+  "activites": 0,
+  "nautique": 9,
+  "hebergements": 2
  },
  "Risoul": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 66.0,
+  "vtt_km": 65.5,
+  "lacs_15km": 16,
+  "activites": 1,
+  "nautique": 9,
+  "hebergements": 72
  },
  "La Grave - La Meije": {
   "erreur": "position introuvable"
  },
  "Puy-Saint-Vincent": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 176.7,
+  "vtt_km": 20.8,
+  "lacs_15km": 26,
+  "activites": 2,
+  "nautique": 22,
+  "hebergements": 33
  },
  "Orcières Merlette 1850": {
   "erreur": "position introuvable"
  },
  "Superdévoluy": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 30.6,
+  "vtt_km": 0.0,
+  "lacs_15km": 2,
+  "activites": 1,
+  "nautique": 10,
+  "hebergements": 15
  },
  "Les Orres": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 22.1,
+  "vtt_km": 22.6,
+  "lacs_15km": 14,
+  "activites": 0,
+  "nautique": 17,
+  "hebergements": 80
  },
  "Ancelle": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 12.4,
+  "vtt_km": 5.4,
+  "lacs_15km": 10,
+  "activites": 0,
+  "nautique": 16,
+  "hebergements": 31
  },
  "Saint-Léger-les-Mélèzes": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 14.8,
+  "vtt_km": 18.0,
+  "lacs_15km": 12,
+  "activites": 0,
+  "nautique": 6,
+  "hebergements": 31
  },
  "Réallon": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 48.3,
+  "vtt_km": 24.7,
+  "lacs_15km": 22,
+  "activites": 1,
+  "nautique": 19,
+  "hebergements": 8
  },
  "Crévoux": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 48.6,
+  "vtt_km": 3.8,
+  "lacs_15km": 12,
+  "activites": 0,
+  "nautique": 17,
+  "hebergements": 84
  },
  "Chaillol": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 49.2,
+  "vtt_km": 19.3,
+  "lacs_15km": 9,
+  "activites": 0,
+  "nautique": 5,
+  "hebergements": 33
  },
  "Sauze-Super-Sauze": {
   "erreur": "position introuvable"
@@ -306,190 +776,470 @@
   "erreur": "position introuvable"
  },
  "Val d'Allos": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 51.0,
+  "vtt_km": 20.6,
+  "lacs_15km": 14,
+  "activites": 1,
+  "nautique": 2,
+  "hebergements": 15
  },
  "Chabanon": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 5.0,
+  "vtt_km": 5.8,
+  "lacs_15km": 5,
+  "activites": 0,
+  "nautique": 7,
+  "hebergements": 14
  },
  "Montclar-les-2-Vallées": {
   "erreur": "position introuvable"
  },
  "Larche": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 1.2,
+  "vtt_km": 2.8,
+  "lacs_15km": 0,
+  "activites": 0,
+  "nautique": 10,
+  "hebergements": 18
  },
  "Sainte-Anne-la-Condamine": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 63.6,
+  "vtt_km": 18.9,
+  "lacs_15km": 26,
+  "activites": 1,
+  "nautique": 12,
+  "hebergements": 15
  },
  "Isola 2000": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 208.7,
+  "vtt_km": 73.4,
+  "lacs_15km": 32,
+  "activites": 0,
+  "nautique": 2,
+  "hebergements": 11
  },
  "Auron": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 88.6,
+  "vtt_km": 21.0,
+  "lacs_15km": 25,
+  "activites": 0,
+  "nautique": 3,
+  "hebergements": 19
  },
  "Valberg": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 126.9,
+  "vtt_km": 44.0,
+  "lacs_15km": 1,
+  "activites": 0,
+  "nautique": 4,
+  "hebergements": 17
  },
  "Beuil-les-Launes": {
   "erreur": "position introuvable"
  },
  "La Colmiane": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 111.0,
+  "vtt_km": 58.6,
+  "lacs_15km": 23,
+  "activites": 1,
+  "nautique": 4,
+  "hebergements": 18
  },
  "Gréolières-les-Neiges": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 51.5,
+  "vtt_km": 87.2,
+  "lacs_15km": 1,
+  "activites": 0,
+  "nautique": 1,
+  "hebergements": 17
  },
  "L'Audibergue": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 38.3,
+  "vtt_km": 37.0,
+  "lacs_15km": 1,
+  "activites": 2,
+  "nautique": 2,
+  "hebergements": 11
  },
  "Abriès-en-Queyras": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 91.2,
+  "vtt_km": 74.5,
+  "lacs_15km": 42,
+  "activites": 0,
+  "nautique": 1,
+  "hebergements": 20
  },
  "Saint-Véran": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 88.9,
+  "vtt_km": 14.1,
+  "lacs_15km": 33,
+  "activites": 1,
+  "nautique": 1,
+  "hebergements": 19
  },
  "Ceillac-en-Queyras": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 112.3,
+  "vtt_km": 17.1,
+  "lacs_15km": 34,
+  "activites": 0,
+  "nautique": 7,
+  "hebergements": 11
  },
  "Molines-en-Queyras": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 73.7,
+  "vtt_km": 30.6,
+  "lacs_15km": 39,
+  "activites": 1,
+  "nautique": 1,
+  "hebergements": 29
  },
  "Arvieux-en-Queyras": {
   "erreur": "position introuvable"
  },
  "La Mongie": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 102.1,
+  "vtt_km": 0.2,
+  "lacs_15km": 21,
+  "activites": 1,
+  "nautique": 3,
+  "hebergements": 7
  },
  "Barèges": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 128.0,
+  "vtt_km": 0.0,
+  "lacs_15km": 30,
+  "activites": 2,
+  "nautique": 7,
+  "hebergements": 44
  },
  "Saint-Lary-Soulan": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 82.7,
+  "vtt_km": 21.3,
+  "lacs_15km": 17,
+  "activites": 1,
+  "nautique": 4,
+  "hebergements": 76
  },
  "Piau-Engaly": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 117.5,
+  "vtt_km": 0.0,
+  "lacs_15km": 20,
+  "activites": 1,
+  "nautique": 5,
+  "hebergements": 16
  },
  "Luz-Ardiden": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 102.5,
+  "vtt_km": 2.6,
+  "lacs_15km": 49,
+  "activites": 1,
+  "nautique": 10,
+  "hebergements": 96
  },
  "Cauterets": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 82.6,
+  "vtt_km": 1.3,
+  "lacs_15km": 45,
+  "activites": 0,
+  "nautique": 8,
+  "hebergements": 72
  },
  "Gourette": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 93.9,
+  "vtt_km": 7.5,
+  "lacs_15km": 30,
+  "activites": 1,
+  "nautique": 3,
+  "hebergements": 17
  },
  "La Pierre-Saint-Martin": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 124.4,
+  "vtt_km": 14.2,
+  "lacs_15km": 0,
+  "activites": 0,
+  "nautique": 0,
+  "hebergements": 98
  },
  "Gavarnie-Gèdre": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 157.6,
+  "vtt_km": 0.0,
+  "lacs_15km": 42,
+  "activites": 1,
+  "nautique": 4,
+  "hebergements": 29
  },
  "Peyragudes": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 54.5,
+  "vtt_km": 2.4,
+  "lacs_15km": 37,
+  "activites": 0,
+  "nautique": 5,
+  "hebergements": 26
  },
  "Luchon-Superbagnères": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 62.1,
+  "vtt_km": 8.2,
+  "lacs_15km": 34,
+  "activites": 0,
+  "nautique": 2,
+  "hebergements": 48
  },
  "Val-Louron": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 60.8,
+  "vtt_km": 9.7,
+  "lacs_15km": 21,
+  "activites": 0,
+  "nautique": 4,
+  "hebergements": 73
  },
  "Ax-3-Domaines": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 44.3,
+  "vtt_km": 11.6,
+  "lacs_15km": 15,
+  "activites": 0,
+  "nautique": 5,
+  "hebergements": 36
  },
  "Les Monts d'Olmes": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 95.7,
+  "vtt_km": 0.0,
+  "lacs_15km": 0,
+  "activites": 0,
+  "nautique": 9,
+  "hebergements": 14
  },
  "Ascou-Pailhères": {
   "erreur": "position introuvable"
  },
  "Font-Romeu-Pyrénées 2000": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 51.1,
+  "vtt_km": 1.9,
+  "lacs_15km": 5,
+  "activites": 1,
+  "nautique": 19,
+  "hebergements": 67
  },
  "Les Angles": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 46.0,
+  "vtt_km": 31.6,
+  "lacs_15km": 2,
+  "activites": 0,
+  "nautique": 11,
+  "hebergements": 175
  },
  "Bolquère-Pyrénées 2000": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 28.2,
+  "vtt_km": 0.0,
+  "lacs_15km": 3,
+  "activites": 1,
+  "nautique": 18,
+  "hebergements": 89
  },
  "Formiguères": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 17.4,
+  "vtt_km": 0.5,
+  "lacs_15km": 7,
+  "activites": 1,
+  "nautique": 5,
+  "hebergements": 19
  },
  "Cambre d'Aze": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 90.8,
+  "vtt_km": 0.0,
+  "lacs_15km": 0,
+  "activites": 0,
+  "nautique": 17,
+  "hebergements": 42
  },
  "Porte-Puymorens": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 70.5,
+  "vtt_km": 9.3,
+  "lacs_15km": 38,
+  "activites": 0,
+  "nautique": 5,
+  "hebergements": 9
  },
  "Mijanès-Donezan": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 63.8,
+  "vtt_km": 3.2,
+  "lacs_15km": 9,
+  "activites": 0,
+  "nautique": 1,
+  "hebergements": 8
  },
  "Guzet": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 152.6,
+  "vtt_km": 0.0,
+  "lacs_15km": 7,
+  "activites": 1,
+  "nautique": 5,
+  "hebergements": 15
  },
  "Le Mourtis": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 15.4,
+  "vtt_km": 0.0,
+  "lacs_15km": 1,
+  "activites": 0,
+  "nautique": 6,
+  "hebergements": 23
  },
  "Camurac": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 22.2,
+  "vtt_km": 7.3,
+  "lacs_15km": 7,
+  "activites": 0,
+  "nautique": 3,
+  "hebergements": 15
  },
  "Goulier": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 94.8,
+  "vtt_km": 25.5,
+  "lacs_15km": 20,
+  "activites": 1,
+  "nautique": 5,
+  "hebergements": 10
  },
  "Beille": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 0.0,
+  "vtt_km": 0.0,
+  "lacs_15km": 0,
+  "activites": 0,
+  "nautique": 0,
+  "hebergements": 0
  },
  "Artouste": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 78.3,
+  "vtt_km": 0.0,
+  "lacs_15km": 44,
+  "activites": 0,
+  "nautique": 2,
+  "hebergements": 18
  },
  "Gérardmer": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 57.2,
+  "vtt_km": 46.2,
+  "lacs_15km": 6,
+  "activites": 1,
+  "nautique": 8,
+  "hebergements": 154
  },
  "La Bresse-Hohneck": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 212.0,
+  "vtt_km": 132.8,
+  "lacs_15km": 6,
+  "activites": 3,
+  "nautique": 8,
+  "hebergements": 125
  },
  "Le Markstein": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 76.5,
+  "vtt_km": 97.6,
+  "lacs_15km": 3,
+  "activites": 1,
+  "nautique": 10,
+  "hebergements": 41
  },
  "Le Schnepfenried": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 166.3,
+  "vtt_km": 121.7,
+  "lacs_15km": 5,
+  "activites": 1,
+  "nautique": 7,
+  "hebergements": 52
  },
  "Le Lac Blanc": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 0.0,
+  "vtt_km": 0.0,
+  "lacs_15km": 1,
+  "activites": 0,
+  "nautique": 2,
+  "hebergements": 4
  },
  "La Schlucht": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 223.1,
+  "vtt_km": 117.1,
+  "lacs_15km": 6,
+  "activites": 2,
+  "nautique": 8,
+  "hebergements": 105
  },
  "Le Champ du Feu": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 20.6,
+  "vtt_km": 36.2,
+  "lacs_15km": 0,
+  "activites": 0,
+  "nautique": 7,
+  "hebergements": 46
  },
  "Le Ballon d'Alsace": {
   "erreur": "position introuvable"
  },
  "La Planche des Belles Filles": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 37.6,
+  "vtt_km": 53.9,
+  "lacs_15km": 3,
+  "activites": 3,
+  "nautique": 9,
+  "hebergements": 16
  },
  "La Bresse Lispach": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 146.5,
+  "vtt_km": 95.4,
+  "lacs_15km": 6,
+  "activites": 2,
+  "nautique": 7,
+  "hebergements": 161
  },
  "Ventron": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 61.7,
+  "vtt_km": 77.5,
+  "lacs_15km": 5,
+  "activites": 0,
+  "nautique": 19,
+  "hebergements": 105
  },
  "Xonrupt-Le Poli": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 73.9,
+  "vtt_km": 44.0,
+  "lacs_15km": 6,
+  "activites": 1,
+  "nautique": 7,
+  "hebergements": 143
  },
  "Le Grand Valtin": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 84.8,
+  "vtt_km": 34.9,
+  "lacs_15km": 6,
+  "activites": 2,
+  "nautique": 8,
+  "hebergements": 102
  },
  "Bussang-Larcenaire": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 54.4,
+  "vtt_km": 80.7,
+  "lacs_15km": 3,
+  "activites": 0,
+  "nautique": 12,
+  "hebergements": 60
  },
  "Métabief Mont d'Or": {
   "erreur": "position introuvable"
  },
  "Les Rousses": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 29.6,
+  "vtt_km": 35.7,
+  "lacs_15km": 4,
+  "activites": 1,
+  "nautique": 5,
+  "hebergements": 31
  },
  "Les Fourgs": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 6.1,
+  "vtt_km": 10.6,
+  "lacs_15km": 4,
+  "activites": 1,
+  "nautique": 21,
+  "hebergements": 28
  },
  "La Source du Doubs-Mouthe": {
   "erreur": "position introuvable"
@@ -498,135 +1248,295 @@
   "erreur": "position introuvable"
  },
  "La Combe Saint-Pierre": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 35.9,
+  "vtt_km": 3.3,
+  "lacs_15km": 2,
+  "activites": 0,
+  "nautique": 6,
+  "hebergements": 31
  },
  "Les Plans d'Hotonnes": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 22.0,
+  "vtt_km": 14.9,
+  "lacs_15km": 1,
+  "activites": 0,
+  "nautique": 9,
+  "hebergements": 23
  },
  "Menthières": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 42.5,
+  "vtt_km": 16.8,
+  "lacs_15km": 5,
+  "activites": 1,
+  "nautique": 8,
+  "hebergements": 17
  },
  "Le Lioran": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 78.6,
+  "vtt_km": 41.9,
+  "lacs_15km": 1,
+  "activites": 2,
+  "nautique": 3,
+  "hebergements": 33
  },
  "Super Besse": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 24.9,
+  "vtt_km": 0.0,
+  "lacs_15km": 12,
+  "activites": 2,
+  "nautique": 10,
+  "hebergements": 74
  },
  "Le Mont Dore": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 0.0,
+  "vtt_km": 0.0,
+  "lacs_15km": 0,
+  "activites": 0,
+  "nautique": 0,
+  "hebergements": 0
  },
  "Chastreix-Sancy": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 21.9,
+  "vtt_km": 5.5,
+  "lacs_15km": 10,
+  "activites": 3,
+  "nautique": 7,
+  "hebergements": 130
  },
  "Chalmazel": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 44.3,
+  "vtt_km": 7.6,
+  "lacs_15km": 0,
+  "activites": 0,
+  "nautique": 0,
+  "hebergements": 13
  },
  "La Loge des Gardes": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 4.2,
+  "vtt_km": 10.7,
+  "lacs_15km": 0,
+  "activites": 0,
+  "nautique": 2,
+  "hebergements": 11
  },
  "Laguiole": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 0.3,
+  "vtt_km": 0.0,
+  "lacs_15km": 2,
+  "activites": 0,
+  "nautique": 3,
+  "hebergements": 17
  },
  "La Croix de Bauzon": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 27.6,
+  "vtt_km": 2.6,
+  "lacs_15km": 1,
+  "activites": 0,
+  "nautique": 4,
+  "hebergements": 17
  },
  "Le Bleymard-Mont Lozère": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 1.9,
+  "vtt_km": 4.0,
+  "lacs_15km": 0,
+  "activites": 3,
+  "nautique": 2,
+  "hebergements": 27
  },
  "Les Estables-Mézenc": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 33.1,
+  "vtt_km": 4.3,
+  "lacs_15km": 2,
+  "activites": 1,
+  "nautique": 8,
+  "hebergements": 38
  },
  "Brameloup": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 36.8,
+  "vtt_km": 57.2,
+  "lacs_15km": 2,
+  "activites": 0,
+  "nautique": 13,
+  "hebergements": 10
  },
  "Alti Aigoual": {
   "erreur": "position introuvable"
  },
  "Prabouré": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 1.4,
+  "vtt_km": 0.3,
+  "lacs_15km": 0,
+  "activites": 0,
+  "nautique": 1,
+  "hebergements": 31
  },
  "Ghisoni - Capanelle": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 111.2,
+  "vtt_km": 0.0,
+  "lacs_15km": 9,
+  "activites": 1,
+  "nautique": 4,
+  "hebergements": 29
  },
  "Val d'Ese": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 59.9,
+  "vtt_km": 0.0,
+  "lacs_15km": 7,
+  "activites": 0,
+  "nautique": 3,
+  "hebergements": 13
  },
  "Haut Asco": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 58.9,
+  "vtt_km": 0.0,
+  "lacs_15km": 9,
+  "activites": 0,
+  "nautique": 0,
+  "hebergements": 7
  },
  "Les Arêtes": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 33.7,
+  "vtt_km": 36.2,
+  "lacs_15km": 3,
+  "activites": 0,
+  "nautique": 25,
+  "hebergements": 68
  },
  "Le Revard": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 79.9,
+  "vtt_km": 5.9,
+  "lacs_15km": 3,
+  "activites": 1,
+  "nautique": 15,
+  "hebergements": 82
  },
  "La Féclaz": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 141.9,
+  "vtt_km": 6.6,
+  "lacs_15km": 4,
+  "activites": 1,
+  "nautique": 16,
+  "hebergements": 69
  },
  "Vallouise": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 78.5,
+  "vtt_km": 0.0,
+  "lacs_15km": 21,
+  "activites": 1,
+  "nautique": 12,
+  "hebergements": 14
  },
  "La Joue du Loup": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 31.3,
+  "vtt_km": 0.0,
+  "lacs_15km": 1,
+  "activites": 1,
+  "nautique": 7,
+  "hebergements": 14
  },
  "Le Frenz": {
   "erreur": "position introuvable"
  },
  "Mijoux-La Valserine": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 38.2,
+  "vtt_km": 2.9,
+  "lacs_15km": 3,
+  "activites": 0,
+  "nautique": 13,
+  "hebergements": 39
  },
  "Lélex-Crozet": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 62.7,
+  "vtt_km": 11.0,
+  "lacs_15km": 2,
+  "activites": 0,
+  "nautique": 17,
+  "hebergements": 31
  },
  "Mont Serein": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 40.0,
+  "vtt_km": 10.0,
+  "lacs_15km": 3,
+  "activites": 0,
+  "nautique": 15,
+  "hebergements": 21
  },
  "Turini-Camp d'Argent": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 84.4,
+  "vtt_km": 45.5,
+  "lacs_15km": 23,
+  "activites": 1,
+  "nautique": 0,
+  "hebergements": 12
  },
  "Roubion-Les Buisses": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 111.4,
+  "vtt_km": 97.9,
+  "lacs_15km": 3,
+  "activites": 0,
+  "nautique": 4,
+  "hebergements": 12
  },
  "Hauteluce": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 58.9,
+  "vtt_km": 37.3,
+  "lacs_15km": 21,
+  "activites": 2,
+  "nautique": 5,
+  "hebergements": 30
  },
  "Aiguilles": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 60.6,
+  "vtt_km": 53.8,
+  "lacs_15km": 29,
+  "activites": 1,
+  "nautique": 1,
+  "hebergements": 34
  },
  "Montriond": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 102.3,
+  "vtt_km": 84.4,
+  "lacs_15km": 15,
+  "activites": 2,
+  "nautique": 19,
+  "hebergements": 344
  },
  "Thollon-les-Mémises": {
-  "erreur": "pas d'extrait OSM pour ce pays"
+  "rando_km": 45.3,
+  "vtt_km": 0.9,
+  "lacs_15km": 8,
+  "activites": 0,
+  "nautique": 35,
+  "hebergements": 53
  },
  "Torgon": {
-  "rando_km": 121.1,
+  "rando_km": 154.4,
   "vtt_km": 0.2,
-  "lacs_15km": 10,
+  "lacs_15km": 14,
   "activites": 0,
-  "nautique": 24,
-  "hebergements": 18
+  "nautique": 28,
+  "hebergements": 72
  },
  "Champéry - Les Crosets - Champoussin - Morgins": {
-  "rando_km": 75.2,
-  "vtt_km": 26.6,
-  "lacs_15km": 9,
+  "rando_km": 119.4,
+  "vtt_km": 52.9,
+  "lacs_15km": 18,
   "activites": 1,
-  "nautique": 12,
-  "hebergements": 28
+  "nautique": 22,
+  "hebergements": 118
  },
  "La Thuile": {
-  "rando_km": 119.7,
-  "vtt_km": 37.8,
-  "lacs_15km": 18,
+  "rando_km": 164.8,
+  "vtt_km": 37.9,
+  "lacs_15km": 22,
   "activites": 0,
-  "nautique": 0,
+  "nautique": 3,
   "hebergements": 12
  },
  "Sestrière": {
   "rando_km": 201.6,
   "vtt_km": 218.6,
-  "lacs_15km": 20,
+  "lacs_15km": 28,
   "activites": 0,
   "nautique": 1,
   "hebergements": 80
@@ -640,12 +1550,12 @@
   "hebergements": 67
  },
  "Sansicario": {
-  "rando_km": 191.2,
-  "vtt_km": 247.8,
-  "lacs_15km": 19,
+  "rando_km": 194.7,
+  "vtt_km": 253.7,
+  "lacs_15km": 27,
   "activites": 0,
   "nautique": 1,
-  "hebergements": 86
+  "hebergements": 93
  },
  "Baqueira Beret": {
   "rando_km": 28.9,
@@ -656,41 +1566,41 @@
   "hebergements": 31
  },
  "Formigal": {
-  "rando_km": 61.3,
-  "vtt_km": 5.4,
-  "lacs_15km": 33,
+  "rando_km": 69.0,
+  "vtt_km": 7.6,
+  "lacs_15km": 64,
   "activites": 0,
   "nautique": 3,
-  "hebergements": 45
+  "hebergements": 48
  },
  "Panticosa": {
   "rando_km": 78.6,
   "vtt_km": 26.8,
-  "lacs_15km": 30,
+  "lacs_15km": 44,
   "activites": 0,
   "nautique": 5,
   "hebergements": 45
  },
  "Astún": {
-  "rando_km": 62.6,
+  "rando_km": 107.7,
   "vtt_km": 20.5,
-  "lacs_15km": 13,
+  "lacs_15km": 29,
   "activites": 0,
   "nautique": 4,
-  "hebergements": 15
+  "hebergements": 29
  },
  "Candanchú": {
-  "rando_km": 127.1,
+  "rando_km": 160.2,
   "vtt_km": 57.5,
-  "lacs_15km": 13,
+  "lacs_15km": 27,
   "activites": 0,
   "nautique": 4,
-  "hebergements": 16
+  "hebergements": 24
  },
  "Cerler": {
   "rando_km": 122.1,
   "vtt_km": 22.1,
-  "lacs_15km": 35,
+  "lacs_15km": 43,
   "activites": 0,
   "nautique": 5,
   "hebergements": 36
@@ -708,7 +1618,7 @@
   "vtt_km": 13.9,
   "lacs_15km": 4,
   "activites": 0,
-  "nautique": 24,
+  "nautique": 33,
   "hebergements": 19
  },
  "Boí Taüll": {
@@ -744,100 +1654,100 @@
   "hebergements": 19
  },
  "Vallter 2000": {
-  "rando_km": 94.5,
-  "vtt_km": 1.4,
+  "rando_km": 153.1,
+  "vtt_km": 2.9,
   "lacs_15km": 1,
   "activites": 0,
   "nautique": 3,
-  "hebergements": 3
+  "hebergements": 10
  },
  "Vall de Núria": {
-  "rando_km": 104.5,
-  "vtt_km": 0.1,
+  "rando_km": 164.8,
+  "vtt_km": 0.3,
   "lacs_15km": 1,
   "activites": 0,
-  "nautique": 5,
+  "nautique": 10,
   "hebergements": 11
  },
  "Tavascan": {
   "rando_km": 61.7,
   "vtt_km": 0.0,
-  "lacs_15km": 14,
+  "lacs_15km": 16,
   "activites": 0,
-  "nautique": 7,
+  "nautique": 8,
   "hebergements": 11
  },
  "Pas de la Casa": {
-  "rando_km": 64.0,
+  "rando_km": 116.1,
   "vtt_km": 3.6,
-  "lacs_15km": 60,
+  "lacs_15km": 63,
   "activites": 0,
   "nautique": 1,
-  "hebergements": 52
+  "hebergements": 62
  },
  "Grau Roig": {
-  "rando_km": 93.2,
+  "rando_km": 127.0,
   "vtt_km": 9.3,
-  "lacs_15km": 64,
-  "activites": 0,
-  "nautique": 2,
-  "hebergements": 56
- },
- "Soldeu": {
-  "rando_km": 92.9,
-  "vtt_km": 23.7,
-  "lacs_15km": 66,
-  "activites": 0,
-  "nautique": 4,
-  "hebergements": 67
- },
- "El Tarter": {
-  "rando_km": 95.9,
-  "vtt_km": 24.5,
-  "lacs_15km": 71,
-  "activites": 0,
-  "nautique": 6,
-  "hebergements": 66
- },
- "Canillo": {
-  "rando_km": 95.4,
-  "vtt_km": 24.5,
   "lacs_15km": 67,
   "activites": 0,
+  "nautique": 2,
+  "hebergements": 62
+ },
+ "Soldeu": {
+  "rando_km": 115.1,
+  "vtt_km": 23.7,
+  "lacs_15km": 69,
+  "activites": 0,
+  "nautique": 4,
+  "hebergements": 76
+ },
+ "El Tarter": {
+  "rando_km": 115.8,
+  "vtt_km": 24.5,
+  "lacs_15km": 74,
+  "activites": 0,
+  "nautique": 6,
+  "hebergements": 69
+ },
+ "Canillo": {
+  "rando_km": 128.4,
+  "vtt_km": 24.5,
+  "lacs_15km": 70,
+  "activites": 0,
   "nautique": 5,
-  "hebergements": 63
+  "hebergements": 69
  },
  "Encamp": {
   "rando_km": 90.7,
   "vtt_km": 24.8,
-  "lacs_15km": 83,
+  "lacs_15km": 85,
   "activites": 0,
   "nautique": 6,
   "hebergements": 122
  },
  "Pal": {
-  "rando_km": 63.2,
+  "rando_km": 64.4,
   "vtt_km": 86.4,
-  "lacs_15km": 49,
+  "lacs_15km": 51,
   "activites": 0,
   "nautique": 9,
   "hebergements": 107
  },
  "Arinsal": {
-  "rando_km": 91.0,
-  "vtt_km": 71.9,
-  "lacs_15km": 46,
+  "rando_km": 106.6,
+  "vtt_km": 73.9,
+  "lacs_15km": 49,
   "activites": 0,
   "nautique": 9,
-  "hebergements": 73
+  "hebergements": 74
  },
  "Ordino Arcalís": {
-  "rando_km": 121.6,
-  "vtt_km": 7.8,
-  "lacs_15km": 40,
+  "rando_km": 226.8,
+  "vtt_km": 9.8,
+  "lacs_15km": 44,
   "activites": 0,
   "nautique": 8,
-  "hebergements": 28
+  "hebergements": 30
  },
  "Verbier": {
   "rando_km": 228.0,
@@ -850,7 +1760,7 @@
  "Nendaz": {
   "rando_km": 72.7,
   "vtt_km": 51.1,
-  "lacs_15km": 7,
+  "lacs_15km": 6,
   "activites": 1,
   "nautique": 43,
   "hebergements": 104
@@ -858,7 +1768,7 @@
  "Veysonnaz": {
   "rando_km": 48.1,
   "vtt_km": 32.6,
-  "lacs_15km": 7,
+  "lacs_15km": 6,
   "activites": 1,
   "nautique": 43,
   "hebergements": 54
@@ -866,7 +1776,7 @@
  "Thyon": {
   "rando_km": 42.2,
   "vtt_km": 29.7,
-  "lacs_15km": 8,
+  "lacs_15km": 7,
   "activites": 1,
   "nautique": 43,
   "hebergements": 57
@@ -882,7 +1792,7 @@
  "Crans-Montana": {
   "rando_km": 86.4,
   "vtt_km": 58.8,
-  "lacs_15km": 13,
+  "lacs_15km": 12,
   "activites": 0,
   "nautique": 14,
   "hebergements": 73
@@ -938,7 +1848,7 @@
  "Saint-Luc / Chandolin": {
   "rando_km": 85.3,
   "vtt_km": 43.1,
-  "lacs_15km": 13,
+  "lacs_15km": 12,
   "activites": 1,
   "nautique": 5,
   "hebergements": 37
@@ -946,7 +1856,7 @@
  "Vercorin": {
   "rando_km": 41.5,
   "vtt_km": 25.8,
-  "lacs_15km": 11,
+  "lacs_15km": 10,
   "activites": 1,
   "nautique": 12,
   "hebergements": 65
@@ -954,7 +1864,7 @@
  "Anzère": {
   "rando_km": 84.5,
   "vtt_km": 55.6,
-  "lacs_15km": 11,
+  "lacs_15km": 10,
   "activites": 0,
   "nautique": 39,
   "hebergements": 62
@@ -962,7 +1872,7 @@
  "Nax Mont-Noble": {
   "rando_km": 44.8,
   "vtt_km": 27.8,
-  "lacs_15km": 9,
+  "lacs_15km": 8,
   "activites": 1,
   "nautique": 43,
   "hebergements": 58
@@ -970,7 +1880,7 @@
  "Evolène": {
   "rando_km": 85.6,
   "vtt_km": 27.8,
-  "lacs_15km": 8,
+  "lacs_15km": 7,
   "activites": 0,
   "nautique": 3,
   "hebergements": 37
@@ -978,7 +1888,7 @@
  "Arolla": {
   "rando_km": 102.5,
   "vtt_km": 8.8,
-  "lacs_15km": 8,
+  "lacs_15km": 7,
   "activites": 0,
   "nautique": 0,
   "hebergements": 27
@@ -986,7 +1896,7 @@
  "La Forclaz (VS)": {
   "rando_km": 99.5,
   "vtt_km": 6.7,
-  "lacs_15km": 8,
+  "lacs_15km": 7,
   "activites": 0,
   "nautique": 0,
   "hebergements": 40
@@ -1000,9 +1910,9 @@
   "hebergements": 42
  },
  "Les Marécottes": {
-  "rando_km": 220.4,
+  "rando_km": 221.0,
   "vtt_km": 16.0,
-  "lacs_15km": 12,
+  "lacs_15km": 14,
   "activites": 0,
   "nautique": 9,
   "hebergements": 42
@@ -1016,9 +1926,9 @@
   "hebergements": 29
  },
  "La Fouly": {
-  "rando_km": 126.7,
+  "rando_km": 138.6,
   "vtt_km": 13.8,
-  "lacs_15km": 12,
+  "lacs_15km": 13,
   "activites": 1,
   "nautique": 1,
   "hebergements": 10
@@ -1125,7 +2035,7 @@
  "Villars-sur-Ollon": {
   "rando_km": 72.6,
   "vtt_km": 12.6,
-  "lacs_15km": 13,
+  "lacs_15km": 12,
   "activites": 1,
   "nautique": 22,
   "hebergements": 47
@@ -1133,7 +2043,7 @@
  "Gryon": {
   "rando_km": 87.5,
   "vtt_km": 14.5,
-  "lacs_15km": 13,
+  "lacs_15km": 12,
   "activites": 1,
   "nautique": 22,
   "hebergements": 36
@@ -1141,7 +2051,7 @@
  "Les Diablerets": {
   "rando_km": 168.4,
   "vtt_km": 39.8,
-  "lacs_15km": 13,
+  "lacs_15km": 12,
   "activites": 0,
   "nautique": 10,
   "hebergements": 33
@@ -1149,7 +2059,7 @@
  "Glacier 3000": {
   "rando_km": 129.1,
   "vtt_km": 14.7,
-  "lacs_15km": 11,
+  "lacs_15km": 10,
   "activites": 0,
   "nautique": 9,
   "hebergements": 31
@@ -1157,7 +2067,7 @@
  "Leysin": {
   "rando_km": 77.9,
   "vtt_km": 11.3,
-  "lacs_15km": 11,
+  "lacs_15km": 10,
   "activites": 1,
   "nautique": 27,
   "hebergements": 36
@@ -1167,7 +2077,7 @@
   "vtt_km": 19.6,
   "lacs_15km": 5,
   "activites": 0,
-  "nautique": 19,
+  "nautique": 20,
   "hebergements": 45
  },
  "Les Pléiades": {
@@ -1175,7 +2085,7 @@
   "vtt_km": 9.9,
   "lacs_15km": 4,
   "activites": 0,
-  "nautique": 15,
+  "nautique": 16,
   "hebergements": 56
  },
  "Les Rasses": {
@@ -1187,20 +2097,20 @@
   "hebergements": 23
  },
  "L'Abbaye": {
-  "rando_km": 58.4,
+  "rando_km": 61.3,
   "vtt_km": 10.3,
-  "lacs_15km": 3,
+  "lacs_15km": 5,
   "activites": 0,
-  "nautique": 9,
-  "hebergements": 15
+  "nautique": 13,
+  "hebergements": 18
  },
  "L'Orient": {
-  "rando_km": 30.2,
+  "rando_km": 35.3,
   "vtt_km": 12.3,
-  "lacs_15km": 2,
+  "lacs_15km": 4,
   "activites": 0,
-  "nautique": 4,
-  "hebergements": 14
+  "nautique": 5,
+  "hebergements": 16
  },
  "Charmey": {
   "rando_km": 75.3,
@@ -1505,12 +2415,12 @@
   "hebergements": 22
  },
  "Les Breuleux": {
-  "rando_km": 28.4,
+  "rando_km": 33.9,
   "vtt_km": 6.4,
   "lacs_15km": 3,
   "activites": 0,
-  "nautique": 6,
-  "hebergements": 42
+  "nautique": 7,
+  "hebergements": 56
  },
  "Samnaun": {
   "rando_km": 55.5,
@@ -1651,7 +2561,7 @@
  "Scuol": {
   "rando_km": 91.5,
   "vtt_km": 81.0,
-  "lacs_15km": 5,
+  "lacs_15km": 6,
   "activites": 1,
   "nautique": 4,
   "hebergements": 65
@@ -2316,11 +3226,11 @@
   "hebergements": 14
  },
  "Courmayeur": {
-  "rando_km": 103.6,
+  "rando_km": 114.3,
   "vtt_km": 22.6,
-  "lacs_15km": 6,
+  "lacs_15km": 16,
   "activites": 0,
-  "nautique": 0,
+  "nautique": 2,
   "hebergements": 60
  },
  "Crévacol": {
@@ -2388,16 +3298,16 @@
   "hebergements": 18
  },
  "Bardonecchia": {
-  "rando_km": 220.2,
-  "vtt_km": 137.2,
-  "lacs_15km": 9,
+  "rando_km": 265.8,
+  "vtt_km": 168.0,
+  "lacs_15km": 107,
   "activites": 1,
-  "nautique": 0,
-  "hebergements": 20
+  "nautique": 4,
+  "hebergements": 23
  },
  "Limone Piemonte": {
-  "rando_km": 150.9,
-  "vtt_km": 70.2,
+  "rando_km": 197.7,
+  "vtt_km": 95.9,
   "lacs_15km": 7,
   "activites": 0,
   "nautique": 0,
@@ -2436,7 +3346,7 @@
   "hebergements": 26
  },
  "Mottarone": {
-  "rando_km": 148.1,
+  "rando_km": 148.2,
   "vtt_km": 119.9,
   "lacs_15km": 5,
   "activites": 0,
@@ -2532,9 +3442,9 @@
   "hebergements": 26
  },
  "San Colombano": {
-  "rando_km": 288.4,
-  "vtt_km": 167.5,
-  "lacs_15km": 26,
+  "rando_km": 311.7,
+  "vtt_km": 173.1,
+  "lacs_15km": 29,
   "activites": 0,
   "nautique": 3,
   "hebergements": 9
@@ -2749,7 +3659,7 @@
   "hebergements": 175
  },
  "Brentonico": {
-  "rando_km": 141.2,
+  "rando_km": 142.0,
   "vtt_km": 125.4,
   "lacs_15km": 3,
   "activites": 2,
@@ -2973,7 +3883,7 @@
  "Schwemmalm": {
   "rando_km": 162.9,
   "vtt_km": 37.5,
-  "lacs_15km": 14,
+  "lacs_15km": 16,
   "activites": 0,
   "nautique": 6,
   "hebergements": 42
@@ -3013,7 +3923,7 @@
  "Watles": {
   "rando_km": 176.9,
   "vtt_km": 72.6,
-  "lacs_15km": 3,
+  "lacs_15km": 4,
   "activites": 0,
   "nautique": 2,
   "hebergements": 101
@@ -3193,7 +4103,7 @@
  "Schia": {
   "rando_km": 21.4,
   "vtt_km": 118.0,
-  "lacs_15km": 4,
+  "lacs_15km": 3,
   "activites": 0,
   "nautique": 4,
   "hebergements": 6
@@ -3239,7 +4149,7 @@
   "hebergements": 294
  },
  "Stuben": {
-  "rando_km": 89.0,
+  "rando_km": 88.7,
   "vtt_km": 28.7,
   "lacs_15km": 26,
   "activites": 1,
@@ -3252,7 +4162,7 @@
   "lacs_15km": 22,
   "activites": 0,
   "nautique": 10,
-  "hebergements": 375
+  "hebergements": 421
  },
  "Zürs": {
   "rando_km": 99.9,
@@ -3471,7 +4381,7 @@
  "Nauders": {
   "rando_km": 158.0,
   "vtt_km": 149.1,
-  "lacs_15km": 5,
+  "lacs_15km": 6,
   "activites": 0,
   "nautique": 2,
   "hebergements": 174
@@ -4101,13 +5011,13 @@
   "lacs_15km": 18,
   "activites": 0,
   "nautique": 7,
-  "hebergements": 326
+  "hebergements": 354
  },
  "Ifen (Kleinwalsertal)": {
   "erreur": "position introuvable"
  },
  "Sonnenkopf (Klösterle)": {
-  "rando_km": 97.2,
+  "rando_km": 96.9,
   "vtt_km": 44.5,
   "lacs_15km": 23,
   "activites": 0,

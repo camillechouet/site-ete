@@ -3,271 +3,541 @@
   "name": "Val d'Isère",
   "pays": "France",
   "region": "Tarentaise, Savoie",
-  "alt_max": 3456
+  "alt_max": 3456,
+  "rando_km": 92.2,
+  "vtt_km": 49.5,
+  "lacs_15km": 27,
+  "activites": 3,
+  "nautique": 2,
+  "hebergements": 88
  },
  {
   "name": "Tignes",
   "pays": "France",
   "region": "Tarentaise, Savoie",
-  "alt_max": 3456
+  "alt_max": 3456,
+  "rando_km": 91.9,
+  "vtt_km": 55.6,
+  "lacs_15km": 35,
+  "activites": 3,
+  "nautique": 3,
+  "hebergements": 88
  },
  {
   "name": "Les Arcs",
   "pays": "France",
   "region": "Tarentaise, Savoie",
-  "alt_max": 3226
+  "alt_max": 3226,
+  "rando_km": 5.3,
+  "vtt_km": 1.4,
+  "lacs_15km": 2,
+  "activites": 0,
+  "nautique": 14,
+  "hebergements": 17
  },
  {
   "name": "La Plagne",
   "pays": "France",
   "region": "Tarentaise, Savoie",
-  "alt_max": 3250
+  "alt_max": 3250,
+  "rando_km": 55.9,
+  "vtt_km": 15.6,
+  "lacs_15km": 20,
+  "activites": 3,
+  "nautique": 21,
+  "hebergements": 137
  },
  {
   "name": "Chamonix",
   "pays": "France",
   "region": "Mont-Blanc, Haute-Savoie",
-  "alt_max": 3842
+  "alt_max": 3842,
+  "rando_km": 296.6,
+  "vtt_km": 36.4,
+  "lacs_15km": 27,
+  "activites": 1,
+  "nautique": 5,
+  "hebergements": 106
  },
  {
   "name": "Avoriaz",
   "pays": "France",
   "region": "Portes du Soleil, Haute-Savoie",
-  "alt_max": 2277
+  "alt_max": 2277,
+  "rando_km": 188.5,
+  "vtt_km": 87.7,
+  "lacs_15km": 16,
+  "activites": 3,
+  "nautique": 18,
+  "hebergements": 258
  },
  {
   "name": "Courchevel",
   "pays": "France",
   "region": "Les 3 Vallées, Savoie",
-  "alt_max": 2738
+  "alt_max": 2738,
+  "rando_km": 74.4,
+  "vtt_km": 4.9,
+  "lacs_15km": 35,
+  "activites": 2,
+  "nautique": 10,
+  "hebergements": 182
  },
  {
   "name": "Méribel",
   "pays": "France",
   "region": "Les 3 Vallées, Savoie",
-  "alt_max": 2952
+  "alt_max": 2952,
+  "rando_km": 27.5,
+  "vtt_km": 13.8,
+  "lacs_15km": 30,
+  "activites": 2,
+  "nautique": 14,
+  "hebergements": 175
  },
  {
   "name": "Val Thorens",
   "pays": "France",
   "region": "Les 3 Vallées, Savoie",
-  "alt_max": 3230
+  "alt_max": 3230,
+  "rando_km": 43.2,
+  "vtt_km": 3.5,
+  "lacs_15km": 72,
+  "activites": 0,
+  "nautique": 12,
+  "hebergements": 152
  },
  {
   "name": "Les Menuires",
   "pays": "France",
   "region": "Les 3 Vallées, Savoie",
-  "alt_max": 2850
+  "alt_max": 2850,
+  "rando_km": 37.7,
+  "vtt_km": 6.3,
+  "lacs_15km": 66,
+  "activites": 1,
+  "nautique": 7,
+  "hebergements": 220
  },
  {
   "name": "Saint-Martin-de-Belleville",
   "pays": "France",
   "region": "Les 3 Vallées, Savoie",
-  "alt_max": 2400
+  "alt_max": 2400,
+  "rando_km": 12.4,
+  "vtt_km": 10.4,
+  "lacs_15km": 39,
+  "activites": 1,
+  "nautique": 11,
+  "hebergements": 141
  },
  {
   "name": "La Tania",
   "pays": "France",
   "region": "Les 3 Vallées, Savoie",
-  "alt_max": 2732
+  "alt_max": 2732,
+  "rando_km": 30.0,
+  "vtt_km": 14.4,
+  "lacs_15km": 26,
+  "activites": 2,
+  "nautique": 13,
+  "hebergements": 171
  },
  {
   "name": "Orelle",
   "pays": "France",
   "region": "Maurienne, Savoie",
-  "alt_max": 3230
+  "alt_max": 3230,
+  "rando_km": 67.8,
+  "vtt_km": 4.4,
+  "lacs_15km": 150,
+  "activites": 0,
+  "nautique": 14,
+  "hebergements": 57
  },
  {
   "name": "Megève",
   "pays": "France",
   "region": "Évasion Mont-Blanc, Haute-Savoie",
-  "alt_max": 2350
+  "alt_max": 2350,
+  "rando_km": 21.9,
+  "vtt_km": 18.5,
+  "lacs_15km": 14,
+  "activites": 2,
+  "nautique": 12,
+  "hebergements": 68
  },
  {
   "name": "Saint-Gervais",
   "pays": "France",
   "region": "Évasion Mont-Blanc, Haute-Savoie",
-  "alt_max": 2350
+  "alt_max": 2350,
+  "rando_km": 81.6,
+  "vtt_km": 6.2,
+  "lacs_15km": 0,
+  "activites": 1,
+  "nautique": 20,
+  "hebergements": 26
  },
  {
   "name": "Les Houches",
   "pays": "France",
   "region": "Mont-Blanc, Haute-Savoie",
-  "alt_max": 1900
+  "alt_max": 1900,
+  "rando_km": 274.6,
+  "vtt_km": 32.7,
+  "lacs_15km": 32,
+  "activites": 0,
+  "nautique": 11,
+  "hebergements": 126
  },
  {
   "name": "Combloux",
   "pays": "France",
   "region": "Évasion Mont-Blanc, Haute-Savoie",
-  "alt_max": 1852
+  "alt_max": 1852,
+  "rando_km": 38.0,
+  "vtt_km": 20.7,
+  "lacs_15km": 20,
+  "activites": 1,
+  "nautique": 14,
+  "hebergements": 94
  },
  {
   "name": "Les Contamines-Montjoie",
   "pays": "France",
   "region": "Évasion Mont-Blanc, Haute-Savoie",
-  "alt_max": 2480
+  "alt_max": 2480,
+  "rando_km": 157.3,
+  "vtt_km": 15.3,
+  "lacs_15km": 17,
+  "activites": 1,
+  "nautique": 10,
+  "hebergements": 51
  },
  {
   "name": "Morzine",
   "pays": "France",
   "region": "Portes du Soleil, Haute-Savoie",
-  "alt_max": 2466
+  "alt_max": 2466,
+  "rando_km": 86.8,
+  "vtt_km": 82.5,
+  "lacs_15km": 16,
+  "activites": 2,
+  "nautique": 19,
+  "hebergements": 343
  },
  {
   "name": "Les Gets",
   "pays": "France",
   "region": "Portes du Soleil, Haute-Savoie",
-  "alt_max": 2002
+  "alt_max": 2002,
+  "rando_km": 59.5,
+  "vtt_km": 63.3,
+  "lacs_15km": 15,
+  "activites": 3,
+  "nautique": 18,
+  "hebergements": 307
  },
  {
   "name": "Châtel",
   "pays": "France",
   "region": "Portes du Soleil, Haute-Savoie",
-  "alt_max": 2200
+  "alt_max": 2200,
+  "rando_km": 127.5,
+  "vtt_km": 9.4,
+  "lacs_15km": 13,
+  "activites": 0,
+  "nautique": 27,
+  "hebergements": 75
  },
  {
   "name": "La Chapelle d'Abondance",
   "pays": "France",
   "region": "Portes du Soleil, Haute-Savoie",
-  "alt_max": 2000
+  "alt_max": 2000,
+  "rando_km": 200.5,
+  "vtt_km": 18.6,
+  "lacs_15km": 12,
+  "activites": 1,
+  "nautique": 28,
+  "hebergements": 80
  },
  {
   "name": "Abondance",
   "pays": "France",
   "region": "Haute-Savoie",
-  "alt_max": 1730
+  "alt_max": 1730,
+  "rando_km": 87.9,
+  "vtt_km": 22.4,
+  "lacs_15km": 13,
+  "activites": 1,
+  "nautique": 19,
+  "hebergements": 54
  },
  {
   "name": "Bellevaux-Hirmentaz",
   "pays": "France",
   "region": "Haute-Savoie",
-  "alt_max": 1607
+  "alt_max": 1607,
+  "rando_km": 63.1,
+  "vtt_km": 10.6,
+  "lacs_15km": 7,
+  "activites": 2,
+  "nautique": 17,
+  "hebergements": 21
  },
  {
   "name": "Bernex",
   "pays": "France",
   "region": "Haute-Savoie",
-  "alt_max": 2000
+  "alt_max": 2000,
+  "rando_km": 60.0,
+  "vtt_km": 6.2,
+  "lacs_15km": 9,
+  "activites": 0,
+  "nautique": 18,
+  "hebergements": 57
  },
  {
   "name": "Saint-Jean-d'Aulps",
   "pays": "France",
   "region": "Haute-Savoie",
-  "alt_max": 1800
+  "alt_max": 1800,
+  "rando_km": 52.0,
+  "vtt_km": 30.5,
+  "lacs_15km": 13,
+  "activites": 2,
+  "nautique": 15,
+  "hebergements": 206
  },
  {
   "name": "Praz-de-Lys Sommand",
   "pays": "France",
   "region": "Haute-Savoie",
-  "alt_max": 1700
+  "alt_max": 1700,
+  "rando_km": 67.5,
+  "vtt_km": 11.7,
+  "lacs_15km": 8,
+  "activites": 0,
+  "nautique": 21,
+  "hebergements": 110
  },
  {
   "name": "Flaine",
   "pays": "France",
   "region": "Grand Massif, Haute-Savoie",
-  "alt_max": 2480
+  "alt_max": 2480,
+  "rando_km": 93.7,
+  "vtt_km": 7.0,
+  "lacs_15km": 23,
+  "activites": 1,
+  "nautique": 17,
+  "hebergements": 60
  },
  {
   "name": "Les Carroz",
   "pays": "France",
   "region": "Grand Massif, Haute-Savoie",
-  "alt_max": 2480
+  "alt_max": 2480,
+  "rando_km": 53.1,
+  "vtt_km": 5.5,
+  "lacs_15km": 19,
+  "activites": 2,
+  "nautique": 19,
+  "hebergements": 70
  },
  {
   "name": "Samoëns",
   "pays": "France",
   "region": "Grand Massif, Haute-Savoie",
-  "alt_max": 2480
+  "alt_max": 2480,
+  "rando_km": 97.1,
+  "vtt_km": 16.9,
+  "lacs_15km": 21,
+  "activites": 2,
+  "nautique": 17,
+  "hebergements": 65
  },
  {
   "name": "Morillon",
   "pays": "France",
   "region": "Grand Massif, Haute-Savoie",
-  "alt_max": 2118
+  "alt_max": 2118,
+  "rando_km": 54.1,
+  "vtt_km": 8.8,
+  "lacs_15km": 21,
+  "activites": 3,
+  "nautique": 18,
+  "hebergements": 111
  },
  {
   "name": "Sixt-Fer-à-Cheval",
   "pays": "France",
   "region": "Grand Massif, Haute-Savoie",
-  "alt_max": 1600
+  "alt_max": 1600,
+  "rando_km": 116.6,
+  "vtt_km": 5.4,
+  "lacs_15km": 30,
+  "activites": 1,
+  "nautique": 11,
+  "hebergements": 41
  },
  {
   "name": "La Clusaz",
   "pays": "France",
   "region": "Aravis, Haute-Savoie",
-  "alt_max": 2600
+  "alt_max": 2600,
+  "rando_km": 59.5,
+  "vtt_km": 45.1,
+  "lacs_15km": 4,
+  "activites": 0,
+  "nautique": 7,
+  "hebergements": 63
  },
  {
   "name": "Le Grand-Bornand",
   "pays": "France",
   "region": "Aravis, Haute-Savoie",
-  "alt_max": 2100
+  "alt_max": 2100,
+  "rando_km": 57.8,
+  "vtt_km": 29.4,
+  "lacs_15km": 5,
+  "activites": 0,
+  "nautique": 6,
+  "hebergements": 61
  },
  {
   "name": "La Giettaz",
   "pays": "France",
   "region": "Évasion Mont-Blanc, Savoie",
-  "alt_max": 2440
+  "alt_max": 2440,
+  "rando_km": 63.2,
+  "vtt_km": 16.2,
+  "lacs_15km": 7,
+  "activites": 0,
+  "nautique": 14,
+  "hebergements": 58
  },
  {
   "name": "Praz-sur-Arly",
   "pays": "France",
   "region": "Val d'Arly, Haute-Savoie",
-  "alt_max": 2070
+  "alt_max": 2070,
+  "rando_km": 14.4,
+  "vtt_km": 12.6,
+  "lacs_15km": 11,
+  "activites": 2,
+  "nautique": 14,
+  "hebergements": 46
  },
  {
   "name": "Flumet",
   "pays": "France",
   "region": "Val d'Arly, Haute-Savoie",
-  "alt_max": 2070
+  "alt_max": 2070,
+  "rando_km": 35.2,
+  "vtt_km": 13.5,
+  "lacs_15km": 7,
+  "activites": 1,
+  "nautique": 9,
+  "hebergements": 35
  },
  {
   "name": "Crest-Voland",
   "pays": "France",
   "region": "Val d'Arly, Savoie",
-  "alt_max": 2066
+  "alt_max": 2066,
+  "rando_km": 33.4,
+  "vtt_km": 20.9,
+  "lacs_15km": 8,
+  "activites": 1,
+  "nautique": 7,
+  "hebergements": 28
  },
  {
   "name": "Notre-Dame-de-Bellecombe",
   "pays": "France",
   "region": "Val d'Arly, Savoie",
-  "alt_max": 2070
+  "alt_max": 2070,
+  "rando_km": 26.6,
+  "vtt_km": 14.9,
+  "lacs_15km": 7,
+  "activites": 1,
+  "nautique": 9,
+  "hebergements": 33
  },
  {
   "name": "Les Saisies",
   "pays": "France",
   "region": "Beaufortain, Savoie",
-  "alt_max": 2070
+  "alt_max": 2070,
+  "rando_km": 30.9,
+  "vtt_km": 40.9,
+  "lacs_15km": 13,
+  "activites": 2,
+  "nautique": 5,
+  "hebergements": 34
  },
  {
   "name": "Arêches-Beaufort",
   "pays": "France",
   "region": "Beaufortain, Savoie",
-  "alt_max": 2300
+  "alt_max": 2300,
+  "rando_km": 127.9,
+  "vtt_km": 34.4,
+  "lacs_15km": 21,
+  "activites": 1,
+  "nautique": 2,
+  "hebergements": 22
  },
  {
   "name": "Sainte-Foy-Tarentaise",
   "pays": "France",
   "region": "Tarentaise, Savoie",
-  "alt_max": 2620
+  "alt_max": 2620,
+  "rando_km": 85.8,
+  "vtt_km": 16.6,
+  "lacs_15km": 28,
+  "activites": 0,
+  "nautique": 15,
+  "hebergements": 181
  },
  {
   "name": "La Rosière",
   "pays": "France",
   "region": "Espace San Bernardo, Savoie",
-  "alt_max": 2800
+  "alt_max": 2800,
+  "rando_km": 1.5,
+  "vtt_km": 1.5,
+  "lacs_15km": 0,
+  "activites": 0,
+  "nautique": 8,
+  "hebergements": 23
  },
  {
   "name": "Champagny-en-Vanoise",
   "pays": "France",
   "region": "Tarentaise, Savoie",
-  "alt_max": 3250
+  "alt_max": 3250,
+  "rando_km": 74.1,
+  "vtt_km": 9.3,
+  "lacs_15km": 38,
+  "activites": 0,
+  "nautique": 12,
+  "hebergements": 14
  },
  {
   "name": "Peisey-Vallandry",
   "pays": "France",
   "region": "Tarentaise, Savoie",
-  "alt_max": 3226
+  "alt_max": 3226,
+  "rando_km": 54.8,
+  "vtt_km": 11.4,
+  "lacs_15km": 29,
+  "activites": 3,
+  "nautique": 16,
+  "hebergements": 279
  },
  {
   "name": "Montchavin-Les Coches",
@@ -279,121 +549,241 @@
   "name": "Pralognan-la-Vanoise",
   "pays": "France",
   "region": "Tarentaise, Savoie",
-  "alt_max": 2360
+  "alt_max": 2360,
+  "rando_km": 141.2,
+  "vtt_km": 0.5,
+  "lacs_15km": 43,
+  "activites": 1,
+  "nautique": 9,
+  "hebergements": 42
  },
  {
   "name": "Brides-les-Bains",
   "pays": "France",
   "region": "Les 3 Vallées, Savoie",
-  "alt_max": 2952
+  "alt_max": 2952,
+  "rando_km": 36.6,
+  "vtt_km": 31.7,
+  "lacs_15km": 19,
+  "activites": 1,
+  "nautique": 13,
+  "hebergements": 97
  },
  {
   "name": "Valmorel",
   "pays": "France",
   "region": "Tarentaise, Savoie",
-  "alt_max": 2550
+  "alt_max": 2550,
+  "rando_km": 60.0,
+  "vtt_km": 15.1,
+  "lacs_15km": 20,
+  "activites": 1,
+  "nautique": 10,
+  "hebergements": 66
  },
  {
   "name": "La Toussuire",
   "pays": "France",
   "region": "Les Sybelles, Savoie",
-  "alt_max": 2620
+  "alt_max": 2620,
+  "rando_km": 60.5,
+  "vtt_km": 11.4,
+  "lacs_15km": 31,
+  "activites": 1,
+  "nautique": 5,
+  "hebergements": 79
  },
  {
   "name": "Le Corbier",
   "pays": "France",
   "region": "Les Sybelles, Savoie",
-  "alt_max": 2265
+  "alt_max": 2265,
+  "rando_km": 0.0,
+  "vtt_km": 0.0,
+  "lacs_15km": 0,
+  "activites": 0,
+  "nautique": 0,
+  "hebergements": 0
  },
  {
   "name": "Saint-Sorlin-d'Arves",
   "pays": "France",
   "region": "Les Sybelles, Savoie",
-  "alt_max": 2620
+  "alt_max": 2620,
+  "rando_km": 49.7,
+  "vtt_km": 6.2,
+  "lacs_15km": 43,
+  "activites": 1,
+  "nautique": 6,
+  "hebergements": 54
  },
  {
   "name": "Saint-Jean-d'Arves",
   "pays": "France",
   "region": "Les Sybelles, Savoie",
-  "alt_max": 2620
+  "alt_max": 2620,
+  "rando_km": 37.3,
+  "vtt_km": 7.7,
+  "lacs_15km": 25,
+  "activites": 1,
+  "nautique": 9,
+  "hebergements": 56
  },
  {
   "name": "Saint-Colomban-des-Villards",
   "pays": "France",
   "region": "Maurienne, Savoie",
-  "alt_max": 1600
+  "alt_max": 1600,
+  "rando_km": 71.9,
+  "vtt_km": 21.3,
+  "lacs_15km": 38,
+  "activites": 0,
+  "nautique": 4,
+  "hebergements": 64
  },
  {
   "name": "Les Bottières",
   "pays": "France",
   "region": "Les Sybelles, Savoie",
-  "alt_max": 2400
+  "alt_max": 2400,
+  "rando_km": 36.0,
+  "vtt_km": 41.6,
+  "lacs_15km": 5,
+  "activites": 1,
+  "nautique": 12,
+  "hebergements": 22
  },
  {
   "name": "Valloire",
   "pays": "France",
   "region": "Galibier-Thabor, Savoie",
-  "alt_max": 2600
+  "alt_max": 2600,
+  "rando_km": 145.1,
+  "vtt_km": 35.4,
+  "lacs_15km": 132,
+  "activites": 1,
+  "nautique": 11,
+  "hebergements": 332
  },
  {
   "name": "Valmeinier",
   "pays": "France",
   "region": "Galibier-Thabor, Savoie",
-  "alt_max": 2600
+  "alt_max": 2600,
+  "rando_km": 135.6,
+  "vtt_km": 34.3,
+  "lacs_15km": 151,
+  "activites": 1,
+  "nautique": 13,
+  "hebergements": 352
  },
  {
   "name": "Val Cenis",
   "pays": "France",
   "region": "Haute-Maurienne, Savoie",
-  "alt_max": 2800
+  "alt_max": 2800,
+  "rando_km": 116.6,
+  "vtt_km": 31.7,
+  "lacs_15km": 39,
+  "activites": 1,
+  "nautique": 4,
+  "hebergements": 56
  },
  {
   "name": "Aussois",
   "pays": "France",
   "region": "Haute-Maurienne, Savoie",
-  "alt_max": 2750
+  "alt_max": 2750,
+  "rando_km": 165.3,
+  "vtt_km": 40.4,
+  "lacs_15km": 59,
+  "activites": 1,
+  "nautique": 7,
+  "hebergements": 92
  },
  {
   "name": "Bonneval-sur-Arc",
   "pays": "France",
   "region": "Haute-Maurienne, Savoie",
-  "alt_max": 3000
+  "alt_max": 3000,
+  "rando_km": 91.9,
+  "vtt_km": 2.2,
+  "lacs_15km": 31,
+  "activites": 0,
+  "nautique": 3,
+  "hebergements": 153
  },
  {
   "name": "Bessans",
   "pays": "France",
   "region": "Haute-Maurienne, Savoie",
-  "alt_max": 1900
+  "alt_max": 1900,
+  "rando_km": 47.8,
+  "vtt_km": 0.0,
+  "lacs_15km": 36,
+  "activites": 0,
+  "nautique": 3,
+  "hebergements": 171
  },
  {
   "name": "Valfréjus",
   "pays": "France",
   "region": "Maurienne, Savoie",
-  "alt_max": 2737
+  "alt_max": 2737,
+  "rando_km": 98.0,
+  "vtt_km": 44.6,
+  "lacs_15km": 146,
+  "activites": 0,
+  "nautique": 8,
+  "hebergements": 26
  },
  {
   "name": "La Norma",
   "pays": "France",
   "region": "Maurienne, Savoie",
-  "alt_max": 2750
+  "alt_max": 2750,
+  "rando_km": 88.6,
+  "vtt_km": 19.0,
+  "lacs_15km": 135,
+  "activites": 1,
+  "nautique": 6,
+  "hebergements": 90
  },
  {
   "name": "Albiez-Montrond",
   "pays": "France",
   "region": "Maurienne, Savoie",
-  "alt_max": 2100
+  "alt_max": 2100,
+  "rando_km": 50.7,
+  "vtt_km": 6.8,
+  "lacs_15km": 11,
+  "activites": 2,
+  "nautique": 12,
+  "hebergements": 216
  },
  {
   "name": "Saint-François-Longchamp",
   "pays": "France",
   "region": "Maurienne, Savoie",
-  "alt_max": 2650
+  "alt_max": 2650,
+  "rando_km": 68.3,
+  "vtt_km": 33.2,
+  "lacs_15km": 18,
+  "activites": 2,
+  "nautique": 6,
+  "hebergements": 63
  },
  {
   "name": "Les Karellis",
   "pays": "France",
   "region": "Maurienne, Savoie",
-  "alt_max": 2520
+  "alt_max": 2520,
+  "rando_km": 59.2,
+  "vtt_km": 16.0,
+  "lacs_15km": 56,
+  "activites": 1,
+  "nautique": 13,
+  "hebergements": 254
  },
  {
   "name": "Les Aillons-Margeriaz",
@@ -405,31 +795,61 @@
   "name": "Chamrousse",
   "pays": "France",
   "region": "Belledonne, Isère",
-  "alt_max": 2250
+  "alt_max": 2250,
+  "rando_km": 136.2,
+  "vtt_km": 50.1,
+  "lacs_15km": 38,
+  "activites": 1,
+  "nautique": 38,
+  "hebergements": 68
  },
  {
   "name": "Les 7 Laux",
   "pays": "France",
   "region": "Belledonne, Isère",
-  "alt_max": 2200
+  "alt_max": 2200,
+  "rando_km": 151.9,
+  "vtt_km": 74.0,
+  "lacs_15km": 66,
+  "activites": 0,
+  "nautique": 7,
+  "hebergements": 15
  },
  {
   "name": "Alpe d'Huez",
   "pays": "France",
   "region": "Oisans, Isère",
-  "alt_max": 3330
+  "alt_max": 3330,
+  "rando_km": 52.7,
+  "vtt_km": 129.7,
+  "lacs_15km": 70,
+  "activites": 2,
+  "nautique": 11,
+  "hebergements": 88
  },
  {
   "name": "Les Deux Alpes",
   "pays": "France",
   "region": "Isère",
-  "alt_max": 3568
+  "alt_max": 3568,
+  "rando_km": 135.4,
+  "vtt_km": 48.4,
+  "lacs_15km": 31,
+  "activites": 0,
+  "nautique": 10,
+  "hebergements": 71
  },
  {
   "name": "Auris-en-Oisans",
   "pays": "France",
   "region": "Oisans, Isère",
-  "alt_max": 2176
+  "alt_max": 2176,
+  "rando_km": 101.4,
+  "vtt_km": 91.4,
+  "lacs_15km": 46,
+  "activites": 1,
+  "nautique": 11,
+  "hebergements": 103
  },
  {
   "name": "Alpe du Grand Serre",
@@ -441,49 +861,97 @@
   "name": "Villard-de-Lans",
   "pays": "France",
   "region": "Vercors, Isère",
-  "alt_max": 2050
+  "alt_max": 2050,
+  "rando_km": 172.8,
+  "vtt_km": 51.3,
+  "lacs_15km": 1,
+  "activites": 1,
+  "nautique": 11,
+  "hebergements": 60
  },
  {
   "name": "Corrençon-en-Vercors",
   "pays": "France",
   "region": "Vercors, Isère",
-  "alt_max": 2050
+  "alt_max": 2050,
+  "rando_km": 201.1,
+  "vtt_km": 32.2,
+  "lacs_15km": 1,
+  "activites": 1,
+  "nautique": 11,
+  "hebergements": 61
  },
  {
   "name": "Autrans-Méaudre",
   "pays": "France",
   "region": "Vercors, Isère",
-  "alt_max": 1710
+  "alt_max": 1710,
+  "rando_km": 147.1,
+  "vtt_km": 68.4,
+  "lacs_15km": 2,
+  "activites": 2,
+  "nautique": 35,
+  "hebergements": 42
  },
  {
   "name": "Lans-en-Vercors",
   "pays": "France",
   "region": "Vercors, Isère",
-  "alt_max": 1983
+  "alt_max": 1983,
+  "rando_km": 179.6,
+  "vtt_km": 95.4,
+  "lacs_15km": 2,
+  "activites": 2,
+  "nautique": 37,
+  "hebergements": 62
  },
  {
   "name": "Gresse-en-Vercors",
   "pays": "France",
   "region": "Vercors, Isère",
-  "alt_max": 1776
+  "alt_max": 1776,
+  "rando_km": 172.5,
+  "vtt_km": 5.3,
+  "lacs_15km": 0,
+  "activites": 3,
+  "nautique": 13,
+  "hebergements": 42
  },
  {
   "name": "Col de Rousset",
   "pays": "France",
   "region": "Vercors, Drôme",
-  "alt_max": 1700
+  "alt_max": 1700,
+  "rando_km": 68.1,
+  "vtt_km": 44.0,
+  "lacs_15km": 0,
+  "activites": 1,
+  "nautique": 8,
+  "hebergements": 10
  },
  {
   "name": "Font d'Urle",
   "pays": "France",
   "region": "Vercors, Drôme",
-  "alt_max": 1765
+  "alt_max": 1765,
+  "rando_km": 88.6,
+  "vtt_km": 27.3,
+  "lacs_15km": 0,
+  "activites": 0,
+  "nautique": 7,
+  "hebergements": 13
  },
  {
   "name": "Lus-la-Jarjatte",
   "pays": "France",
   "region": "Vercors, Drôme",
-  "alt_max": 1654
+  "alt_max": 1654,
+  "rando_km": 90.8,
+  "vtt_km": 7.7,
+  "lacs_15km": 1,
+  "activites": 0,
+  "nautique": 4,
+  "hebergements": 10
  },
  {
   "name": "Semnoz - Annecy",
@@ -495,49 +963,97 @@
   "name": "Col de Porte",
   "pays": "France",
   "region": "Chartreuse, Isère",
-  "alt_max": 1788
+  "alt_max": 1788,
+  "rando_km": 303.7,
+  "vtt_km": 94.6,
+  "lacs_15km": 5,
+  "activites": 1,
+  "nautique": 35,
+  "hebergements": 34
  },
  {
   "name": "Saint-Pierre-de-Chartreuse",
   "pays": "France",
   "region": "Chartreuse, Isère",
-  "alt_max": 1800
+  "alt_max": 1800,
+  "rando_km": 243.1,
+  "vtt_km": 23.4,
+  "lacs_15km": 3,
+  "activites": 0,
+  "nautique": 13,
+  "hebergements": 39
  },
  {
   "name": "Col de Marcieu",
   "pays": "France",
   "region": "Chartreuse, Isère",
-  "alt_max": 1700
+  "alt_max": 1700,
+  "rando_km": 207.3,
+  "vtt_km": 28.4,
+  "lacs_15km": 8,
+  "activites": 0,
+  "nautique": 18,
+  "hebergements": 42
  },
  {
   "name": "Col d'Ornon",
   "pays": "France",
   "region": "Isère",
-  "alt_max": 1745
+  "alt_max": 1745,
+  "rando_km": 50.4,
+  "vtt_km": 2.1,
+  "lacs_15km": 43,
+  "activites": 1,
+  "nautique": 6,
+  "hebergements": 22
  },
  {
   "name": "Serre Chevalier",
   "pays": "France",
   "region": "Hautes-Alpes",
-  "alt_max": 2800
+  "alt_max": 2800,
+  "rando_km": 97.3,
+  "vtt_km": 65.6,
+  "lacs_15km": 27,
+  "activites": 3,
+  "nautique": 24,
+  "hebergements": 83
  },
  {
   "name": "Montgenèvre",
   "pays": "France",
   "region": "La Voie Lactée, Hautes-Alpes",
-  "alt_max": 2823
+  "alt_max": 2823,
+  "rando_km": 213.4,
+  "vtt_km": 247.1,
+  "lacs_15km": 27,
+  "activites": 3,
+  "nautique": 10,
+  "hebergements": 60
  },
  {
   "name": "Vars",
   "pays": "France",
   "region": "Hautes-Alpes",
-  "alt_max": 2750
+  "alt_max": 2750,
+  "rando_km": 0.0,
+  "vtt_km": 0.0,
+  "lacs_15km": 0,
+  "activites": 0,
+  "nautique": 9,
+  "hebergements": 2
  },
  {
   "name": "Risoul",
   "pays": "France",
   "region": "Hautes-Alpes",
-  "alt_max": 2750
+  "alt_max": 2750,
+  "rando_km": 66.0,
+  "vtt_km": 65.5,
+  "lacs_15km": 16,
+  "activites": 1,
+  "nautique": 9,
+  "hebergements": 72
  },
  {
   "name": "La Grave - La Meije",
@@ -549,7 +1065,13 @@
   "name": "Puy-Saint-Vincent",
   "pays": "France",
   "region": "Hautes-Alpes",
-  "alt_max": 2700
+  "alt_max": 2700,
+  "rando_km": 176.7,
+  "vtt_km": 20.8,
+  "lacs_15km": 26,
+  "activites": 2,
+  "nautique": 22,
+  "hebergements": 33
  },
  {
   "name": "Orcières Merlette 1850",
@@ -561,43 +1083,85 @@
   "name": "Superdévoluy",
   "pays": "France",
   "region": "Hautes-Alpes",
-  "alt_max": 2500
+  "alt_max": 2500,
+  "rando_km": 30.6,
+  "vtt_km": 0.0,
+  "lacs_15km": 2,
+  "activites": 1,
+  "nautique": 10,
+  "hebergements": 15
  },
  {
   "name": "Les Orres",
   "pays": "France",
   "region": "Hautes-Alpes",
-  "alt_max": 2720
+  "alt_max": 2720,
+  "rando_km": 22.1,
+  "vtt_km": 22.6,
+  "lacs_15km": 14,
+  "activites": 0,
+  "nautique": 17,
+  "hebergements": 80
  },
  {
   "name": "Ancelle",
   "pays": "France",
   "region": "Champsaur, Hautes-Alpes",
-  "alt_max": 1800
+  "alt_max": 1800,
+  "rando_km": 12.4,
+  "vtt_km": 5.4,
+  "lacs_15km": 10,
+  "activites": 0,
+  "nautique": 16,
+  "hebergements": 31
  },
  {
   "name": "Saint-Léger-les-Mélèzes",
   "pays": "France",
   "region": "Champsaur, Hautes-Alpes",
-  "alt_max": 1900
+  "alt_max": 1900,
+  "rando_km": 14.8,
+  "vtt_km": 18.0,
+  "lacs_15km": 12,
+  "activites": 0,
+  "nautique": 6,
+  "hebergements": 31
  },
  {
   "name": "Réallon",
   "pays": "France",
   "region": "Hautes-Alpes",
-  "alt_max": 2000
+  "alt_max": 2000,
+  "rando_km": 48.3,
+  "vtt_km": 24.7,
+  "lacs_15km": 22,
+  "activites": 1,
+  "nautique": 19,
+  "hebergements": 8
  },
  {
   "name": "Crévoux",
   "pays": "France",
   "region": "Hautes-Alpes",
-  "alt_max": 2100
+  "alt_max": 2100,
+  "rando_km": 48.6,
+  "vtt_km": 3.8,
+  "lacs_15km": 12,
+  "activites": 0,
+  "nautique": 17,
+  "hebergements": 84
  },
  {
   "name": "Chaillol",
   "pays": "France",
   "region": "Champsaur, Hautes-Alpes",
-  "alt_max": 2400
+  "alt_max": 2400,
+  "rando_km": 49.2,
+  "vtt_km": 19.3,
+  "lacs_15km": 9,
+  "activites": 0,
+  "nautique": 5,
+  "hebergements": 33
  },
  {
   "name": "Sauze-Super-Sauze",
@@ -615,13 +1179,25 @@
   "name": "Val d'Allos",
   "pays": "France",
   "region": "Alpes-de-Haute-Provence",
-  "alt_max": 2600
+  "alt_max": 2600,
+  "rando_km": 51.0,
+  "vtt_km": 20.6,
+  "lacs_15km": 14,
+  "activites": 1,
+  "nautique": 2,
+  "hebergements": 15
  },
  {
   "name": "Chabanon",
   "pays": "France",
   "region": "Alpes-de-Haute-Provence",
-  "alt_max": 2000
+  "alt_max": 2000,
+  "rando_km": 5.0,
+  "vtt_km": 5.8,
+  "lacs_15km": 5,
+  "activites": 0,
+  "nautique": 7,
+  "hebergements": 14
  },
  {
   "name": "Montclar-les-2-Vallées",
@@ -633,31 +1209,61 @@
   "name": "Larche",
   "pays": "France",
   "region": "Alpes-de-Haute-Provence",
-  "alt_max": 2200
+  "alt_max": 2200,
+  "rando_km": 1.2,
+  "vtt_km": 2.8,
+  "lacs_15km": 0,
+  "activites": 0,
+  "nautique": 10,
+  "hebergements": 18
  },
  {
   "name": "Sainte-Anne-la-Condamine",
   "pays": "France",
   "region": "Ubaye, Alpes-de-Haute-Provence",
-  "alt_max": 1900
+  "alt_max": 1900,
+  "rando_km": 63.6,
+  "vtt_km": 18.9,
+  "lacs_15km": 26,
+  "activites": 1,
+  "nautique": 12,
+  "hebergements": 15
  },
  {
   "name": "Isola 2000",
   "pays": "France",
   "region": "Alpes-Maritimes",
-  "alt_max": 2610
+  "alt_max": 2610,
+  "rando_km": 208.7,
+  "vtt_km": 73.4,
+  "lacs_15km": 32,
+  "activites": 0,
+  "nautique": 2,
+  "hebergements": 11
  },
  {
   "name": "Auron",
   "pays": "France",
   "region": "Alpes-Maritimes",
-  "alt_max": 2450
+  "alt_max": 2450,
+  "rando_km": 88.6,
+  "vtt_km": 21.0,
+  "lacs_15km": 25,
+  "activites": 0,
+  "nautique": 3,
+  "hebergements": 19
  },
  {
   "name": "Valberg",
   "pays": "France",
   "region": "Alpes-Maritimes",
-  "alt_max": 2100
+  "alt_max": 2100,
+  "rando_km": 126.9,
+  "vtt_km": 44.0,
+  "lacs_15km": 1,
+  "activites": 0,
+  "nautique": 4,
+  "hebergements": 17
  },
  {
   "name": "Beuil-les-Launes",
@@ -669,43 +1275,85 @@
   "name": "La Colmiane",
   "pays": "France",
   "region": "Alpes-Maritimes",
-  "alt_max": 1800
+  "alt_max": 1800,
+  "rando_km": 111.0,
+  "vtt_km": 58.6,
+  "lacs_15km": 23,
+  "activites": 1,
+  "nautique": 4,
+  "hebergements": 18
  },
  {
   "name": "Gréolières-les-Neiges",
   "pays": "France",
   "region": "Alpes-Maritimes",
-  "alt_max": 1800
+  "alt_max": 1800,
+  "rando_km": 51.5,
+  "vtt_km": 87.2,
+  "lacs_15km": 1,
+  "activites": 0,
+  "nautique": 1,
+  "hebergements": 17
  },
  {
   "name": "L'Audibergue",
   "pays": "France",
   "region": "Alpes-Maritimes",
-  "alt_max": 1600
+  "alt_max": 1600,
+  "rando_km": 38.3,
+  "vtt_km": 37.0,
+  "lacs_15km": 1,
+  "activites": 2,
+  "nautique": 2,
+  "hebergements": 11
  },
  {
   "name": "Abriès-en-Queyras",
   "pays": "France",
   "region": "Queyras, Hautes-Alpes",
-  "alt_max": 2390
+  "alt_max": 2390,
+  "rando_km": 91.2,
+  "vtt_km": 74.5,
+  "lacs_15km": 42,
+  "activites": 0,
+  "nautique": 1,
+  "hebergements": 20
  },
  {
   "name": "Saint-Véran",
   "pays": "France",
   "region": "Queyras, Hautes-Alpes",
-  "alt_max": 2830
+  "alt_max": 2830,
+  "rando_km": 88.9,
+  "vtt_km": 14.1,
+  "lacs_15km": 33,
+  "activites": 1,
+  "nautique": 1,
+  "hebergements": 19
  },
  {
   "name": "Ceillac-en-Queyras",
   "pays": "France",
   "region": "Queyras, Hautes-Alpes",
-  "alt_max": 2450
+  "alt_max": 2450,
+  "rando_km": 112.3,
+  "vtt_km": 17.1,
+  "lacs_15km": 34,
+  "activites": 0,
+  "nautique": 7,
+  "hebergements": 11
  },
  {
   "name": "Molines-en-Queyras",
   "pays": "France",
   "region": "Queyras, Hautes-Alpes",
-  "alt_max": 2830
+  "alt_max": 2830,
+  "rando_km": 73.7,
+  "vtt_km": 30.6,
+  "lacs_15km": 39,
+  "activites": 1,
+  "nautique": 1,
+  "hebergements": 29
  },
  {
   "name": "Arvieux-en-Queyras",
@@ -717,85 +1365,169 @@
   "name": "La Mongie",
   "pays": "France",
   "region": "Hautes-Pyrénées",
-  "alt_max": 2500
+  "alt_max": 2500,
+  "rando_km": 102.1,
+  "vtt_km": 0.2,
+  "lacs_15km": 21,
+  "activites": 1,
+  "nautique": 3,
+  "hebergements": 7
  },
  {
   "name": "Barèges",
   "pays": "France",
   "region": "Hautes-Pyrénées",
-  "alt_max": 2500
+  "alt_max": 2500,
+  "rando_km": 128.0,
+  "vtt_km": 0.0,
+  "lacs_15km": 30,
+  "activites": 2,
+  "nautique": 7,
+  "hebergements": 44
  },
  {
   "name": "Saint-Lary-Soulan",
   "pays": "France",
   "region": "Hautes-Pyrénées",
-  "alt_max": 2450
+  "alt_max": 2450,
+  "rando_km": 82.7,
+  "vtt_km": 21.3,
+  "lacs_15km": 17,
+  "activites": 1,
+  "nautique": 4,
+  "hebergements": 76
  },
  {
   "name": "Piau-Engaly",
   "pays": "France",
   "region": "Hautes-Pyrénées",
-  "alt_max": 2500
+  "alt_max": 2500,
+  "rando_km": 117.5,
+  "vtt_km": 0.0,
+  "lacs_15km": 20,
+  "activites": 1,
+  "nautique": 5,
+  "hebergements": 16
  },
  {
   "name": "Luz-Ardiden",
   "pays": "France",
   "region": "Hautes-Pyrénées",
-  "alt_max": 2500
+  "alt_max": 2500,
+  "rando_km": 102.5,
+  "vtt_km": 2.6,
+  "lacs_15km": 49,
+  "activites": 1,
+  "nautique": 10,
+  "hebergements": 96
  },
  {
   "name": "Cauterets",
   "pays": "France",
   "region": "Hautes-Pyrénées",
-  "alt_max": 2350
+  "alt_max": 2350,
+  "rando_km": 82.6,
+  "vtt_km": 1.3,
+  "lacs_15km": 45,
+  "activites": 0,
+  "nautique": 8,
+  "hebergements": 72
  },
  {
   "name": "Gourette",
   "pays": "France",
   "region": "Pyrénées-Atlantiques",
-  "alt_max": 2400
+  "alt_max": 2400,
+  "rando_km": 93.9,
+  "vtt_km": 7.5,
+  "lacs_15km": 30,
+  "activites": 1,
+  "nautique": 3,
+  "hebergements": 17
  },
  {
   "name": "La Pierre-Saint-Martin",
   "pays": "France",
   "region": "Pyrénées-Atlantiques",
-  "alt_max": 2115
+  "alt_max": 2115,
+  "rando_km": 124.4,
+  "vtt_km": 14.2,
+  "lacs_15km": 0,
+  "activites": 0,
+  "nautique": 0,
+  "hebergements": 98
  },
  {
   "name": "Gavarnie-Gèdre",
   "pays": "France",
   "region": "Hautes-Pyrénées",
-  "alt_max": 2400
+  "alt_max": 2400,
+  "rando_km": 157.6,
+  "vtt_km": 0.0,
+  "lacs_15km": 42,
+  "activites": 1,
+  "nautique": 4,
+  "hebergements": 29
  },
  {
   "name": "Peyragudes",
   "pays": "France",
   "region": "Hautes-Pyrénées / Haute-Garonne",
-  "alt_max": 2400
+  "alt_max": 2400,
+  "rando_km": 54.5,
+  "vtt_km": 2.4,
+  "lacs_15km": 37,
+  "activites": 0,
+  "nautique": 5,
+  "hebergements": 26
  },
  {
   "name": "Luchon-Superbagnères",
   "pays": "France",
   "region": "Haute-Garonne",
-  "alt_max": 2260
+  "alt_max": 2260,
+  "rando_km": 62.1,
+  "vtt_km": 8.2,
+  "lacs_15km": 34,
+  "activites": 0,
+  "nautique": 2,
+  "hebergements": 48
  },
  {
   "name": "Val-Louron",
   "pays": "France",
   "region": "Hautes-Pyrénées",
-  "alt_max": 2100
+  "alt_max": 2100,
+  "rando_km": 60.8,
+  "vtt_km": 9.7,
+  "lacs_15km": 21,
+  "activites": 0,
+  "nautique": 4,
+  "hebergements": 73
  },
  {
   "name": "Ax-3-Domaines",
   "pays": "France",
   "region": "Ariège",
-  "alt_max": 2400
+  "alt_max": 2400,
+  "rando_km": 44.3,
+  "vtt_km": 11.6,
+  "lacs_15km": 15,
+  "activites": 0,
+  "nautique": 5,
+  "hebergements": 36
  },
  {
   "name": "Les Monts d'Olmes",
   "pays": "France",
   "region": "Ariège",
-  "alt_max": 2000
+  "alt_max": 2000,
+  "rando_km": 95.7,
+  "vtt_km": 0.0,
+  "lacs_15km": 0,
+  "activites": 0,
+  "nautique": 9,
+  "hebergements": 14
  },
  {
   "name": "Ascou-Pailhères",
@@ -807,121 +1539,241 @@
   "name": "Font-Romeu-Pyrénées 2000",
   "pays": "France",
   "region": "Pyrénées-Orientales",
-  "alt_max": 2213
+  "alt_max": 2213,
+  "rando_km": 51.1,
+  "vtt_km": 1.9,
+  "lacs_15km": 5,
+  "activites": 1,
+  "nautique": 19,
+  "hebergements": 67
  },
  {
   "name": "Les Angles",
   "pays": "France",
   "region": "Pyrénées-Orientales",
-  "alt_max": 2400
+  "alt_max": 2400,
+  "rando_km": 46.0,
+  "vtt_km": 31.6,
+  "lacs_15km": 2,
+  "activites": 0,
+  "nautique": 11,
+  "hebergements": 175
  },
  {
   "name": "Bolquère-Pyrénées 2000",
   "pays": "France",
   "region": "Pyrénées-Orientales",
-  "alt_max": 2200
+  "alt_max": 2200,
+  "rando_km": 28.2,
+  "vtt_km": 0.0,
+  "lacs_15km": 3,
+  "activites": 1,
+  "nautique": 18,
+  "hebergements": 89
  },
  {
   "name": "Formiguères",
   "pays": "France",
   "region": "Pyrénées-Orientales",
-  "alt_max": 2400
+  "alt_max": 2400,
+  "rando_km": 17.4,
+  "vtt_km": 0.5,
+  "lacs_15km": 7,
+  "activites": 1,
+  "nautique": 5,
+  "hebergements": 19
  },
  {
   "name": "Cambre d'Aze",
   "pays": "France",
   "region": "Pyrénées-Orientales",
-  "alt_max": 2408
+  "alt_max": 2408,
+  "rando_km": 90.8,
+  "vtt_km": 0.0,
+  "lacs_15km": 0,
+  "activites": 0,
+  "nautique": 17,
+  "hebergements": 42
  },
  {
   "name": "Porte-Puymorens",
   "pays": "France",
   "region": "Pyrénées-Orientales / Ariège",
-  "alt_max": 2450
+  "alt_max": 2450,
+  "rando_km": 70.5,
+  "vtt_km": 9.3,
+  "lacs_15km": 38,
+  "activites": 0,
+  "nautique": 5,
+  "hebergements": 9
  },
  {
   "name": "Mijanès-Donezan",
   "pays": "France",
   "region": "Ariège",
-  "alt_max": 2020
+  "alt_max": 2020,
+  "rando_km": 63.8,
+  "vtt_km": 3.2,
+  "lacs_15km": 9,
+  "activites": 0,
+  "nautique": 1,
+  "hebergements": 8
  },
  {
   "name": "Guzet",
   "pays": "France",
   "region": "Ariège",
-  "alt_max": 1800
+  "alt_max": 1800,
+  "rando_km": 152.6,
+  "vtt_km": 0.0,
+  "lacs_15km": 7,
+  "activites": 1,
+  "nautique": 5,
+  "hebergements": 15
  },
  {
   "name": "Le Mourtis",
   "pays": "France",
   "region": "Haute-Garonne",
-  "alt_max": 1870
+  "alt_max": 1870,
+  "rando_km": 15.4,
+  "vtt_km": 0.0,
+  "lacs_15km": 1,
+  "activites": 0,
+  "nautique": 6,
+  "hebergements": 23
  },
  {
   "name": "Camurac",
   "pays": "France",
   "region": "Aude",
-  "alt_max": 1750
+  "alt_max": 1750,
+  "rando_km": 22.2,
+  "vtt_km": 7.3,
+  "lacs_15km": 7,
+  "activites": 0,
+  "nautique": 3,
+  "hebergements": 15
  },
  {
   "name": "Goulier",
   "pays": "France",
   "region": "Ariège",
-  "alt_max": 1550
+  "alt_max": 1550,
+  "rando_km": 94.8,
+  "vtt_km": 25.5,
+  "lacs_15km": 20,
+  "activites": 1,
+  "nautique": 5,
+  "hebergements": 10
  },
  {
   "name": "Beille",
   "pays": "France",
   "region": "Ariège",
-  "alt_max": 1800
+  "alt_max": 1800,
+  "rando_km": 0.0,
+  "vtt_km": 0.0,
+  "lacs_15km": 0,
+  "activites": 0,
+  "nautique": 0,
+  "hebergements": 0
  },
  {
   "name": "Artouste",
   "pays": "France",
   "region": "Pyrénées-Atlantiques",
-  "alt_max": 2100
+  "alt_max": 2100,
+  "rando_km": 78.3,
+  "vtt_km": 0.0,
+  "lacs_15km": 44,
+  "activites": 0,
+  "nautique": 2,
+  "hebergements": 18
  },
  {
   "name": "Gérardmer",
   "pays": "France",
   "region": "Vosges",
-  "alt_max": 1140
+  "alt_max": 1140,
+  "rando_km": 57.2,
+  "vtt_km": 46.2,
+  "lacs_15km": 6,
+  "activites": 1,
+  "nautique": 8,
+  "hebergements": 154
  },
  {
   "name": "La Bresse-Hohneck",
   "pays": "France",
   "region": "Vosges",
-  "alt_max": 1350
+  "alt_max": 1350,
+  "rando_km": 212.0,
+  "vtt_km": 132.8,
+  "lacs_15km": 6,
+  "activites": 3,
+  "nautique": 8,
+  "hebergements": 125
  },
  {
   "name": "Le Markstein",
   "pays": "France",
   "region": "Haut-Rhin",
-  "alt_max": 1268
+  "alt_max": 1268,
+  "rando_km": 76.5,
+  "vtt_km": 97.6,
+  "lacs_15km": 3,
+  "activites": 1,
+  "nautique": 10,
+  "hebergements": 41
  },
  {
   "name": "Le Schnepfenried",
   "pays": "France",
   "region": "Haut-Rhin",
-  "alt_max": 1258
+  "alt_max": 1258,
+  "rando_km": 166.3,
+  "vtt_km": 121.7,
+  "lacs_15km": 5,
+  "activites": 1,
+  "nautique": 7,
+  "hebergements": 52
  },
  {
   "name": "Le Lac Blanc",
   "pays": "France",
   "region": "Haut-Rhin",
-  "alt_max": 1200
+  "alt_max": 1200,
+  "rando_km": 0.0,
+  "vtt_km": 0.0,
+  "lacs_15km": 1,
+  "activites": 0,
+  "nautique": 2,
+  "hebergements": 4
  },
  {
   "name": "La Schlucht",
   "pays": "France",
   "region": "Vosges",
-  "alt_max": 1250
+  "alt_max": 1250,
+  "rando_km": 223.1,
+  "vtt_km": 117.1,
+  "lacs_15km": 6,
+  "activites": 2,
+  "nautique": 8,
+  "hebergements": 105
  },
  {
   "name": "Le Champ du Feu",
   "pays": "France",
   "region": "Bas-Rhin",
-  "alt_max": 1099
+  "alt_max": 1099,
+  "rando_km": 20.6,
+  "vtt_km": 36.2,
+  "lacs_15km": 0,
+  "activites": 0,
+  "nautique": 7,
+  "hebergements": 46
  },
  {
   "name": "Le Ballon d'Alsace",
@@ -933,37 +1785,73 @@
   "name": "La Planche des Belles Filles",
   "pays": "France",
   "region": "Haute-Saône",
-  "alt_max": 1148
+  "alt_max": 1148,
+  "rando_km": 37.6,
+  "vtt_km": 53.9,
+  "lacs_15km": 3,
+  "activites": 3,
+  "nautique": 9,
+  "hebergements": 16
  },
  {
   "name": "La Bresse Lispach",
   "pays": "France",
   "region": "Vosges",
-  "alt_max": 1130
+  "alt_max": 1130,
+  "rando_km": 146.5,
+  "vtt_km": 95.4,
+  "lacs_15km": 6,
+  "activites": 2,
+  "nautique": 7,
+  "hebergements": 161
  },
  {
   "name": "Ventron",
   "pays": "France",
   "region": "Vosges",
-  "alt_max": 1110
+  "alt_max": 1110,
+  "rando_km": 61.7,
+  "vtt_km": 77.5,
+  "lacs_15km": 5,
+  "activites": 0,
+  "nautique": 19,
+  "hebergements": 105
  },
  {
   "name": "Xonrupt-Le Poli",
   "pays": "France",
   "region": "Vosges",
-  "alt_max": 980
+  "alt_max": 980,
+  "rando_km": 73.9,
+  "vtt_km": 44.0,
+  "lacs_15km": 6,
+  "activites": 1,
+  "nautique": 7,
+  "hebergements": 143
  },
  {
   "name": "Le Grand Valtin",
   "pays": "France",
   "region": "Vosges",
-  "alt_max": 1147
+  "alt_max": 1147,
+  "rando_km": 84.8,
+  "vtt_km": 34.9,
+  "lacs_15km": 6,
+  "activites": 2,
+  "nautique": 8,
+  "hebergements": 102
  },
  {
   "name": "Bussang-Larcenaire",
   "pays": "France",
   "region": "Vosges",
-  "alt_max": 970
+  "alt_max": 970,
+  "rando_km": 54.4,
+  "vtt_km": 80.7,
+  "lacs_15km": 3,
+  "activites": 0,
+  "nautique": 12,
+  "hebergements": 60
  },
  {
   "name": "Métabief Mont d'Or",
@@ -975,13 +1863,25 @@
   "name": "Les Rousses",
   "pays": "France",
   "region": "Jura",
-  "alt_max": 1680
+  "alt_max": 1680,
+  "rando_km": 29.6,
+  "vtt_km": 35.7,
+  "lacs_15km": 4,
+  "activites": 1,
+  "nautique": 5,
+  "hebergements": 31
  },
  {
   "name": "Les Fourgs",
   "pays": "France",
   "region": "Doubs",
-  "alt_max": 1270
+  "alt_max": 1270,
+  "rando_km": 6.1,
+  "vtt_km": 10.6,
+  "lacs_15km": 4,
+  "activites": 1,
+  "nautique": 21,
+  "hebergements": 28
  },
  {
   "name": "La Source du Doubs-Mouthe",
@@ -999,85 +1899,169 @@
   "name": "La Combe Saint-Pierre",
   "pays": "France",
   "region": "Doubs",
-  "alt_max": 1035
+  "alt_max": 1035,
+  "rando_km": 35.9,
+  "vtt_km": 3.3,
+  "lacs_15km": 2,
+  "activites": 0,
+  "nautique": 6,
+  "hebergements": 31
  },
  {
   "name": "Les Plans d'Hotonnes",
   "pays": "France",
   "region": "Ain",
-  "alt_max": 1350
+  "alt_max": 1350,
+  "rando_km": 22.0,
+  "vtt_km": 14.9,
+  "lacs_15km": 1,
+  "activites": 0,
+  "nautique": 9,
+  "hebergements": 23
  },
  {
   "name": "Menthières",
   "pays": "France",
   "region": "Ain",
-  "alt_max": 1535
+  "alt_max": 1535,
+  "rando_km": 42.5,
+  "vtt_km": 16.8,
+  "lacs_15km": 5,
+  "activites": 1,
+  "nautique": 8,
+  "hebergements": 17
  },
  {
   "name": "Le Lioran",
   "pays": "France",
   "region": "Cantal",
-  "alt_max": 1850
+  "alt_max": 1850,
+  "rando_km": 78.6,
+  "vtt_km": 41.9,
+  "lacs_15km": 1,
+  "activites": 2,
+  "nautique": 3,
+  "hebergements": 33
  },
  {
   "name": "Super Besse",
   "pays": "France",
   "region": "Puy-de-Dôme",
-  "alt_max": 1850
+  "alt_max": 1850,
+  "rando_km": 24.9,
+  "vtt_km": 0.0,
+  "lacs_15km": 12,
+  "activites": 2,
+  "nautique": 10,
+  "hebergements": 74
  },
  {
   "name": "Le Mont Dore",
   "pays": "France",
   "region": "Puy-de-Dôme",
-  "alt_max": 1850
+  "alt_max": 1850,
+  "rando_km": 0.0,
+  "vtt_km": 0.0,
+  "lacs_15km": 0,
+  "activites": 0,
+  "nautique": 0,
+  "hebergements": 0
  },
  {
   "name": "Chastreix-Sancy",
   "pays": "France",
   "region": "Puy-de-Dôme",
-  "alt_max": 1730
+  "alt_max": 1730,
+  "rando_km": 21.9,
+  "vtt_km": 5.5,
+  "lacs_15km": 10,
+  "activites": 3,
+  "nautique": 7,
+  "hebergements": 130
  },
  {
   "name": "Chalmazel",
   "pays": "France",
   "region": "Loire",
-  "alt_max": 1600
+  "alt_max": 1600,
+  "rando_km": 44.3,
+  "vtt_km": 7.6,
+  "lacs_15km": 0,
+  "activites": 0,
+  "nautique": 0,
+  "hebergements": 13
  },
  {
   "name": "La Loge des Gardes",
   "pays": "France",
   "region": "Allier",
-  "alt_max": 1160
+  "alt_max": 1160,
+  "rando_km": 4.2,
+  "vtt_km": 10.7,
+  "lacs_15km": 0,
+  "activites": 0,
+  "nautique": 2,
+  "hebergements": 11
  },
  {
   "name": "Laguiole",
   "pays": "France",
   "region": "Aveyron",
-  "alt_max": 1407
+  "alt_max": 1407,
+  "rando_km": 0.3,
+  "vtt_km": 0.0,
+  "lacs_15km": 2,
+  "activites": 0,
+  "nautique": 3,
+  "hebergements": 17
  },
  {
   "name": "La Croix de Bauzon",
   "pays": "France",
   "region": "Ardèche",
-  "alt_max": 1511
+  "alt_max": 1511,
+  "rando_km": 27.6,
+  "vtt_km": 2.6,
+  "lacs_15km": 1,
+  "activites": 0,
+  "nautique": 4,
+  "hebergements": 17
  },
  {
   "name": "Le Bleymard-Mont Lozère",
   "pays": "France",
   "region": "Lozère",
-  "alt_max": 1702
+  "alt_max": 1702,
+  "rando_km": 1.9,
+  "vtt_km": 4.0,
+  "lacs_15km": 0,
+  "activites": 3,
+  "nautique": 2,
+  "hebergements": 27
  },
  {
   "name": "Les Estables-Mézenc",
   "pays": "France",
   "region": "Haute-Loire",
-  "alt_max": 1690
+  "alt_max": 1690,
+  "rando_km": 33.1,
+  "vtt_km": 4.3,
+  "lacs_15km": 2,
+  "activites": 1,
+  "nautique": 8,
+  "hebergements": 38
  },
  {
   "name": "Brameloup",
   "pays": "France",
   "region": "Aveyron",
-  "alt_max": 1390
+  "alt_max": 1390,
+  "rando_km": 36.8,
+  "vtt_km": 57.2,
+  "lacs_15km": 2,
+  "activites": 0,
+  "nautique": 13,
+  "hebergements": 10
  },
  {
   "name": "Alti Aigoual",
@@ -1089,55 +2073,109 @@
   "name": "Prabouré",
   "pays": "France",
   "region": "Puy-de-Dôme",
-  "alt_max": 1400
+  "alt_max": 1400,
+  "rando_km": 1.4,
+  "vtt_km": 0.3,
+  "lacs_15km": 0,
+  "activites": 0,
+  "nautique": 1,
+  "hebergements": 31
  },
  {
   "name": "Ghisoni - Capanelle",
   "pays": "France",
   "region": "Haute-Corse",
-  "alt_max": 1870
+  "alt_max": 1870,
+  "rando_km": 111.2,
+  "vtt_km": 0.0,
+  "lacs_15km": 9,
+  "activites": 1,
+  "nautique": 4,
+  "hebergements": 29
  },
  {
   "name": "Val d'Ese",
   "pays": "France",
   "region": "Corse-du-Sud",
-  "alt_max": 1940
+  "alt_max": 1940,
+  "rando_km": 59.9,
+  "vtt_km": 0.0,
+  "lacs_15km": 7,
+  "activites": 0,
+  "nautique": 3,
+  "hebergements": 13
  },
  {
   "name": "Haut Asco",
   "pays": "France",
   "region": "Haute-Corse",
-  "alt_max": 1510
+  "alt_max": 1510,
+  "rando_km": 58.9,
+  "vtt_km": 0.0,
+  "lacs_15km": 9,
+  "activites": 0,
+  "nautique": 0,
+  "hebergements": 7
  },
  {
   "name": "Les Arêtes",
   "pays": "France",
   "region": "Ain",
-  "alt_max": 1500
+  "alt_max": 1500,
+  "rando_km": 33.7,
+  "vtt_km": 36.2,
+  "lacs_15km": 3,
+  "activites": 0,
+  "nautique": 25,
+  "hebergements": 68
  },
  {
   "name": "Le Revard",
   "pays": "France",
   "region": "Savoie",
-  "alt_max": 1550
+  "alt_max": 1550,
+  "rando_km": 79.9,
+  "vtt_km": 5.9,
+  "lacs_15km": 3,
+  "activites": 1,
+  "nautique": 15,
+  "hebergements": 82
  },
  {
   "name": "La Féclaz",
   "pays": "France",
   "region": "Savoie",
-  "alt_max": 1750
+  "alt_max": 1750,
+  "rando_km": 141.9,
+  "vtt_km": 6.6,
+  "lacs_15km": 4,
+  "activites": 1,
+  "nautique": 16,
+  "hebergements": 69
  },
  {
   "name": "Vallouise",
   "pays": "France",
   "region": "Hautes-Alpes",
-  "alt_max": 2500
+  "alt_max": 2500,
+  "rando_km": 78.5,
+  "vtt_km": 0.0,
+  "lacs_15km": 21,
+  "activites": 1,
+  "nautique": 12,
+  "hebergements": 14
  },
  {
   "name": "La Joue du Loup",
   "pays": "France",
   "region": "Hautes-Alpes",
-  "alt_max": 2464
+  "alt_max": 2464,
+  "rando_km": 31.3,
+  "vtt_km": 0.0,
+  "lacs_15km": 1,
+  "activites": 1,
+  "nautique": 7,
+  "hebergements": 14
  },
  {
   "name": "Le Frenz",
@@ -1149,90 +2187,144 @@
   "name": "Mijoux-La Valserine",
   "pays": "France",
   "region": "Ain",
-  "alt_max": 1550
+  "alt_max": 1550,
+  "rando_km": 38.2,
+  "vtt_km": 2.9,
+  "lacs_15km": 3,
+  "activites": 0,
+  "nautique": 13,
+  "hebergements": 39
  },
  {
   "name": "Lélex-Crozet",
   "pays": "France",
   "region": "Ain",
-  "alt_max": 1680
+  "alt_max": 1680,
+  "rando_km": 62.7,
+  "vtt_km": 11.0,
+  "lacs_15km": 2,
+  "activites": 0,
+  "nautique": 17,
+  "hebergements": 31
  },
  {
   "name": "Mont Serein",
   "pays": "France",
   "region": "Vaucluse",
-  "alt_max": 1900
+  "alt_max": 1900,
+  "rando_km": 40.0,
+  "vtt_km": 10.0,
+  "lacs_15km": 3,
+  "activites": 0,
+  "nautique": 15,
+  "hebergements": 21
  },
  {
   "name": "Turini-Camp d'Argent",
   "pays": "France",
   "region": "Alpes-Maritimes",
-  "alt_max": 1800
+  "alt_max": 1800,
+  "rando_km": 84.4,
+  "vtt_km": 45.5,
+  "lacs_15km": 23,
+  "activites": 1,
+  "nautique": 0,
+  "hebergements": 12
  },
  {
   "name": "Roubion-Les Buisses",
   "pays": "France",
   "region": "Alpes-Maritimes",
-  "alt_max": 1800
+  "alt_max": 1800,
+  "rando_km": 111.4,
+  "vtt_km": 97.9,
+  "lacs_15km": 3,
+  "activites": 0,
+  "nautique": 4,
+  "hebergements": 12
  },
  {
   "name": "Hauteluce",
   "pays": "France",
   "region": "Espace Diamant, Savoie",
-  "alt_max": 2000
+  "alt_max": 2000,
+  "rando_km": 58.9,
+  "vtt_km": 37.3,
+  "lacs_15km": 21,
+  "activites": 2,
+  "nautique": 5,
+  "hebergements": 30
  },
  {
   "name": "Aiguilles",
   "pays": "France",
   "region": "Hautes-Alpes",
-  "alt_max": 1610
+  "alt_max": 1610,
+  "rando_km": 60.6,
+  "vtt_km": 53.8,
+  "lacs_15km": 29,
+  "activites": 1,
+  "nautique": 1,
+  "hebergements": 34
  },
  {
   "name": "Montriond",
   "pays": "France",
   "region": "Haute-Savoie",
-  "alt_max": 2350
+  "alt_max": 2350,
+  "rando_km": 102.3,
+  "vtt_km": 84.4,
+  "lacs_15km": 15,
+  "activites": 2,
+  "nautique": 19,
+  "hebergements": 344
  },
  {
   "name": "Thollon-les-Mémises",
   "pays": "France",
   "region": "Haute-Savoie",
-  "alt_max": 1980
+  "alt_max": 1980,
+  "rando_km": 45.3,
+  "vtt_km": 0.9,
+  "lacs_15km": 8,
+  "activites": 0,
+  "nautique": 35,
+  "hebergements": 53
  },
  {
   "name": "Torgon",
   "pays": "Suisse",
   "region": "Valais, Suisse",
   "alt_max": 2300,
-  "rando_km": 121.1,
+  "rando_km": 154.4,
   "vtt_km": 0.2,
-  "lacs_15km": 10,
+  "lacs_15km": 14,
   "activites": 0,
-  "nautique": 24,
-  "hebergements": 18
+  "nautique": 28,
+  "hebergements": 72
  },
  {
   "name": "Champéry - Les Crosets - Champoussin - Morgins",
   "pays": "Suisse",
   "region": "Valais, Suisse",
   "alt_max": 2277,
-  "rando_km": 75.2,
-  "vtt_km": 26.6,
-  "lacs_15km": 9,
+  "rando_km": 119.4,
+  "vtt_km": 52.9,
+  "lacs_15km": 18,
   "activites": 1,
-  "nautique": 12,
-  "hebergements": 28
+  "nautique": 22,
+  "hebergements": 118
  },
  {
   "name": "La Thuile",
   "pays": "Italie",
   "region": "Vallée d'Aoste, Italie",
   "alt_max": 2800,
-  "rando_km": 119.7,
-  "vtt_km": 37.8,
-  "lacs_15km": 18,
+  "rando_km": 164.8,
+  "vtt_km": 37.9,
+  "lacs_15km": 22,
   "activites": 0,
-  "nautique": 0,
+  "nautique": 3,
   "hebergements": 12
  },
  {
@@ -1242,7 +2334,7 @@
   "alt_max": 2840,
   "rando_km": 201.6,
   "vtt_km": 218.6,
-  "lacs_15km": 20,
+  "lacs_15km": 28,
   "activites": 0,
   "nautique": 1,
   "hebergements": 80
@@ -1264,12 +2356,12 @@
   "pays": "Italie",
   "region": "Piémont, Italie",
   "alt_max": 2700,
-  "rando_km": 191.2,
-  "vtt_km": 247.8,
-  "lacs_15km": 19,
+  "rando_km": 194.7,
+  "vtt_km": 253.7,
+  "lacs_15km": 27,
   "activites": 0,
   "nautique": 1,
-  "hebergements": 86
+  "hebergements": 93
  },
  {
   "name": "Baqueira Beret",
@@ -1288,12 +2380,12 @@
   "pays": "Espagne",
   "region": "Vallée de Tena, Aragon, Espagne",
   "alt_max": 2265,
-  "rando_km": 61.3,
-  "vtt_km": 5.4,
-  "lacs_15km": 33,
+  "rando_km": 69.0,
+  "vtt_km": 7.6,
+  "lacs_15km": 64,
   "activites": 0,
   "nautique": 3,
-  "hebergements": 45
+  "hebergements": 48
  },
  {
   "name": "Panticosa",
@@ -1302,7 +2394,7 @@
   "alt_max": 2200,
   "rando_km": 78.6,
   "vtt_km": 26.8,
-  "lacs_15km": 30,
+  "lacs_15km": 44,
   "activites": 0,
   "nautique": 5,
   "hebergements": 45
@@ -1312,24 +2404,24 @@
   "pays": "Espagne",
   "region": "Vallée de l'Aragon, Aragon, Espagne",
   "alt_max": 2300,
-  "rando_km": 62.6,
+  "rando_km": 107.7,
   "vtt_km": 20.5,
-  "lacs_15km": 13,
+  "lacs_15km": 29,
   "activites": 0,
   "nautique": 4,
-  "hebergements": 15
+  "hebergements": 29
  },
  {
   "name": "Candanchú",
   "pays": "Espagne",
   "region": "Vallée de l'Aragon, Aragon, Espagne",
   "alt_max": 2400,
-  "rando_km": 127.1,
+  "rando_km": 160.2,
   "vtt_km": 57.5,
-  "lacs_15km": 13,
+  "lacs_15km": 27,
   "activites": 0,
   "nautique": 4,
-  "hebergements": 16
+  "hebergements": 24
  },
  {
   "name": "Cerler",
@@ -1338,7 +2430,7 @@
   "alt_max": 2630,
   "rando_km": 122.1,
   "vtt_km": 22.1,
-  "lacs_15km": 35,
+  "lacs_15km": 43,
   "activites": 0,
   "nautique": 5,
   "hebergements": 36
@@ -1364,7 +2456,7 @@
   "vtt_km": 13.9,
   "lacs_15km": 4,
   "activites": 0,
-  "nautique": 24,
+  "nautique": 33,
   "hebergements": 19
  },
  {
@@ -1420,23 +2512,23 @@
   "pays": "Espagne",
   "region": "Ripollès, Catalogne, Espagne",
   "alt_max": 2535,
-  "rando_km": 94.5,
-  "vtt_km": 1.4,
+  "rando_km": 153.1,
+  "vtt_km": 2.9,
   "lacs_15km": 1,
   "activites": 0,
   "nautique": 3,
-  "hebergements": 3
+  "hebergements": 10
  },
  {
   "name": "Vall de Núria",
   "pays": "Espagne",
   "region": "Ripollès, Catalogne, Espagne",
   "alt_max": 2252,
-  "rando_km": 104.5,
-  "vtt_km": 0.1,
+  "rando_km": 164.8,
+  "vtt_km": 0.3,
   "lacs_15km": 1,
   "activites": 0,
-  "nautique": 5,
+  "nautique": 10,
   "hebergements": 11
  },
  {
@@ -1446,9 +2538,9 @@
   "alt_max": 2250,
   "rando_km": 61.7,
   "vtt_km": 0.0,
-  "lacs_15km": 14,
+  "lacs_15km": 16,
   "activites": 0,
-  "nautique": 7,
+  "nautique": 8,
   "hebergements": 11
  },
  {
@@ -1456,60 +2548,60 @@
   "pays": "Andorre",
   "region": "Encamp, Andorre",
   "alt_max": 2640,
-  "rando_km": 64.0,
+  "rando_km": 116.1,
   "vtt_km": 3.6,
-  "lacs_15km": 60,
+  "lacs_15km": 63,
   "activites": 0,
   "nautique": 1,
-  "hebergements": 52
+  "hebergements": 62
  },
  {
   "name": "Grau Roig",
   "pays": "Andorre",
   "region": "Encamp, Andorre",
   "alt_max": 2640,
-  "rando_km": 93.2,
+  "rando_km": 127.0,
   "vtt_km": 9.3,
-  "lacs_15km": 64,
+  "lacs_15km": 67,
   "activites": 0,
   "nautique": 2,
-  "hebergements": 56
+  "hebergements": 62
  },
  {
   "name": "Soldeu",
   "pays": "Andorre",
   "region": "Canillo, Andorre",
   "alt_max": 2640,
-  "rando_km": 92.9,
+  "rando_km": 115.1,
   "vtt_km": 23.7,
-  "lacs_15km": 66,
+  "lacs_15km": 69,
   "activites": 0,
   "nautique": 4,
-  "hebergements": 67
+  "hebergements": 76
  },
  {
   "name": "El Tarter",
   "pays": "Andorre",
   "region": "Canillo, Andorre",
   "alt_max": 2640,
-  "rando_km": 95.9,
+  "rando_km": 115.8,
   "vtt_km": 24.5,
-  "lacs_15km": 71,
+  "lacs_15km": 74,
   "activites": 0,
   "nautique": 6,
-  "hebergements": 66
+  "hebergements": 69
  },
  {
   "name": "Canillo",
   "pays": "Andorre",
   "region": "Canillo, Andorre",
   "alt_max": 2640,
-  "rando_km": 95.4,
+  "rando_km": 128.4,
   "vtt_km": 24.5,
-  "lacs_15km": 67,
+  "lacs_15km": 70,
   "activites": 0,
   "nautique": 5,
-  "hebergements": 63
+  "hebergements": 69
  },
  {
   "name": "Encamp",
@@ -1518,7 +2610,7 @@
   "alt_max": 2640,
   "rando_km": 90.7,
   "vtt_km": 24.8,
-  "lacs_15km": 83,
+  "lacs_15km": 85,
   "activites": 0,
   "nautique": 6,
   "hebergements": 122
@@ -1528,9 +2620,9 @@
   "pays": "Andorre",
   "region": "La Massana, Andorre",
   "alt_max": 2560,
-  "rando_km": 63.2,
+  "rando_km": 64.4,
   "vtt_km": 86.4,
-  "lacs_15km": 49,
+  "lacs_15km": 51,
   "activites": 0,
   "nautique": 9,
   "hebergements": 107
@@ -1540,24 +2632,24 @@
   "pays": "Andorre",
   "region": "La Massana, Andorre",
   "alt_max": 2560,
-  "rando_km": 91.0,
-  "vtt_km": 71.9,
-  "lacs_15km": 46,
+  "rando_km": 106.6,
+  "vtt_km": 73.9,
+  "lacs_15km": 49,
   "activites": 0,
   "nautique": 9,
-  "hebergements": 73
+  "hebergements": 74
  },
  {
   "name": "Ordino Arcalís",
   "pays": "Andorre",
   "region": "Ordino, Andorre",
   "alt_max": 2625,
-  "rando_km": 121.6,
-  "vtt_km": 7.8,
-  "lacs_15km": 40,
+  "rando_km": 226.8,
+  "vtt_km": 9.8,
+  "lacs_15km": 44,
   "activites": 0,
   "nautique": 8,
-  "hebergements": 28
+  "hebergements": 30
  },
  {
   "name": "Verbier",
@@ -1578,7 +2670,7 @@
   "alt_max": 3330,
   "rando_km": 72.7,
   "vtt_km": 51.1,
-  "lacs_15km": 7,
+  "lacs_15km": 6,
   "activites": 1,
   "nautique": 43,
   "hebergements": 104
@@ -1590,7 +2682,7 @@
   "alt_max": 3330,
   "rando_km": 48.1,
   "vtt_km": 32.6,
-  "lacs_15km": 7,
+  "lacs_15km": 6,
   "activites": 1,
   "nautique": 43,
   "hebergements": 54
@@ -1602,7 +2694,7 @@
   "alt_max": 3330,
   "rando_km": 42.2,
   "vtt_km": 29.7,
-  "lacs_15km": 8,
+  "lacs_15km": 7,
   "activites": 1,
   "nautique": 43,
   "hebergements": 57
@@ -1626,7 +2718,7 @@
   "alt_max": 2927,
   "rando_km": 86.4,
   "vtt_km": 58.8,
-  "lacs_15km": 13,
+  "lacs_15km": 12,
   "activites": 0,
   "nautique": 14,
   "hebergements": 73
@@ -1710,7 +2802,7 @@
   "alt_max": 2980,
   "rando_km": 85.3,
   "vtt_km": 43.1,
-  "lacs_15km": 13,
+  "lacs_15km": 12,
   "activites": 1,
   "nautique": 5,
   "hebergements": 37
@@ -1722,7 +2814,7 @@
   "alt_max": 2374,
   "rando_km": 41.5,
   "vtt_km": 25.8,
-  "lacs_15km": 11,
+  "lacs_15km": 10,
   "activites": 1,
   "nautique": 12,
   "hebergements": 65
@@ -1734,7 +2826,7 @@
   "alt_max": 2420,
   "rando_km": 84.5,
   "vtt_km": 55.6,
-  "lacs_15km": 11,
+  "lacs_15km": 10,
   "activites": 0,
   "nautique": 39,
   "hebergements": 62
@@ -1746,7 +2838,7 @@
   "alt_max": 2640,
   "rando_km": 44.8,
   "vtt_km": 27.8,
-  "lacs_15km": 9,
+  "lacs_15km": 8,
   "activites": 1,
   "nautique": 43,
   "hebergements": 58
@@ -1758,7 +2850,7 @@
   "alt_max": 2632,
   "rando_km": 85.6,
   "vtt_km": 27.8,
-  "lacs_15km": 8,
+  "lacs_15km": 7,
   "activites": 0,
   "nautique": 3,
   "hebergements": 37
@@ -1770,7 +2862,7 @@
   "alt_max": 2877,
   "rando_km": 102.5,
   "vtt_km": 8.8,
-  "lacs_15km": 8,
+  "lacs_15km": 7,
   "activites": 0,
   "nautique": 0,
   "hebergements": 27
@@ -1782,7 +2874,7 @@
   "alt_max": 2204,
   "rando_km": 99.5,
   "vtt_km": 6.7,
-  "lacs_15km": 8,
+  "lacs_15km": 7,
   "activites": 0,
   "nautique": 0,
   "hebergements": 40
@@ -1804,9 +2896,9 @@
   "pays": "Suisse",
   "region": "Salvan, Valais, Suisse",
   "alt_max": 2220,
-  "rando_km": 220.4,
+  "rando_km": 221.0,
   "vtt_km": 16.0,
-  "lacs_15km": 12,
+  "lacs_15km": 14,
   "activites": 0,
   "nautique": 9,
   "hebergements": 42
@@ -1828,9 +2920,9 @@
   "pays": "Suisse",
   "region": "Val Ferret, Valais, Suisse",
   "alt_max": 2172,
-  "rando_km": 126.7,
+  "rando_km": 138.6,
   "vtt_km": 13.8,
-  "lacs_15km": 12,
+  "lacs_15km": 13,
   "activites": 1,
   "nautique": 1,
   "hebergements": 10
@@ -1992,7 +3084,7 @@
   "alt_max": 2120,
   "rando_km": 72.6,
   "vtt_km": 12.6,
-  "lacs_15km": 13,
+  "lacs_15km": 12,
   "activites": 1,
   "nautique": 22,
   "hebergements": 47
@@ -2004,7 +3096,7 @@
   "alt_max": 2120,
   "rando_km": 87.5,
   "vtt_km": 14.5,
-  "lacs_15km": 13,
+  "lacs_15km": 12,
   "activites": 1,
   "nautique": 22,
   "hebergements": 36
@@ -2016,7 +3108,7 @@
   "alt_max": 2120,
   "rando_km": 168.4,
   "vtt_km": 39.8,
-  "lacs_15km": 13,
+  "lacs_15km": 12,
   "activites": 0,
   "nautique": 10,
   "hebergements": 33
@@ -2028,7 +3120,7 @@
   "alt_max": 3016,
   "rando_km": 129.1,
   "vtt_km": 14.7,
-  "lacs_15km": 11,
+  "lacs_15km": 10,
   "activites": 0,
   "nautique": 9,
   "hebergements": 31
@@ -2040,7 +3132,7 @@
   "alt_max": 2198,
   "rando_km": 77.9,
   "vtt_km": 11.3,
-  "lacs_15km": 11,
+  "lacs_15km": 10,
   "activites": 1,
   "nautique": 27,
   "hebergements": 36
@@ -2054,7 +3146,7 @@
   "vtt_km": 19.6,
   "lacs_15km": 5,
   "activites": 0,
-  "nautique": 19,
+  "nautique": 20,
   "hebergements": 45
  },
  {
@@ -2066,7 +3158,7 @@
   "vtt_km": 9.9,
   "lacs_15km": 4,
   "activites": 0,
-  "nautique": 15,
+  "nautique": 16,
   "hebergements": 56
  },
  {
@@ -2086,24 +3178,24 @@
   "pays": "Suisse",
   "region": "Vallée de Joux, Vaud, Suisse",
   "alt_max": 1437,
-  "rando_km": 58.4,
+  "rando_km": 61.3,
   "vtt_km": 10.3,
-  "lacs_15km": 3,
+  "lacs_15km": 5,
   "activites": 0,
-  "nautique": 9,
-  "hebergements": 15
+  "nautique": 13,
+  "hebergements": 18
  },
  {
   "name": "L'Orient",
   "pays": "Suisse",
   "region": "Vallée de Joux, Vaud, Suisse",
   "alt_max": 1283,
-  "rando_km": 30.2,
+  "rando_km": 35.3,
   "vtt_km": 12.3,
-  "lacs_15km": 2,
+  "lacs_15km": 4,
   "activites": 0,
-  "nautique": 4,
-  "hebergements": 14
+  "nautique": 5,
+  "hebergements": 16
  },
  {
   "name": "Charmey",
@@ -2566,12 +3658,12 @@
   "pays": "Suisse",
   "region": "Franches-Montagnes, Jura, Suisse",
   "alt_max": 1246,
-  "rando_km": 28.4,
+  "rando_km": 33.9,
   "vtt_km": 6.4,
   "lacs_15km": 3,
   "activites": 0,
-  "nautique": 6,
-  "hebergements": 42
+  "nautique": 7,
+  "hebergements": 56
  },
  {
   "name": "Samnaun",
@@ -2784,7 +3876,7 @@
   "alt_max": 2785,
   "rando_km": 91.5,
   "vtt_km": 81.0,
-  "lacs_15km": 5,
+  "lacs_15km": 6,
   "activites": 1,
   "nautique": 4,
   "hebergements": 65
@@ -3784,11 +4876,11 @@
   "pays": "Italie",
   "region": "Mont Blanc, Vallée d'Aoste, Italie",
   "alt_max": 2755,
-  "rando_km": 103.6,
+  "rando_km": 114.3,
   "vtt_km": 22.6,
-  "lacs_15km": 6,
+  "lacs_15km": 16,
   "activites": 0,
-  "nautique": 0,
+  "nautique": 2,
   "hebergements": 60
  },
  {
@@ -3892,20 +4984,20 @@
   "pays": "Italie",
   "region": "Val de Suse, Piémont, Italie",
   "alt_max": 2800,
-  "rando_km": 220.2,
-  "vtt_km": 137.2,
-  "lacs_15km": 9,
+  "rando_km": 265.8,
+  "vtt_km": 168.0,
+  "lacs_15km": 107,
   "activites": 1,
-  "nautique": 0,
-  "hebergements": 20
+  "nautique": 4,
+  "hebergements": 23
  },
  {
   "name": "Limone Piemonte",
   "pays": "Italie",
   "region": "Val Vermenagna, Piémont, Italie",
   "alt_max": 2060,
-  "rando_km": 150.9,
-  "vtt_km": 70.2,
+  "rando_km": 197.7,
+  "vtt_km": 95.9,
   "lacs_15km": 7,
   "activites": 0,
   "nautique": 0,
@@ -3964,7 +5056,7 @@
   "pays": "Italie",
   "region": "Lac Majeur, Piémont, Italie",
   "alt_max": 1491,
-  "rando_km": 148.1,
+  "rando_km": 148.2,
   "vtt_km": 119.9,
   "lacs_15km": 5,
   "activites": 0,
@@ -4108,9 +5200,9 @@
   "pays": "Italie",
   "region": "Haute-Valteline, Lombardie, Italie",
   "alt_max": 2360,
-  "rando_km": 288.4,
-  "vtt_km": 167.5,
-  "lacs_15km": 26,
+  "rando_km": 311.7,
+  "vtt_km": 173.1,
+  "lacs_15km": 29,
   "activites": 0,
   "nautique": 3,
   "hebergements": 9
@@ -4438,7 +5530,7 @@
   "pays": "Italie",
   "region": "Monte Baldo, Trentin, Italie",
   "alt_max": 1583,
-  "rando_km": 141.2,
+  "rando_km": 142.0,
   "vtt_km": 125.4,
   "lacs_15km": 3,
   "activites": 2,
@@ -4776,7 +5868,7 @@
   "alt_max": 2625,
   "rando_km": 162.9,
   "vtt_km": 37.5,
-  "lacs_15km": 14,
+  "lacs_15km": 16,
   "activites": 0,
   "nautique": 6,
   "hebergements": 42
@@ -4836,7 +5928,7 @@
   "alt_max": 2520,
   "rando_km": 176.9,
   "vtt_km": 72.6,
-  "lacs_15km": 3,
+  "lacs_15km": 4,
   "activites": 0,
   "nautique": 2,
   "hebergements": 101
@@ -5112,7 +6204,7 @@
   "alt_max": 1485,
   "rando_km": 21.4,
   "vtt_km": 118.0,
-  "lacs_15km": 4,
+  "lacs_15km": 3,
   "activites": 0,
   "nautique": 4,
   "hebergements": 6
@@ -5182,7 +6274,7 @@
   "pays": "Autriche",
   "region": "Arlberg, Vorarlberg, Autriche",
   "alt_max": 2811,
-  "rando_km": 89.0,
+  "rando_km": 88.7,
   "vtt_km": 28.7,
   "lacs_15km": 26,
   "activites": 1,
@@ -5199,7 +6291,7 @@
   "lacs_15km": 22,
   "activites": 0,
   "nautique": 10,
-  "hebergements": 375
+  "hebergements": 421
  },
  {
   "name": "Zürs",
@@ -5532,7 +6624,7 @@
   "alt_max": 2750,
   "rando_km": 158.0,
   "vtt_km": 149.1,
-  "lacs_15km": 5,
+  "lacs_15km": 6,
   "activites": 0,
   "nautique": 2,
   "hebergements": 174
@@ -6489,7 +7581,7 @@
   "lacs_15km": 18,
   "activites": 0,
   "nautique": 7,
-  "hebergements": 326
+  "hebergements": 354
  },
  {
   "name": "Ifen (Kleinwalsertal)",
@@ -6502,7 +7594,7 @@
   "pays": "Autriche",
   "region": "Klostertal, Vorarlberg, Autriche",
   "alt_max": 2300,
-  "rando_km": 97.2,
+  "rando_km": 96.9,
   "vtt_km": 44.5,
   "lacs_15km": 23,
   "activites": 0,
