@@ -144,8 +144,56 @@ def add_auto_points(items: list[dict]) -> None:
             it["summary"] = f"{it['name']}{reg} : " + " ; ".join(t[0].lower() + t[1:] for t in it["points"][:2]) + "."
 
 
+# Pondération de la note (somme = 1). Chaque critère est converti en rang (0 à 1) parmi toutes les stations.
+POIDS_NOTE = {"rando_km": .25, "vtt_km": .15, "lacs_15km": .15, "activites": .15,
+              "hebergements": .10, "nautique": .10, "alt_max": .10}
+
+
+def _rangs(valeurs: dict) -> dict:
+    """Rang en percentile (0 à 1) de chaque valeur ; les ex æquo partagent le rang moyen."""
+    ordre = sorted(valeurs.values())
+    n = len(ordre)
+    out = {}
+    for k, v in valeurs.items():
+        bas = sum(1 for x in ordre if x < v)
+        egal = sum(1 for x in ordre if x == v)
+        out[k] = (bas + (egal - 1) / 2) / max(1, n - 1)
+    return out
+
+
+def add_auto_score(items: list[dict]) -> None:
+    """Note sur 5 calculée à partir des mesures : moyenne pondérée des rangs, puis étalée de 2,5 à 4,9.
+    Les activités sont classées séparément pour la France (DATAtourisme) et le reste (OpenStreetMap seul)."""
+    if not RATING or not any("rando_km" in it for it in items):
+        return
+    rangs: dict[str, dict] = {}
+    for k in POIDS_NOTE:
+        if k == "activites":
+            for groupe in (True, False):
+                vals = {id(it): it[k] for it in items
+                        if isinstance(it.get(k), (int, float)) and (it.get("pays") == "France") == groupe}
+                rangs.setdefault(k, {}).update(_rangs(vals))
+        else:
+            rangs[k] = _rangs({id(it): it[k] for it in items if isinstance(it.get(k), (int, float))})
+    brut = {}
+    for it in items:
+        tot = poids = 0.0
+        for k, w in POIDS_NOTE.items():
+            r = rangs[k].get(id(it))
+            if r is not None:
+                tot += w * r
+                poids += w
+        if poids >= .5:
+            brut[id(it)] = tot / poids
+    finaux = _rangs(brut)
+    for it in items:
+        if id(it) in finaux and it.get(RATING["key"]) is None:
+            it[RATING["key"]] = round(2.5 + 2.4 * finaux[id(it)], 1)
+
+
 ITEMS = load_items()
 add_auto_points(ITEMS)
+add_auto_score(ITEMS)
 BY_SLUG = {it["slug"]: it for it in ITEMS}
 
 
