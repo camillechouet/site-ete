@@ -18,7 +18,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 API = "https://commons.wikimedia.org/w/api.php"
 UA = "MountainSummerPhotoBot/1.0 (https://mountainsummer.fr; photos libres pour fiches de stations)"
 OUT = os.path.join(ROOT, "photos-out")
-MAX_W = 1600
+MAX_W = 1200
 MIN_W, MIN_H = 2000, 1200      # grosses photos seulement (2400x1400 avant l'élargissement du 3 nov.)
 MIN_SCORE = 5.5      # sous ce score, la photo n'est pas proposée
 N_KEEP = 3           # 1 principale (<slug>1.jpg) + 2 alternatives (autres/<slug>2.jpg et 3.jpg)
@@ -481,8 +481,7 @@ def main():
     bm = importlib.util.module_from_spec(spec)
     sys.argv = ["build"]
     spec.loader.exec_module(bm)
-    todo = [s for s in bm.ITEMS if not has_own_photo(s)]
-    todo.sort(key=lambda s: (-(s.get("score") or 0), s["name"]))
+    todo = sorted(bm.ITEMS, key=lambda s: (-(s.get("score") or 0), s["name"]))
     if a.pays == "france":
         todo = [s for s in todo if s.get("pays") == "France"]
     elif a.pays == "etranger":
@@ -490,8 +489,9 @@ def main():
     if a.only:
         todo = [s for s in todo if norm(a.only) in norm(s["name"])]
     total = len(todo)
-    batch = todo[a.offset:a.offset + a.limit]
-    print(f"ℹ {total} stations sans photo ({a.pays}) ; lot de {len(batch)} (offset {a.offset})")
+    # la liste est stable (triée par note) : l'offset ne dépend pas des photos déjà trouvées ; on saute celles qui en ont une
+    batch = [s for s in todo[a.offset:a.offset + a.limit] if not has_own_photo(s)]
+    print(f"ℹ {total} stations ({a.pays}) ; lot de {len(batch)} sans photo (offset {a.offset})")
 
     os.makedirs(OUT, exist_ok=True)
     token = None
@@ -549,7 +549,7 @@ def main():
     with open(os.path.join(OUT, "non-trouvees.txt"), "w", encoding="utf-8") as f:
         f.write("\n".join(missing) + "\n")
     nxt = a.offset + a.limit
-    print(f"✓ {len({r[0] for r in rows})} stations avec photo ({len(rows)} fichiers), {len(missing)} sans résultat. Prochain lot : offset = {nxt} (reste {max(total - nxt, 0)})")
+    print(f"✓ {len({r[0] for r in rows})} stations avec photo ({len(rows)} fichiers), {len(missing)} sans résultat. Prochain lot : offset = {nxt} (reste {max(total - nxt, 0)} stations à parcourir)")
     return 0
 
 

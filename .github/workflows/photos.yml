@@ -37,11 +37,11 @@ on:
         type: choice
         options: [wikimedia, openverse, both]
       publier:
-        description: "non (ZIP à trier) / apercu (photos déposées dans photos-apercu/ pour relecture) / oui (ajoutées au site)"
+        description: "non (ZIP à trier) / apercu (déposées dans photos-apercu/) / oui (ajoutées au site) / tout (TOUTES les stations, par lots de 100, ajoutées au site au fur et à mesure : à lancer pour le week-end)"
         required: false
         default: "apercu"
         type: choice
-        options: ["apercu", "non", "oui"]
+        options: ["apercu", "non", "oui", "tout"]
 
 permissions:
   contents: write
@@ -54,7 +54,7 @@ concurrency:
 jobs:
   photos:
     runs-on: ubuntu-latest
-    timeout-minutes: 120
+    timeout-minutes: 350
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -63,7 +63,27 @@ jobs:
       - name: Installer Pillow
         run: pip install pillow
 
+      - name: Tout le week-end (toutes les stations, par lots, publiées au fur et à mesure)
+        if: ${{ github.event.inputs.publier == 'tout' }}
+        env:
+          SOURCE: ${{ github.event.inputs.source }}
+          OPENVERSE_CLIENT_ID: ${{ secrets.OPENVERSE_CLIENT_ID }}
+          OPENVERSE_CLIENT_SECRET: ${{ secrets.OPENVERSE_CLIENT_SECRET }}
+        run: |
+          git config user.name "photos-auto"
+          git config user.email "noreply@users.noreply.github.com"
+          for off in 0 100 200 300 400 500 600 700; do
+            echo "=== Lot : stations $off à $((off+99)) ==="
+            python3 scripts/find_photos.py --pays tous --source "${SOURCE:-wikimedia}" --limit 100 --offset "$off" || echo "lot en échec, on continue"
+            mkdir -p assets/img
+            cp -n photos-out/*.jpg assets/img/ 2>/dev/null || true
+            git add assets/img
+            git diff --cached --quiet || (git commit -q -m "Photos d'été : lot $off" && git pull --rebase -q && git push -q) || echo "envoi du lot en échec, on continue"
+          done
+          echo "Photos au total : $(ls assets/img 2>/dev/null | wc -l)" >> "$GITHUB_STEP_SUMMARY"
+
       - name: Chercher les photos
+        if: ${{ github.event.inputs.publier != 'tout' }}
         env:
           PAYS: ${{ github.event.inputs.pays }}
           LIMIT: ${{ github.event.inputs.limit }}
@@ -77,6 +97,7 @@ jobs:
           { echo '### Photos trouvées'; tail -n 1 /tmp/photos.log; } >> "$GITHUB_STEP_SUMMARY"
 
       - name: Mettre les photos dans un ZIP
+        if: ${{ github.event.inputs.publier != 'tout' }}
         uses: actions/upload-artifact@v4
         with:
           name: photos-stations
@@ -104,7 +125,7 @@ jobs:
           git add assets/img
           git diff --cached --quiet || (git commit -m "Photos d'été : nouveau lot" && git pull --rebase -q && git push)
       - name: Republier le site avec les nouvelles photos
-        if: ${{ github.event.inputs.publier == 'oui' }}
+        if: ${{ github.event.inputs.publier == 'oui' || github.event.inputs.publier == 'tout' }}
         env:
           GH_TOKEN: ${{ github.token }}
         run: gh workflow run build.yml
