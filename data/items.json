@@ -543,7 +543,13 @@
   "name": "Montchavin-Les Coches",
   "pays": "France",
   "region": "Tarentaise, Savoie",
-  "alt_max": 3250
+  "alt_max": 3250,
+  "rando_km": 46.0,
+  "vtt_km": 5.1,
+  "lacs_15km": 23,
+  "activites": 4,
+  "nautique": 19,
+  "hebergements": 175
  },
  {
   "name": "Pralognan-la-Vanoise",
@@ -789,7 +795,13 @@
   "name": "Les Aillons-Margeriaz",
   "pays": "France",
   "region": "Bauges, Savoie",
-  "alt_max": 1850
+  "alt_max": 1850,
+  "rando_km": 155.3,
+  "vtt_km": 4.6,
+  "lacs_15km": 6,
+  "activites": 3,
+  "nautique": 22,
+  "hebergements": 52
  },
  {
   "name": "Chamrousse",
@@ -855,7 +867,13 @@
   "name": "Alpe du Grand Serre",
   "pays": "France",
   "region": "Trièves, Isère",
-  "alt_max": 2197
+  "alt_max": 2197,
+  "rando_km": 186.1,
+  "vtt_km": 15.6,
+  "lacs_15km": 24,
+  "activites": 0,
+  "nautique": 10,
+  "hebergements": 8
  },
  {
   "name": "Villard-de-Lans",
@@ -957,7 +975,13 @@
   "name": "Semnoz - Annecy",
   "pays": "France",
   "region": "Haute-Savoie",
-  "alt_max": 1699
+  "alt_max": 1699,
+  "rando_km": 58.0,
+  "vtt_km": 29.6,
+  "lacs_15km": 3,
+  "activites": 0,
+  "nautique": 23,
+  "hebergements": 47
  },
  {
   "name": "Col de Porte",
@@ -1059,7 +1083,13 @@
   "name": "La Grave - La Meije",
   "pays": "France",
   "region": "Hautes-Alpes",
-  "alt_max": 3568
+  "alt_max": 3568,
+  "rando_km": 92.2,
+  "vtt_km": 35.9,
+  "lacs_15km": 25,
+  "activites": 0,
+  "nautique": 3,
+  "hebergements": 60
  },
  {
   "name": "Puy-Saint-Vincent",
@@ -1077,7 +1107,13 @@
   "name": "Orcières Merlette 1850",
   "pays": "France",
   "region": "Champsaur, Hautes-Alpes",
-  "alt_max": 2725
+  "alt_max": 2725,
+  "rando_km": 55.5,
+  "vtt_km": 44.9,
+  "lacs_15km": 22,
+  "activites": 1,
+  "nautique": 1,
+  "hebergements": 19
  },
  {
   "name": "Superdévoluy",
@@ -1167,13 +1203,25 @@
   "name": "Sauze-Super-Sauze",
   "pays": "France",
   "region": "Ubaye, Alpes-de-Haute-Provence",
-  "alt_max": 2400
+  "alt_max": 2400,
+  "rando_km": 57.5,
+  "vtt_km": 14.9,
+  "lacs_15km": 23,
+  "activites": 2,
+  "nautique": 11,
+  "hebergements": 48
  },
  {
   "name": "Pra-Loup",
   "pays": "France",
   "region": "Ubaye, Alpes-de-Haute-Provence",
-  "alt_max": 2600
+  "alt_max": 2600,
+  "rando_km": 59.5,
+  "vtt_km": 18.8,
+  "lacs_15km": 10,
+  "activites": 1,
+  "nautique": 12,
+  "hebergements": 44
  },
  {
   "name": "Val d'Allos",
@@ -1203,7 +1251,13 @@
   "name": "Montclar-les-2-Vallées",
   "pays": "France",
   "region": "Alpes-de-Haute-Provence",
-  "alt_max": 2040
+  "alt_max": 2040,
+  "rando_km": 45.4,
+  "vtt_km": 21.3,
+  "lacs_15km": 7,
+  "activites": 0,
+  "nautique": 20,
+  "hebergements": 22
  },
  {
   "name": "Larche",
@@ -1269,7 +1323,13 @@
   "name": "Beuil-les-Launes",
   "pays": "France",
   "region": "Alpes-Maritimes",
-  "alt_max": 1800
+  "alt_max": 1800,
+  "rando_km": 114.8,
+  "vtt_km": 76.4,
+  "lacs_15km": 1,
+  "activites": 0,
+  "nautique": 4,
+  "hebergements": 14
  },
  {
   "name": "La Colmiane",
@@ -1359,7 +1419,13 @@
   "name": "Arvieux-en-Queyras",
   "pays": "France",
   "region": "Queyras, Hautes-Alpes",
-  "alt_max": 2100
+  "alt_max": 2100,
+  "rando_km": 103.2,
+  "vtt_km": 63.5,
+  "lacs_15km": 31,
+  "activites": 0,
+  "nautique": 7,
+  "hebergements": 22
  },
  {
   "name": "La Mongie",
@@ -1533,7 +1599,13 @@
   "name": "Ascou-Pailhères",
   "pays": "France",
   "region": "Ariège",
-  "alt_max": 2001
+  "alt_max": 2001,
+  "rando_km": 27.9,
+  "vtt_km": 7.3,
+  "lacs_15km": 7,
+  "activites": 0,
+  "nautique": 3,
+  "hebergements": 16
  },
  {
   "name": "Font-Romeu-Pyrénées 2000",
@@ -1779,7 +1851,13 @@
   "name": "Le Ballon d'Alsace",
   "pays": "France",
   "region": "Territoire de Belfort",
-  "alt_max": 1247
+  "alt_max": 1247,
+  "rando_km": 80.6,
+  "vtt_km": 114.8,
+  "lacs_15km": 2,
+  "activites": 3,
+  "nautique": 14,
+  "hebergements": 42
  },
  {
   "name": "La Planche des Belles Filles",
@@ -1857,7 +1935,13 @@
   "name": "Métabief Mont d'Or",
   "pays": "France",
   "region": "Doubs",
-  "alt_max": 1423
+  "alt_max": 1423,
+  "rando_km": 25.6,
+  "vtt_km": 9.3,
+  "lacs_15km": 7,
+  "activites": 3,
+  "nautique": 20,
+  "hebergements": 53
  },
  {
   "name": "Les Rousses",
@@ -1887,13 +1971,25 @@
   "name": "La Source du Doubs-Mouthe",
   "pays": "France",
   "region": "Doubs",
-  "alt_max": 1172
+  "alt_max": 1172,
+  "rando_km": 4.1,
+  "vtt_km": 0.0,
+  "lacs_15km": 7,
+  "activites": 1,
+  "nautique": 16,
+  "hebergements": 33
  },
  {
   "name": "Espace Alpin Bellefontaine",
   "pays": "France",
   "region": "Jura",
-  "alt_max": 1261
+  "alt_max": 1261,
+  "rando_km": 35.3,
+  "vtt_km": 34.1,
+  "lacs_15km": 7,
+  "activites": 1,
+  "nautique": 3,
+  "hebergements": 33
  },
  {
   "name": "La Combe Saint-Pierre",
@@ -2067,7 +2163,13 @@
   "name": "Alti Aigoual",
   "pays": "France",
   "region": "Gard / Hérault",
-  "alt_max": 1567
+  "alt_max": 1567,
+  "rando_km": 22.6,
+  "vtt_km": 6.6,
+  "lacs_15km": 1,
+  "activites": 0,
+  "nautique": 10,
+  "hebergements": 17
  },
  {
   "name": "Prabouré",
@@ -2181,7 +2283,13 @@
   "name": "Le Frenz",
   "pays": "France",
   "region": "Haut-Rhin",
-  "alt_max": 1100
+  "alt_max": 1100,
+  "rando_km": 70.6,
+  "vtt_km": 98.0,
+  "lacs_15km": 3,
+  "activites": 0,
+  "nautique": 14,
+  "hebergements": 38
  },
  {
   "name": "Mijoux-La Valserine",
@@ -3039,7 +3147,13 @@
   "name": "Bürchen-Moosalp",
   "pays": "Suisse",
   "region": "Vispertal, Valais, Suisse",
-  "alt_max": 2532
+  "alt_max": 2532,
+  "rando_km": 155.0,
+  "vtt_km": 69.3,
+  "lacs_15km": 8,
+  "activites": 1,
+  "nautique": 10,
+  "hebergements": 55
  },
  {
   "name": "Unterbäch",
@@ -3321,7 +3435,13 @@
   "name": "Grindelwald First",
   "pays": "Suisse",
   "region": "Région de la Jungfrau, Berne, Suisse",
-  "alt_max": 2500
+  "alt_max": 2500,
+  "rando_km": 116.7,
+  "vtt_km": 23.6,
+  "lacs_15km": 9,
+  "activites": 1,
+  "nautique": 20,
+  "hebergements": 59
  },
  {
   "name": "Adelboden",
@@ -3411,7 +3531,13 @@
   "name": "Wasserngrat (Gstaad)",
   "pays": "Suisse",
   "region": "Région de Gstaad, Berne, Suisse",
-  "alt_max": 1940
+  "alt_max": 1940,
+  "rando_km": 40.9,
+  "vtt_km": 25.6,
+  "lacs_15km": 6,
+  "activites": 0,
+  "nautique": 8,
+  "hebergements": 43
  },
  {
   "name": "Elsigen-Metsch",
@@ -4173,7 +4299,13 @@
   "name": "Mythenregion",
   "pays": "Suisse",
   "region": "Schwytz, Schwytz, Suisse",
-  "alt_max": 1593
+  "alt_max": 1593,
+  "rando_km": 124.1,
+  "vtt_km": 59.5,
+  "lacs_15km": 6,
+  "activites": 0,
+  "nautique": 12,
+  "hebergements": 36
  },
  {
   "name": "Sörenberg",
@@ -5295,7 +5427,13 @@
   "name": "Passo Maniva",
   "pays": "Italie",
   "region": "Val Trompia, Lombardie, Italie",
-  "alt_max": 2088
+  "alt_max": 2088,
+  "rando_km": 174.6,
+  "vtt_km": 143.0,
+  "lacs_15km": 8,
+  "activites": 0,
+  "nautique": 4,
+  "hebergements": 24
  },
  {
   "name": "Lizzola",
@@ -5385,7 +5523,13 @@
   "name": "Marilleva",
   "pays": "Italie",
   "region": "Val di Sole, Trentin, Italie",
-  "alt_max": 2504
+  "alt_max": 2504,
+  "rando_km": 68.7,
+  "vtt_km": 73.4,
+  "lacs_15km": 21,
+  "activites": 1,
+  "nautique": 1,
+  "hebergements": 108
  },
  {
   "name": "Canazei",
@@ -5487,7 +5631,13 @@
   "name": "Passo San Pellegrino",
   "pays": "Italie",
   "region": "Val di Fassa, Trentin, Italie",
-  "alt_max": 2513
+  "alt_max": 2513,
+  "rando_km": 137.8,
+  "vtt_km": 26.4,
+  "lacs_15km": 14,
+  "activites": 0,
+  "nautique": 0,
+  "hebergements": 32
  },
  {
   "name": "Alpe Lusia",
@@ -5721,7 +5871,13 @@
   "name": "Schöneben – Haideralm",
   "pays": "Italie",
   "region": "Val Venosta, Haut-Adige, Italie",
-  "alt_max": 2390
+  "alt_max": 2390,
+  "rando_km": 209.7,
+  "vtt_km": 149.7,
+  "lacs_15km": 4,
+  "activites": 0,
+  "nautique": 0,
+  "hebergements": 201
  },
  {
   "name": "Gitschberg Jochtal",
@@ -5859,7 +6015,13 @@
   "name": "Racines-Giovo",
   "pays": "Italie",
   "region": "Vipiteno, Haut-Adige, Italie",
-  "alt_max": 2100
+  "alt_max": 2100,
+  "rando_km": 84.3,
+  "vtt_km": 20.5,
+  "lacs_15km": 9,
+  "activites": 1,
+  "nautique": 6,
+  "hebergements": 127
  },
  {
   "name": "Schwemmalm",
@@ -5937,13 +6099,25 @@
   "name": "Corno del Renon",
   "pays": "Italie",
   "region": "Renon, Haut-Adige, Italie",
-  "alt_max": 2260
+  "alt_max": 2260,
+  "rando_km": 56.8,
+  "vtt_km": 32.4,
+  "lacs_15km": 9,
+  "activites": 0,
+  "nautique": 108,
+  "hebergements": 286
  },
  {
   "name": "San Candido – Baranci",
   "pays": "Italie",
   "region": "Alta Pusteria, Haut-Adige, Italie",
-  "alt_max": 1610
+  "alt_max": 1610,
+  "rando_km": 77.9,
+  "vtt_km": 73.2,
+  "lacs_15km": 9,
+  "activites": 1,
+  "nautique": 4,
+  "hebergements": 177
  },
  {
   "name": "Cortina d'Ampezzo",
@@ -5985,7 +6159,13 @@
   "name": "Gallio – Le Melette",
   "pays": "Italie",
   "region": "Plateau d'Asiago, Vénétie, Italie",
-  "alt_max": 1733
+  "alt_max": 1733,
+  "rando_km": 67.5,
+  "vtt_km": 78.8,
+  "lacs_15km": 1,
+  "activites": 0,
+  "nautique": 1,
+  "hebergements": 24
  },
  {
   "name": "Monte Verena",
@@ -6135,7 +6315,13 @@
   "name": "Palumbosila",
   "pays": "Italie",
   "region": "Sila, Calabre, Italie",
-  "alt_max": 1650
+  "alt_max": 1650,
+  "rando_km": 73.1,
+  "vtt_km": 0.9,
+  "lacs_15km": 4,
+  "activites": 0,
+  "nautique": 0,
+  "hebergements": 13
  },
  {
   "name": "Campitello Matese",
@@ -6309,7 +6495,13 @@
   "name": "Warth-Schröcken",
   "pays": "Autriche",
   "region": "Arlberg, Vorarlberg, Autriche",
-  "alt_max": 2811
+  "alt_max": 2811,
+  "rando_km": 208.4,
+  "vtt_km": 43.9,
+  "lacs_15km": 19,
+  "activites": 0,
+  "nautique": 6,
+  "hebergements": 467
  },
  {
   "name": "Söll",
@@ -6507,7 +6699,13 @@
   "name": "Hochkrimml",
   "pays": "Autriche",
   "region": "Zillertal Arena, Salzbourg, Autriche",
-  "alt_max": 2500
+  "alt_max": 2500,
+  "rando_km": 54.7,
+  "vtt_km": 23.7,
+  "lacs_15km": 4,
+  "activites": 0,
+  "nautique": 8,
+  "hebergements": 267
  },
  {
   "name": "Sölden",
@@ -6633,19 +6831,37 @@
   "name": "Glacier du Stubai",
   "pays": "Autriche",
   "region": "Stubaital, Tyrol, Autriche",
-  "alt_max": 3210
+  "alt_max": 3210,
+  "rando_km": 155.6,
+  "vtt_km": 10.5,
+  "lacs_15km": 22,
+  "activites": 0,
+  "nautique": 1,
+  "hebergements": 28
  },
  {
   "name": "Glacier de Hintertux",
   "pays": "Autriche",
   "region": "Tuxertal, Tyrol, Autriche",
-  "alt_max": 3250
+  "alt_max": 3250,
+  "rando_km": 114.7,
+  "vtt_km": 39.6,
+  "lacs_15km": 9,
+  "activites": 0,
+  "nautique": 0,
+  "hebergements": 40
  },
  {
   "name": "Glacier du Kaunertal",
   "pays": "Autriche",
   "region": "Kaunertal, Tyrol, Autriche",
-  "alt_max": 3113
+  "alt_max": 3113,
+  "rando_km": 148.0,
+  "vtt_km": 2.1,
+  "lacs_15km": 4,
+  "activites": 0,
+  "nautique": 0,
+  "hebergements": 10
  },
  {
   "name": "Hochzeiger",
@@ -6699,7 +6915,13 @@
   "name": "Glacier du Pitztal",
   "pays": "Autriche",
   "region": "Pitztal, Tyrol, Autriche",
-  "alt_max": 3440
+  "alt_max": 3440,
+  "rando_km": 116.5,
+  "vtt_km": 0.7,
+  "lacs_15km": 15,
+  "activites": 0,
+  "nautique": 2,
+  "hebergements": 34
  },
  {
   "name": "Axamer Lizum",
@@ -6861,7 +7083,13 @@
   "name": "St. Jakob im Defereggental",
   "pays": "Autriche",
   "region": "Tyrol oriental, Tyrol, Autriche",
-  "alt_max": 2683
+  "alt_max": 2683,
+  "rando_km": 150.9,
+  "vtt_km": 16.6,
+  "lacs_15km": 9,
+  "activites": 1,
+  "nautique": 0,
+  "hebergements": 105
  },
  {
   "name": "Glungezer",
@@ -7095,7 +7323,13 @@
   "name": "Hoch-Imst",
   "pays": "Autriche",
   "region": "Imst, Tyrol, Autriche",
-  "alt_max": 2026
+  "alt_max": 2026,
+  "rando_km": 92.5,
+  "vtt_km": 57.0,
+  "lacs_15km": 19,
+  "activites": 1,
+  "nautique": 12,
+  "hebergements": 105
  },
  {
   "name": "Saalbach",
@@ -7353,7 +7587,13 @@
   "name": "Dachstein West",
   "pays": "Autriche",
   "region": "Tennengau, Salzbourg, Autriche",
-  "alt_max": 1617
+  "alt_max": 1617,
+  "rando_km": 67.9,
+  "vtt_km": 29.7,
+  "lacs_15km": 5,
+  "activites": 0,
+  "nautique": 19,
+  "hebergements": 140
  },
  {
   "name": "Rauris",
@@ -7407,7 +7647,13 @@
   "name": "Uttendorf – Weissee",
   "pays": "Autriche",
   "region": "Stubachtal, Salzbourg, Autriche",
-  "alt_max": 2600
+  "alt_max": 2600,
+  "rando_km": 83.7,
+  "vtt_km": 13.3,
+  "lacs_15km": 5,
+  "activites": 0,
+  "nautique": 8,
+  "hebergements": 3
  },
  {
   "name": "Filzmoos",
@@ -7461,7 +7707,13 @@
   "name": "Unken – Heutal",
   "pays": "Autriche",
   "region": "Salzburger Saalachtal, Salzbourg, Autriche",
-  "alt_max": 1531
+  "alt_max": 1531,
+  "rando_km": 214.1,
+  "vtt_km": 123.8,
+  "lacs_15km": 12,
+  "activites": 0,
+  "nautique": 17,
+  "hebergements": 31
  },
  {
   "name": "Schruns",
@@ -7587,7 +7839,13 @@
   "name": "Ifen (Kleinwalsertal)",
   "pays": "Autriche",
   "region": "Kleinwalsertal, Vorarlberg, Autriche",
-  "alt_max": 2030
+  "alt_max": 2030,
+  "rando_km": 170.7,
+  "vtt_km": 35.9,
+  "lacs_15km": 14,
+  "activites": 0,
+  "nautique": 7,
+  "hebergements": 306
  },
  {
   "name": "Sonnenkopf (Klösterle)",
@@ -7677,7 +7935,13 @@
   "name": "Pichl – Reiteralm",
   "pays": "Autriche",
   "region": "Schladming-Dachstein, Styrie, Autriche",
-  "alt_max": 2015
+  "alt_max": 2015,
+  "rando_km": 99.0,
+  "vtt_km": 24.8,
+  "lacs_15km": 16,
+  "activites": 0,
+  "nautique": 8,
+  "hebergements": 452
  },
  {
   "name": "Tauplitz",
@@ -8055,7 +8319,13 @@
   "name": "Arnoldstein – Dreiländereck",
   "pays": "Autriche",
   "region": "Villach, Carinthie, Autriche",
-  "alt_max": 1552
+  "alt_max": 1552,
+  "rando_km": 68.4,
+  "vtt_km": 21.8,
+  "lacs_15km": 8,
+  "activites": 0,
+  "nautique": 6,
+  "hebergements": 66
  },
  {
   "name": "Mallnitz – Ankogel",
@@ -8073,13 +8343,25 @@
   "name": "Flattnitz – Hirnkopf",
   "pays": "Autriche",
   "region": "Carinthie centrale, Carinthie, Autriche",
-  "alt_max": 1840
+  "alt_max": 1840,
+  "rando_km": 40.6,
+  "vtt_km": 0.0,
+  "lacs_15km": 2,
+  "activites": 0,
+  "nautique": 3,
+  "hebergements": 39
  },
  {
   "name": "Falkert – Heidialm",
   "pays": "Autriche",
   "region": "Nockberge, Carinthie, Autriche",
-  "alt_max": 2107
+  "alt_max": 2107,
+  "rando_km": 92.4,
+  "vtt_km": 17.5,
+  "lacs_15km": 3,
+  "activites": 0,
+  "nautique": 8,
+  "hebergements": 80
  },
  {
   "name": "Hinterstoder – Höss",
@@ -8133,7 +8415,13 @@
   "name": "Obertraun – Krippenstein",
   "pays": "Autriche",
   "region": "Salzkammergut, Haute-Autriche, Autriche",
-  "alt_max": 2109
+  "alt_max": 2109,
+  "rando_km": 153.4,
+  "vtt_km": 25.5,
+  "lacs_15km": 12,
+  "activites": 0,
+  "nautique": 22,
+  "hebergements": 31
  },
  {
   "name": "Ebensee – Feuerkogel",
@@ -8199,7 +8487,13 @@
   "name": "Semmering – Zauberberg",
   "pays": "Autriche",
   "region": "Wiener Alpen, Basse-Autriche, Autriche",
-  "alt_max": 1350
+  "alt_max": 1350,
+  "rando_km": 119.1,
+  "vtt_km": 9.7,
+  "lacs_15km": 0,
+  "activites": 2,
+  "nautique": 8,
+  "hebergements": 47
  },
  {
   "name": "Mönichkirchen – Mariensee",

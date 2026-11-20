@@ -360,7 +360,12 @@
   "hebergements": 279
  },
  "Montchavin-Les Coches": {
-  "erreur": "position introuvable"
+  "rando_km": 46.0,
+  "vtt_km": 5.1,
+  "lacs_15km": 23,
+  "activites": 4,
+  "nautique": 19,
+  "hebergements": 175
  },
  "Pralognan-la-Vanoise": {
   "rando_km": 141.2,
@@ -523,7 +528,12 @@
   "hebergements": 254
  },
  "Les Aillons-Margeriaz": {
-  "erreur": "position introuvable"
+  "rando_km": 155.3,
+  "vtt_km": 4.6,
+  "lacs_15km": 6,
+  "activites": 3,
+  "nautique": 22,
+  "hebergements": 52
  },
  "Chamrousse": {
   "rando_km": 136.2,
@@ -566,7 +576,12 @@
   "hebergements": 103
  },
  "Alpe du Grand Serre": {
-  "erreur": "position introuvable"
+  "rando_km": 186.1,
+  "vtt_km": 15.6,
+  "lacs_15km": 24,
+  "activites": 0,
+  "nautique": 10,
+  "hebergements": 8
  },
  "Villard-de-Lans": {
   "rando_km": 172.8,
@@ -633,7 +648,12 @@
   "hebergements": 10
  },
  "Semnoz - Annecy": {
-  "erreur": "position introuvable"
+  "rando_km": 58.0,
+  "vtt_km": 29.6,
+  "lacs_15km": 3,
+  "activites": 0,
+  "nautique": 23,
+  "hebergements": 47
  },
  "Col de Porte": {
   "rando_km": 303.7,
@@ -700,7 +720,12 @@
   "hebergements": 72
  },
  "La Grave - La Meije": {
-  "erreur": "position introuvable"
+  "rando_km": 92.2,
+  "vtt_km": 35.9,
+  "lacs_15km": 25,
+  "activites": 0,
+  "nautique": 3,
+  "hebergements": 60
  },
  "Puy-Saint-Vincent": {
   "rando_km": 176.7,
@@ -711,7 +736,12 @@
   "hebergements": 33
  },
  "Orcières Merlette 1850": {
-  "erreur": "position introuvable"
+  "rando_km": 55.5,
+  "vtt_km": 44.9,
+  "lacs_15km": 22,
+  "activites": 1,
+  "nautique": 1,
+  "hebergements": 19
  },
  "Superdévoluy": {
   "rando_km": 30.6,
@@ -770,10 +800,20 @@
   "hebergements": 33
  },
  "Sauze-Super-Sauze": {
-  "erreur": "position introuvable"
+  "rando_km": 57.5,
+  "vtt_km": 14.9,
+  "lacs_15km": 23,
+  "activites": 2,
+  "nautique": 11,
+  "hebergements": 48
  },
  "Pra-Loup": {
-  "erreur": "position introuvable"
+  "rando_km": 59.5,
+  "vtt_km": 18.8,
+  "lacs_15km": 10,
+  "activites": 1,
+  "nautique": 12,
+  "hebergements": 44
  },
  "Val d'Allos": {
   "rando_km": 51.0,
@@ -792,7 +832,12 @@
   "hebergements": 14
  },
  "Montclar-les-2-Vallées": {
-  "erreur": "position introuvable"
+  "rando_km": 45.4,
+  "vtt_km": 21.3,
+  "lacs_15km": 7,
+  "activites": 0,
+  "nautique": 20,
+  "hebergements": 22
  },
  "Larche": {
   "rando_km": 1.2,
@@ -835,7 +880,12 @@
   "hebergements": 17
  },
  "Beuil-les-Launes": {
-  "erreur": "position introuvable"
+  "rando_km": 114.8,
+  "vtt_km": 76.4,
+  "lacs_15km": 1,
+  "activites": 0,
+  "nautique": 4,
+  "hebergements": 14
  },
  "La Colmiane": {
   "rando_km": 111.0,
@@ -894,7 +944,12 @@
   "hebergements": 29
  },
  "Arvieux-en-Queyras": {
-  "erreur": "position introuvable"
+  "rando_km": 103.2,
+  "vtt_km": 63.5,
+  "lacs_15km": 31,
+  "activites": 0,
+  "nautique": 7,
+  "hebergements": 22
  },
  "La Mongie": {
   "rando_km": 102.1,
@@ -1009,7 +1064,12 @@
   "hebergements": 14
  },
  "Ascou-Pailhères": {
-  "erreur": "position introuvable"
+  "rando_km": 27.9,
+  "vtt_km": 7.3,
+  "lacs_15km": 7,
+  "activites": 0,
+  "nautique": 3,
+  "hebergements": 16
  },
  "Font-Romeu-Pyrénées 2000": {
   "rando_km": 51.1,
@@ -1172,7 +1232,12 @@
   "hebergements": 46
  },
  "Le Ballon d'Alsace": {
-  "erreur": "position introuvable"
+  "rando_km": 80.6,
+  "vtt_km": 114.8,
+  "lacs_15km": 2,
+  "activites": 3,
+  "nautique": 14,
+  "hebergements": 42
  },
  "La Planche des Belles Filles": {
   "rando_km": 37.6,
@@ -1223,7 +1288,12 @@
   "hebergements": 60
  },
  "Métabief Mont d'Or": {
-  "erreur": "position introuvable"
+  "rando_km": 25.6,
+  "vtt_km": 9.3,
+  "lacs_15km": 7,
+  "activites": 3,
+  "nautique": 20,
+  "hebergements": 53
  },
  "Les Rousses": {
   "rando_km": 29.6,
@@ -1242,10 +1312,20 @@
   "hebergements": 28
  },
  "La Source du Doubs-Mouthe": {
-  "erreur": "position introuvable"
+  "rando_km": 4.1,
+  "vtt_km": 0.0,
+  "lacs_15km": 7,
+  "activites": 1,
+  "nautique": 16,
+  "hebergements": 33
  },
  "Espace Alpin Bellefontaine": {
-  "erreur": "position introuvable"
+  "rando_km": 35.3,
+  "vtt_km": 34.1,
+  "lacs_15km": 7,
+  "activites": 1,
+  "nautique": 3,
+  "hebergements": 33
  },
  "La Combe Saint-Pierre": {
   "rando_km": 35.9,
@@ -1360,7 +1440,12 @@
   "hebergements": 10
  },
  "Alti Aigoual": {
-  "erreur": "position introuvable"
+  "rando_km": 22.6,
+  "vtt_km": 6.6,
+  "lacs_15km": 1,
+  "activites": 0,
+  "nautique": 10,
+  "hebergements": 17
  },
  "Prabouré": {
   "rando_km": 1.4,
@@ -1435,7 +1520,12 @@
   "hebergements": 14
  },
  "Le Frenz": {
-  "erreur": "position introuvable"
+  "rando_km": 70.6,
+  "vtt_km": 98.0,
+  "lacs_15km": 3,
+  "activites": 0,
+  "nautique": 14,
+  "hebergements": 38
  },
  "Mijoux-La Valserine": {
   "rando_km": 38.2,
@@ -2006,7 +2096,12 @@
   "hebergements": 31
  },
  "Bürchen-Moosalp": {
-  "erreur": "position introuvable"
+  "rando_km": 155.0,
+  "vtt_km": 69.3,
+  "lacs_15km": 8,
+  "activites": 1,
+  "nautique": 10,
+  "hebergements": 55
  },
  "Unterbäch": {
   "rando_km": 108.4,
@@ -2193,7 +2288,12 @@
   "hebergements": 75
  },
  "Grindelwald First": {
-  "erreur": "position introuvable"
+  "rando_km": 116.7,
+  "vtt_km": 23.6,
+  "lacs_15km": 9,
+  "activites": 1,
+  "nautique": 20,
+  "hebergements": 59
  },
  "Adelboden": {
   "rando_km": 104.1,
@@ -2252,7 +2352,12 @@
   "hebergements": 40
  },
  "Wasserngrat (Gstaad)": {
-  "erreur": "position introuvable"
+  "rando_km": 40.9,
+  "vtt_km": 25.6,
+  "lacs_15km": 6,
+  "activites": 0,
+  "nautique": 8,
+  "hebergements": 43
  },
  "Elsigen-Metsch": {
   "rando_km": 125.8,
@@ -2759,7 +2864,12 @@
   "hebergements": 17
  },
  "Mythenregion": {
-  "erreur": "position introuvable"
+  "rando_km": 124.1,
+  "vtt_km": 59.5,
+  "lacs_15km": 6,
+  "activites": 0,
+  "nautique": 12,
+  "hebergements": 36
  },
  "Sörenberg": {
   "rando_km": 93.6,
@@ -3506,7 +3616,12 @@
   "hebergements": 40
  },
  "Passo Maniva": {
-  "erreur": "position introuvable"
+  "rando_km": 174.6,
+  "vtt_km": 143.0,
+  "lacs_15km": 8,
+  "activites": 0,
+  "nautique": 4,
+  "hebergements": 24
  },
  "Lizzola": {
   "rando_km": 207.1,
@@ -3565,7 +3680,12 @@
   "hebergements": 111
  },
  "Marilleva": {
-  "erreur": "position introuvable"
+  "rando_km": 68.7,
+  "vtt_km": 73.4,
+  "lacs_15km": 21,
+  "activites": 1,
+  "nautique": 1,
+  "hebergements": 108
  },
  "Canazei": {
   "rando_km": 209.4,
@@ -3632,7 +3752,12 @@
   "hebergements": 34
  },
  "Passo San Pellegrino": {
-  "erreur": "position introuvable"
+  "rando_km": 137.8,
+  "vtt_km": 26.4,
+  "lacs_15km": 14,
+  "activites": 0,
+  "nautique": 0,
+  "hebergements": 32
  },
  "Alpe Lusia": {
   "rando_km": 100.0,
@@ -3787,7 +3912,12 @@
   "hebergements": 475
  },
  "Schöneben – Haideralm": {
-  "erreur": "position introuvable"
+  "rando_km": 209.7,
+  "vtt_km": 149.7,
+  "lacs_15km": 4,
+  "activites": 0,
+  "nautique": 0,
+  "hebergements": 201
  },
  "Gitschberg Jochtal": {
   "rando_km": 58.1,
@@ -3878,7 +4008,12 @@
   "hebergements": 604
  },
  "Racines-Giovo": {
-  "erreur": "position introuvable"
+  "rando_km": 84.3,
+  "vtt_km": 20.5,
+  "lacs_15km": 9,
+  "activites": 1,
+  "nautique": 6,
+  "hebergements": 127
  },
  "Schwemmalm": {
   "rando_km": 162.9,
@@ -3929,10 +4064,20 @@
   "hebergements": 101
  },
  "Corno del Renon": {
-  "erreur": "position introuvable"
+  "rando_km": 56.8,
+  "vtt_km": 32.4,
+  "lacs_15km": 9,
+  "activites": 0,
+  "nautique": 108,
+  "hebergements": 286
  },
  "San Candido – Baranci": {
-  "erreur": "position introuvable"
+  "rando_km": 77.9,
+  "vtt_km": 73.2,
+  "lacs_15km": 9,
+  "activites": 1,
+  "nautique": 4,
+  "hebergements": 177
  },
  "Cortina d'Ampezzo": {
   "rando_km": 157.3,
@@ -3959,7 +4104,12 @@
   "hebergements": 35
  },
  "Gallio – Le Melette": {
-  "erreur": "position introuvable"
+  "rando_km": 67.5,
+  "vtt_km": 78.8,
+  "lacs_15km": 1,
+  "activites": 0,
+  "nautique": 1,
+  "hebergements": 24
  },
  "Monte Verena": {
   "rando_km": 63.4,
@@ -4058,7 +4208,12 @@
   "hebergements": 20
  },
  "Palumbosila": {
-  "erreur": "position introuvable"
+  "rando_km": 73.1,
+  "vtt_km": 0.9,
+  "lacs_15km": 4,
+  "activites": 0,
+  "nautique": 0,
+  "hebergements": 13
  },
  "Campitello Matese": {
   "rando_km": 62.9,
@@ -4173,7 +4328,12 @@
   "hebergements": 307
  },
  "Warth-Schröcken": {
-  "erreur": "position introuvable"
+  "rando_km": 208.4,
+  "vtt_km": 43.9,
+  "lacs_15km": 19,
+  "activites": 0,
+  "nautique": 6,
+  "hebergements": 467
  },
  "Söll": {
   "rando_km": 66.7,
@@ -4304,7 +4464,12 @@
   "hebergements": 295
  },
  "Hochkrimml": {
-  "erreur": "position introuvable"
+  "rando_km": 54.7,
+  "vtt_km": 23.7,
+  "lacs_15km": 4,
+  "activites": 0,
+  "nautique": 8,
+  "hebergements": 267
  },
  "Sölden": {
   "rando_km": 134.1,
@@ -4387,13 +4552,28 @@
   "hebergements": 174
  },
  "Glacier du Stubai": {
-  "erreur": "position introuvable"
+  "rando_km": 155.6,
+  "vtt_km": 10.5,
+  "lacs_15km": 22,
+  "activites": 0,
+  "nautique": 1,
+  "hebergements": 28
  },
  "Glacier de Hintertux": {
-  "erreur": "position introuvable"
+  "rando_km": 114.7,
+  "vtt_km": 39.6,
+  "lacs_15km": 9,
+  "activites": 0,
+  "nautique": 0,
+  "hebergements": 40
  },
  "Glacier du Kaunertal": {
-  "erreur": "position introuvable"
+  "rando_km": 148.0,
+  "vtt_km": 2.1,
+  "lacs_15km": 4,
+  "activites": 0,
+  "nautique": 0,
+  "hebergements": 10
  },
  "Hochzeiger": {
   "rando_km": 95.2,
@@ -4428,7 +4608,12 @@
   "hebergements": 197
  },
  "Glacier du Pitztal": {
-  "erreur": "position introuvable"
+  "rando_km": 116.5,
+  "vtt_km": 0.7,
+  "lacs_15km": 15,
+  "activites": 0,
+  "nautique": 2,
+  "hebergements": 34
  },
  "Axamer Lizum": {
   "rando_km": 228.7,
@@ -4535,7 +4720,12 @@
   "hebergements": 236
  },
  "St. Jakob im Defereggental": {
-  "erreur": "position introuvable"
+  "rando_km": 150.9,
+  "vtt_km": 16.6,
+  "lacs_15km": 9,
+  "activites": 1,
+  "nautique": 0,
+  "hebergements": 105
  },
  "Glungezer": {
   "rando_km": 220.6,
@@ -4690,7 +4880,12 @@
   "hebergements": 187
  },
  "Hoch-Imst": {
-  "erreur": "position introuvable"
+  "rando_km": 92.5,
+  "vtt_km": 57.0,
+  "lacs_15km": 19,
+  "activites": 1,
+  "nautique": 12,
+  "hebergements": 105
  },
  "Saalbach": {
   "rando_km": 81.2,
@@ -4861,7 +5056,12 @@
   "hebergements": 138
  },
  "Dachstein West": {
-  "erreur": "position introuvable"
+  "rando_km": 67.9,
+  "vtt_km": 29.7,
+  "lacs_15km": 5,
+  "activites": 0,
+  "nautique": 19,
+  "hebergements": 140
  },
  "Rauris": {
   "rando_km": 133.7,
@@ -4896,7 +5096,12 @@
   "hebergements": 152
  },
  "Uttendorf – Weissee": {
-  "erreur": "position introuvable"
+  "rando_km": 83.7,
+  "vtt_km": 13.3,
+  "lacs_15km": 5,
+  "activites": 0,
+  "nautique": 8,
+  "hebergements": 3
  },
  "Filzmoos": {
   "rando_km": 125.2,
@@ -4931,7 +5136,12 @@
   "hebergements": 101
  },
  "Unken – Heutal": {
-  "erreur": "position introuvable"
+  "rando_km": 214.1,
+  "vtt_km": 123.8,
+  "lacs_15km": 12,
+  "activites": 0,
+  "nautique": 17,
+  "hebergements": 31
  },
  "Schruns": {
   "rando_km": 121.0,
@@ -5014,7 +5224,12 @@
   "hebergements": 354
  },
  "Ifen (Kleinwalsertal)": {
-  "erreur": "position introuvable"
+  "rando_km": 170.7,
+  "vtt_km": 35.9,
+  "lacs_15km": 14,
+  "activites": 0,
+  "nautique": 7,
+  "hebergements": 306
  },
  "Sonnenkopf (Klösterle)": {
   "rando_km": 96.9,
@@ -5073,7 +5288,12 @@
   "hebergements": 325
  },
  "Pichl – Reiteralm": {
-  "erreur": "position introuvable"
+  "rando_km": 99.0,
+  "vtt_km": 24.8,
+  "lacs_15km": 16,
+  "activites": 0,
+  "nautique": 8,
+  "hebergements": 452
  },
  "Tauplitz": {
   "rando_km": 78.1,
@@ -5324,7 +5544,12 @@
   "hebergements": 2
  },
  "Arnoldstein – Dreiländereck": {
-  "erreur": "position introuvable"
+  "rando_km": 68.4,
+  "vtt_km": 21.8,
+  "lacs_15km": 8,
+  "activites": 0,
+  "nautique": 6,
+  "hebergements": 66
  },
  "Mallnitz – Ankogel": {
   "rando_km": 92.7,
@@ -5335,10 +5560,20 @@
   "hebergements": 43
  },
  "Flattnitz – Hirnkopf": {
-  "erreur": "position introuvable"
+  "rando_km": 40.6,
+  "vtt_km": 0.0,
+  "lacs_15km": 2,
+  "activites": 0,
+  "nautique": 3,
+  "hebergements": 39
  },
  "Falkert – Heidialm": {
-  "erreur": "position introuvable"
+  "rando_km": 92.4,
+  "vtt_km": 17.5,
+  "lacs_15km": 3,
+  "activites": 0,
+  "nautique": 8,
+  "hebergements": 80
  },
  "Hinterstoder – Höss": {
   "rando_km": 115.1,
@@ -5373,7 +5608,12 @@
   "hebergements": 63
  },
  "Obertraun – Krippenstein": {
-  "erreur": "position introuvable"
+  "rando_km": 153.4,
+  "vtt_km": 25.5,
+  "lacs_15km": 12,
+  "activites": 0,
+  "nautique": 22,
+  "hebergements": 31
  },
  "Ebensee – Feuerkogel": {
   "rando_km": 103.7,
@@ -5416,7 +5656,12 @@
   "hebergements": 48
  },
  "Semmering – Zauberberg": {
-  "erreur": "position introuvable"
+  "rando_km": 119.1,
+  "vtt_km": 9.7,
+  "lacs_15km": 0,
+  "activites": 2,
+  "nautique": 8,
+  "hebergements": 47
  },
  "Mönichkirchen – Mariensee": {
   "rando_km": 24.6,
