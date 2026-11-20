@@ -78,15 +78,6 @@
       "better": "high"
     },
     {
-      "key": "activites",
-      "label": "Activités (tyrolienne, luge d'été, parc aventure)",
-      "unit": "",
-      "type": "number",
-      "filter": true,
-      "card": false,
-      "better": "high"
-    },
-    {
       "key": "nautique",
       "label": "Activités nautiques sur lac",
       "unit": "",
@@ -142,5 +133,16 @@
     "host": "GitHub Pages (GitHub Inc., San Francisco, États-Unis)",
     "affiliate_notice": "Certains liens sont des liens d'affiliation : nous pouvons percevoir une commission, sans surcoût pour vous.",
     "data_notice": "Données de randonnée, lacs et activités : © contributeurs OpenStreetMap (licence ODbL)."
-  }
+  },
+  "fields_en_attente": [
+    {
+      "key": "activites",
+      "label": "Activités (tyrolienne, luge d'été, parc aventure)",
+      "unit": "",
+      "type": "number",
+      "filter": true,
+      "card": false,
+      "better": "high"
+    }
+  ]
 }
