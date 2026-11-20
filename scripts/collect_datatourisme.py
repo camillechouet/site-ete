@@ -75,6 +75,7 @@ def diag() -> int:
         {"search": "aventure", "geo_distance": f"{la},{lo},30km", "page_size": 5, "lang": "fr"},
     ]
     sample = []
+    log = []
     for e in essais:
         d = appel(e)
         time.sleep(1)
@@ -83,11 +84,14 @@ def diag() -> int:
             continue
         objs = d.get("objects") or []
         print("ESSAI", e, "-> total", (d.get("meta") or {}).get("total"), "objets", len(objs), flush=True)
+        log.append(f"{e} -> total {(d.get('meta') or {}).get('total')} objets {len(objs)}")
         if objs:
             sample.append(objs[0])
             print("  clés :", list(objs[0].keys()), flush=True)
             print("  extrait :", json.dumps(objs[0], ensure_ascii=False)[:600], flush=True)
+            log.append("  clés : " + str(list(objs[0].keys())))
     (DATA / "dt_sample.json").write_text(json.dumps(sample[:3], ensure_ascii=False, indent=1), encoding="utf-8")
+    (DATA / "dt_diag.txt").write_text("\n".join(log), encoding="utf-8")
     return 0
 
 
