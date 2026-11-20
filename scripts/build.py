@@ -569,9 +569,11 @@ def build_legal() -> None:
     L = CFG.get("legal", {})
     body = f"""<main><div class="wrap"><h1>Mentions légales</h1>
 <div class="panel"><p><strong>Éditeur :</strong> {esc(L.get('publisher', ''))} — SIRET {esc(L.get('siret', ''))}<br>
+{('<strong>Adresse :</strong> ' + esc(L['address']) + '<br>') if L.get('address') else ''}{('<strong>Directeur de la publication :</strong> ' + esc(L['director']) + '<br>') if L.get('director') else ''}
 <strong>Contact :</strong> {esc(SITE.get('contact_email', ''))}<br>
 <strong>Hébergeur :</strong> {esc(L.get('host', ''))}</p>
 <p>{esc(L.get('affiliate_notice', ''))}</p>
+<p>{esc(L.get('data_notice', ''))}</p>
 <p>Les informations de ce site sont données à titre indicatif ; vérifiez-les auprès des sites officiels avant de réserver.</p></div></div></main>"""
     write(DIST / "mentions-legales" / "index.html", page(f"Mentions légales | {SITE['name']}", body, "/mentions-legales/", noindex=True))
 

@@ -7,7 +7,7 @@
     "domain": "https://mountainsummer.fr",
     "lang": "fr",
     "color": "#2d6a4f",
-    "contact_email": "contact@example.org",
+    "contact_email": "contact.snowfinder@gmail.com",
     "analytics_id": "",
     "name_parts": [
       "Mountain",
@@ -137,10 +137,12 @@
     "top_n": 12
   },
   "legal": {
-    "publisher": "Nom de l'éditeur",
-    "siret": "000 000 000 00000",
-    "host": "GitHub Pages (GitHub Inc., San Francisco, États-Unis)",
+    "publisher": "Camille CHOUET, entrepreneur individuel (EI) — nom commercial : SnowFinder",
+    "siret": "109 875 641 00010",
+    "host": "GitHub Pages (GitHub Inc., Microsoft Corporation — 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, États-Unis)",
     "affiliate_notice": "Certains liens sont des liens d'affiliation : nous pouvons percevoir une commission, sans surcoût pour vous.",
-    "data_notice": "Données de randonnée, lacs et activités : © contributeurs OpenStreetMap (licence ODbL)."
+    "data_notice": "Données de randonnée, lacs et activités : © contributeurs OpenStreetMap (licence ODbL) et DATAtourisme (Licence Ouverte 2.0).",
+    "address": "929 chemin des Chaufournaies, 49500 Chazé-sur-Argos, France",
+    "director": "Camille Chouet"
   }
 }
