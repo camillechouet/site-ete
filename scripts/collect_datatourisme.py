@@ -62,10 +62,41 @@ def nom(o) -> str:
     return str(lab or o.get("uuid") or o.get("id") or "?")
 
 
+def diag() -> int:
+    """Essais de requêtes autour de Chamonix pour comprendre le comportement de l'API."""
+    la, lo = 45.9237, 6.8694
+    essais = [
+        {"geo_distance": f"{la},{lo},8km", "page_size": 5},
+        {"geo_distance": f"{la},{lo},8km", "page_size": 5, "lang": "fr"},
+        {"geo_distance": f"{la},{lo},8000m", "page_size": 5},
+        {"search": "tyrolienne", "page_size": 5},
+        {"search": "luge", "page_size": 5},
+        {"search": "accrobranche", "geo_distance": f"{la},{lo},30km", "page_size": 5},
+        {"search": "aventure", "geo_distance": f"{la},{lo},30km", "page_size": 5, "lang": "fr"},
+    ]
+    sample = []
+    for e in essais:
+        d = appel(e)
+        time.sleep(1)
+        if d is None:
+            print("ESSAI", e, "-> échec", flush=True)
+            continue
+        objs = d.get("objects") or []
+        print("ESSAI", e, "-> total", (d.get("meta") or {}).get("total"), "objets", len(objs), flush=True)
+        if objs:
+            sample.append(objs[0])
+            print("  clés :", list(objs[0].keys()), flush=True)
+            print("  extrait :", json.dumps(objs[0], ensure_ascii=False)[:600], flush=True)
+    (DATA / "dt_sample.json").write_text(json.dumps(sample[:3], ensure_ascii=False, indent=1), encoding="utf-8")
+    return 0
+
+
 def main() -> int:
     if not KEY:
         print("DATATOURISME_KEY absente : rien à faire.")
         return 0
+    if os.environ.get("DIAG", "1") == "1":
+        return diag()
     items = json.load(open(DATA / "items.json", encoding="utf-8"))
     geo = json.load(open(DATA / "geo.json", encoding="utf-8"))
     cache_p = DATA / "datatourisme.json"
