@@ -191,5 +191,1515 @@
    "Sledding run Beuloz",
    "Piste de luge et paret au Col de Joux Plane"
   ]
+ },
+ "Châtel": {
+  "activites": 8,
+  "exemples": [
+   "Aire de luge de Pré la Joux",
+   "Aire de luge Sous Vonnes",
+   "Aire de luge de Super Châtel",
+   "Piste de luge du Crêt-Béni",
+   "Châtel Accrobranche 1600"
+  ]
+ },
+ "La Chapelle d'Abondance": {
+  "activites": 8,
+  "exemples": [
+   "Aire de luge de Pré la Joux",
+   "Aire de luge Sous Vonnes",
+   "Aire de luge de Super Châtel",
+   "Piste de luge du Crêt-Béni",
+   "Châtel Accrobranche 1600"
+  ]
+ },
+ "Abondance": {
+  "activites": 4,
+  "exemples": [
+   "Alpi'Raquettes et Luge",
+   "Aire de luge de Pré la Joux",
+   "Piste de luge du Crêt-Béni",
+   "Via ferrata des Saix de Miolène"
+  ]
+ },
+ "Bellevaux-Hirmentaz": {
+  "activites": 13,
+  "exemples": [
+   "Piste de luge à Lullin",
+   "Piste de luge les Mouilles",
+   "Piste de luge Hirmentaz",
+   "Piste de luge des Moises",
+   "Espace ludique : Piste de luge \"le Monde de Perce-Neige\""
+  ]
+ },
+ "Bernex": {
+  "activites": 5,
+  "exemples": [
+   "Piste de luge",
+   "Luge 4 saisons",
+   "Indiana'Ventures : parcours aventure",
+   "Thollon Parapente",
+   "Школа парапланеризма : Air Léman"
+  ]
+ },
+ "Saint-Jean-d'Aulps": {
+  "activites": 7,
+  "exemples": [
+   "Aire de luge",
+   "Alpi'Raquettes et Luge",
+   "Luge d'été",
+   "ABC de l'Ecole professionnel de Parapente et de Speedriding des Portes du Soleil",
+   "Ecole professionnelle de parapente et de Speed-riding des Portes du Soleil"
+  ]
+ },
+ "Praz-de-Lys Sommand": {
+  "activites": 10,
+  "exemples": [
+   "Sledding run Résidences",
+   "Sledding run Chalets de la Mary",
+   "Sledding run Télésiège de Sommand",
+   "Sledding run Beuloz",
+   "L'Aventure Polaire"
+  ]
+ },
+ "Flaine": {
+  "activites": 11,
+  "exemples": [
+   "Piste de luge à Morillon 1100",
+   "La Luge à Téran",
+   "Luge sur rail 4 saisons",
+   "Piste de luge de Salvagny",
+   "Piste de luge à Samoëns 1600"
+  ]
+ },
+ "Les Carroz": {
+  "activites": 18,
+  "exemples": [
+   "Piste de luge à Morillon 1100",
+   "La Luge à Téran",
+   "Pistes de luge",
+   "Piste de luge à Romme",
+   "Luge sur rail 4 saisons"
+  ]
+ },
+ "Samoëns": {
+  "activites": 19,
+  "exemples": [
+   "Piste de luge à Morillon 1100",
+   "La Luge à Téran",
+   "Pistes de luge",
+   "Piste de luge de Salvagny",
+   "Piste de luge et paret au Col de Joux Plane"
+  ]
+ },
+ "Morillon": {
+  "activites": 28,
+  "exemples": [
+   "Piste de luge à Morillon 1100",
+   "La Luge à Téran",
+   "Pistes de luge",
+   "Luge sur rail 4 saisons",
+   "Piste de luge au plateau d'Agy"
+  ]
+ },
+ "Sixt-Fer-à-Cheval": {
+  "activites": 17,
+  "exemples": [
+   "Piste de luge à Morillon 1100",
+   "La Luge à Téran",
+   "Pistes de luge",
+   "Piste de luge du Fer-à-Cheval",
+   "Piste de luge de Salvagny"
+  ]
+ },
+ "La Clusaz": {
+  "activites": 19,
+  "exemples": [
+   "Piste de luge du Crêt",
+   "Piste de luge L'écureuil aux Outalays",
+   "Luge au village",
+   "Luge aux Confins",
+   "Luge des Bois"
+  ]
+ },
+ "Le Grand-Bornand": {
+  "activites": 18,
+  "exemples": [
+   "Piste de luge",
+   "Piste de luge du Crêt",
+   "Piste de luge L'écureuil aux Outalays",
+   "Luge au village",
+   "Luge aux Confins"
+  ]
+ },
+ "La Giettaz": {
+  "activites": 19,
+  "exemples": [
+   "Aire de luge de l'Arrondine",
+   "Luge aux Confins",
+   "Luge des Bois",
+   "Espace luge à Cuchet",
+   "Espace luge - Le Plan"
+  ]
+ },
+ "Praz-sur-Arly": {
+  "activites": 22,
+  "exemples": [
+   "Piste de luge Logère",
+   "Course de luge chronométrée",
+   "Aire de luge de l'Arrondine",
+   "Espace luge à Cuchet",
+   "Crestvo'Luge"
+  ]
+ },
+ "Flumet": {
+  "activites": 14,
+  "exemples": [
+   "Piste de luge Logère",
+   "Aire de luge de l'Arrondine",
+   "Luge'N'Troll",
+   "Crestvo'Luge",
+   "Espace luge - Le Plan"
+  ]
+ },
+ "Crest-Voland": {
+  "activites": 12,
+  "exemples": [
+   "Piste de luge Logère",
+   "Aire de luge de l'Arrondine",
+   "Luge'N'Troll",
+   "Crestvo'Luge",
+   "Piste de luge des Evettes"
+  ]
+ },
+ "Notre-Dame-de-Bellecombe": {
+  "activites": 14,
+  "exemples": [
+   "Piste de luge Logère",
+   "Aire de luge de l'Arrondine",
+   "Luge'N'Troll",
+   "Crestvo'Luge",
+   "Espace luge - Le Plan"
+  ]
+ },
+ "Les Saisies": {
+  "activites": 8,
+  "exemples": [
+   "Piste de luge Logère",
+   "Aire de luge de l'Arrondine",
+   "Luge'N'Troll",
+   "Crestvo'Luge",
+   "Piste de luge des Evettes"
+  ]
+ },
+ "Arêches-Beaufort": {
+  "activites": 7,
+  "exemples": [
+   "Piste de luge du Planay",
+   "Piste de luge enfant du Cuvy",
+   "Piste de luge du Solaret",
+   "Espace Fripons - Piste de luge",
+   "Tyrol Aventure - Parcours acrobatique"
+  ]
+ },
+ "Sainte-Foy-Tarentaise": {
+  "activites": 14,
+  "exemples": [
+   "La Tyrolienne de l'Aiguille Rouge",
+   "Luge 2000 - La piste de luge à Arc 2000",
+   "X'TREME Luge",
+   "Espace Luge des Eucherts",
+   "Espace Luge des Écureuils"
+  ]
+ },
+ "La Rosière": {
+  "activites": 0,
+  "exemples": []
+ },
+ "Champagny-en-Vanoise": {
+  "activites": 10,
+  "exemples": [
+   "Espace luge - Belle Plagne",
+   "Piste de luge - Champagny-le-Haut",
+   "Arboria Aventures",
+   "Vanoise Aventure",
+   "Via ferrata Les Bettières"
+  ]
+ },
+ "Peisey-Vallandry": {
+  "activites": 28,
+  "exemples": [
+   "La Tyrolienne de l'Aiguille Rouge",
+   "Luge 1800 - La piste de luge à Arc 1800",
+   "Luge 2000 - La piste de luge à Arc 2000",
+   "Espace luge",
+   "Espace luge"
+  ]
+ },
+ "Montchavin-Les Coches": {
+  "activites": 35,
+  "exemples": [
+   "Super Tyro Tyrolienne",
+   "La Luge",
+   "Colorado Luge",
+   "Luge 1800 - La piste de luge à Arc 1800",
+   "Luge 2000 - La piste de luge à Arc 2000"
+  ]
+ },
+ "Pralognan-la-Vanoise": {
+  "activites": 8,
+  "exemples": [
+   "Tyroliennes",
+   "Детская зона катания на санках (Куршевель 1850)",
+   "Piste de luge Moriond Racing",
+   "Piste de luge (Courchevel 1850 - Courchevel Village)",
+   "Приключения в Куршевеле"
+  ]
+ },
+ "Brides-les-Bains": {
+  "activites": 18,
+  "exemples": [
+   "Via ferrata de la Fraîche & tyroliennes",
+   "Безопасная саночная зона в Альтипор (Altiport)",
+   "Детская зона катания на санках (Куршевель 1850)",
+   "Piste de luge Moriond Racing",
+   "Piste de luge (Courchevel 1850 - Courchevel Village)"
+  ]
+ },
+ "Valmorel": {
+  "activites": 9,
+  "exemples": [
+   "Tyrolienne",
+   "Espace luge Valmorel",
+   "Piste de luge Gulli",
+   "Espace luge de Doucy",
+   "Valmo'Bourricot"
+  ]
+ },
+ "La Toussuire": {
+  "activites": 18,
+  "exemples": [
+   "Tyrolienne de l'Eriscal",
+   "Trampoline Géant - Tyrolienne",
+   "Piste de luge",
+   "Aire de luge",
+   "Piste de luge"
+  ]
+ },
+ "Le Corbier": {
+  "activites": 0,
+  "exemples": []
+ },
+ "Saint-Sorlin-d'Arves": {
+  "activites": 13,
+  "exemples": [
+   "Tyrolienne de l'Eriscal",
+   "Trampoline Géant - Tyrolienne",
+   "Aire de luge",
+   "Piste de luge",
+   "Espace luge"
+  ]
+ },
+ "Saint-Jean-d'Arves": {
+  "activites": 15,
+  "exemples": [
+   "Tyrolienne de l'Eriscal",
+   "Trampoline Géant - Tyrolienne",
+   "Aire de luge",
+   "Piste de luge",
+   "Espace luge"
+  ]
+ },
+ "Saint-Colomban-des-Villards": {
+  "activites": 11,
+  "exemples": [
+   "Tyrolienne de l'Eriscal",
+   "Trampoline Géant - Tyrolienne",
+   "Piste de luge",
+   "Piste de luge",
+   "Espace luge"
+  ]
+ },
+ "Les Bottières": {
+  "activites": 1,
+  "exemples": [
+   "Parapente : Site de décollage de Provinces"
+  ]
+ },
+ "Valloire": {
+  "activites": 14,
+  "exemples": [
+   "Tyrolienne de l'Aiglon",
+   "Tyrolienne de l'Aigle",
+   "Espace luge - Valloire centre",
+   "Espace luge au hameau des Verneys",
+   "Piste de luge"
+  ]
+ },
+ "Valmeinier": {
+  "activites": 13,
+  "exemples": [
+   "Tyrolienne de l'Aiglon",
+   "Tyrolienne de l'Aigle",
+   "Espace luge - Valloire centre",
+   "Espace luge au hameau des Verneys",
+   "Piste de luge"
+  ]
+ },
+ "Val Cenis": {
+  "activites": 13,
+  "exemples": [
+   "Piste de luge Val Cenis Turbo",
+   "Piste de luge en bordure du domaine nordique du Monolithe",
+   "Espace Luge enfants - Front de neige de Terres Grasses",
+   "Espace Luge Enfants - Front de neige de Termignon",
+   "Espace Luge enfants - Front de neige du Colomba"
+  ]
+ },
+ "Aussois": {
+  "activites": 21,
+  "exemples": [
+   "Parcobranche du Diable : méga parc accrobranche et tyroliennes géantes",
+   "Espace luge ludique",
+   "Piste de luge en bordure du domaine nordique du Monolithe",
+   "Espace Luge Enfants - Front de neige de Termignon",
+   "Piste de luge du front de neige"
+  ]
+ },
+ "Bonneval-sur-Arc": {
+  "activites": 4,
+  "exemples": [
+   "Piste de luge",
+   "Piste de luge Enfants",
+   "Val d'Isère Parapente",
+   "Bonneval Parapente"
+  ]
+ },
+ "Bessans": {
+  "activites": 8,
+  "exemples": [
+   "Piste de luge Val Cenis Turbo",
+   "Piste de luge",
+   "Espace Luge enfants - Front de neige de Terres Grasses",
+   "Espace Luge enfants - Front de neige du Colomba",
+   "Piste de luge Enfants"
+  ]
+ },
+ "Valfréjus": {
+  "activites": 3,
+  "exemples": [
+   "Espace luge ludique",
+   "Luge 4 saisons - Norma Loops",
+   "Via ferrata du Diable - Chemin de la Vierge"
+  ]
+ },
+ "La Norma": {
+  "activites": 17,
+  "exemples": [
+   "Parcobranche du Diable : méga parc accrobranche et tyroliennes géantes",
+   "Espace luge ludique",
+   "Piste de luge en bordure du domaine nordique du Monolithe",
+   "Piste de luge du front de neige",
+   "Piste de luge Marie-Christine"
+  ]
+ },
+ "Albiez-Montrond": {
+  "activites": 14,
+  "exemples": [
+   "Trampoline Géant - Tyrolienne",
+   "Espace luge - Valloire centre",
+   "Piste de luge",
+   "Espace luge",
+   "Piste de luge du Mollard"
+  ]
+ },
+ "Saint-François-Longchamp": {
+  "activites": 11,
+  "exemples": [
+   "Tyrolienne",
+   "Espace luge Valmorel",
+   "Espace luge office de tourisme",
+   "Espace luge 1450",
+   "Espace luge baby"
+  ]
+ },
+ "Les Karellis": {
+  "activites": 11,
+  "exemples": [
+   "Espace luge - Valloire centre",
+   "Piste de luge",
+   "Piste de luge du Mollard",
+   "Piste de luge du Chef-lieu",
+   "L'aventure - Parc accrobranche"
+  ]
+ },
+ "Les Aillons-Margeriaz": {
+  "activites": 8,
+  "exemples": [
+   "Espace luge de Margériaz",
+   "Piste de luge accès libre La Féclaz",
+   "Parc aventure - D'un arbre à l'autre",
+   "Fécl'Aventure - École MCF de VTT",
+   "Via ferrata Le P'tchi"
+  ]
+ },
+ "Chamrousse": {
+  "activites": 16,
+  "exemples": [
+   "Adrenaline Park - Tyrolienne géante de Chamrousse",
+   "Luge Park - Snow luge (luge bob)",
+   "Luge Park - Luge Coaster (luge sur rail)",
+   "Luge Park - Snow luge (snooc)",
+   "Espace luge pour enfants 1750"
+  ]
+ },
+ "Les 7 Laux": {
+  "activites": 1,
+  "exemples": [
+   "Jeu d'Aventure - Court Jus à Prapoutel"
+  ]
+ },
+ "Alpe d'Huez": {
+  "activites": 10,
+  "exemples": [
+   "Pistes de luge",
+   "Piste de Luge",
+   "Espace luge - L'Alpette",
+   "Espace luge - Oz Station",
+   "Parc Aventure Oisans"
+  ]
+ },
+ "Les Deux Alpes": {
+  "activites": 11,
+  "exemples": [
+   "Zone de luge sur neige - 3200m",
+   "Piste de Luge",
+   "Piste de luge des Limaçons",
+   "Via Ferrata  \"Le Voile de la Mariée\"",
+   "Via-ferrata de Saint-Christophe-en-Oisans - Tronçon 1"
+  ]
+ },
+ "Auris-en-Oisans": {
+  "activites": 11,
+  "exemples": [
+   "Piste de Luge",
+   "Piste de luge des Limaçons",
+   "Parc Aventure Oisans",
+   "Parcours aventure - In'Vertigo",
+   "Via Ferrata  \"Le Voile de la Mariée\""
+  ]
+ },
+ "Alpe du Grand Serre": {
+  "activites": 3,
+  "exemples": [
+   "Piste de luge Alpe du Grand Serre",
+   "Via ferrata de la Cascade",
+   "Via ferrata du Grand Bec"
+  ]
+ },
+ "Villard-de-Lans": {
+  "activites": 14,
+  "exemples": [
+   "Tyrolienne géante",
+   "Pistes de luge domaine alpin",
+   "Pistes de luge aux Montagnes de Lans",
+   "Luge et ski Park de la Colline des Bains",
+   "Aventure Nordique"
+  ]
+ },
+ "Corrençon-en-Vercors": {
+  "activites": 12,
+  "exemples": [
+   "Pistes de luge du Col de l'Arzelier",
+   "Luge et ski Park de la Colline des Bains",
+   "Vert et blanc organistion",
+   "Spéléotime aventure",
+   "Spéléologie avec Outdoor Aventure"
+  ]
+ },
+ "Autrans-Méaudre": {
+  "activites": 15,
+  "exemples": [
+   "Tyrolienne géante",
+   "Pistes de luge domaine alpin",
+   "Piste de luge domaine de La Sure",
+   "Speed Luge Vercors",
+   "Accrobranche d'Autrans - Vert & Blanc Organisation / site du banc de l'ours"
+  ]
+ },
+ "Lans-en-Vercors": {
+  "activites": 19,
+  "exemples": [
+   "Tyrolienne géante",
+   "Pistes de luge domaine alpin",
+   "Pistes de luge aux Montagnes de Lans",
+   "Speed Luge Vercors",
+   "Luge et ski Park de la Colline des Bains"
+  ]
+ },
+ "Gresse-en-Vercors": {
+  "activites": 7,
+  "exemples": [
+   "Pistes de luge, accès par tapis roulant, de Gresse-en-Vercors",
+   "Piste de luge gratuite de Gresse-en-Vercors",
+   "Parcours aventure Trièves",
+   "Cabanes perchées - Parcours aventure Trièves",
+   "Forêt Labyrinthe - Parcours Aventure Trièves"
+  ]
+ },
+ "Col de Rousset": {
+  "activites": 2,
+  "exemples": [
+   "Baptême en grand attelage avec Hossaventures",
+   "Initiation à la conduite en traineaux à chien avec Hossaventures"
+  ]
+ },
+ "Font d'Urle": {
+  "activites": 2,
+  "exemples": [
+   "Baptême en grand attelage avec Hossaventures",
+   "Initiation à la conduite en traineaux à chien avec Hossaventures"
+  ]
+ },
+ "Lus-la-Jarjatte": {
+  "activites": 2,
+  "exemples": [
+   "Via Ferrata avec le bureau des guides En Montagne",
+   "Roc'Addict - Canyoning, Via ferrata, Escalade"
+  ]
+ },
+ "Semnoz - Annecy": {
+  "activites": 3,
+  "exemples": [
+   "Luge d'été",
+   "F.B.I parapente Tandem",
+   "My Playground Parapente"
+  ]
+ },
+ "Col de Porte": {
+  "activites": 5,
+  "exemples": [
+   "Piste de luge du Col de Porte",
+   "Piste de luge des Egaux",
+   "Site d'atterissage parapente",
+   "Décollage de la Dent de Crolles: parapentes",
+   "Ecole de Parapente les Gens d'air"
+  ]
+ },
+ "Saint-Pierre-de-Chartreuse": {
+  "activites": 14,
+  "exemples": [
+   "Piste de luge du Col de Porte",
+   "Piste de luge de La Ruchère",
+   "Piste de luge des Egaux",
+   "Via ferrata de la Cascade de l'Oule les Lavandières",
+   "Site d'atterissage parapente"
+  ]
+ },
+ "Col de Marcieu": {
+  "activites": 17,
+  "exemples": [
+   "Espace Luge",
+   "Piste de luge des Egaux",
+   "Vertical Aventure",
+   "Via ferrata de la Cascade de l'Oule les Lavandières",
+   "Via ferrata Saint Vincent de Mercuze"
+  ]
+ },
+ "Col d'Ornon": {
+  "activites": 7,
+  "exemples": [
+   "Trampoline Géant - Tyrolienne",
+   "Aire de luge",
+   "Espace luge",
+   "Piste de luge Grand Ours",
+   "Les aventures de Beaunie - Le sentier des alpages"
+  ]
+ },
+ "Serre Chevalier": {
+  "activites": 17,
+  "exemples": [
+   "Pistes de luge de Villard-Saint-Pancrace",
+   "Kiwiberry Aventure",
+   "Serre Che Aventure",
+   "L'école européenne de l'Aventure",
+   "Maloya Canyon Aventure"
+  ]
+ },
+ "Montgenèvre": {
+  "activites": 9,
+  "exemples": [
+   "Piste de luge des Alberts",
+   "Piste de luge du Serre",
+   "Piste de luge de La Vachette",
+   "Grimp'in Forest - Parc Aventure",
+   "Grimp'in Forest - Parc Aventure"
+  ]
+ },
+ "Vars": {
+  "activites": 0,
+  "exemples": []
+ },
+ "Risoul": {
+  "activites": 3,
+  "exemples": [
+   "Tyrolienne Géante",
+   "Piste de luge - Orée du bois",
+   "La Luge Dévale"
+  ]
+ },
+ "La Grave - La Meije": {
+  "activites": 5,
+  "exemples": [
+   "Piste de luge d'Arsine",
+   "Piste de luge au Chazelet",
+   "Via Ferrata d'Arsine",
+   "Via ferrata des mines du Grand Clôt",
+   "Confident'Ciel - Ecole de Parapente"
+  ]
+ },
+ "Puy-Saint-Vincent": {
+  "activites": 3,
+  "exemples": [
+   "Roc Aventure Via ferrata et Tyrolienne",
+   "Alpes Aventure",
+   "Parapente \"Pollen\""
+  ]
+ },
+ "Orcières Merlette 1850": {
+  "activites": 2,
+  "exemples": [
+   "Tyrolienne Roll Air Cable",
+   "Espace Luge"
+  ]
+ },
+ "Superdévoluy": {
+  "activites": 3,
+  "exemples": [
+   "Via Ferrata des Etroits",
+   "Roc'Addict - Canyoning, Via ferrata, Escalade",
+   "Via Souterrata de la Tune"
+  ]
+ },
+ "Les Orres": {
+  "activites": 7,
+  "exemples": [
+   "Luge sur rail L'Orrian Express",
+   "Snake Gliss - Descente en luge",
+   "CrotsBranches",
+   "Via Ferrata de la Cascade",
+   "Via Ferrata de Marcellinas"
+  ]
+ },
+ "Ancelle": {
+  "activites": 4,
+  "exemples": [
+   "Ozarm Aventure : La Quête de l'Empereur Dragon",
+   "Via ferrata de Rouanne",
+   "JP Parapente 05",
+   "Parapente - Site de Chorges"
+  ]
+ },
+ "Saint-Léger-les-Mélèzes": {
+  "activites": 3,
+  "exemples": [
+   "Ozarm Aventure : La Quête de l'Empereur Dragon",
+   "Via ferrata de Rouanne",
+   "JP Parapente 05"
+  ]
+ },
+ "Réallon": {
+  "activites": 1,
+  "exemples": [
+   "Parapente - Site de Chorges"
+  ]
+ },
+ "Crévoux": {
+  "activites": 5,
+  "exemples": [
+   "Luge sur rail du Caribou",
+   "Luge sur rail L'Orrian Express",
+   "Snake Gliss - Descente en luge",
+   "Aventures Sensations Vars",
+   "Parapente et activités aériennes - Jennif'Air"
+  ]
+ },
+ "Chaillol": {
+  "activites": 3,
+  "exemples": [
+   "Tudual Grall Montagne Aventure",
+   "Ozarm Aventure : La Quête de l'Empereur Dragon",
+   "JP Parapente 05"
+  ]
+ },
+ "Sauze-Super-Sauze": {
+  "activites": 8,
+  "exemples": [
+   "Piste de luge du Sauze 1400",
+   "Piste de luge du Sauze 1700",
+   "Aventure & Altitude",
+   "Moonbikes Aventure",
+   "Aventure & Altitude - Escape Avalanche"
+  ]
+ },
+ "Pra-Loup": {
+  "activites": 8,
+  "exemples": [
+   "Piste de luge du Sauze 1400",
+   "Piste de luge du Sauze 1700",
+   "Aventure & Altitude",
+   "Moonbikes Aventure",
+   "Aventure & Altitude - Escape Avalanche"
+  ]
+ },
+ "Val d'Allos": {
+  "activites": 7,
+  "exemples": [
+   "Espace luge Val d'Allos - le Village",
+   "Piste de luge",
+   "Luge multisaison Verdon Express",
+   "Espace luge Val d'Allos- la Foux",
+   "Parapente bi places"
+  ]
+ },
+ "Chabanon": {
+  "activites": 2,
+  "exemples": [
+   "Espace Luge de Chabanon",
+   "Parc aventure Le Parc des Ecureuils"
+  ]
+ },
+ "Montclar-les-2-Vallées": {
+  "activites": 3,
+  "exemples": [
+   "Espace Luge de Montclar",
+   "Parc aventure Le Parc des Ecureuils",
+   "Belvéd'air Parapente"
+  ]
+ },
+ "Larche": {
+  "activites": 1,
+  "exemples": [
+   "VTT Aventure Causse-Vézère"
+  ]
+ },
+ "Sainte-Anne-la-Condamine": {
+  "activites": 2,
+  "exemples": [
+   "L'Ourson",
+   "Via ferrata de Saint-Ours"
+  ]
+ },
+ "Isola 2000": {
+  "activites": 0,
+  "exemples": []
+ },
+ "Auron": {
+  "activites": 0,
+  "exemples": []
+ },
+ "Valberg": {
+  "activites": 1,
+  "exemples": [
+   "Ubac - Aventures outdoor"
+  ]
+ },
+ "Beuil-les-Launes": {
+  "activites": 2,
+  "exemples": [
+   "Ubac - Aventures outdoor",
+   "Via Ferrata de Roubion"
+  ]
+ },
+ "La Colmiane": {
+  "activites": 1,
+  "exemples": [
+   "Imagin'Air Parapente"
+  ]
+ },
+ "Gréolières-les-Neiges": {
+  "activites": 1,
+  "exemples": [
+   "Nice Parapente - Ailéments"
+  ]
+ },
+ "L'Audibergue": {
+  "activites": 3,
+  "exemples": [
+   "Aventure Lavande",
+   "Via Ferrata de Séranon",
+   "Via Souterrata"
+  ]
+ },
+ "Abriès-en-Queyras": {
+  "activites": 1,
+  "exemples": [
+   "Site de décollage en parapente : Le Chatelard"
+  ]
+ },
+ "Saint-Véran": {
+  "activites": 2,
+  "exemples": [
+   "Piste de luge",
+   "Luge Molines Sensation"
+  ]
+ },
+ "Ceillac-en-Queyras": {
+  "activites": 0,
+  "exemples": []
+ },
+ "Molines-en-Queyras": {
+  "activites": 2,
+  "exemples": [
+   "Piste de luge",
+   "Luge Molines Sensation"
+  ]
+ },
+ "Arvieux-en-Queyras": {
+  "activites": 2,
+  "exemples": [
+   "Piste de luge - espace ludique",
+   "Via Ferrata de Pra Premier"
+  ]
+ },
+ "La Mongie": {
+  "activites": 4,
+  "exemples": [
+   "L'AVENTURE - SKIMIUM",
+   "AVENTURES EN PYRENEES",
+   "AIR AVENTURE PYRÉNÉES",
+   "VERTIGE DE L'ADOUR VIA FERRATA"
+  ]
+ },
+ "Barèges": {
+  "activites": 6,
+  "exemples": [
+   "PISTE DE LUGE A LUZ ARDIDEN",
+   "PARC ACCROBRANCHE \"EN CHENE ET FRENE\"",
+   "AIR AVENTURE PYRÉNÉES",
+   "LUZ AVENTURE RANDO RAQUETTES",
+   "LUZ AVENTURE - SAUT A L'ELASTIQUE"
+  ]
+ },
+ "Saint-Lary-Soulan": {
+  "activites": 12,
+  "exemples": [
+   "L'AVENTURE BRANCHÉE - ACCROBRANCHE",
+   "LOISIRS AVENTURES",
+   "PARCOURS AVENTURE DU MOUDANG",
+   "SAINT LARY AVENTURE PARK",
+   "LOC AVENTURE SPORT 2000"
+  ]
+ },
+ "Piau-Engaly": {
+  "activites": 2,
+  "exemples": [
+   "PIAU AVENTURE",
+   "PARCOURS AVENTURE DU MOUDANG"
+  ]
+ },
+ "Luz-Ardiden": {
+  "activites": 7,
+  "exemples": [
+   "PARC AVENTURE VIA FERRATA LES ALIAS TYROLIENNES",
+   "PISTE DE LUGE A LUZ ARDIDEN",
+   "PARC ACCROBRANCHE \"EN CHENE ET FRENE\"",
+   "LUZ AVENTURE RANDO RAQUETTES",
+   "LUZ AVENTURE - SAUT A L'ELASTIQUE"
+  ]
+ },
+ "Cauterets": {
+  "activites": 2,
+  "exemples": [
+   "PARC AVENTURE VIA FERRATA LES ALIAS TYROLIENNES",
+   "LES ALIAS CANYONING VIA FERRATA"
+  ]
+ },
+ "Gourette": {
+  "activites": 6,
+  "exemples": [
+   "Grandes Tyroliennes l'Été",
+   "Grandes Tyroliennes l'Hiver",
+   "L'Aventure Nordique",
+   "Via Ferrata",
+   "Location matériel Via Ferrata et Vtt enduro"
+  ]
+ },
+ "La Pierre-Saint-Martin": {
+  "activites": 1,
+  "exemples": [
+   "Location skis,raquettes,luges à Issarbe"
+  ]
+ },
+ "Gavarnie-Gèdre": {
+  "activites": 4,
+  "exemples": [
+   "PISTE DE LUGE",
+   "BOB LUGE",
+   "AVENTURE A BORD D'UNE DAMEUSE",
+   "VIA FERRATA DE COUMELY"
+  ]
+ },
+ "Peyragudes": {
+  "activites": 5,
+  "exemples": [
+   "L'AVENTURE BRANCHÉE - ACCROBRANCHE",
+   "L'AVENTURE BRANCHÉE",
+   "PARAPENTE LOURON",
+   "ECOLE DE PARAPENTE DE VAL LOURON",
+   "VIREVOLTE - ECOLE DE PARAPENTE DE LA VALLÉE DU LOURON"
+  ]
+ },
+ "Luchon-Superbagnères": {
+  "activites": 6,
+  "exemples": [
+   "AGENCE PYRÉNÉES AVENTURE",
+   "NATURE VERTICALE",
+   "GUIDE DE HAUTE MONTAGNE - MATHIEU PEYET",
+   "SOARING ACADÉMIE PARAPENTE",
+   "PARAPENTE THOMAS CHARLES"
+  ]
+ },
+ "Val-Louron": {
+  "activites": 9,
+  "exemples": [
+   "L'AVENTURE BRANCHÉE - ACCROBRANCHE",
+   "LOC AVENTURE SPORT 2000",
+   "PARAPENTE SAINT LARY - JEAN PAUL",
+   "PARAPENTE LOURON",
+   "ECOLE DE PARAPENTE DE VAL LOURON"
+  ]
+ },
+ "Ax-3-Domaines": {
+  "activites": 5,
+  "exemples": [
+   "Espace évolution : luge à la station Ax 3 Domaines",
+   "Zen Aventure",
+   "Ariege Canyon Aventure",
+   "Location de vélo avec Loc De Sault",
+   "Spot de parapente - vol libre"
+  ]
+ },
+ "Les Monts d'Olmes": {
+  "activites": 0,
+  "exemples": []
+ },
+ "Ascou-Pailhères": {
+  "activites": 2,
+  "exemples": [
+   "Espace luge à la station d'Ascou",
+   "ASSOCIATION AVENTURE SANS FRONTIÈRES"
+  ]
+ },
+ "Font-Romeu-Pyrénées 2000": {
+  "activites": 7,
+  "exemples": [
+   "DRACO'SKY TYROLIENNE GÉANTE PYRÉNÉES 2000",
+   "LUGE LOU BAC MOUNTAIN",
+   "DRACO'SNOW LUGE SUR RAIL PYRÉNÉES 2000",
+   "REFUGE DE L'OURS - PARCOURS AVENTURE - ACCROBRANCHE",
+   "GAIA SPORT NATURE"
+  ]
+ },
+ "Les Angles": {
+  "activites": 3,
+  "exemples": [
+   "AVENTURE SANS FRONTIERE",
+   "VIA CAMINA - MARTINEAU STÉPHANE",
+   "VIA PIRENAICA - BIORET LAURENT"
+  ]
+ },
+ "Bolquère-Pyrénées 2000": {
+  "activites": 8,
+  "exemples": [
+   "DRACO'SKY TYROLIENNE GÉANTE PYRÉNÉES 2000",
+   "LUGE LOU BAC MOUNTAIN",
+   "DRACO'SNOW LUGE SUR RAIL PYRÉNÉES 2000",
+   "REFUGE DE L'OURS - PARCOURS AVENTURE - ACCROBRANCHE",
+   "VIA FERRATA DE LLO LES ESCALDILLES"
+  ]
+ },
+ "Formiguères": {
+  "activites": 3,
+  "exemples": [
+   "LUGE LOU BAC MOUNTAIN",
+   "REFUGE DE L'OURS - PARCOURS AVENTURE - ACCROBRANCHE",
+   "PARAPENTE VOLER INFO"
+  ]
+ },
+ "Cambre d'Aze": {
+  "activites": 2,
+  "exemples": [
+   "VIA FERRATA DE LLO LES ESCALDILLES",
+   "GAIA SPORT NATURE"
+  ]
+ },
+ "Porte-Puymorens": {
+  "activites": 0,
+  "exemples": []
+ },
+ "Mijanès-Donezan": {
+  "activites": 1,
+  "exemples": [
+   "Espace luge à la station d'Ascou"
+  ]
+ },
+ "Guzet": {
+  "activites": 6,
+  "exemples": [
+   "Piste de luge à l'étang de Lers",
+   "Piste de luge à Guzet 1400 m",
+   "Piste de luge au col de la trappe",
+   "Piste de luge à Guzet 1500m",
+   "Luge sur Rail - Guzet express"
+  ]
+ },
+ "Le Mourtis": {
+  "activites": 1,
+  "exemples": [
+   "Canyon Aventure Pyrénées"
+  ]
+ },
+ "Camurac": {
+  "activites": 2,
+  "exemples": [
+   "Espace luge à la station d'Ascou",
+   "ASSOCIATION AVENTURE SANS FRONTIÈRES"
+  ]
+ },
+ "Goulier": {
+  "activites": 3,
+  "exemples": [
+   "Parc aventure du Montcalm - Montcalm Aventure",
+   "Montcalm aventure - Multiactivités",
+   "Via ferrata du Vicdessos"
+  ]
+ },
+ "Beille": {
+  "activites": 0,
+  "exemples": []
+ },
+ "Artouste": {
+  "activites": 5,
+  "exemples": [
+   "Grandes Tyroliennes l'Été",
+   "Grandes Tyroliennes l'Hiver",
+   "Via Ferrata",
+   "Location matériel Via Ferrata et Vtt enduro",
+   "Arrivée du Père Noël en parapente"
+  ]
+ },
+ "Gérardmer": {
+  "activites": 18,
+  "exemples": [
+   "Tyrolienne \"fantasticable\" à La Bresse - Bol d'air",
+   "Domaine nordique La Bresse Lispach - luge",
+   "Espace luge à La Bresse Hohneck - Labell'glisse",
+   "Soirée luge sur les pistes de La Bresse Hohneck",
+   "Gérardmer stations - Stade de luge"
+  ]
+ },
+ "La Bresse-Hohneck": {
+  "activites": 16,
+  "exemples": [
+   "Tyrolienne \"fantasticable\" à La Bresse - Bol d'air",
+   "Luge d'été",
+   "Luge d'été à la Schlucht",
+   "Domaine nordique La Bresse Lispach - luge",
+   "Espace luge à La Bresse Hohneck - Labell'glisse"
+  ]
+ },
+ "Le Markstein": {
+  "activites": 8,
+  "exemples": [
+   "Luge sur rail",
+   "Luge sur rail au Markstein",
+   "Parc Arbre Aventure de Kruth",
+   "Parc aventures et multi activités Form'aventures",
+   "Location de VTT électrique au Parc Arbre Aventure"
+  ]
+ },
+ "Le Schnepfenried": {
+  "activites": 10,
+  "exemples": [
+   "Luge sur rail",
+   "Espace luge à La Bresse Hohneck - Labell'glisse",
+   "Luge sur rail au Markstein",
+   "Parc Arbre Aventure de Kruth",
+   "Parc aventures et multi activités Form'aventures"
+  ]
+ },
+ "Le Lac Blanc": {
+  "activites": 0,
+  "exemples": []
+ },
+ "La Schlucht": {
+  "activites": 9,
+  "exemples": [
+   "Luge d'été",
+   "Luge d'été à la Schlucht",
+   "Domaine nordique La Bresse Lispach - luge",
+   "Espace luge à La Bresse Hohneck - Labell'glisse",
+   "Luge sur rails de la Schlucht"
+  ]
+ },
+ "Le Champ du Feu": {
+  "activites": 7,
+  "exemples": [
+   "Luge tractée au Champ du Feu",
+   "Luge au Champ du Feu",
+   "Parc Alsace Aventure",
+   "Jeu de piste : Les aventures de Rose et Louis à Waldersbach",
+   "Circuit vélo route C01 : Boucle depuis Rothau via le Champs du Feu, Belmont, Stampoumont et Plaine"
+  ]
+ },
+ "Le Ballon d'Alsace": {
+  "activites": 7,
+  "exemples": [
+   "Luge au Ballon d'Alsace",
+   "Piste de luge - au Langenberg",
+   "Piste de luge - Col des Démineurs",
+   "Ski ou luge au Ballon d'Alsace",
+   "Ballon d'Alsace Aventure"
+  ]
+ },
+ "La Planche des Belles Filles": {
+  "activites": 5,
+  "exemples": [
+   "Piste de luge - au Langenberg",
+   "Piste de luge - Col des Démineurs",
+   "Ski ou luge au Ballon d'Alsace",
+   "Ballon d'Alsace Aventure",
+   "Parc aventure au Ballon d'Alsace"
+  ]
+ },
+ "La Bresse Lispach": {
+  "activites": 19,
+  "exemples": [
+   "Tyrolienne \"fantasticable\" à La Bresse - Bol d'air",
+   "Luge d'été",
+   "Luge d'été à la Schlucht",
+   "Domaine nordique La Bresse Lispach - luge",
+   "Espace luge à La Bresse Hohneck - Labell'glisse"
+  ]
+ },
+ "Ventron": {
+  "activites": 14,
+  "exemples": [
+   "Tyrolienne \"fantasticable\" à La Bresse - Bol d'air",
+   "Aire de luge de Larcenaire",
+   "Chalet la Luge",
+   "Cham'Vosges Aventures - Escalade",
+   "Parc Arbre Aventure de Kruth"
+  ]
+ },
+ "Xonrupt-Le Poli": {
+  "activites": 17,
+  "exemples": [
+   "Tyrolienne \"fantasticable\" à La Bresse - Bol d'air",
+   "Domaine nordique La Bresse Lispach - luge",
+   "Espace luge à La Bresse Hohneck - Labell'glisse",
+   "Soirée luge sur les pistes de La Bresse Hohneck",
+   "Gérardmer stations - Stade de luge"
+  ]
+ },
+ "Le Grand Valtin": {
+  "activites": 8,
+  "exemples": [
+   "Luge d'été",
+   "Luge d'été à la Schlucht",
+   "Domaine nordique La Bresse Lispach - luge",
+   "Espace luge à La Bresse Hohneck - Labell'glisse",
+   "Luge sur rails de la Schlucht"
+  ]
+ },
+ "Bussang-Larcenaire": {
+  "activites": 7,
+  "exemples": [
+   "Aire de luge de Larcenaire",
+   "Luge au Ballon d'Alsace",
+   "Chalet la Luge",
+   "Cham'Vosges Aventures - Escalade",
+   "Cham'Vosges Aventures - Randonnée avec des ânes"
+  ]
+ },
+ "Métabief Mont d'Or": {
+  "activites": 3,
+  "exemples": [
+   "Luge des Cimes",
+   "Métabief Aventures, vos loisirs en famille",
+   "Mont d'Or Parapente"
+  ]
+ },
+ "Les Rousses": {
+  "activites": 2,
+  "exemples": [
+   "Circuits Jur'Aventures®",
+   "Via Ferrata de la Roche au Dade"
+  ]
+ },
+ "Les Fourgs": {
+  "activites": 1,
+  "exemples": [
+   "Via Salina"
+  ]
+ },
+ "La Source du Doubs-Mouthe": {
+  "activites": 0,
+  "exemples": []
+ },
+ "Espace Alpin Bellefontaine": {
+  "activites": 4,
+  "exemples": [
+   "Pistes de luges tubing",
+   "Piste de luge à Saint-Laurent en Grandvaux",
+   "Circuits Jur'Aventures®",
+   "Via Ferrata de la Roche au Dade"
+  ]
+ },
+ "La Combe Saint-Pierre": {
+  "activites": 2,
+  "exemples": [
+   "Station de Loisirs de la Combe Saint-Pierre - Accrobranche",
+   "Via ferrata des Échelles de la Mort"
+  ]
+ },
+ "Les Plans d'Hotonnes": {
+  "activites": 3,
+  "exemples": [
+   "Espace luge aux Plans d'Hotonnes",
+   "Espace luge sur le site nordique de Lachat",
+   "Auberge la Praille - Location skis, raquettes, luges"
+  ]
+ },
+ "Menthières": {
+  "activites": 10,
+  "exemples": [
+   "Aire de luge de Menthières",
+   "Menth'Evasion - parc accrobranche",
+   "Fort l'Ecluse Aventure",
+   "Les aventures de Goupilou à Giron",
+   "Les aventures de Goupilou à Montanges"
+  ]
+ },
+ "Le Lioran": {
+  "activites": 5,
+  "exemples": [
+   "Tyrolienne Lioran Express",
+   "Pistes de luge",
+   "Déval'luge",
+   "Fabrique Aventure",
+   "Accompagnateurs en raquette de Fabrique Aventures"
+  ]
+ },
+ "Super Besse": {
+  "activites": 17,
+  "exemples": [
+   "Tyrolienne Fantasticable",
+   "La Tyrolienne à virages du Mont-Dore",
+   "Piste de luge - Sancy Park",
+   "Stade de luge",
+   "Piste de luge - Besse Pertuyzat"
+  ]
+ },
+ "Le Mont Dore": {
+  "activites": 0,
+  "exemples": []
+ },
+ "Chastreix-Sancy": {
+  "activites": 17,
+  "exemples": [
+   "Tyrolienne Fantasticable",
+   "La Tyrolienne à virages du Mont-Dore",
+   "Piste de luge - Sancy Park",
+   "Stade de luge",
+   "Luge sur rails - Super Coaster"
+  ]
+ },
+ "Chalmazel": {
+  "activites": 2,
+  "exemples": [
+   "Via ferrata du rocher de l'Olme",
+   "Via ferrata des Gorges du Diable"
+  ]
+ },
+ "La Loge des Gardes": {
+  "activites": 0,
+  "exemples": []
+ },
+ "Laguiole": {
+  "activites": 0,
+  "exemples": []
+ },
+ "La Croix de Bauzon": {
+  "activites": 1,
+  "exemples": [
+   "Parapente 07"
+  ]
+ },
+ "Le Bleymard-Mont Lozère": {
+  "activites": 0,
+  "exemples": []
+ },
+ "Les Estables-Mézenc": {
+  "activites": 1,
+  "exemples": [
+   "Altitude Parapente - Parapente"
+  ]
+ },
+ "Brameloup": {
+  "activites": 0,
+  "exemples": []
+ },
+ "Alti Aigoual": {
+  "activites": 0,
+  "exemples": []
+ },
+ "Prabouré": {
+  "activites": 1,
+  "exemples": [
+   "Snowkite aventures"
+  ]
+ },
+ "Ghisoni - Capanelle": {
+  "activites": 1,
+  "exemples": [
+   "Vizzavona Parc Aventure"
+  ]
+ },
+ "Val d'Ese": {
+  "activites": 0,
+  "exemples": []
+ },
+ "Haut Asco": {
+  "activites": 0,
+  "exemples": []
+ },
+ "Les Arêtes": {
+  "activites": 3,
+  "exemples": [
+   "Luge d'été",
+   "Inax Aventure",
+   "VAE : Le tour du lac via : Vesonne - Montmin - Col de la Forclaz"
+  ]
+ },
+ "Le Revard": {
+  "activites": 6,
+  "exemples": [
+   "Espace Luge au Revard - Luge en S",
+   "Espace luge de Margériaz",
+   "Piste de luge accès libre Le Revard",
+   "Piste de luge accès libre La Féclaz",
+   "Parc aventure - D'un arbre à l'autre"
+  ]
+ },
+ "La Féclaz": {
+  "activites": 9,
+  "exemples": [
+   "Espace Luge au Revard - Luge en S",
+   "Espace luge de Margériaz",
+   "Piste de luge accès libre Le Revard",
+   "Piste de luge accès libre La Féclaz",
+   "Parc aventure - D'un arbre à l'autre"
+  ]
+ },
+ "Vallouise": {
+  "activites": 1,
+  "exemples": [
+   "Parapente \"Pollen\""
+  ]
+ },
+ "La Joue du Loup": {
+  "activites": 3,
+  "exemples": [
+   "Via Ferrata des Etroits",
+   "Roc'Addict - Canyoning, Via ferrata, Escalade",
+   "Via Souterrata de la Tune"
+  ]
+ },
+ "Le Frenz": {
+  "activites": 6,
+  "exemples": [
+   "Luge sur rail",
+   "Luge sur rail au Markstein",
+   "Parc Arbre Aventure de Kruth",
+   "Location de VTT électrique au Parc Arbre Aventure",
+   "Jeu de piste 'les aventures de Rose et Louis au Hahnenbrunnen'"
+  ]
+ },
+ "Mijoux-La Valserine": {
+  "activites": 14,
+  "exemples": [
+   "La tyrolienne en nocturne",
+   "Tyrolienne de la Faucille",
+   "Luge sur rails",
+   "Aire de luge à Mijoux",
+   "Aire de luge au Col de la Faucille"
+  ]
+ },
+ "Lélex-Crozet": {
+  "activites": 6,
+  "exemples": [
+   "Aire de luge à Lélex",
+   "Aire de luge à Crozet",
+   "Jur'Aventures : La Recette Gourmande des Moussières",
+   "Baptêmes en parapente - Sur un nuage",
+   "Site de parapente de l'ours"
+  ]
+ },
+ "Mont Serein": {
+  "activites": 0,
+  "exemples": []
+ },
+ "Turini-Camp d'Argent": {
+  "activites": 2,
+  "exemples": [
+   "Peira Cava Aventures",
+   "Via ferrata de Lantosque"
+  ]
+ },
+ "Roubion-Les Buisses": {
+  "activites": 2,
+  "exemples": [
+   "Ubac - Aventures outdoor",
+   "Via Ferrata de Roubion"
+  ]
+ },
+ "Hauteluce": {
+  "activites": 9,
+  "exemples": [
+   "Piste de luge Logère",
+   "Luge'N'Troll",
+   "Crestvo'Luge",
+   "Piste de luge de l'aiglon",
+   "Piste de luge du Solaret"
+  ]
+ },
+ "Aiguilles": {
+  "activites": 3,
+  "exemples": [
+   "Piste de luge",
+   "Luge Molines Sensation",
+   "Site de décollage en parapente : Le Chatelard"
+  ]
+ },
+ "Montriond": {
+  "activites": 12,
+  "exemples": [
+   "Aire de luge",
+   "Luge d'été",
+   "Piste de luge / Piste des Dromonts",
+   "Piste de luge et paret au Col de Joux Plane",
+   "L'Aventure en traineau"
+  ]
+ },
+ "Thollon-les-Mémises": {
+  "activites": 5,
+  "exemples": [
+   "Piste de luge",
+   "Luge 4 saisons",
+   "Indiana'Ventures : parcours aventure",
+   "Thollon Parapente",
+   "Школа парапланеризма : Air Léman"
+  ]
  }
 }
