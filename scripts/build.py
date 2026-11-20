@@ -84,6 +84,11 @@ BASE = SITE["domain"].rstrip("/")
 
 def load_items() -> list[dict]:
     items = load_json(ROOT / "data" / "items.json", [])
+    dt = load_json(ROOT / "data" / "datatourisme.json", {})
+    for it in items:  # activités : maximum entre OpenStreetMap et DATAtourisme
+        n = (dt.get(it["name"]) or {}).get("activites")
+        if n is not None:
+            it["activites"] = max(int(it.get("activites") or 0), n)
     seen: dict[str, int] = {}
     for it in items:
         base = slugify(it["name"])
