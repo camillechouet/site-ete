@@ -24,7 +24,7 @@ MIN_SCORE = 5.5      # sous ce score, la photo n'est pas proposée
 N_KEEP = 3           # 1 principale (<slug>1.jpg) + 2 alternatives (autres/<slug>2.jpg et 3.jpg)
 MIN_SATURATION = 0.14  # refuse le noir et blanc et les photos ternes (été = couleurs)
 MIN_BRIGHT = 0.40      # refuse les photos de nuit
-MIN_GREEN = 0.05       # il faut de la verdure visible (photo d'été)
+MIN_GREEN = 0.015      # il faut de la verdure visible (photo d'été)
 MAX_SNOW = 0.22        # refuse les photos d'hiver (beaucoup de neige)
 MIN_EDGE = 9.0        # refuse les photos floues ou sans relief (zone centrale visible sur l'épingle)
 MIN_SCORE_MAIN = 6.0   # une photo principale doit être clairement une photo de la station

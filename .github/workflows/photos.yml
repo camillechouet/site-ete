@@ -37,11 +37,11 @@ on:
         type: choice
         options: [wikimedia, openverse, both]
       publier:
-        description: "Ajouter les photos directement au site ? non (ZIP à trier) / oui"
+        description: "non (ZIP à trier) / apercu (photos déposées dans photos-apercu/ pour relecture) / oui (ajoutées au site)"
         required: false
-        default: "non"
+        default: "apercu"
         type: choice
-        options: ["non", "oui"]
+        options: ["apercu", "non", "oui"]
 
 permissions:
   contents: write
@@ -82,6 +82,17 @@ jobs:
           name: photos-stations
           path: photos-out/
           retention-days: 14
+
+      - name: Déposer un aperçu pour relecture (pas publié sur le site)
+        if: ${{ github.event.inputs.publier == 'apercu' }}
+        run: |
+          mkdir -p photos-apercu
+          cp -f photos-out/*.jpg photos-apercu/ 2>/dev/null || true
+          cp -f photos-out/liste.csv photos-apercu/liste.csv 2>/dev/null || true
+          git config user.name "photos-auto"
+          git config user.email "noreply@users.noreply.github.com"
+          git add photos-apercu
+          git diff --cached --quiet || (git commit -m "Photos d'été : aperçu du lot (relecture)" && git pull --rebase -q && git push)
 
       - name: Ajouter les photos au site
         if: ${{ github.event.inputs.publier == 'oui' }}
