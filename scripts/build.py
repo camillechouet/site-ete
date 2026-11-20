@@ -254,6 +254,8 @@ h2{font-size:1.35rem;margin:28px 0 12px}
 .card{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:16px;display:block;text-decoration:none;color:inherit;transition:box-shadow .15s}
 .card:hover{box-shadow:0 6px 18px rgba(20,33,61,.1)}
 .card h3{margin:0 0 4px;font-size:1.05rem}
+.card .thumb{display:block;width:calc(100%% + 32px);margin:-16px -16px 12px;aspect-ratio:16/9;object-fit:cover;border-radius:var(--r) var(--r) 0 0;background:var(--line)}
+.hero-photo{display:block;width:100%%;max-height:420px;aspect-ratio:16/9;object-fit:cover;border-radius:var(--r);margin:0 0 16px;background:var(--line)}
 .card .sub{color:var(--mut);font-size:.88rem;margin-bottom:10px}
 .chips{display:flex;gap:6px;flex-wrap:wrap}
 .chip{background:var(--chipbg);color:var(--chipfg);border-radius:999px;padding:2px 10px;font-size:.82rem;font-weight:600}
@@ -361,10 +363,20 @@ def sub_line(it: dict) -> str:
     return " · ".join(out)
 
 
+def item_photo(it: dict) -> str:
+    """Chemin web de la photo d'une station (assets/img/<slug>1.jpg ; les trous de numérotation sont acceptés)."""
+    for n in (1, 2, 3):
+        if (ASSETS / "img" / f"{it['slug']}{n}.jpg").is_file():
+            return f"/img/{it['slug']}{n}.jpg"
+    return ""
+
+
 def card(it: dict) -> str:
+    ph = item_photo(it)
+    img = f'<img class="thumb" src="{ph}" alt="{esc(it["name"])} en été" width="800" height="450" loading="lazy">' if ph else ""
     chips = "".join(f'<span class="chip">{esc(fmt_field(f, it.get(f["key"])))}</span>'
                     for f in FIELDS if f.get("card") and it.get(f["key"]) is not None)
-    return (f'<a class="card" href="{item_url(it)}">{rating_badge(it)}<h3>{esc(it["name"])}</h3>'
+    return (f'<a class="card" href="{item_url(it)}">{img}{rating_badge(it)}<h3>{esc(it["name"])}</h3>'
             f'<div class="sub">{esc(sub_line(it))}</div><div class="chips">{chips}</div></a>')
 
 
@@ -414,6 +426,7 @@ def build_item(it: dict) -> None:
     body = f"""<main><div class="wrap">
 <p class="crumbs"><a href="/">Accueil</a> › <a href="/tous/">{esc(VOC['items'].capitalize())}</a> › {esc(it['name'])}</p>
 <h1>{esc(it['name'])}</h1>
+{('<img class="hero-photo" src="' + item_photo(it) + '" alt="' + esc(it['name']) + ' en été" width="1200" height="675">') if item_photo(it) else ''}
 <p>{esc(it.get('summary', ''))}</p>
 <div class="panel"><table class="facts">{rows}</table></div>
 {pts_html}
@@ -603,7 +616,7 @@ function render(){
   return true});
  list.sort(function(a,b){if(s==='name')return a.name.localeCompare(b.name,'fr');if(s==='rating')return (b.r||0)-(a.r||0)||a.name.localeCompare(b.name,'fr');return (b.n[s]||0)-(a.n[s]||0)});
  count.textContent=list.length+' résultat'+(list.length>1?'s':'');
- grid.innerHTML=list.slice(0,60).map(function(i){return '<a class="card" href="/'+i.s+'/">'+(i.r!=null?'<span class="badge">'+esc(i.r)+'</span>':'')+'<h3>'+esc(i.name)+'</h3><div class="sub">'+esc(i.sub)+'</div><div class="chips">'+i.chips.map(function(c){return '<span class="chip">'+esc(c)+'</span>'}).join('')+'</div></a>'}).join('')+(list.length>60?'<p class="count">… et '+(list.length-60)+' autres : affinez la recherche.</p>':'')
+ grid.innerHTML=list.slice(0,60).map(function(i){return '<a class="card" href="/'+i.s+'/">'+(i.p?'<img class="thumb" src="'+i.p+'" alt="'+esc(i.name)+' en été" width="800" height="450" loading="lazy">':'')+(i.r!=null?'<span class="badge">'+esc(i.r)+'</span>':'')+'<h3>'+esc(i.name)+'</h3><div class="sub">'+esc(i.sub)+'</div><div class="chips">'+i.chips.map(function(c){return '<span class="chip">'+esc(c)+'</span>'}).join('')+'</div></a>'}).join('')+(list.length>60?'<p class="count">… et '+(list.length-60)+' autres : affinez la recherche.</p>':'')
 }
 function go(){load(function(){nums.forEach(function(n){var k=n.getAttribute('data-num');if(!cuts[k])cuts[k]=tercile(k)});render()})}
 var timer;q.addEventListener('input',function(){clearTimeout(timer);timer=setTimeout(go,120)});
@@ -621,7 +634,7 @@ def build_assets() -> None:
         chips = [fmt_field(f, it.get(f["key"])) for f in FIELDS if f.get("card") and it.get(f["key"]) is not None]
         compact.append({
             "s": it["slug"], "name": it["name"], "sub": sub_line(it), "g": it.get(GROUP_KEY, "") if GROUP_KEY else "",
-            "r": it.get(RATING["key"]) if RATING else None, "chips": chips,
+            "r": it.get(RATING["key"]) if RATING else None, "chips": chips, "p": item_photo(it),
             "n": {f["key"]: it.get(f["key"]) for f in FIELDS if isinstance(it.get(f["key"]), (int, float))},
         })
     write(DIST / "items.json", json.dumps(compact, ensure_ascii=False, separators=(",", ":")))

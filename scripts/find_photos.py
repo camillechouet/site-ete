@@ -1,0 +1,557 @@
+#!/usr/bin/env python3
+"""
+MountainSummer — Chercheur de photos libres d'ÉTÉ (Wikimedia Commons, Openverse)
+================================================================================
+Pour les stations SANS photo dans assets/img/, cherche une photo à licence libre (CC0, domaine public,
+CC BY, CC BY-SA — jamais NC/ND) montrant la station EN ÉTÉ (verdure, lac, sentiers, alpages), la télécharge,
+GRAVE LE CRÉDIT sur l'image et la nomme <slug>1.jpg (alternatives : autres/<slug>2.jpg et 3.jpg).
+Les filtres sont stricts : mieux vaut aucune photo qu'une photo hors contexte.
+
+Usage : python3 scripts/find_photos.py [--limit 40] [--offset 0] [--only "Valloire"] [--pays france|etranger|tous]
+Sorties (photos-out/) : <slug>1.jpg, autres/, liste.csv, non-trouvees.txt
+"""
+import os, re, sys, json, csv, time, html, argparse, unicodedata, urllib.request, urllib.parse, urllib.error, io
+
+from PIL import Image, ImageDraw, ImageFont, ImageStat, ImageChops, ImageFilter
+
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+API = "https://commons.wikimedia.org/w/api.php"
+UA = "MountainSummerPhotoBot/1.0 (https://mountainsummer.fr; photos libres pour fiches de stations)"
+OUT = os.path.join(ROOT, "photos-out")
+MAX_W = 1600
+MIN_W, MIN_H = 2000, 1200      # grosses photos seulement (2400x1400 avant l'élargissement du 3 nov.)
+MIN_SCORE = 5.5      # sous ce score, la photo n'est pas proposée
+N_KEEP = 3           # 1 principale (<slug>1.jpg) + 2 alternatives (autres/<slug>2.jpg et 3.jpg)
+MIN_SATURATION = 0.14  # refuse le noir et blanc et les photos ternes (été = couleurs)
+MIN_BRIGHT = 0.40      # refuse les photos de nuit
+MIN_GREEN = 0.05       # il faut de la verdure visible (photo d'été)
+MAX_SNOW = 0.22        # refuse les photos d'hiver (beaucoup de neige)
+MIN_EDGE = 9.0        # refuse les photos floues ou sans relief (zone centrale visible sur l'épingle)
+MIN_SCORE_MAIN = 6.0   # une photo principale doit être clairement une photo de la station
+FONT_REG = ["/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", "/usr/share/fonts/dejavu/DejaVuSans.ttf"]
+
+BAD_CONTENT = re.compile(r"\b(dogs?|huskies|husky|helicopters?|trains?|railway|locomotives?|churches|church|chapels?|"
+                         r"cemeter(?:y|ies)|crucifix|buses|bus|children|portraits?|motorways?|snowcats?|"
+                         r"snow groomers?|hotels?|houses|restaurants?|sculptures?|monuments?|skiers?|skiing|snowboard\w*|ski lifts?|ski slopes?|winter)\b", re.I)
+BAD_TITLE2 = re.compile(r"(triebwagen|lokschuppen|lokomotiv|locomotive|railway|eisenbahn|zillertalbahn|montafonerbahn|"
+                        r"rhätische|rhaetische|\bRhB\b|\bGe 4|mtn25|snow vehicle|snow trac|snowcat|pistenraupe|"
+                        r"promenade|autobahn|rest area|building|institute|haus\b|house|schule|kulturzentrum|reservoir|snowmaking|\bwm\d*\b|"
+                        r"navette|routi|\broute\b|\brue\b|quartier|maison|sculpture|\besf\b|piou|school|école|ecole|enfant|children|kids|crèche|garderie|"
+                        r"repère|"
+                        r"heli|hubschrauber|helicopter|air-zermatt|\brega\b|bergrettung|rescue|rettung|hund|\bdogs?\b|husk|chien|safari|"
+                        r"kapelle|cappella|cimitero|friedhof|cemetery|\bkreuz\b|gipfelkreuz|wegkreuz|chapelle|calvaire|kloster|monastery|abbaye|abbey|santuario|sanctuary|wallfahrt|heilig|"
+                        r"secretary|forum|speech|arrives|chancellor|bundesrat|championships|weltcup|gewinner|sieger|winner|\bfis\b|"
+                        r"ski\b|skieur|skifahrer|snowboard|schnee|neige|winter|hiver|piste|loipe|langlauf|raquette|snowshoe|hotel|schloss|hinweistafel|tafel|schild|\bcentro\b|sprünge|sprung|\bjump|freestyle|snowpark|"
+                        r"snow[- ]?trac|\bSL\b|\bGS\b|\bSG\b|1st run|2nd run|slalom|giant|downhill|riesenslalom|super-?g\b|racer|"
+                        r"yeti|bombardier|\bZB\b|\bVT\d|old[ -]ski|schriftzug|sundial|parkbank|dorfstra|piazza|\bstreet\b|vehicle|tractor|truck|olympics|\b1[0-8]\d\d\b|\b19[0-8]\d\b)", re.I)
+BAD_TITLE = re.compile(r"\b(map|carte|plan|logo|panneau|sign|diagram|schema|schéma|poster|affiche|flyer|"
+                       r"portrait|interior|intérieur|parking|bus|train|car|voiture|facture|document|blason|"
+                       r"coat of arms|flag|drapeau|anefo|bestanddeelnr|royal|koninklijke|prins|prince|princess|king|queen|"
+                       r"president|président|minister|ministre|visit|visite|meeting|interview|vacation|vakantie|"
+                       r"championship|championnat|world cup|coupe du monde|race|course|athlete|biathlon|olympic|"
+                       r"olympique|ceremony|cérémonie|crash|accident|wreck|fire|incendie|"
+                       r"church|kirche|chiesa|chapelle|chapel|crocifisso|crucifix|interno|interior|innen|bahnhof|"
+                       r"stadion|stadium|hotel|villa|castle|burg|ruine|ruins|carnaval|carnival|procession|pride|"
+                       r"kuhstall|hexenkuche|hexenküche|restaurant|bar|pub|apres|après|brücke|bridge|bench|"
+                       r"bahn station|railway|gare|tunnel|cemetery|friedhof|museum|musée)\b", re.I)
+SUMMER = re.compile(r"\b(été|ete|summer|hiking|hike|randonnée|randonnee|wandern|escursion\w*|vtt|bike|biking|lac|lake|lago|see|"
+                    r"fleur|fleurs|flower|flowers|alpage|alpe|pasture|meadow|prairie|vache|cow|panorama|sommet|summit|col|pass|"
+                    r"cascade|waterfall|torrent|forêt|forest|gipfel)\b", re.I)
+WINTER = re.compile(r"\b(ski|skiing|piste|pistes|neige|snow|snowy|hiver|winter|télésiège|telesiege|chairlift|"
+                    r"enneigé|poudreuse|schnee|neve|inverno)\b", re.I)
+
+
+def norm(s):
+    s = unicodedata.normalize("NFKD", s or "").encode("ASCII", "ignore").decode("ASCII").lower()
+    return re.sub(r"[^a-z0-9]+", " ", s).strip()
+
+
+def photo_slug(s):
+    return s["slug"] if isinstance(s, dict) else s
+
+
+def has_own_photo(s):
+    ps = photo_slug(s)
+    for n in (1, 2, 3):            # une photo 2 ou 3 sans la 1 compte aussi (le site accepte les trous)
+        for ext in ("jpg", "jpeg", "png", "webp", "JPG", "JPEG", "PNG", "WEBP"):
+            if os.path.exists(os.path.join(ROOT, "assets", "img", f"{ps}{n}.{ext}")):
+                return True
+    return False
+
+
+# ── Wikimedia ─────────────────────────────────────────────────────────
+def http_get(url, binary=False, tries=4):
+    for i in range(tries):
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": UA})
+            with urllib.request.urlopen(req, timeout=60) as r:
+                data = r.read()
+            return data if binary else data.decode("utf-8")
+        except urllib.error.HTTPError as e:
+            if e.code in (429, 503) and i < tries - 1:
+                time.sleep(5 * (i + 1))
+                continue
+            raise
+        except Exception:
+            if i < tries - 1:
+                time.sleep(3)
+                continue
+            raise
+
+
+def api_search(query):
+    params = {"action": "query", "format": "json", "generator": "search", "gsrsearch": query,
+              "gsrnamespace": "6", "gsrlimit": "40", "prop": "imageinfo",
+              "iiprop": "url|size|mime|extmetadata", "iiurlwidth": str(MAX_W)}
+    data = json.loads(http_get(API + "?" + urllib.parse.urlencode(params)))
+    return list((data.get("query") or {}).get("pages", {}).values())
+
+
+def meta(info, key):
+    return html.unescape(re.sub(r"<[^>]+>", "", (info.get("extmetadata", {}).get(key, {}) or {}).get("value", "") or "")).strip()
+
+
+def license_kind(info):
+    """'pd' (aucun crédit exigé), 'by' (crédit exigé) ou None (refusée)."""
+    lic = (meta(info, "LicenseShortName") or meta(info, "UsageTerms")).lower()
+    if not lic:
+        return None
+    toks = set(re.split(r"[\s\-_/]+", lic))
+    if "nc" in toks or "nd" in toks or "fair" in toks or "gfdl" in toks and "cc" not in toks:
+        return None
+    if lic.startswith("cc0") or "public domain" in lic or lic.startswith("pd") or "domaine public" in lic:
+        return "pd"
+    if lic.startswith("cc by"):
+        return "by"
+    return None
+
+
+def score_candidate(page, station, from_article=False):
+    info = (page.get("imageinfo") or [{}])[0]
+    if info.get("mime") != "image/jpeg":
+        return None
+    w, h = info.get("width", 0), info.get("height", 0)
+    if w < MIN_W or h < MIN_H or not (1.25 <= w / h <= 2.3):
+        return None
+    kind = license_kind(info)
+    if not kind:
+        return None
+    title = re.sub(r"^(File|Fichier|Datei|Archivo|Immagine):|\.jpe?g$", "", page.get("title", ""), flags=re.I)
+    if BAD_TITLE.search(title) or BAD_TITLE2.search(title):
+        return None
+    desc = meta(info, "ImageDescription")
+    cats = meta(info, "Categories")
+    if BAD_CONTENT.search(desc + " " + cats):
+        return None
+    text = norm(" ".join([title, desc, cats]))
+    key = norm(station["name"])
+    if not from_article:
+        if key not in text:
+            return None          # on exige le nom de la station : évite les mauvais lieux
+        # ... en mot entier et dans le titre ou les catégories (pas seulement dans la description :
+        # « Going » = « en train de monter » donnait une photo d'Aspen)
+        if not re.search(r"(?<![a-z0-9])" + re.escape(key) + r"(?![a-z0-9])", norm(title) + " | " + norm(cats)):
+            return None
+    sc = 0.0
+    if from_article:
+        sc += 7.5                # illustre l'article Wikipédia de la station (choisie par les rédacteurs) ; les filtres d'image écartent l'hiver
+    elif key in norm(title):
+        sc += 5
+    blob = " ".join([title, desc, cats])
+    sc += min(len(SUMMER.findall(blob)), 4) * 1.2
+    sc -= min(len(WINTER.findall(blob)), 3) * 2.5
+    sc += min(w / 4000, 1)
+    if re.search(r"quality images|featured pictures|valued images|picture of the day", cats, re.I):
+        sc += 4            # labels de qualité de Wikimedia Commons : photos relues et choisies par la communauté
+    return {"score": sc, "info": info, "kind": kind, "title": title, "w": w, "h": h,
+            "page_url": info.get("descriptionurl", ""), "artist": meta(info, "Artist") or "Wikimedia Commons",
+            "license": meta(info, "LicenseShortName") or meta(info, "UsageTerms")}
+
+
+def candidates_for(station):
+    """Candidats triés par score décroissant (sans doublons de titre)."""
+    queries = [f'"{station["name"]}" été', f'"{station["name"]}" summer', f'"{station["name"]}" lac', f'"{station["name"]}"']
+    found = {}
+    for q in queries:
+        try:
+            pages = api_search(q)
+        except Exception as e:  # noqa: BLE001
+            print(f"   ⚠ recherche « {q} » : {e!r}")
+            continue
+        time.sleep(1)
+        for p in pages:
+            c = score_candidate(p, station)
+            if c and c["score"] >= MIN_SCORE and c["title"] not in found:
+                found[c["title"]] = c
+        if len(found) >= 6 and max(c["score"] for c in found.values()) >= 8:
+            break
+    return sorted(found.values(), key=lambda c: -c["score"])
+
+
+def wikipedia_candidates(station):
+    """Photos qui illustrent l'article Wikipédia (français, puis anglais) de la station.
+    Ce sont des fichiers de Wikimedia Commons choisis par les rédacteurs : très pertinents,
+    même quand le nom de la station n'est pas dans le nom du fichier."""
+    key = norm(station["name"])
+    found = {}
+    for lang in ("fr", "en"):
+        base = f"https://{lang}.wikipedia.org/w/api.php"
+        try:
+            q = {"action": "query", "format": "json", "list": "search", "srsearch": station["name"] + " station de montagne" if lang == "fr" else station["name"] + " mountain resort",
+                 "srlimit": "3"}
+            hits = json.loads(http_get(base + "?" + urllib.parse.urlencode(q))).get("query", {}).get("search", [])
+            time.sleep(1)
+        except Exception as e:  # noqa: BLE001
+            print(f"   ⚠ Wikipédia {lang} : {e!r}")
+            continue
+        title = next((h["title"] for h in hits if key in norm(h["title"])), None)   # le titre de l'article doit contenir le nom
+        if not title:
+            continue
+        try:
+            q = {"action": "query", "format": "json", "titles": title, "generator": "images", "gimlimit": "60",
+                 "prop": "imageinfo", "iiprop": "url|size|mime|extmetadata", "iiurlwidth": str(MAX_W)}
+            pages = list((json.loads(http_get(base + "?" + urllib.parse.urlencode(q))).get("query") or {}).get("pages", {}).values())
+            time.sleep(1)
+        except Exception as e:  # noqa: BLE001
+            print(f"   ⚠ Wikipédia {lang} images : {e!r}")
+            continue
+        for pg in pages:
+            c = score_candidate(pg, station, from_article=True)
+            if c and c["score"] >= MIN_SCORE and c["title"] not in found:
+                found[c["title"]] = c
+        if found:
+            break                                   # l'article français suffit s'il a des photos utilisables
+    return sorted(found.values(), key=lambda c: -c["score"])
+
+
+def best_for(station):
+    cs = candidates_for(station)
+    return cs[0] if cs else None
+
+
+# ── Openverse (photos Flickr etc. sous licence libre) ────────────────────
+# Nécessite un compte gratuit Openverse : secrets OPENVERSE_CLIENT_ID et OPENVERSE_CLIENT_SECRET.
+# Sans eux, l'API anonyme est limitée à 100 requêtes par jour : inutilisable pour un lot.
+OV_API = "https://api.openverse.org/v1"
+OV_UA = "MountainSummerPhotoBot/1.0 (+https://mountainsummer.fr)"
+
+
+def ov_token():
+    cid, sec = os.environ.get("OPENVERSE_CLIENT_ID"), os.environ.get("OPENVERSE_CLIENT_SECRET")
+    if not (cid and sec):
+        return None
+    body = urllib.parse.urlencode({"grant_type": "client_credentials", "client_id": cid, "client_secret": sec}).encode()
+    req = urllib.request.Request(OV_API + "/auth_tokens/token/", data=body, headers={"User-Agent": OV_UA})
+    with urllib.request.urlopen(req, timeout=60) as r:
+        return json.loads(r.read().decode("utf-8")).get("access_token")
+
+
+def ov_get(path_qs, token):
+    for i in range(4):
+        try:
+            req = urllib.request.Request(OV_API + path_qs, headers={"User-Agent": OV_UA, "Authorization": f"Bearer {token}"})
+            with urllib.request.urlopen(req, timeout=60) as r:
+                return json.loads(r.read().decode("utf-8"))
+        except urllib.error.HTTPError as e:
+            if e.code in (429, 503) and i < 3:
+                time.sleep(10 * (i + 1))
+                continue
+            raise
+        except Exception:
+            if i < 3:
+                time.sleep(3)
+                continue
+            raise
+
+
+def ov_license(r):
+    lic = (r.get("license") or "").lower()
+    ver = r.get("license_version") or ""
+    if lic in ("cc0", "pdm"):
+        return "pd", "CC0" if lic == "cc0" else "Public domain"
+    if lic in ("by", "by-sa"):
+        return "by", f"CC {lic.upper()} {ver}".strip()
+    return None, None          # nc, nd... refusées
+
+
+def openverse_candidates(station, token):
+    key = norm(station["name"])
+    found = {}
+    for q in (f'"{station["name"]}" summer', f'"{station["name"]}" été randonnée'):
+        qs = urllib.parse.urlencode({"q": q, "license": "cc0,pdm,by,by-sa", "extension": "jpg", "size": "large",
+                                     "aspect_ratio": "wide", "page_size": "20", "mature": "false"})
+        try:
+            data = ov_get("/images/?" + qs, token)
+        except Exception as e:  # noqa: BLE001
+            print(f"   ⚠ Openverse « {q} » : {e!r}")
+            continue
+        time.sleep(1.5)
+        for r in (data or {}).get("results", []):
+            if (r.get("source") or "").lower().startswith("wikimedia"):
+                continue                       # déjà couvert par la recherche Wikimedia
+            w, h = r.get("width") or 0, r.get("height") or 0
+            if w < MIN_W or h < MIN_H or not (1.25 <= w / h <= 2.3):
+                continue
+            kind, lic_txt = ov_license(r)
+            if not kind or not r.get("url"):
+                continue
+            title = r.get("title") or ""
+            tags = " ".join(t.get("name", "") for t in (r.get("tags") or []))
+            if BAD_TITLE.search(title) or BAD_TITLE2.search(title) or BAD_CONTENT.search(tags) or BAD_TITLE2.search(tags):
+                continue
+            if not re.search(r"(?<![a-z0-9])" + re.escape(key) + r"(?![a-z0-9])", norm(title) + " | " + norm(tags)):
+                continue                       # le nom de la station doit figurer dans le titre ou les mots-clés
+            blob = title + " " + tags
+            sc = 5.0 if key in norm(title) else 2.0
+            sc += min(len(SUMMER.findall(blob)), 4) * 1.2
+            sc -= min(len(WINTER.findall(blob)), 3) * 2.5
+            sc += min(w / 4000, 1)
+            cand = {"score": sc, "info": {"url": r["url"]}, "kind": kind, "title": "[Openverse] " + title, "w": w, "h": h,
+                    "page_url": r.get("foreign_landing_url") or r.get("url"), "artist": (r.get("creator") or "Flickr").strip(),
+                    "license": lic_txt}
+            found[r.get("id") or r["url"]] = cand
+    return sorted(found.values(), key=lambda c: -c["score"])
+
+
+# ── Crédit gravé sur l'image ──────────────────────────────────────────
+def load_font(size):
+    for p in FONT_REG:
+        if os.path.exists(p):
+            return ImageFont.truetype(p, size)
+    return ImageFont.load_default()
+
+
+def credit_text(c):
+    artist = re.sub(r"\s+", " ", c["artist"]).strip()
+    artist = re.sub(r"^(user|utilisateur)\s*:\s*", "", artist, flags=re.I)
+    if len(artist) > 34:
+        artist = artist[:33].rstrip() + "…"
+    lic = re.sub(r"\s+", " ", c["license"]).strip()
+    return f"© {artist} / {lic}"
+
+
+def burn_credit(img, text):
+    """Bandeau centré en bas, assez étroit pour survivre au recadrage portrait 2:3 des épingles."""
+    w, h = img.size
+    crop_w = (2 * h / 3)                       # largeur conservée par le recadrage portrait central
+    max_w = min(crop_w * 0.92, w * 0.9)
+    size = max(14, int(min(w, crop_w) * 0.04))   # taille proportionnelle à la partie visible (épingle)
+    d = ImageDraw.Draw(img)
+    f = load_font(size)
+    while d.textlength(text, font=f) > max_w and size > 12:
+        size -= 1
+        f = load_font(size)
+    t = text
+    while d.textlength(t, font=f) > max_w and len(t) > 12:   # dernier recours : on raccourcit
+        t = t[:-2].rstrip() + "…"
+    tw = d.textlength(t, font=f)
+    pad_x, pad_y = int(size * 0.7), int(size * 0.35)
+    x0 = (w - tw) / 2 - pad_x
+    y1 = h - int(size * 0.5)
+    y0 = y1 - size - 2 * pad_y
+    ov = Image.new("RGBA", img.size, (0, 0, 0, 0))
+    ImageDraw.Draw(ov).rounded_rectangle((x0, y0, x0 + tw + 2 * pad_x, y1), radius=int(size * 0.5), fill=(0, 0, 0, 150))
+    img = Image.alpha_composite(img.convert("RGBA"), ov)
+    ImageDraw.Draw(img).text(((w - tw) / 2, y0 + pad_y - 1), t, font=f, fill=(255, 255, 255, 235))
+    return img.convert("RGB")
+
+
+def _frac(mask):
+    """Part de pixels allumés (255) dans un masque 'L'."""
+    return ImageStat.Stat(mask).mean[0] / 255.0
+
+
+def image_problem(img, min_green=None):
+    """None si la photo a l'air d'une photo d'été de jour ; sinon la raison du refus.
+    Pillow seul (pas de numpy : le workflow n'installe que Pillow)."""
+    t = img.copy()
+    t.thumbnail((400, 400))
+    t = t.convert("RGB")
+    h, s_, v = t.convert("HSV").split()
+    if ImageStat.Stat(s_).mean[0] / 255.0 < MIN_SATURATION:
+        return "noir et blanc"
+    # netteté et relief de la zone centrale (celle que montre l'épingle 2:3)
+    cw = min(img.width, int(img.height * 2 / 3)); l0 = (img.width - cw) // 2
+    cc = img.crop((l0, 0, l0 + cw, img.height)).convert("L"); cc.thumbnail((400, 600))
+    if ImageStat.Stat(cc.filter(ImageFilter.FIND_EDGES)).mean[0] < MIN_EDGE:
+        return "flou ou sans relief"
+    # dominante rose / rouge : photo mal étalonnée
+    mk = v.point(lambda x: 255 if x > 110 else 0)
+    if ImageStat.Stat(mk).mean[0] > 5:
+        r_, g_, b_ = t.split()
+        if (ImageStat.Stat(r_, mask=mk).mean[0] - ImageStat.Stat(g_, mask=mk).mean[0]) / 255.0 > 0.10:
+            return "dominante rose"
+    # sépia / photo ancienne : presque tous les pixels clairs sont orange-jaune
+    warm = ImageChops.multiply(ImageChops.multiply(h.point(lambda x: 255 if 8 <= x <= 36 else 0),
+                                                   s_.point(lambda x: 255 if x >= 30 else 0)),
+                               v.point(lambda x: 255 if x >= 90 else 0))
+    lit = v.point(lambda x: 255 if x >= 90 else 0)
+    if ImageStat.Stat(warm).mean[0] / max(ImageStat.Stat(lit).mean[0], 1) > 0.70:
+        return "sépia (photo ancienne)"
+    if ImageStat.Stat(v).mean[0] / 255.0 < MIN_BRIGHT:
+        return "trop sombre (nuit ?)"
+    r, g, b = t.split()
+    # verdure : g > 1.08 r, g > 1.08 b, v > 0.2
+    r108 = r.point(lambda x: min(255, int(x * 1.08)))
+    b108 = b.point(lambda x: min(255, int(x * 1.08)))
+    gr = ImageChops.subtract(g, r108).point(lambda x: 255 if x > 0 else 0)
+    gb = ImageChops.subtract(g, b108).point(lambda x: 255 if x > 0 else 0)
+    vm = v.point(lambda x: 255 if x > 51 else 0)
+    green = ImageChops.multiply(ImageChops.multiply(gr, gb), vm)
+    if _frac(green) < (min_green if min_green is not None else MIN_GREEN):
+        return "pas assez de verdure (hiver ?)"
+    # neige : pixels clairs et peu saturés (les nuages comptent aussi : seuil large, on regarde le bas de l'image)
+    snow = ImageChops.multiply(s_.point(lambda x: 255 if x < 60 else 0),
+                               v.point(lambda x: 255 if x > 190 else 0))
+    w2, h2 = t.size
+    bas = snow.crop((0, int(h2 * 0.45), w2, h2))
+    if _frac(bas) > MAX_SNOW:
+        return "trop de neige (hiver ?)"
+    return None
+
+
+def too_dull(img):
+    return image_problem(img) is not None
+
+
+def dhash(img, n=8):
+    g = img.convert("L").resize((n + 1, n), Image.LANCZOS)
+    px = list(g.getdata())
+    return [1 if px[r * (n + 1) + c] > px[r * (n + 1) + c + 1] else 0 for r in range(n) for c in range(n)]
+
+
+GLOBAL_HASHES = []     # photos déjà retenues pour une AUTRE station du lot
+
+
+def doublon(img, cand, seen):
+    """Vrai si la photo ressemble à une déjà retenue pour la même station (image ou série du même auteur)."""
+    import difflib
+    h = dhash(img)
+    for g in GLOBAL_HASHES:
+        if sum(x != y for x, y in zip(h, g)) <= 8:
+            return True
+    t = re.sub(r"\d+", "", norm(cand["title"]))
+    for h2, t2, a2 in seen:
+        if sum(x != y for x, y in zip(h, h2)) <= 14:
+            return True
+        if cand["artist"] == a2:           # même auteur = presque toujours la même séance photo
+            return True
+    return False
+
+
+def process(station, cand, rank=0, seen=None):
+    """rank 0 = photo principale (racine) ; 1, 2 = alternatives (dossier autres/).
+    Renvoie le chemin relatif écrit, ou la raison du refus (texte) si la photo est refusée."""
+    url = cand["info"].get("thumburl") or cand["info"].get("url")
+    raw = http_get(url, binary=True)
+    img = Image.open(io.BytesIO(raw)).convert("RGB")
+    prob = image_problem(img, min_green=(MIN_GREEN if rank == 0 else 0.08))   # alternatives : plus de verdure exigée
+    if prob:
+        return prob
+    if seen is not None:
+        if doublon(img, cand, seen):
+            return "doublon"
+        GLOBAL_HASHES.append(dhash(img))
+        seen.append((dhash(img), re.sub(r"\d+", "", norm(cand["title"])), cand["artist"]))
+    if img.width > MAX_W:
+        img = img.resize((MAX_W, int(img.height * MAX_W / img.width)), Image.LANCZOS)
+    if cand["kind"] == "by":
+        img = burn_credit(img, credit_text(cand))
+    base = photo_slug(station)
+    if rank == 0:
+        rel = f"{base}1.jpg"
+    else:
+        rel = os.path.join("autres", f"{base}{rank + 1}.jpg")
+    os.makedirs(os.path.dirname(os.path.join(OUT, rel)) or OUT, exist_ok=True)
+    img.save(os.path.join(OUT, rel), "JPEG", quality=80, optimize=True, progressive=True)
+    return rel
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--limit", type=int, default=40)
+    ap.add_argument("--offset", type=int, default=0)
+    ap.add_argument("--only", default="")
+    ap.add_argument("--pays", default="tous", choices=["tous", "france", "etranger"])
+    ap.add_argument("--source", default="wikimedia", choices=["wikimedia", "openverse", "both"])
+    a = ap.parse_args()
+
+    import importlib.util
+    spec = importlib.util.spec_from_file_location("build", os.path.join(ROOT, "scripts", "build.py"))
+    bm = importlib.util.module_from_spec(spec)
+    sys.argv = ["build"]
+    spec.loader.exec_module(bm)
+    todo = [s for s in bm.ITEMS if not has_own_photo(s)]
+    todo.sort(key=lambda s: (-(s.get("score") or 0), s["name"]))
+    if a.pays == "france":
+        todo = [s for s in todo if s.get("pays") == "France"]
+    elif a.pays == "etranger":
+        todo = [s for s in todo if s.get("pays") != "France"]
+    if a.only:
+        todo = [s for s in todo if norm(a.only) in norm(s["name"])]
+    total = len(todo)
+    batch = todo[a.offset:a.offset + a.limit]
+    print(f"ℹ {total} stations sans photo ({a.pays}) ; lot de {len(batch)} (offset {a.offset})")
+
+    os.makedirs(OUT, exist_ok=True)
+    token = None
+    if a.source in ("openverse", "both"):
+        token = ov_token()
+        if not token:
+            print("⚠ Openverse : secrets OPENVERSE_CLIENT_ID / OPENVERSE_CLIENT_SECRET absents ou refusés.")
+            if a.source == "openverse":
+                return 2
+    rows, missing = [], []
+    for i, s in enumerate(batch, 1):
+        print(f"[{i}/{len(batch)}] {s['name']}")
+        try:
+            kept = 0
+            seen = []
+            batches = []
+            if a.source in ("wikimedia", "both"):
+                def wiki_all(s=s):
+                    cs = {c["title"]: c for c in candidates_for(s)}
+                    for c in wikipedia_candidates(s):
+                        cs.setdefault(c["title"], c)
+                    return sorted(cs.values(), key=lambda c: -c["score"])
+                batches.append(wiki_all)
+            if token and a.source in ("openverse", "both"):
+                batches.append(lambda: openverse_candidates(s, token))   # en mode « both » : seulement si Wikimedia n'a rien donné
+            for get_cands in batches:
+                if kept:
+                    break
+                for c in get_cands():
+                    if kept == 0 and c["score"] < MIN_SCORE_MAIN:
+                        continue
+                    if kept > 0 and c["score"] < 7.5:      # une alternative doit être clairement une photo de la station
+                        continue
+                    rel = process(s, c, rank=kept, seen=seen)
+                    if rel in ("noir et blanc", "trop sombre (nuit ?)", "pas assez de verdure (hiver ?)", "trop de neige (hiver ?)", "doublon", "sépia (photo ancienne)", "dominante rose", "flou ou sans relief"):
+                        print(f"   — refusée ({rel}) : {c['title'][:60]}")
+                        continue
+                    rows.append([s["name"], rel.replace(os.sep, "/"), "principale" if kept == 0 else "alternative",
+                                 c["title"], re.sub(r"\s+", " ", c["artist"]), c["license"],
+                                 c["page_url"], round(c["score"], 1), c["w"]])
+                    print(f"   ✓ {rel} ({c['license']}, score {c['score']:.1f})")
+                    kept += 1
+                    if kept >= N_KEEP:
+                        break
+            if not kept:
+                missing.append(s["name"]); print("   — aucune photo exploitable")
+        except Exception as e:  # noqa: BLE001
+            missing.append(s["name"]); print(f"   ⚠ échec : {e!r}")
+        time.sleep(1)
+
+    with open(os.path.join(OUT, "liste.csv"), "w", encoding="utf-8-sig", newline="") as f:
+        w = csv.writer(f, delimiter=";")
+        w.writerow(["station", "fichier", "rang", "titre Commons", "auteur", "licence", "page Commons", "score", "largeur"])
+        w.writerows(rows)
+    with open(os.path.join(OUT, "non-trouvees.txt"), "w", encoding="utf-8") as f:
+        f.write("\n".join(missing) + "\n")
+    nxt = a.offset + a.limit
+    print(f"✓ {len({r[0] for r in rows})} stations avec photo ({len(rows)} fichiers), {len(missing)} sans résultat. Prochain lot : offset = {nxt} (reste {max(total - nxt, 0)})")
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

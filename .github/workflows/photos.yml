@@ -1,0 +1,93 @@
+name: Chercher des photos libres d'été
+
+# Cherche sur Wikimedia Commons (et Openverse si les secrets existent) une photo libre D'ÉTÉ
+# pour les stations qui n'en ont pas, grave le crédit sur l'image et la nomme <slug>1.jpg.
+#
+# Utilisation : Actions > « Chercher des photos libres d'été » > Run workflow.
+#   · pays = france pour commencer ; lot suivant : « offset » = le chiffre indiqué à la fin du journal.
+#   · publier = non  -> les photos sont dans un ZIP (en bas de la page du lancement, rubrique Artifacts) : tu tries.
+#   · publier = oui  -> les photos principales sont ajoutées directement au site (assets/img/) et republiées.
+#                       Tu peux ensuite supprimer une photo qui ne te plaît pas : la station reprend sans photo.
+
+on:
+  workflow_dispatch:
+    inputs:
+      pays:
+        description: "Quelles stations ? tous / france / etranger"
+        required: false
+        default: "france"
+        type: choice
+        options: [france, etranger, tous]
+      limit:
+        description: "Nombre de stations à traiter (défaut 50)"
+        required: false
+        default: "50"
+      offset:
+        description: "Départ dans la liste (0 = les mieux notées d'abord ; reprendre au chiffre du journal)"
+        required: false
+        default: "0"
+      only:
+        description: "Seulement les stations dont le nom contient ce texte (facultatif)"
+        required: false
+        default: ""
+      source:
+        description: "D'où viennent les photos ? wikimedia / openverse / both"
+        required: false
+        default: "wikimedia"
+        type: choice
+        options: [wikimedia, openverse, both]
+      publier:
+        description: "Ajouter les photos directement au site ? non (ZIP à trier) / oui"
+        required: false
+        default: "non"
+        type: choice
+        options: ["non", "oui"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: photos
+  cancel-in-progress: false
+
+jobs:
+  photos:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Installer Pillow
+        run: pip install pillow
+
+      - name: Chercher les photos
+        env:
+          PAYS: ${{ github.event.inputs.pays }}
+          LIMIT: ${{ github.event.inputs.limit }}
+          OFFSET: ${{ github.event.inputs.offset }}
+          ONLY: ${{ github.event.inputs.only }}
+          SOURCE: ${{ github.event.inputs.source }}
+          OPENVERSE_CLIENT_ID: ${{ secrets.OPENVERSE_CLIENT_ID }}
+          OPENVERSE_CLIENT_SECRET: ${{ secrets.OPENVERSE_CLIENT_SECRET }}
+        run: |
+          python3 scripts/find_photos.py --pays "${PAYS:-france}" --source "${SOURCE:-wikimedia}" --limit "${LIMIT:-50}" --offset "${OFFSET:-0}" --only "$ONLY" | tee /tmp/photos.log
+          { echo '### Photos trouvées'; tail -n 1 /tmp/photos.log; } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Mettre les photos dans un ZIP
+        uses: actions/upload-artifact@v4
+        with:
+          name: photos-stations
+          path: photos-out/
+          retention-days: 14
+
+      - name: Ajouter les photos au site
+        if: ${{ github.event.inputs.publier == 'oui' }}
+        run: |
+          mkdir -p assets/img
+          cp -n photos-out/*.jpg assets/img/ 2>/dev/null || true
+          git config user.name "photos-auto"
+          git config user.email "noreply@users.noreply.github.com"
+          git add assets/img
+          git diff --cached --quiet || (git commit -m "Photos d'été : nouveau lot" && git pull --rebase -q && git push)
