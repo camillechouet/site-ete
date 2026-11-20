@@ -98,7 +98,54 @@ def load_items() -> list[dict]:
     return items
 
 
+def _fr(n) -> str:
+    """Nombre à la française : 1 234 (espace insécable fine)."""
+    return f"{int(round(n)):,}".replace(",", "\u202f")
+
+
+def _quantile(vals: list, q: float) -> float:
+    v = sorted(vals)
+    return v[min(len(v) - 1, int(len(v) * q))] if v else 0
+
+
+def add_auto_points(items: list[dict]) -> None:
+    """Points forts et résumé générés à partir des chiffres mesurés (jamais inventés).
+    Un critère est « fort » s'il fait partie du quart supérieur de toutes les stations."""
+    if not any("rando_km" in it for it in items):
+        return
+    seuil = {k: _quantile([it[k] for it in items if isinstance(it.get(k), (int, float))], 0.75)
+             for k in ("rando_km", "vtt_km", "lacs_15km", "nautique", "hebergements")}
+    seuil["activites"] = max(3, _quantile([it["activites"] for it in items if it.get("activites")], 0.5))
+    seuil["alt_max"] = _quantile([it["alt_max"] for it in items if isinstance(it.get("alt_max"), (int, float))], 0.9)
+    modeles = {
+        "rando_km": lambda v: f"{_fr(v)} km de sentiers de randonnée à moins de 6 km",
+        "vtt_km": lambda v: f"{_fr(v)} km de sentiers et pistes VTT à proximité",
+        "lacs_15km": lambda v: f"{_fr(v)} lacs dans un rayon de 15 km",
+        "nautique": lambda v: f"{_fr(v)} sites de baignade et de sports nautiques à moins de 15 km",
+        "activites": lambda v: f"{_fr(v)} activités de plein air référencées (tyrolienne, luge, parc d'aventure…)",
+        "alt_max": lambda v: f"Haute altitude : jusqu'à {_fr(v)} m",
+        "hebergements": lambda v: f"{_fr(v)} hébergements (hôtels, chalets, campings…) à moins de 8 km",
+    }
+    for it in items:
+        if it.get("points"):
+            continue
+        forts = []
+        for k, fn in modeles.items():
+            v = it.get(k)
+            if not isinstance(v, (int, float)) or v <= 0 or v < seuil[k]:
+                continue
+            if k in ("lacs_15km", "nautique") and v < 5:
+                continue
+            forts.append((v / seuil[k], k, fn(v)))
+        forts.sort(reverse=True)
+        it["points"] = [t for _, _, t in forts[:4]]
+        if it["points"] and not it.get("summary"):
+            reg = f" ({it['region']})" if it.get("region") else ""
+            it["summary"] = f"{it['name']}{reg} : " + " ; ".join(t[0].lower() + t[1:] for t in it["points"][:2]) + "."
+
+
 ITEMS = load_items()
+add_auto_points(ITEMS)
 BY_SLUG = {it["slug"]: it for it in ITEMS}
 
 
