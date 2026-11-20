@@ -1,1 +1,191 @@
-[]
+[
+ {
+  "hasBeenCreatedBy": {
+   "legalName": "Office de Tourisme de la Vallée de Chamonix-Mont-Blanc",
+   "identifier": "264",
+   "homepage": [
+    "https://www.chamonix.com/"
+   ]
+  },
+  "isLocatedAt": [
+   {
+    "geo": {
+     "elevation": 1013,
+     "latitude": 45.889948,
+     "longitude": 6.798273
+    },
+    "address": [
+     {
+      "hasAddressCity": {
+       "insee": "74143",
+       "label": {
+        "@en": "Les Houches",
+        "@fr": "Les Houches"
+       }
+      },
+      "streetAddress": [
+       "pl de l'Eglise"
+      ],
+      "postalCode": "74310",
+      "addressLocality": "Les Houches"
+     }
+    ]
+   }
+  ],
+  "lastUpdate": "2024-07-09",
+  "hasDescription": [
+   {
+    "shortDescription": {
+     "@en": "Around 1730, Les Houches created a new parish, separated from the one in Chamonix. It was placed under the patronage of St Jean-Baptiste. The church was consecrated in 1766.",
+     "@fr": "Vers 1730, le territoire des Houches forme une nouvelle paroisse, séparée de celle de Chamonix. Elle est placée sous le vocable de saint Jean-Baptiste, peut-être en lien avec le pastoralisme. Elle est consacrée en 1766."
+    }
+   }
+  ],
+  "label": {
+   "@en": "Saint Jean Baptiste church",
+   "@fr": "Eglise Saint-Jean-Baptiste"
+  },
+  "type": [
+   "ReligiousSite",
+   "Church",
+   "PointOfInterest",
+   "CulturalSite",
+   "PlaceOfInterest"
+  ],
+  "lastUpdateDatatourisme": "2026-10-21T09:31:08.301Z",
+  "hasContact": [
+   {
+    "telephone": [
+     "+33 4 50 54 43 60"
+    ]
+   }
+  ],
+  "uri": "https://data.datatourisme.fr/13/7e160315-98d1-3d0b-8f9e-c4579fbc779f",
+  "uuid": "0117b4e9-4201-335d-96a9-3b1c12d0bdba"
+ },
+ {
+  "hasBeenCreatedBy": {
+   "legalName": "Office de Tourisme de la Vallée de Chamonix-Mont-Blanc",
+   "identifier": "264",
+   "homepage": [
+    "https://www.chamonix.com/"
+   ]
+  },
+  "isLocatedAt": [
+   {
+    "geo": {
+     "elevation": 1013,
+     "latitude": 45.889948,
+     "longitude": 6.798273
+    },
+    "address": [
+     {
+      "hasAddressCity": {
+       "insee": "74143",
+       "label": {
+        "@fr": "Les Houches"
+       }
+      },
+      "streetAddress": [
+       "pl de l'Eglise"
+      ],
+      "postalCode": "74310",
+      "addressLocality": "Les Houches"
+     }
+    ]
+   }
+  ],
+  "lastUpdate": "2024-07-09",
+  "hasDescription": [
+   {
+    "shortDescription": {
+     "@fr": "Vers 1730, le territoire des Houches forme une nouvelle paroisse, séparée de celle de Chamonix. Elle est placée sous le vocable de saint Jean-Baptiste, peut-être en lien avec le pastoralisme. Elle est consacrée en 1766."
+    }
+   }
+  ],
+  "label": {
+   "@fr": "Eglise Saint-Jean-Baptiste"
+  },
+  "type": [
+   "ReligiousSite",
+   "Church",
+   "PointOfInterest",
+   "CulturalSite",
+   "PlaceOfInterest"
+  ],
+  "lastUpdateDatatourisme": "2026-10-21T09:31:08.301Z",
+  "hasContact": [
+   {
+    "telephone": [
+     "+33 4 50 54 43 60"
+    ]
+   }
+  ],
+  "uri": "https://data.datatourisme.fr/13/7e160315-98d1-3d0b-8f9e-c4579fbc779f",
+  "uuid": "0117b4e9-4201-335d-96a9-3b1c12d0bdba"
+ },
+ {
+  "hasBeenCreatedBy": {
+   "legalName": "Office de Tourisme de la Vallée de Chamonix-Mont-Blanc",
+   "identifier": "264",
+   "homepage": [
+    "https://www.chamonix.com/"
+   ]
+  },
+  "isLocatedAt": [
+   {
+    "geo": {
+     "elevation": 1013,
+     "latitude": 45.889948,
+     "longitude": 6.798273
+    },
+    "address": [
+     {
+      "hasAddressCity": {
+       "insee": "74143",
+       "label": {
+        "@en": "Les Houches",
+        "@fr": "Les Houches"
+       }
+      },
+      "streetAddress": [
+       "pl de l'Eglise"
+      ],
+      "postalCode": "74310",
+      "addressLocality": "Les Houches"
+     }
+    ]
+   }
+  ],
+  "lastUpdate": "2024-07-09",
+  "hasDescription": [
+   {
+    "shortDescription": {
+     "@en": "Around 1730, Les Houches created a new parish, separated from the one in Chamonix. It was placed under the patronage of St Jean-Baptiste. The church was consecrated in 1766.",
+     "@fr": "Vers 1730, le territoire des Houches forme une nouvelle paroisse, séparée de celle de Chamonix. Elle est placée sous le vocable de saint Jean-Baptiste, peut-être en lien avec le pastoralisme. Elle est consacrée en 1766."
+    }
+   }
+  ],
+  "label": {
+   "@en": "Saint Jean Baptiste church",
+   "@fr": "Eglise Saint-Jean-Baptiste"
+  },
+  "type": [
+   "ReligiousSite",
+   "Church",
+   "PointOfInterest",
+   "CulturalSite",
+   "PlaceOfInterest"
+  ],
+  "lastUpdateDatatourisme": "2026-10-21T09:31:08.301Z",
+  "hasContact": [
+   {
+    "telephone": [
+     "+33 4 50 54 43 60"
+    ]
+   }
+  ],
+  "uri": "https://data.datatourisme.fr/13/7e160315-98d1-3d0b-8f9e-c4579fbc779f",
+  "uuid": "0117b4e9-4201-335d-96a9-3b1c12d0bdba"
+ }
+]

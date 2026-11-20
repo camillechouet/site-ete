@@ -1,0 +1,14 @@
+{'geo_distance': '45.9237,6.8694,8km', 'page_size': 5} -> total 792 objets 5
+  clés : ['hasBeenCreatedBy', 'isLocatedAt', 'lastUpdate', 'hasDescription', 'label', 'type', 'lastUpdateDatatourisme', 'hasContact', 'uri', 'uuid']
+{'geo_distance': '45.9237,6.8694,8km', 'page_size': 5, 'lang': 'fr'} -> total 792 objets 5
+  clés : ['hasBeenCreatedBy', 'isLocatedAt', 'lastUpdate', 'hasDescription', 'label', 'type', 'lastUpdateDatatourisme', 'hasContact', 'uri', 'uuid']
+{'geo_distance': '45.9237,6.8694,8000m', 'page_size': 5} -> total 792 objets 5
+  clés : ['hasBeenCreatedBy', 'isLocatedAt', 'lastUpdate', 'hasDescription', 'label', 'type', 'lastUpdateDatatourisme', 'hasContact', 'uri', 'uuid']
+{'search': 'tyrolienne', 'page_size': 5} -> total 904 objets 5
+  clés : ['hasBeenCreatedBy', 'isLocatedAt', 'lastUpdate', 'hasDescription', 'label', 'type', 'lastUpdateDatatourisme', 'hasContact', 'uri', 'uuid']
+{'search': 'luge', 'page_size': 5} -> total 1778 objets 5
+  clés : ['hasBeenCreatedBy', 'isLocatedAt', 'lastUpdate', 'hasDescription', 'label', 'type', 'lastUpdateDatatourisme', 'hasContact', 'uri', 'uuid']
+{'search': 'accrobranche', 'geo_distance': '45.9237,6.8694,30km', 'page_size': 5} -> total 3 objets 3
+  clés : ['hasBeenCreatedBy', 'isLocatedAt', 'lastUpdate', 'hasDescription', 'label', 'type', 'lastUpdateDatatourisme', 'hasContact', 'uri', 'uuid']
+{'search': 'aventure', 'geo_distance': '45.9237,6.8694,30km', 'page_size': 5, 'lang': 'fr'} -> total 57 objets 5
+  clés : ['hasBeenCreatedBy', 'isLocatedAt', 'lastUpdate', 'hasDescription', 'label', 'type', 'lastUpdateDatatourisme', 'hasContact', 'uri', 'uuid']
