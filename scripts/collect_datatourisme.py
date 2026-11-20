@@ -99,7 +99,7 @@ def main() -> int:
     if not KEY:
         print("DATATOURISME_KEY absente : rien à faire.")
         return 0
-    if os.environ.get("DIAG", "1") == "1":
+    if os.environ.get("DIAG", "0") == "1":
         return diag()
     items = json.load(open(DATA / "items.json", encoding="utf-8"))
     geo = json.load(open(DATA / "geo.json", encoding="utf-8"))
