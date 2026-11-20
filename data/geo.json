@@ -225,8 +225,9 @@
   "src": "Les Arcs / Peisey-Vallandry, Bourg-Saint-Maurice, Albertville, Savoie, Auvergne-Rhône-Alpes, France métropolitaine, 7370"
  },
  "Montchavin-Les Coches": {
-  "lat": null,
-  "lon": null
+  "lat": 45.525,
+  "lon": 6.717,
+  "src": "manuel (approx.)"
  },
  "Pralognan-la-Vanoise": {
   "lat": 45.38181,
@@ -329,8 +330,9 @@
   "src": "Les Karellis, Montricher-le-Bochet, Montricher-Albanne, Saint-Jean-de-Maurienne, Savoie, Auvergne-Rhône-Alpes, France mé"
  },
  "Les Aillons-Margeriaz": {
-  "lat": null,
-  "lon": null
+  "lat": 45.612,
+  "lon": 6.035,
+  "src": "manuel (approx.)"
  },
  "Chamrousse": {
   "lat": 45.11081,
@@ -358,8 +360,9 @@
   "src": "Auris en Oisans, Auris, Grenoble, Isère, Auvergne-Rhône-Alpes, France métropolitaine, 38142, France"
  },
  "Alpe du Grand Serre": {
-  "lat": null,
-  "lon": null
+  "lat": 44.985,
+  "lon": 5.885,
+  "src": "manuel (approx.)"
  },
  "Villard-de-Lans": {
   "lat": 45.07062,
@@ -402,8 +405,9 @@
   "src": "Lus la Jarjatte, La Jarjatte, Lus-la-Croix-Haute, Die, Drôme, Auvergne-Rhône-Alpes, France métropolitaine, 26620, France"
  },
  "Semnoz - Annecy": {
-  "lat": null,
-  "lon": null
+  "lat": 45.796,
+  "lon": 6.113,
+  "src": "manuel (approx.)"
  },
  "Col de Porte": {
   "lat": 45.29184,
@@ -446,8 +450,9 @@
   "src": "Risoul, Briançon, Hautes-Alpes, Provence-Alpes-Côte d'Azur, France métropolitaine, 05600, France"
  },
  "La Grave - La Meije": {
-  "lat": null,
-  "lon": null
+  "lat": 45.045,
+  "lon": 6.308,
+  "src": "manuel (approx.)"
  },
  "Puy-Saint-Vincent": {
   "lat": 44.82795,
@@ -455,8 +460,9 @@
   "src": "Puy-Saint-Vincent, Briançon, Hautes-Alpes, Provence-Alpes-Côte d'Azur, France métropolitaine, 05290, France"
  },
  "Orcières Merlette 1850": {
-  "lat": null,
-  "lon": null
+  "lat": 44.683,
+  "lon": 6.325,
+  "src": "manuel (approx.)"
  },
  "Superdévoluy": {
   "lat": 44.67654,
@@ -494,12 +500,14 @@
   "src": "Saint-Michel-de-Chaillol, Gap, Hautes-Alpes, Provence-Alpes-Côte d'Azur, France métropolitaine, 05260, France"
  },
  "Sauze-Super-Sauze": {
-  "lat": null,
-  "lon": null
+  "lat": 44.38,
+  "lon": 6.7,
+  "src": "manuel (approx.)"
  },
  "Pra-Loup": {
-  "lat": null,
-  "lon": null
+  "lat": 44.37,
+  "lon": 6.61,
+  "src": "manuel (approx.)"
  },
  "Val d'Allos": {
   "lat": 44.24283,
@@ -512,8 +520,9 @@
   "src": "Chabanon, Selonnet, Digne-les-Bains, Alpes-de-Haute-Provence, Provence-Alpes-Côte d'Azur, France métropolitaine, 04140, "
  },
  "Montclar-les-2-Vallées": {
-  "lat": null,
-  "lon": null
+  "lat": 44.42,
+  "lon": 6.36,
+  "src": "manuel (approx.)"
  },
  "Larche": {
   "lat": 45.12202,
@@ -541,8 +550,9 @@
   "src": "Valberg, Péone, Nice, Alpes-Maritimes, Provence-Alpes-Côte d'Azur, France métropolitaine, 06470, France"
  },
  "Beuil-les-Launes": {
-  "lat": null,
-  "lon": null
+  "lat": 44.09,
+  "lon": 6.99,
+  "src": "manuel (approx.)"
  },
  "La Colmiane": {
   "lat": 44.07088,
@@ -580,8 +590,9 @@
   "src": "Molines-en-Queyras, Briançon, Hautes-Alpes, Provence-Alpes-Côte d'Azur, France métropolitaine, 05350, France"
  },
  "Arvieux-en-Queyras": {
-  "lat": null,
-  "lon": null
+  "lat": 44.77,
+  "lon": 6.73,
+  "src": "manuel (approx.)"
  },
  "La Mongie": {
   "lat": 42.91192,
@@ -654,8 +665,9 @@
   "src": "Les Monts d'Olmes, Montferrier, Pamiers, Ariège, Occitanie, France métropolitaine, 09300, France"
  },
  "Ascou-Pailhères": {
-  "lat": null,
-  "lon": null
+  "lat": 42.77,
+  "lon": 1.94,
+  "src": "manuel (approx.)"
  },
  "Font-Romeu-Pyrénées 2000": {
   "lat": 42.53162,
@@ -758,8 +770,9 @@
   "src": "le Champ du Feu, Belmont, Molsheim, Bas-Rhin, Collectivité européenne d'Alsace, Grand Est, France métropolitaine, 67130,"
  },
  "Le Ballon d'Alsace": {
-  "lat": null,
-  "lon": null
+  "lat": 47.823,
+  "lon": 6.845,
+  "src": "manuel (approx.)"
  },
  "La Planche des Belles Filles": {
   "lat": 47.77187,
@@ -792,8 +805,9 @@
   "src": "Bussang Larcenaire, Les Sources, Bussang, Épinal, Vosges, Grand Est, France métropolitaine, 88540, France"
  },
  "Métabief Mont d'Or": {
-  "lat": null,
-  "lon": null
+  "lat": 46.77,
+  "lon": 6.35,
+  "src": "manuel (approx.)"
  },
  "Les Rousses": {
   "lat": 46.48555,
@@ -806,12 +820,14 @@
   "src": "Les Fourgs, Pontarlier, Doubs, Bourgogne-Franche-Comté, France métropolitaine, 25300, France"
  },
  "La Source du Doubs-Mouthe": {
-  "lat": null,
-  "lon": null
+  "lat": 46.71,
+  "lon": 6.2,
+  "src": "manuel (approx.)"
  },
  "Espace Alpin Bellefontaine": {
-  "lat": null,
-  "lon": null
+  "lat": 46.53,
+  "lon": 6.04,
+  "src": "manuel (approx.)"
  },
  "La Combe Saint-Pierre": {
   "lat": 47.19995,
@@ -884,8 +900,9 @@
   "src": "Brameloup, Cruseilles, Saint-Julien-en-Genevois, Haute-Savoie, Auvergne-Rhône-Alpes, France métropolitaine, 74350, Franc"
  },
  "Alti Aigoual": {
-  "lat": null,
-  "lon": null
+  "lat": 44.12,
+  "lon": 3.58,
+  "src": "manuel (approx.)"
  },
  "Prabouré": {
   "lat": 45.5625,
@@ -933,8 +950,9 @@
   "src": "La Joue du Loup, Agnières-en-Dévoluy, Le Dévoluy, Gap, Hautes-Alpes, Provence-Alpes-Côte d'Azur, France métropolitaine, "
  },
  "Le Frenz": {
-  "lat": null,
-  "lon": null
+  "lat": 47.9,
+  "lon": 6.98,
+  "src": "manuel (approx.)"
  },
  "Mijoux-La Valserine": {
   "lat": 46.37962,
@@ -1292,8 +1310,9 @@
   "src": "Visperterminen, Visp, Oberwallis, Valais/Wallis, 3932, Schweiz / Suisse / Svizzera / Svizra"
  },
  "Bürchen-Moosalp": {
-  "lat": null,
-  "lon": null
+  "lat": 46.253,
+  "lon": 7.828,
+  "src": "manuel (approx.)"
  },
  "Unterbäch": {
   "lat": 46.2608,
@@ -1411,8 +1430,9 @@
   "src": "Mürren, Lauterbrunnen, Verwaltungskreis Interlaken-Oberhasli, Verwaltungsregion Oberland, Bern/Berne, 3825, Schweiz / Su"
  },
  "Grindelwald First": {
-  "lat": null,
-  "lon": null
+  "lat": 46.6575,
+  "lon": 8.053,
+  "src": "manuel (approx.)"
  },
  "Adelboden": {
   "lat": 46.49272,
@@ -1450,8 +1470,9 @@
   "src": "Wispile – Gstaad, Gstaad, Saanen, Verwaltungskreis Obersimmental-Saanen, Verwaltungsregion Oberland, Bern/Berne, 3780, S"
  },
  "Wasserngrat (Gstaad)": {
-  "lat": null,
-  "lon": null
+  "lat": 46.477,
+  "lon": 7.285,
+  "src": "manuel (approx.)"
  },
  "Elsigen-Metsch": {
   "lat": 46.5209,
@@ -1769,8 +1790,9 @@
   "src": "Hoch-Ybrig, Unteriberg, Schwyz, Schweiz / Suisse / Svizzera / Svizra"
  },
  "Mythenregion": {
-  "lat": null,
-  "lon": null
+  "lat": 47.05,
+  "lon": 8.71,
+  "src": "manuel (approx.)"
  },
  "Sörenberg": {
   "lat": 46.82217,
@@ -2238,8 +2260,9 @@
   "src": "Colere, Comunità Montana di Scalve, Bergamo, Lombardia, 24020, Italia"
  },
  "Passo Maniva": {
-  "lat": null,
-  "lon": null
+  "lat": 45.82,
+  "lon": 10.33,
+  "src": "manuel (approx.)"
  },
  "Lizzola": {
   "lat": 46.02398,
@@ -2277,8 +2300,9 @@
   "src": "Folgarida, Dimaro Folgarida, Comunità della Valle di Sole, Provincia di Trento, Trentino-Alto Adige/Südtirol, 38027, Ita"
  },
  "Marilleva": {
-  "lat": null,
-  "lon": null
+  "lat": 46.33,
+  "lon": 10.87,
+  "src": "manuel (approx.)"
  },
  "Canazei": {
   "lat": 46.47688,
@@ -2321,8 +2345,9 @@
   "src": "Passo Rolle, San Martino di Castrozza, Primiero San Martino di Castrozza, Comunità di Primiero, Provincia di Trento, Tre"
  },
  "Passo San Pellegrino": {
-  "lat": null,
-  "lon": null
+  "lat": 46.379,
+  "lon": 11.793,
+  "src": "manuel (approx.)"
  },
  "Alpe Lusia": {
   "lat": 46.33903,
@@ -2420,8 +2445,9 @@
   "src": "Seiser Alm - Mont de Sëuc - Alpe di Siusi, Kastelruth - Castelrotto, Salten-Schlern - Salto-Sciliar, Bolzano - Bozen, Tr"
  },
  "Schöneben – Haideralm": {
-  "lat": null,
-  "lon": null
+  "lat": 46.8267,
+  "lon": 10.5167,
+  "src": "manuel (approx.)"
  },
  "Gitschberg Jochtal": {
   "lat": 46.83391,
@@ -2479,8 +2505,9 @@
   "src": "Meran 2000, Falzeben, Hafling - Avelengo, Burggrafenamt - Burgraviato, Bolzano - Bozen, Trentino-Alto Adige/Südtirol, It"
  },
  "Racines-Giovo": {
-  "lat": null,
-  "lon": null
+  "lat": 46.88,
+  "lon": 11.33,
+  "src": "manuel (approx.)"
  },
  "Schwemmalm": {
   "lat": 46.5369,
@@ -2513,12 +2540,14 @@
   "src": "Watles - Monte Vatles, Mals - Malles Venosta, Vinschgau - Val Venosta, Bolzano - Bozen, Trentino-Alto Adige/Südtirol, 39"
  },
  "Corno del Renon": {
-  "lat": null,
-  "lon": null
+  "lat": 46.5833,
+  "lon": 11.4667,
+  "src": "manuel (approx.)"
  },
  "San Candido – Baranci": {
-  "lat": null,
-  "lon": null
+  "lat": 46.7342,
+  "lon": 12.2802,
+  "src": "manuel (approx.)"
  },
  "Cortina d'Ampezzo": {
   "lat": 46.56851,
@@ -2536,8 +2565,9 @@
   "src": "Civetta, Belluno, Veneto, Italia"
  },
  "Gallio – Le Melette": {
-  "lat": null,
-  "lon": null
+  "lat": 45.92,
+  "lon": 11.53,
+  "src": "manuel (approx.)"
  },
  "Monte Verena": {
   "lat": 45.93066,
@@ -2600,8 +2630,9 @@
   "src": "Ovindoli, L'Aquila, Abruzzo, 67046, Italia"
  },
  "Palumbosila": {
-  "lat": null,
-  "lon": null
+  "lat": 39.35,
+  "lon": 16.5,
+  "src": "manuel (approx.)"
  },
  "Campitello Matese": {
   "lat": 41.46185,
@@ -2674,8 +2705,9 @@
   "src": "Zürs, Lech, Bezirk Bludenz, Vorarlberg, 6763, Österreich"
  },
  "Warth-Schröcken": {
-  "lat": null,
-  "lon": null
+  "lat": 47.26,
+  "lon": 10.18,
+  "src": "manuel (approx.)"
  },
  "Söll": {
   "lat": 47.50377,
@@ -2758,8 +2790,9 @@
   "src": "Königsleiten, Wald im Pinzgau, Bezirk Zell am See, Salzburg, 5742, Österreich"
  },
  "Hochkrimml": {
-  "lat": null,
-  "lon": null
+  "lat": 47.235,
+  "lon": 12.17,
+  "src": "manuel (approx.)"
  },
  "Sölden": {
   "lat": 46.96663,
@@ -2812,16 +2845,19 @@
   "src": "Nauders, Bezirk Landeck, Tirol, 6543, Österreich"
  },
  "Glacier du Stubai": {
-  "lat": null,
-  "lon": null
+  "lat": 47.0,
+  "lon": 11.11,
+  "src": "manuel (approx.)"
  },
  "Glacier de Hintertux": {
-  "lat": null,
-  "lon": null
+  "lat": 47.07,
+  "lon": 11.67,
+  "src": "manuel (approx.)"
  },
  "Glacier du Kaunertal": {
-  "lat": null,
-  "lon": null
+  "lat": 46.87,
+  "lon": 10.73,
+  "src": "manuel (approx.)"
  },
  "Hochzeiger": {
   "lat": 47.14558,
@@ -2844,8 +2880,9 @@
   "src": "See, Bezirk Landeck, Tirol, Österreich"
  },
  "Glacier du Pitztal": {
-  "lat": null,
-  "lon": null
+  "lat": 46.93,
+  "lon": 10.87,
+  "src": "manuel (approx.)"
  },
  "Axamer Lizum": {
   "lat": 47.19438,
@@ -2913,8 +2950,9 @@
   "src": "Niederau, Wildschönau, Bezirk Kufstein, Tirol, 6314, Österreich"
  },
  "St. Jakob im Defereggental": {
-  "lat": null,
-  "lon": null
+  "lat": 46.92,
+  "lon": 12.36,
+  "src": "manuel (approx.)"
  },
  "Glungezer": {
   "lat": 47.2076,
@@ -3012,8 +3050,9 @@
   "src": "Rofan Seilbahn, Maurach, Eben am Achensee, Bezirk Schwaz, Tirol, Österreich"
  },
  "Hoch-Imst": {
-  "lat": null,
-  "lon": null
+  "lat": 47.24,
+  "lon": 10.73,
+  "src": "manuel (approx.)"
  },
  "Saalbach": {
   "lat": 47.39146,
@@ -3121,8 +3160,9 @@
   "src": "Großeck-Speiereck, Begöriach, Mauterndorf, Bezirk Tamsweg, Salzburg, Österreich"
  },
  "Dachstein West": {
-  "lat": null,
-  "lon": null
+  "lat": 47.54,
+  "lon": 13.48,
+  "src": "manuel (approx.)"
  },
  "Rauris": {
   "lat": 47.22863,
@@ -3145,8 +3185,9 @@
   "src": "Fanningberg, Steindorf, Mauterndorf, Bezirk Tamsweg, Salzburg, 5570, Österreich"
  },
  "Uttendorf – Weissee": {
-  "lat": null,
-  "lon": null
+  "lat": 47.16,
+  "lon": 12.56,
+  "src": "manuel (approx.)"
  },
  "Filzmoos": {
   "lat": 47.45119,
@@ -3169,8 +3210,9 @@
   "src": "Fageralm, Forstau, Salzburg, Österreich"
  },
  "Unken – Heutal": {
-  "lat": null,
-  "lon": null
+  "lat": 47.69,
+  "lon": 12.72,
+  "src": "manuel (approx.)"
  },
  "Schruns": {
   "lat": 47.08021,
@@ -3223,8 +3265,9 @@
   "src": "Walmendinger Horn, Mittelberg, Bezirk Bregenz, Vorarlberg, 6993, Österreich"
  },
  "Ifen (Kleinwalsertal)": {
-  "lat": null,
-  "lon": null
+  "lat": 47.35,
+  "lon": 10.12,
+  "src": "manuel (approx.)"
  },
  "Sonnenkopf (Klösterle)": {
   "lat": 47.11707,
@@ -3262,8 +3305,9 @@
   "src": "Haus im Ennstal, Politische Expositur Gröbming, Bezirk Liezen, Steiermark, 8967, Österreich"
  },
  "Pichl – Reiteralm": {
-  "lat": null,
-  "lon": null
+  "lat": 47.42,
+  "lon": 13.64,
+  "src": "manuel (approx.)"
  },
  "Tauplitz": {
   "lat": 47.56071,
@@ -3421,8 +3465,9 @@
   "src": "Simonhöhe, Sankt Urban, Bezirk Feldkirchen, Kärnten, Österreich"
  },
  "Arnoldstein – Dreiländereck": {
-  "lat": null,
-  "lon": null
+  "lat": 46.52,
+  "lon": 13.72,
+  "src": "manuel (approx.)"
  },
  "Mallnitz – Ankogel": {
   "lat": 47.02675,
@@ -3430,12 +3475,14 @@
   "src": "Ankogel Mallnitz, Mallnitz, Bezirk Spittal an der Drau, Kärnten, Österreich"
  },
  "Flattnitz – Hirnkopf": {
-  "lat": null,
-  "lon": null
+  "lat": 46.91,
+  "lon": 14.0,
+  "src": "manuel (approx.)"
  },
  "Falkert – Heidialm": {
-  "lat": null,
-  "lon": null
+  "lat": 46.88,
+  "lon": 13.83,
+  "src": "manuel (approx.)"
  },
  "Hinterstoder – Höss": {
   "lat": 47.66593,
@@ -3458,8 +3505,9 @@
   "src": "Hochficht / Smrčina, Klaffer am Hochficht, Bezirk Rohrbach, Oberösterreich, 4163, Österreich"
  },
  "Obertraun – Krippenstein": {
-  "lat": null,
-  "lon": null
+  "lat": 47.517,
+  "lon": 13.698,
+  "src": "manuel (approx.)"
  },
  "Ebensee – Feuerkogel": {
   "lat": 47.81604,
@@ -3487,8 +3535,9 @@
   "src": "Gemeindealpe Mitterbach, Katastralgemeinde Mitterbachseerotte, Mitterbach-Seerotte, Mitterbach am Erlaufsee, Bezirk Lili"
  },
  "Semmering – Zauberberg": {
-  "lat": null,
-  "lon": null
+  "lat": 47.635,
+  "lon": 15.828,
+  "src": "manuel (approx.)"
  },
  "Mönichkirchen – Mariensee": {
   "lat": 47.52353,
