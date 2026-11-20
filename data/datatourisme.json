@@ -1,0 +1,195 @@
+{
+ "Val d'Isère": {
+  "activites": 5,
+  "exemples": [
+   "La Luge",
+   "Piste de luge",
+   "30ème Festival International du Film Aventure et Découverte",
+   "Val d'Isère Parapente",
+   "Air Professionel Parapente"
+  ]
+ },
+ "Tignes": {
+  "activites": 4,
+  "exemples": [
+   "La Luge",
+   "Piste de luge",
+   "30ème Festival International du Film Aventure et Découverte",
+   "Air Professionel Parapente"
+  ]
+ },
+ "Les Arcs": {
+  "activites": 1,
+  "exemples": [
+   "Les Chroniques d'Elias - aventure immersive outdoor"
+  ]
+ },
+ "La Plagne": {
+  "activites": 29,
+  "exemples": [
+   "Super Tyro Tyrolienne",
+   "La Luge",
+   "Colorado Luge",
+   "Espace luge",
+   "Espace luge"
+  ]
+ },
+ "Chamonix": {
+  "activites": 15,
+  "exemples": [
+   "Luge Alpine Coaster de Chamonix",
+   "Espace luge du Tourchet",
+   "Piste de Luge du Bois du Bouchet",
+   "Parcours aventure : La Forêt Magique",
+   "Chamonix Sport Aventure"
+  ]
+ },
+ "Avoriaz": {
+  "activites": 9,
+  "exemples": [
+   "Aire de luge",
+   "Luge d'été",
+   "Piste de luge / Piste des Dromonts",
+   "Aire de luge de Pré la Joux",
+   "L'Aventure en traineau"
+  ]
+ },
+ "Courchevel": {
+  "activites": 28,
+  "exemples": [
+   "Tyroliennes",
+   "Via ferrata de la Fraîche & tyroliennes",
+   "Безопасная саночная зона в Альтипор (Altiport)",
+   "Luge du Doron",
+   "Детская зона катания на санках (Куршевель 1850)"
+  ]
+ },
+ "Méribel": {
+  "activites": 25,
+  "exemples": [
+   "Via ferrata de la Fraîche & tyroliennes",
+   "Безопасная саночная зона в Альтипор (Altiport)",
+   "Luge du Doron",
+   "Детская зона катания на санках (Куршевель 1850)",
+   "Himalaya By Night"
+  ]
+ },
+ "Val Thorens": {
+  "activites": 5,
+  "exemples": [
+   "Tyrolienne - La Bee",
+   "Himalaya By Night",
+   "Himalaya By Night",
+   "Cosmojet : la plus longue piste de luge en France !",
+   "Via ferrata du Levassaix"
+  ]
+ },
+ "Les Menuires": {
+  "activites": 7,
+  "exemples": [
+   "Tyrolienne - La Bee",
+   "Luge du Doron",
+   "Himalaya By Night",
+   "Himalaya By Night",
+   "Cosmojet : la plus longue piste de luge en France !"
+  ]
+ },
+ "Saint-Martin-de-Belleville": {
+  "activites": 8,
+  "exemples": [
+   "Via ferrata de la Fraîche & tyroliennes",
+   "Безопасная саночная зона в Альтипор (Altiport)",
+   "Luge du Doron",
+   "Himalaya By Night",
+   "Himalaya By Night"
+  ]
+ },
+ "La Tania": {
+  "activites": 24,
+  "exemples": [
+   "Via ferrata de la Fraîche & tyroliennes",
+   "Безопасная саночная зона в Альтипор (Altiport)",
+   "Luge du Doron",
+   "Детская зона катания на санках (Куршевель 1850)",
+   "Himalaya By Night"
+  ]
+ },
+ "Orelle": {
+  "activites": 4,
+  "exemples": [
+   "Pistes de luge - Valmigliss",
+   "Mad Dogs Sport Aventure",
+   "Lenvair Parapente",
+   "Envergure - Parapente"
+  ]
+ },
+ "Megève": {
+  "activites": 21,
+  "exemples": [
+   "Luge",
+   "Course de luge chronométrée",
+   "Pistes de luge du Bettex",
+   "Espace luge à Cuchet",
+   "Espace luge à La Cry"
+  ]
+ },
+ "Saint-Gervais": {
+  "activites": 4,
+  "exemples": [
+   "Speed Luge Vercors",
+   "Accrobranche d'Autrans - Vert & Blanc Organisation / site du banc de l'ours",
+   "Le Val d'Autrans-Méaudre en Vercors - La Via Vercors au départ d'Autrans",
+   "Parapente Isère"
+  ]
+ },
+ "Les Houches": {
+  "activites": 23,
+  "exemples": [
+   "Luge Alpine Coaster de Chamonix",
+   "Piste de luge Prarion",
+   "Espace luge du Tourchet",
+   "Piste de luge de Servoz",
+   "Piste de luge du Plateau de la Croix"
+  ]
+ },
+ "Combloux": {
+  "activites": 24,
+  "exemples": [
+   "Luge",
+   "Course de luge chronométrée",
+   "Pistes de luge du Bettex",
+   "Espace luge à Cuchet",
+   "Espace luge à La Cry"
+  ]
+ },
+ "Les Contamines-Montjoie": {
+  "activites": 12,
+  "exemples": [
+   "Pistes de luge du Bettex",
+   "Piste de luge Prarion",
+   "Espace luge - La Livraz",
+   "Piste de luge du Plateau de la Croix",
+   "Piste de luge du domaine nordique"
+  ]
+ },
+ "Morzine": {
+  "activites": 12,
+  "exemples": [
+   "Aire de luge",
+   "Luge d'été",
+   "Piste de luge / Piste des Dromonts",
+   "Piste de luge et paret au Col de Joux Plane",
+   "L'Aventure en traineau"
+  ]
+ },
+ "Les Gets": {
+  "activites": 15,
+  "exemples": [
+   "Aire de luge",
+   "Pistes de luge",
+   "Luge d'été",
+   "Sledding run Beuloz",
+   "Piste de luge et paret au Col de Joux Plane"
+  ]
+ }
+}
