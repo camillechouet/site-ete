@@ -1,0 +1,565 @@
+[
+ {
+  "a": "chamonix",
+  "b": "avoriaz",
+  "title": "Chamonix ou Avoriaz : quelle station choisir en été ?",
+  "intro": "Chamonix et Avoriaz comparées sur la randonnée, le VTT, les lacs, les activités et l'hébergement.",
+  "paragraphs": [
+   "Sentiers de randonnée : 297 km autour de Chamonix, contre 188 km autour d'Avoriaz.",
+   "Sentiers et pistes de VTT : 88 km autour d'Avoriaz, contre 36 km autour de Chamonix.",
+   "Lacs à moins de 15 km : 27 autour de Chamonix, contre 16 autour d'Avoriaz.",
+   "Activités de plein air référencées : 15 autour de Chamonix, contre 9 autour d'Avoriaz.",
+   "Hébergements à moins de 8 km : 258 autour d'Avoriaz, contre 106 autour de Chamonix.",
+   "Sur la note globale, Chamonix et Avoriaz sont à égalité (4,9 / 5).",
+   "Choisissez Chamonix si vous privilégiez les lacs et la fraîcheur de l'altitude.",
+   "Choisissez Avoriaz si vous privilégiez le choix d'hébergements et le VTT."
+  ]
+ },
+ {
+  "a": "chamonix",
+  "b": "les-houches",
+  "title": "Chamonix ou Les Houches : quelle station choisir en été ?",
+  "intro": "Chamonix et Les Houches comparées sur la randonnée, le VTT, les lacs, les activités et l'hébergement.",
+  "paragraphs": [
+   "Lacs à moins de 15 km : 32 autour de Les Houches, contre 27 autour de Chamonix.",
+   "Activités de plein air référencées : 23 autour de Les Houches, contre 15 autour de Chamonix.",
+   "Hébergements à moins de 8 km : 126 autour de Les Houches, contre 106 autour de Chamonix.",
+   "Altitude : Chamonix monte jusqu'à 3 842 m, contre 1 900 m pour Les Houches.",
+   "Sur la note globale, Chamonix et Les Houches sont à égalité (4,9 / 5).",
+   "Choisissez Chamonix si vous privilégiez la fraîcheur de l'altitude.",
+   "Choisissez Les Houches si vous privilégiez les activités (tyrolienne, luge, parc d'aventure) et le choix d'hébergements."
+  ]
+ },
+ {
+  "a": "avoriaz",
+  "b": "les-houches",
+  "title": "Avoriaz ou Les Houches : quelle station choisir en été ?",
+  "intro": "Avoriaz et Les Houches comparées sur la randonnée, le VTT, les lacs, les activités et l'hébergement.",
+  "paragraphs": [
+   "Sentiers de randonnée : 275 km autour de Les Houches, contre 188 km autour d'Avoriaz.",
+   "Sentiers et pistes de VTT : 88 km autour d'Avoriaz, contre 33 km autour de Les Houches.",
+   "Lacs à moins de 15 km : 32 autour de Les Houches, contre 16 autour d'Avoriaz.",
+   "Activités de plein air référencées : 23 autour de Les Houches, contre 9 autour d'Avoriaz.",
+   "Hébergements à moins de 8 km : 258 autour d'Avoriaz, contre 126 autour de Les Houches.",
+   "Sur la note globale, Avoriaz et Les Houches sont à égalité (4,9 / 5).",
+   "Choisissez Avoriaz si vous privilégiez le VTT et le choix d'hébergements.",
+   "Choisissez Les Houches si vous privilégiez les activités (tyrolienne, luge, parc d'aventure) et les lacs."
+  ]
+ },
+ {
+  "a": "les-houches",
+  "b": "aussois",
+  "title": "Les Houches ou Aussois : quelle station choisir en été ?",
+  "intro": "Les Houches et Aussois comparées sur la randonnée, le VTT, les lacs, les activités et l'hébergement.",
+  "paragraphs": [
+   "Sentiers de randonnée : 275 km autour de Les Houches, contre 165 km autour d'Aussois.",
+   "Sentiers et pistes de VTT : 40 km autour d'Aussois, contre 33 km autour de Les Houches.",
+   "Lacs à moins de 15 km : 59 autour d'Aussois, contre 32 autour de Les Houches.",
+   "Hébergements à moins de 8 km : 126 autour de Les Houches, contre 92 autour d'Aussois.",
+   "Altitude : Aussois monte jusqu'à 2 750 m, contre 1 900 m pour Les Houches.",
+   "Sur la note globale, Les Houches et Aussois sont à égalité (4,9 / 5).",
+   "Choisissez Les Houches si vous privilégiez la randonnée et le choix d'hébergements.",
+   "Choisissez Aussois si vous privilégiez les lacs et la fraîcheur de l'altitude."
+  ]
+ },
+ {
+  "a": "aussois",
+  "b": "montgenevre",
+  "title": "Aussois ou Montgenèvre : quelle station choisir en été ?",
+  "intro": "Aussois et Montgenèvre comparées sur la randonnée, le VTT, les lacs, les activités et l'hébergement.",
+  "paragraphs": [
+   "Sentiers de randonnée : 213 km autour de Montgenèvre, contre 165 km autour d'Aussois.",
+   "Sentiers et pistes de VTT : 247 km autour de Montgenèvre, contre 40 km autour d'Aussois.",
+   "Lacs à moins de 15 km : 59 autour d'Aussois, contre 27 autour de Montgenèvre.",
+   "Activités de plein air référencées : 21 autour d'Aussois, contre 9 autour de Montgenèvre.",
+   "Hébergements à moins de 8 km : 92 autour d'Aussois, contre 60 autour de Montgenèvre.",
+   "Sur la note globale, Aussois et Montgenèvre sont à égalité (4,9 / 5).",
+   "Choisissez Aussois si vous privilégiez les activités (tyrolienne, luge, parc d'aventure) et les lacs.",
+   "Choisissez Montgenèvre si vous privilégiez le VTT et la randonnée."
+  ]
+ },
+ {
+  "a": "montgenevre",
+  "b": "valloire",
+  "title": "Montgenèvre ou Valloire : quelle station choisir en été ?",
+  "intro": "Montgenèvre et Valloire comparées sur la randonnée, le VTT, les lacs, les activités et l'hébergement.",
+  "paragraphs": [
+   "Sentiers de randonnée : 213 km autour de Montgenèvre, contre 145 km autour de Valloire.",
+   "Sentiers et pistes de VTT : 247 km autour de Montgenèvre, contre 35 km autour de Valloire.",
+   "Lacs à moins de 15 km : 132 autour de Valloire, contre 27 autour de Montgenèvre.",
+   "Activités de plein air référencées : 14 autour de Valloire, contre 9 autour de Montgenèvre.",
+   "Hébergements à moins de 8 km : 332 autour de Valloire, contre 60 autour de Montgenèvre.",
+   "Sur la note globale, Montgenèvre (4,9 / 5) devance Valloire (4,8 / 5).",
+   "Choisissez Montgenèvre si vous privilégiez le VTT et la randonnée.",
+   "Choisissez Valloire si vous privilégiez le choix d'hébergements et les lacs."
+  ]
+ },
+ {
+  "a": "valloire",
+  "b": "valmeinier",
+  "title": "Valloire ou Valmeinier : quelle station choisir en été ?",
+  "intro": "Valloire et Valmeinier comparées sur la randonnée, le VTT, les lacs, les activités et l'hébergement.",
+  "paragraphs": [
+   "Sur la note globale, Valloire et Valmeinier sont à égalité (4,8 / 5)."
+  ]
+ },
+ {
+  "a": "valmeinier",
+  "b": "chamrousse",
+  "title": "Valmeinier ou Chamrousse : quelle station choisir en été ?",
+  "intro": "Valmeinier et Chamrousse comparées sur la randonnée, le VTT, les lacs, les activités et l'hébergement.",
+  "paragraphs": [
+   "Sentiers et pistes de VTT : 50 km autour de Chamrousse, contre 34 km autour de Valmeinier.",
+   "Lacs à moins de 15 km : 151 autour de Valmeinier, contre 38 autour de Chamrousse.",
+   "Activités de plein air référencées : 16 autour de Chamrousse, contre 13 autour de Valmeinier.",
+   "Hébergements à moins de 8 km : 352 autour de Valmeinier, contre 68 autour de Chamrousse.",
+   "Altitude : Valmeinier monte jusqu'à 2 600 m, contre 2 250 m pour Chamrousse.",
+   "Sur la note globale, Valmeinier et Chamrousse sont à égalité (4,8 / 5).",
+   "Choisissez Valmeinier si vous privilégiez le choix d'hébergements et les lacs.",
+   "Choisissez Chamrousse si vous privilégiez le VTT et les activités (tyrolienne, luge, parc d'aventure)."
+  ]
+ },
+ {
+  "a": "st-moritz",
+  "b": "champery-les-crosets-champoussin-morgins",
+  "title": "St. Moritz ou Champéry - Les Crosets - Champoussin - Morgins : quelle station choisir en été ?",
+  "intro": "St. Moritz et Champéry - Les Crosets - Champoussin - Morgins comparées sur la randonnée, le VTT, les lacs, les activités et l'hébergement.",
+  "paragraphs": [
+   "Sentiers de randonnée : 150 km autour de St. Moritz, contre 119 km autour de Champéry - Les Crosets - Champoussin - Morgins.",
+   "Sentiers et pistes de VTT : 93 km autour de St. Moritz, contre 53 km autour de Champéry - Les Crosets - Champoussin - Morgins.",
+   "Lacs à moins de 15 km : 42 autour de St. Moritz, contre 18 autour de Champéry - Les Crosets - Champoussin - Morgins.",
+   "Altitude : St. Moritz monte jusqu'à 3 057 m, contre 2 277 m pour Champéry - Les Crosets - Champoussin - Morgins.",
+   "Sur la note globale, St. Moritz (4,9 / 5) devance Champéry - Les Crosets - Champoussin - Morgins (4,8 / 5).",
+   "Choisissez St. Moritz si vous privilégiez les lacs et le VTT."
+  ]
+ },
+ {
+  "a": "st-moritz",
+  "b": "verbier",
+  "title": "St. Moritz ou Verbier : quelle station choisir en été ?",
+  "intro": "St. Moritz et Verbier comparées sur la randonnée, le VTT, les lacs, les activités et l'hébergement.",
+  "paragraphs": [
+   "Sentiers de randonnée : 228 km autour de Verbier, contre 150 km autour de St. Moritz.",
+   "Sentiers et pistes de VTT : 93 km autour de St. Moritz, contre 58 km autour de Verbier.",
+   "Lacs à moins de 15 km : 42 autour de St. Moritz, contre 7 autour de Verbier.",
+   "Activités de plein air référencées : 1 autour de St. Moritz, contre 0 autour de Verbier.",
+   "Hébergements à moins de 8 km : 215 autour de Verbier, contre 112 autour de St. Moritz.",
+   "Sur la note globale, St. Moritz (4,9 / 5) devance Verbier (4,8 / 5).",
+   "Choisissez St. Moritz si vous privilégiez les lacs et le VTT.",
+   "Choisissez Verbier si vous privilégiez le choix d'hébergements et la randonnée."
+  ]
+ },
+ {
+  "a": "champery-les-crosets-champoussin-morgins",
+  "b": "verbier",
+  "title": "Champéry - Les Crosets - Champoussin - Morgins ou Verbier : quelle station choisir en été ?",
+  "intro": "Champéry - Les Crosets - Champoussin - Morgins et Verbier comparées sur la randonnée, le VTT, les lacs, les activités et l'hébergement.",
+  "paragraphs": [
+   "Sentiers de randonnée : 228 km autour de Verbier, contre 119 km autour de Champéry - Les Crosets - Champoussin - Morgins.",
+   "Lacs à moins de 15 km : 18 autour de Champéry - Les Crosets - Champoussin - Morgins, contre 7 autour de Verbier.",
+   "Activités de plein air référencées : 1 autour de Champéry - Les Crosets - Champoussin - Morgins, contre 0 autour de Verbier.",
+   "Hébergements à moins de 8 km : 215 autour de Verbier, contre 118 autour de Champéry - Les Crosets - Champoussin - Morgins.",
+   "Altitude : Verbier monte jusqu'à 3 330 m, contre 2 277 m pour Champéry - Les Crosets - Champoussin - Morgins.",
+   "Sur la note globale, Champéry - Les Crosets - Champoussin - Morgins et Verbier sont à égalité (4,8 / 5).",
+   "Choisissez Champéry - Les Crosets - Champoussin - Morgins si vous privilégiez les lacs et les activités (tyrolienne, luge, parc d'aventure).",
+   "Choisissez Verbier si vous privilégiez la randonnée et le choix d'hébergements."
+  ]
+ },
+ {
+  "a": "verbier",
+  "b": "flims",
+  "title": "Verbier ou Flims : quelle station choisir en été ?",
+  "intro": "Verbier et Flims comparées sur la randonnée, le VTT, les lacs, les activités et l'hébergement.",
+  "paragraphs": [
+   "Sentiers de randonnée : 228 km autour de Verbier, contre 180 km autour de Flims.",
+   "Sentiers et pistes de VTT : 117 km autour de Flims, contre 58 km autour de Verbier.",
+   "Lacs à moins de 15 km : 9 autour de Flims, contre 7 autour de Verbier.",
+   "Activités de plein air référencées : 2 autour de Flims, contre 0 autour de Verbier.",
+   "Hébergements à moins de 8 km : 215 autour de Verbier, contre 45 autour de Flims.",
+   "Sur la note globale, Verbier et Flims sont à égalité (4,8 / 5).",
+   "Choisissez Verbier si vous privilégiez le choix d'hébergements et la randonnée.",
+   "Choisissez Flims si vous privilégiez le VTT et les activités (tyrolienne, luge, parc d'aventure)."
+  ]
+ },
+ {
+  "a": "flims",
+  "b": "la-tzoumaz",
+  "title": "Flims ou La Tzoumaz : quelle station choisir en été ?",
+  "intro": "Flims et La Tzoumaz comparées sur la randonnée, le VTT, les lacs, les activités et l'hébergement.",
+  "paragraphs": [
+   "Sentiers de randonnée : 180 km autour de Flims, contre 155 km autour de La Tzoumaz.",
+   "Sentiers et pistes de VTT : 117 km autour de Flims, contre 73 km autour de La Tzoumaz.",
+   "Lacs à moins de 15 km : 9 autour de Flims, contre 5 autour de La Tzoumaz.",
+   "Activités de plein air référencées : 2 autour de Flims, contre 0 autour de La Tzoumaz.",
+   "Hébergements à moins de 8 km : 229 autour de La Tzoumaz, contre 45 autour de Flims.",
+   "Sur la note globale, Flims (4,8 / 5) devance La Tzoumaz (4,7 / 5).",
+   "Choisissez Flims si vous privilégiez les activités (tyrolienne, luge, parc d'aventure) et les lacs.",
+   "Choisissez La Tzoumaz si vous privilégiez le choix d'hébergements."
+  ]
+ },
+ {
+  "a": "la-tzoumaz",
+  "b": "aletsch-arena",
+  "title": "La Tzoumaz ou Aletsch Arena : quelle station choisir en été ?",
+  "intro": "La Tzoumaz et Aletsch Arena comparées sur la randonnée, le VTT, les lacs, les activités et l'hébergement.",
+  "paragraphs": [
+   "Sentiers de randonnée : 182 km autour d'Aletsch Arena, contre 155 km autour de La Tzoumaz.",
+   "Sentiers et pistes de VTT : 107 km autour d'Aletsch Arena, contre 73 km autour de La Tzoumaz.",
+   "Lacs à moins de 15 km : 10 autour d'Aletsch Arena, contre 5 autour de La Tzoumaz.",
+   "Hébergements à moins de 8 km : 229 autour de La Tzoumaz, contre 120 autour d'Aletsch Arena.",
+   "Altitude : La Tzoumaz monte jusqu'à 3 330 m, contre 2 869 m pour Aletsch Arena.",
+   "Sur la note globale, La Tzoumaz et Aletsch Arena sont à égalité (4,7 / 5).",
+   "Choisissez La Tzoumaz si vous privilégiez le choix d'hébergements et la fraîcheur de l'altitude.",
+   "Choisissez Aletsch Arena si vous privilégiez les lacs et le VTT."
+  ]
+ },
+ {
+  "a": "aletsch-arena",
+  "b": "burchen-moosalp",
+  "title": "Aletsch Arena ou Bürchen-Moosalp : quelle station choisir en été ?",
+  "intro": "Aletsch Arena et Bürchen-Moosalp comparées sur la randonnée, le VTT, les lacs, les activités et l'hébergement.",
+  "paragraphs": [
+   "Sentiers de randonnée : 182 km autour d'Aletsch Arena, contre 155 km autour de Bürchen-Moosalp.",
+   "Sentiers et pistes de VTT : 107 km autour d'Aletsch Arena, contre 69 km autour de Bürchen-Moosalp.",
+   "Lacs à moins de 15 km : 10 autour d'Aletsch Arena, contre 8 autour de Bürchen-Moosalp.",
+   "Activités de plein air référencées : 1 autour de Bürchen-Moosalp, contre 0 autour d'Aletsch Arena.",
+   "Hébergements à moins de 8 km : 120 autour d'Aletsch Arena, contre 55 autour de Bürchen-Moosalp.",
+   "Sur la note globale, Aletsch Arena et Bürchen-Moosalp sont à égalité (4,7 / 5).",
+   "Choisissez Aletsch Arena si vous privilégiez le choix d'hébergements et le VTT.",
+   "Choisissez Bürchen-Moosalp si vous privilégiez les activités (tyrolienne, luge, parc d'aventure)."
+  ]
+ },
+ {
+  "a": "burchen-moosalp",
+  "b": "lenzerheide",
+  "title": "Bürchen-Moosalp ou Lenzerheide : quelle station choisir en été ?",
+  "intro": "Bürchen-Moosalp et Lenzerheide comparées sur la randonnée, le VTT, les lacs, les activités et l'hébergement.",
+  "paragraphs": [
+   "Sentiers et pistes de VTT : 150 km autour de Lenzerheide, contre 69 km autour de Bürchen-Moosalp.",
+   "Sur la note globale, Bürchen-Moosalp et Lenzerheide sont à égalité (4,7 / 5).",
+   "Choisissez Lenzerheide si vous privilégiez le VTT."
+  ]
+ },
+ {
+  "a": "serfaus",
+  "b": "axamer-lizum",
+  "title": "Serfaus ou Axamer Lizum : quelle station choisir en été ?",
+  "intro": "Serfaus et Axamer Lizum comparées sur la randonnée, le VTT, les lacs, les activités et l'hébergement.",
+  "paragraphs": [
+   "Sentiers de randonnée : 229 km autour d'Axamer Lizum, contre 93 km autour de Serfaus.",
+   "Sentiers et pistes de VTT : 93 km autour de Serfaus, contre 68 km autour d'Axamer Lizum.",
+   "Lacs à moins de 15 km : 23 autour de Serfaus, contre 6 autour d'Axamer Lizum.",
+   "Activités de plein air référencées : 3 autour de Serfaus, contre 2 autour d'Axamer Lizum.",
+   "Hébergements à moins de 8 km : 466 autour de Serfaus, contre 195 autour d'Axamer Lizum.",
+   "Sur la note globale, Serfaus et Axamer Lizum sont à égalité (4,9 / 5).",
+   "Choisissez Serfaus si vous privilégiez les lacs et le choix d'hébergements.",
+   "Choisissez Axamer Lizum si vous privilégiez la randonnée."
+  ]
+ },
+ {
+  "a": "serfaus",
+  "b": "schlick-2000",
+  "title": "Serfaus ou Schlick 2000 : quelle station choisir en été ?",
+  "intro": "Serfaus et Schlick 2000 comparées sur la randonnée, le VTT, les lacs, les activités et l'hébergement.",
+  "paragraphs": [
+   "Sentiers de randonnée : 232 km autour de Schlick 2000, contre 93 km autour de Serfaus.",
+   "Sentiers et pistes de VTT : 93 km autour de Serfaus, contre 67 km autour de Schlick 2000.",
+   "Lacs à moins de 15 km : 23 autour de Serfaus, contre 6 autour de Schlick 2000.",
+   "Activités de plein air référencées : 3 autour de Serfaus, contre 2 autour de Schlick 2000.",
+   "Hébergements à moins de 8 km : 466 autour de Serfaus, contre 332 autour de Schlick 2000.",
+   "Sur la note globale, Serfaus et Schlick 2000 sont à égalité (4,9 / 5).",
+   "Choisissez Serfaus si vous privilégiez les lacs et les activités (tyrolienne, luge, parc d'aventure).",
+   "Choisissez Schlick 2000 si vous privilégiez la randonnée."
+  ]
+ },
+ {
+  "a": "axamer-lizum",
+  "b": "schlick-2000",
+  "title": "Axamer Lizum ou Schlick 2000 : quelle station choisir en été ?",
+  "intro": "Axamer Lizum et Schlick 2000 comparées sur la randonnée, le VTT, les lacs, les activités et l'hébergement.",
+  "paragraphs": [
+   "Hébergements à moins de 8 km : 332 autour de Schlick 2000, contre 195 autour d'Axamer Lizum.",
+   "Sur la note globale, Axamer Lizum et Schlick 2000 sont à égalité (4,9 / 5).",
+   "Choisissez Schlick 2000 si vous privilégiez le choix d'hébergements."
+  ]
+ },
+ {
+  "a": "schlick-2000",
+  "b": "fiss",
+  "title": "Schlick 2000 ou Fiss : quelle station choisir en été ?",
+  "intro": "Schlick 2000 et Fiss comparées sur la randonnée, le VTT, les lacs, les activités et l'hébergement.",
+  "paragraphs": [
+   "Sentiers de randonnée : 232 km autour de Schlick 2000, contre 88 km autour de Fiss.",
+   "Sentiers et pistes de VTT : 92 km autour de Fiss, contre 67 km autour de Schlick 2000.",
+   "Lacs à moins de 15 km : 23 autour de Fiss, contre 6 autour de Schlick 2000.",
+   "Activités de plein air référencées : 3 autour de Fiss, contre 2 autour de Schlick 2000.",
+   "Hébergements à moins de 8 km : 486 autour de Fiss, contre 332 autour de Schlick 2000.",
+   "Sur la note globale, Schlick 2000 (4,9 / 5) devance Fiss (4,8 / 5).",
+   "Choisissez Schlick 2000 si vous privilégiez la randonnée.",
+   "Choisissez Fiss si vous privilégiez les lacs et les activités (tyrolienne, luge, parc d'aventure)."
+  ]
+ },
+ {
+  "a": "fiss",
+  "b": "ladis",
+  "title": "Fiss ou Ladis : quelle station choisir en été ?",
+  "intro": "Fiss et Ladis comparées sur la randonnée, le VTT, les lacs, les activités et l'hébergement.",
+  "paragraphs": [
+   "Sentiers de randonnée : 88 km autour de Fiss, contre 70 km autour de Ladis.",
+   "Sur la note globale, Fiss et Ladis sont à égalité (4,8 / 5).",
+   "Choisissez Fiss si vous privilégiez la randonnée."
+  ]
+ },
+ {
+  "a": "ladis",
+  "b": "ehrwald",
+  "title": "Ladis ou Ehrwald : quelle station choisir en été ?",
+  "intro": "Ladis et Ehrwald comparées sur la randonnée, le VTT, les lacs, les activités et l'hébergement.",
+  "paragraphs": [
+   "Sentiers de randonnée : 162 km autour d'Ehrwald, contre 70 km autour de Ladis.",
+   "Lacs à moins de 15 km : 23 autour de Ladis, contre 12 autour d'Ehrwald.",
+   "Activités de plein air référencées : 3 autour de Ladis, contre 1 autour d'Ehrwald.",
+   "Hébergements à moins de 8 km : 495 autour de Ladis, contre 150 autour d'Ehrwald.",
+   "Altitude : Ladis monte jusqu'à 2 828 m, contre 1 923 m pour Ehrwald.",
+   "Sur la note globale, Ladis et Ehrwald sont à égalité (4,8 / 5).",
+   "Choisissez Ladis si vous privilégiez le choix d'hébergements et les activités (tyrolienne, luge, parc d'aventure).",
+   "Choisissez Ehrwald si vous privilégiez la randonnée."
+  ]
+ },
+ {
+  "a": "ehrwald",
+  "b": "lermoos",
+  "title": "Ehrwald ou Lermoos : quelle station choisir en été ?",
+  "intro": "Ehrwald et Lermoos comparées sur la randonnée, le VTT, les lacs, les activités et l'hébergement.",
+  "paragraphs": [
+   "Sur la note globale, Ehrwald et Lermoos sont à égalité (4,8 / 5)."
+  ]
+ },
+ {
+  "a": "lermoos",
+  "b": "muttereralm",
+  "title": "Lermoos ou Muttereralm : quelle station choisir en été ?",
+  "intro": "Lermoos et Muttereralm comparées sur la randonnée, le VTT, les lacs, les activités et l'hébergement.",
+  "paragraphs": [
+   "Sentiers de randonnée : 258 km autour de Muttereralm, contre 144 km autour de Lermoos.",
+   "Sentiers et pistes de VTT : 94 km autour de Lermoos, contre 79 km autour de Muttereralm.",
+   "Lacs à moins de 15 km : 13 autour de Lermoos, contre 5 autour de Muttereralm.",
+   "Activités de plein air référencées : 2 autour de Muttereralm, contre 1 autour de Lermoos.",
+   "Hébergements à moins de 8 km : 274 autour de Muttereralm, contre 159 autour de Lermoos.",
+   "Sur la note globale, Lermoos et Muttereralm sont à égalité (4,8 / 5).",
+   "Choisissez Lermoos si vous privilégiez les lacs et le VTT.",
+   "Choisissez Muttereralm si vous privilégiez les activités (tyrolienne, luge, parc d'aventure) et la randonnée."
+  ]
+ },
+ {
+  "a": "bardonecchia",
+  "b": "campitello-di-fassa",
+  "title": "Bardonecchia ou Campitello di Fassa : quelle station choisir en été ?",
+  "intro": "Bardonecchia et Campitello di Fassa comparées sur la randonnée, le VTT, les lacs, les activités et l'hébergement.",
+  "paragraphs": [
+   "Sentiers de randonnée : 266 km autour de Bardonecchia, contre 215 km autour de Campitello di Fassa.",
+   "Sentiers et pistes de VTT : 168 km autour de Bardonecchia, contre 104 km autour de Campitello di Fassa.",
+   "Lacs à moins de 15 km : 107 autour de Bardonecchia, contre 9 autour de Campitello di Fassa.",
+   "Hébergements à moins de 8 km : 313 autour de Campitello di Fassa, contre 23 autour de Bardonecchia.",
+   "Sur la note globale, Bardonecchia et Campitello di Fassa sont à égalité (4,9 / 5).",
+   "Choisissez Bardonecchia si vous privilégiez les lacs et le VTT.",
+   "Choisissez Campitello di Fassa si vous privilégiez le choix d'hébergements."
+  ]
+ },
+ {
+  "a": "bardonecchia",
+  "b": "ortisei",
+  "title": "Bardonecchia ou Ortisei : quelle station choisir en été ?",
+  "intro": "Bardonecchia et Ortisei comparées sur la randonnée, le VTT, les lacs, les activités et l'hébergement.",
+  "paragraphs": [
+   "Sentiers et pistes de VTT : 168 km autour de Bardonecchia, contre 110 km autour d'Ortisei.",
+   "Lacs à moins de 15 km : 107 autour de Bardonecchia, contre 5 autour d'Ortisei.",
+   "Activités de plein air référencées : 2 autour d'Ortisei, contre 1 autour de Bardonecchia.",
+   "Hébergements à moins de 8 km : 775 autour d'Ortisei, contre 23 autour de Bardonecchia.",
+   "Sur la note globale, Bardonecchia et Ortisei sont à égalité (4,9 / 5).",
+   "Choisissez Bardonecchia si vous privilégiez les lacs et le VTT.",
+   "Choisissez Ortisei si vous privilégiez le choix d'hébergements et les activités (tyrolienne, luge, parc d'aventure)."
+  ]
+ },
+ {
+  "a": "campitello-di-fassa",
+  "b": "ortisei",
+  "title": "Campitello di Fassa ou Ortisei : quelle station choisir en été ?",
+  "intro": "Campitello di Fassa et Ortisei comparées sur la randonnée, le VTT, les lacs, les activités et l'hébergement.",
+  "paragraphs": [
+   "Lacs à moins de 15 km : 9 autour de Campitello di Fassa, contre 5 autour d'Ortisei.",
+   "Activités de plein air référencées : 2 autour d'Ortisei, contre 1 autour de Campitello di Fassa.",
+   "Hébergements à moins de 8 km : 775 autour d'Ortisei, contre 313 autour de Campitello di Fassa.",
+   "Sur la note globale, Campitello di Fassa et Ortisei sont à égalité (4,9 / 5).",
+   "Choisissez Campitello di Fassa si vous privilégiez les lacs.",
+   "Choisissez Ortisei si vous privilégiez le choix d'hébergements et les activités (tyrolienne, luge, parc d'aventure)."
+  ]
+ },
+ {
+  "a": "ortisei",
+  "b": "selva-di-val-gardena",
+  "title": "Ortisei ou Selva di Val Gardena : quelle station choisir en été ?",
+  "intro": "Ortisei et Selva di Val Gardena comparées sur la randonnée, le VTT, les lacs, les activités et l'hébergement.",
+  "paragraphs": [
+   "Sentiers de randonnée : 335 km autour de Selva di Val Gardena, contre 234 km autour d'Ortisei.",
+   "Activités de plein air référencées : 2 autour d'Ortisei, contre 1 autour de Selva di Val Gardena.",
+   "Hébergements à moins de 8 km : 775 autour d'Ortisei, contre 619 autour de Selva di Val Gardena.",
+   "Sur la note globale, Ortisei et Selva di Val Gardena sont à égalité (4,9 / 5).",
+   "Choisissez Ortisei si vous privilégiez les activités (tyrolienne, luge, parc d'aventure) et le choix d'hébergements.",
+   "Choisissez Selva di Val Gardena si vous privilégiez la randonnée."
+  ]
+ },
+ {
+  "a": "selva-di-val-gardena",
+  "b": "meran-2000",
+  "title": "Selva di Val Gardena ou Meran 2000 : quelle station choisir en été ?",
+  "intro": "Selva di Val Gardena et Meran 2000 comparées sur la randonnée, le VTT, les lacs, les activités et l'hébergement.",
+  "paragraphs": [
+   "Sentiers de randonnée : 335 km autour de Selva di Val Gardena, contre 189 km autour de Meran 2000.",
+   "Sentiers et pistes de VTT : 127 km autour de Selva di Val Gardena, contre 71 km autour de Meran 2000.",
+   "Lacs à moins de 15 km : 7 autour de Meran 2000, contre 5 autour de Selva di Val Gardena.",
+   "Sur la note globale, Selva di Val Gardena et Meran 2000 sont à égalité (4,9 / 5).",
+   "Choisissez Selva di Val Gardena si vous privilégiez le VTT et la randonnée.",
+   "Choisissez Meran 2000 si vous privilégiez les lacs."
+  ]
+ },
+ {
+  "a": "meran-2000",
+  "b": "sestriere",
+  "title": "Meran 2000 ou Sestrière : quelle station choisir en été ?",
+  "intro": "Meran 2000 et Sestrière comparées sur la randonnée, le VTT, les lacs, les activités et l'hébergement.",
+  "paragraphs": [
+   "Sentiers et pistes de VTT : 219 km autour de Sestrière, contre 71 km autour de Meran 2000.",
+   "Lacs à moins de 15 km : 28 autour de Sestrière, contre 7 autour de Meran 2000.",
+   "Activités de plein air référencées : 1 autour de Meran 2000, contre 0 autour de Sestrière.",
+   "Hébergements à moins de 8 km : 604 autour de Meran 2000, contre 80 autour de Sestrière.",
+   "Altitude : Sestrière monte jusqu'à 2 840 m, contre 2 350 m pour Meran 2000.",
+   "Sur la note globale, Meran 2000 (4,9 / 5) devance Sestrière (4,8 / 5).",
+   "Choisissez Meran 2000 si vous privilégiez le choix d'hébergements et les activités (tyrolienne, luge, parc d'aventure).",
+   "Choisissez Sestrière si vous privilégiez les lacs et le VTT."
+  ]
+ },
+ {
+  "a": "sestriere",
+  "b": "madonna-di-campiglio",
+  "title": "Sestrière ou Madonna di Campiglio : quelle station choisir en été ?",
+  "intro": "Sestrière et Madonna di Campiglio comparées sur la randonnée, le VTT, les lacs, les activités et l'hébergement.",
+  "paragraphs": [
+   "Sentiers de randonnée : 202 km autour de Sestrière, contre 147 km autour de Madonna di Campiglio.",
+   "Sentiers et pistes de VTT : 219 km autour de Sestrière, contre 61 km autour de Madonna di Campiglio.",
+   "Activités de plein air référencées : 1 autour de Madonna di Campiglio, contre 0 autour de Sestrière.",
+   "Sur la note globale, Sestrière et Madonna di Campiglio sont à égalité (4,8 / 5).",
+   "Choisissez Sestrière si vous privilégiez le VTT et la randonnée.",
+   "Choisissez Madonna di Campiglio si vous privilégiez les activités (tyrolienne, luge, parc d'aventure)."
+  ]
+ },
+ {
+  "a": "madonna-di-campiglio",
+  "b": "canazei",
+  "title": "Madonna di Campiglio ou Canazei : quelle station choisir en été ?",
+  "intro": "Madonna di Campiglio et Canazei comparées sur la randonnée, le VTT, les lacs, les activités et l'hébergement.",
+  "paragraphs": [
+   "Sentiers de randonnée : 209 km autour de Canazei, contre 147 km autour de Madonna di Campiglio.",
+   "Sentiers et pistes de VTT : 128 km autour de Canazei, contre 61 km autour de Madonna di Campiglio.",
+   "Lacs à moins de 15 km : 27 autour de Madonna di Campiglio, contre 11 autour de Canazei.",
+   "Hébergements à moins de 8 km : 284 autour de Canazei, contre 87 autour de Madonna di Campiglio.",
+   "Sur la note globale, Madonna di Campiglio et Canazei sont à égalité (4,8 / 5).",
+   "Choisissez Madonna di Campiglio si vous privilégiez les lacs.",
+   "Choisissez Canazei si vous privilégiez le choix d'hébergements et le VTT."
+  ]
+ },
+ {
+  "a": "chamonix",
+  "b": "st-moritz",
+  "title": "Chamonix ou St. Moritz : quelle station choisir en été ?",
+  "intro": "Chamonix et St. Moritz comparées sur la randonnée, le VTT, les lacs, les activités et l'hébergement.",
+  "paragraphs": [
+   "Sentiers de randonnée : 297 km autour de Chamonix, contre 150 km autour de St. Moritz.",
+   "Sentiers et pistes de VTT : 93 km autour de St. Moritz, contre 36 km autour de Chamonix.",
+   "Lacs à moins de 15 km : 42 autour de St. Moritz, contre 27 autour de Chamonix.",
+   "Activités de plein air référencées : 15 autour de Chamonix, contre 1 autour de St. Moritz.",
+   "Altitude : Chamonix monte jusqu'à 3 842 m, contre 3 057 m pour St. Moritz.",
+   "Sur la note globale, Chamonix et St. Moritz sont à égalité (4,9 / 5).",
+   "Choisissez Chamonix si vous privilégiez les activités (tyrolienne, luge, parc d'aventure) et la randonnée.",
+   "Choisissez St. Moritz si vous privilégiez le VTT et les lacs."
+  ]
+ },
+ {
+  "a": "chamonix",
+  "b": "serfaus",
+  "title": "Chamonix ou Serfaus : quelle station choisir en été ?",
+  "intro": "Chamonix et Serfaus comparées sur la randonnée, le VTT, les lacs, les activités et l'hébergement.",
+  "paragraphs": [
+   "Sentiers de randonnée : 297 km autour de Chamonix, contre 93 km autour de Serfaus.",
+   "Sentiers et pistes de VTT : 93 km autour de Serfaus, contre 36 km autour de Chamonix.",
+   "Lacs à moins de 15 km : 27 autour de Chamonix, contre 23 autour de Serfaus.",
+   "Activités de plein air référencées : 15 autour de Chamonix, contre 3 autour de Serfaus.",
+   "Hébergements à moins de 8 km : 466 autour de Serfaus, contre 106 autour de Chamonix.",
+   "Sur la note globale, Chamonix et Serfaus sont à égalité (4,9 / 5).",
+   "Choisissez Chamonix si vous privilégiez les activités (tyrolienne, luge, parc d'aventure) et la randonnée.",
+   "Choisissez Serfaus si vous privilégiez le choix d'hébergements et le VTT."
+  ]
+ },
+ {
+  "a": "chamonix",
+  "b": "bardonecchia",
+  "title": "Chamonix ou Bardonecchia : quelle station choisir en été ?",
+  "intro": "Chamonix et Bardonecchia comparées sur la randonnée, le VTT, les lacs, les activités et l'hébergement.",
+  "paragraphs": [
+   "Sentiers et pistes de VTT : 168 km autour de Bardonecchia, contre 36 km autour de Chamonix.",
+   "Lacs à moins de 15 km : 107 autour de Bardonecchia, contre 27 autour de Chamonix.",
+   "Activités de plein air référencées : 15 autour de Chamonix, contre 1 autour de Bardonecchia.",
+   "Hébergements à moins de 8 km : 106 autour de Chamonix, contre 23 autour de Bardonecchia.",
+   "Altitude : Chamonix monte jusqu'à 3 842 m, contre 2 800 m pour Bardonecchia.",
+   "Sur la note globale, Chamonix et Bardonecchia sont à égalité (4,9 / 5).",
+   "Choisissez Chamonix si vous privilégiez les activités (tyrolienne, luge, parc d'aventure) et le choix d'hébergements.",
+   "Choisissez Bardonecchia si vous privilégiez le VTT et les lacs."
+  ]
+ },
+ {
+  "a": "st-moritz",
+  "b": "serfaus",
+  "title": "St. Moritz ou Serfaus : quelle station choisir en été ?",
+  "intro": "St. Moritz et Serfaus comparées sur la randonnée, le VTT, les lacs, les activités et l'hébergement.",
+  "paragraphs": [
+   "Sentiers de randonnée : 150 km autour de St. Moritz, contre 93 km autour de Serfaus.",
+   "Lacs à moins de 15 km : 42 autour de St. Moritz, contre 23 autour de Serfaus.",
+   "Activités de plein air référencées : 3 autour de Serfaus, contre 1 autour de St. Moritz.",
+   "Hébergements à moins de 8 km : 466 autour de Serfaus, contre 112 autour de St. Moritz.",
+   "Sur la note globale, St. Moritz et Serfaus sont à égalité (4,9 / 5).",
+   "Choisissez St. Moritz si vous privilégiez les lacs et la randonnée.",
+   "Choisissez Serfaus si vous privilégiez le choix d'hébergements et les activités (tyrolienne, luge, parc d'aventure)."
+  ]
+ },
+ {
+  "a": "st-moritz",
+  "b": "bardonecchia",
+  "title": "St. Moritz ou Bardonecchia : quelle station choisir en été ?",
+  "intro": "St. Moritz et Bardonecchia comparées sur la randonnée, le VTT, les lacs, les activités et l'hébergement.",
+  "paragraphs": [
+   "Sentiers de randonnée : 266 km autour de Bardonecchia, contre 150 km autour de St. Moritz.",
+   "Sentiers et pistes de VTT : 168 km autour de Bardonecchia, contre 93 km autour de St. Moritz.",
+   "Lacs à moins de 15 km : 107 autour de Bardonecchia, contre 42 autour de St. Moritz.",
+   "Hébergements à moins de 8 km : 112 autour de St. Moritz, contre 23 autour de Bardonecchia.",
+   "Sur la note globale, St. Moritz et Bardonecchia sont à égalité (4,9 / 5).",
+   "Choisissez St. Moritz si vous privilégiez le choix d'hébergements.",
+   "Choisissez Bardonecchia si vous privilégiez les lacs et le VTT."
+  ]
+ },
+ {
+  "a": "serfaus",
+  "b": "bardonecchia",
+  "title": "Serfaus ou Bardonecchia : quelle station choisir en été ?",
+  "intro": "Serfaus et Bardonecchia comparées sur la randonnée, le VTT, les lacs, les activités et l'hébergement.",
+  "paragraphs": [
+   "Sentiers de randonnée : 266 km autour de Bardonecchia, contre 93 km autour de Serfaus.",
+   "Sentiers et pistes de VTT : 168 km autour de Bardonecchia, contre 93 km autour de Serfaus.",
+   "Lacs à moins de 15 km : 107 autour de Bardonecchia, contre 23 autour de Serfaus.",
+   "Activités de plein air référencées : 3 autour de Serfaus, contre 1 autour de Bardonecchia.",
+   "Hébergements à moins de 8 km : 466 autour de Serfaus, contre 23 autour de Bardonecchia.",
+   "Sur la note globale, Serfaus et Bardonecchia sont à égalité (4,9 / 5).",
+   "Choisissez Serfaus si vous privilégiez le choix d'hébergements et les activités (tyrolienne, luge, parc d'aventure).",
+   "Choisissez Bardonecchia si vous privilégiez les lacs et la randonnée."
+  ]
+ }
+]

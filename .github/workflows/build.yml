@@ -9,6 +9,7 @@ on:
       - config.json
       - data/**
       - scripts/build.py
+      - scripts/generate_content.py
       - assets/**
       - .github/workflows/build.yml
   schedule:
@@ -31,6 +32,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+      - name: Générer duels et articles à partir des mesures
+        run: python3 scripts/generate_content.py
       - name: Construire le site (et vérifier les liens)
         run: python3 scripts/build.py --check
       - uses: actions/upload-pages-artifact@v3
