@@ -1,0 +1,27 @@
+name: Photos de secours (illustration)
+
+# Cherche ~45 paysages d'été génériques sur Wikimedia Commons, crédit gravé,
+# déposés dans photos-secours/ pour relecture. Lancer : Actions > Run workflow.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  secours:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install pillow
+      - run: python3 scripts/find_secours.py 2>&1 | tail -n 80
+      - name: Déposer pour relecture
+        run: |
+          git config user.name "photos-auto"
+          git config user.email "noreply@users.noreply.github.com"
+          git add photos-secours
+          git diff --cached --quiet || (git commit -q -m "Photos de secours : lot à relire" && git pull --rebase -q -X theirs && git push -q)
