@@ -10,7 +10,7 @@ from PIL import Image
 fp.MIN_W, fp.MIN_H = 1600, 1000      # un peu moins exigeant : ce sont des illustrations
 
 OUT = os.path.join(ROOT, "photos-secours")
-WANT = int(os.environ.get("WANT", "45"))
+WANT = int(os.environ.get("WANT", "70"))
 QUERIES = [
     "alpine meadow summer mountains", "mountain lake summer reflection alps", "alpine flowers meadow mountain panorama summer",
     "summer mountain landscape quality image", "hiking trail alpine summer panorama", "Alps summer valley green panorama",
@@ -60,10 +60,10 @@ def main():
         time.sleep(1.5)
     cands = sorted(pool.values(), key=lambda c: -c["score"])
     print(f"{len(cands)} candidats", file=sys.stderr)
-    seen, authors, n = [], set(), 0
+    seen, authors, n = [], {}, 0
     for c in cands:
         if n >= WANT: break
-        if c["artist"] in authors: continue
+        if authors.get(c["artist"], 0) >= 2: continue
         try:
             raw = fp.http_get(c["info"].get("thumburl") or c["info"]["url"], binary=True)
             img = Image.open(io.BytesIO(raw)).convert("RGB")
@@ -73,7 +73,7 @@ def main():
         if prob: continue
         h = fp.dhash(img)
         if any(sum(x != y for x, y in zip(h, g)) <= 14 for g in seen): continue
-        seen.append(h); authors.add(c["artist"])
+        seen.append(h); authors[c["artist"]] = authors.get(c["artist"], 0) + 1
         if img.width > fp.MAX_W:
             img = img.resize((fp.MAX_W, int(img.height * fp.MAX_W / img.width)), Image.LANCZOS)
         if c["kind"] == "by":
